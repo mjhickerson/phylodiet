@@ -2993,18 +2993,18 @@ palolo-worm,palolo worm,Palola viridis,Eunicidae,animal,
 fat-innkeeper-worm,fat innkeeper worm (gaebul),Urechis unicinctus,Urechidae,animal,gaebul
 peanut-worm,peanut worm,Sipunculus nudus,Sipunculidae,animal,
 giant-centipede,giant centipede (skewered),Scolopendra subspinipes,Scolopendridae,animal,skewered
-red-maguey-worm,red maguey worm (chinicuil),Comadia redtenbacheri,Cossidae,animal,chinicuil
-witchetty-grub,witchetty grub,Endoxyla leucomochla,Cossidae,animal,
 maguey-worm,maguey worm (white),Aegiale hesperiaris,Hesperiidae,animal,
+silkworm-pupa,silkworm pupa,Bombyx mori,Bombycidae,animal,silkworm pupa;beondegi
 shea-caterpillar,shea caterpillar (kanni),Cirina forda,Saturniidae,animal,kanni
 mopane-worm,mopane worm,Gonimbrasia belina,Saturniidae,animal,
 eri-silkworm,eri silkworm,Samia ricini,Saturniidae,animal,
 tussah-silkmoth-pupa,tussah silkmoth pupa,Antheraea pernyi,Saturniidae,animal,
-silkworm-pupa,silkworm pupa,Bombyx mori,Bombycidae,animal,silkworm pupa;beondegi
+red-maguey-worm,red maguey worm (chinicuil),Comadia redtenbacheri,Cossidae,animal,chinicuil
+witchetty-grub,witchetty grub,Endoxyla leucomochla,Cossidae,animal,
 lake-fly,lake fly (kungu),Chaoborus edulis,Chaoboridae,animal,kungu
 black-soldier-fly-larva,black soldier fly larva,Hermetia illucens,Stratiomyidae,animal,
-chafer-grub,chafer grub (Chinese),Holotrichia parallela,Scarabaeidae,animal,
 diving-beetle,diving beetle (long ga),Cybister tripunctatus,Dytiscidae,animal,long ga
+chafer-grub,chafer grub (Chinese),Holotrichia parallela,Scarabaeidae,animal,
 rhinoceros-beetle-larva,rhinoceros beetle larva,Oryctes rhinoceros,Scarabaeidae,animal,
 south-american-palm-weevil,South American palm weevil (chontacuro),Rhynchophorus palmarum,Curculionidae,animal,chontacuro
 african-palm-weevil-larva,African palm weevil larva,Rhynchophorus phoenicis,Curculionidae,animal,
@@ -3012,9 +3012,6 @@ red-palm-weevil-larva,red palm weevil larva,Rhynchophorus ferrugineus,Curculioni
 lesser-mealworm,lesser mealworm (buffalo worm),Alphitobius diaperinus,Tenebrionidae,animal,buffalo worm
 superworm,superworm,Zophobas morio,Tenebrionidae,animal,
 mealworm,mealworm,Tenebrio molitor,Tenebrionidae,animal,mealworm
-wasp-brood,wasp brood (Mexico),Polybia occidentalis,Vespidae,animal,Mexico
-yellowjacket-larvae,yellowjacket larvae,Vespula flaviceps,Vespidae,animal,
-giant-hornet-larvae,giant hornet larvae (hachinoko),Vespa mandarinia,Vespidae,animal,hachinoko
 escamoles,escamoles,Liometopum apiculatum,Formicidae,animal,
 weaver-ant-eggs,weaver ant eggs,Oecophylla smaragdina,Formicidae,animal,
 hormigas-culonas,hormigas culonas (leafcutter ant),Atta laevigata,Formicidae,animal,leafcutter ant
@@ -3023,18 +3020,21 @@ maya-stingless-bee,Maya stingless bee (honey),Melipona beecheii,Apidae,animal,
 giant-honey-bee,giant honey bee (honey),Apis dorsata,Apidae,animal,
 asian-honey-bee,Asian honey bee (honey),Apis cerana,Apidae,animal,
 honey-bee,honey bee (honey),Apis mellifera,Apidae,animal,honey bee;honey;royal jelly;bee pollen
-periodical-cicada,periodical cicada,Magicicada septendecim,Cicadidae,animal,
-black-cicada,black cicada,Cryptotympana atrata,Cicadidae,animal,
+wasp-brood,wasp brood (Mexico),Polybia occidentalis,Vespidae,animal,Mexico
+yellowjacket-larvae,yellowjacket larvae,Vespula flaviceps,Vespidae,animal,
+giant-hornet-larvae,giant hornet larvae (hachinoko),Vespa mandarinia,Vespidae,animal,hachinoko
 jumil,jumil,Euschistus taxcoensis,Pentatomidae,animal,
 edible-stink-bug,edible stink bug,Encosternum delegorguei,Tessaratomidae,animal,
 ahuautle,ahuautle (water boatman eggs),Corisella texcocana,Corixidae,animal,water boatman eggs
 giant-water-bug,giant water bug (maeng da),Lethocerus indicus,Belostomatidae,animal,maeng da
+periodical-cicada,periodical cicada,Magicicada septendecim,Cicadidae,animal,
+black-cicada,black cicada,Cryptotympana atrata,Cicadidae,animal,
 termite,termite (subhyalinus),Macrotermes subhyalinus,Termitidae,animal,subhyalinus
 termite-2,termite (alate),Macrotermes bellicosus,Termitidae,animal,
-nsenene,nsenene (bush cricket),Ruspolia differens,Tettigoniidae,animal,bush cricket
 chapulin,chapulín,Sphenarium purpurascens,Pyrgomorphidae,animal,
 desert-locust,desert locust,Schistocerca gregaria,Acrididae,animal,
 migratory-locust,migratory locust,Locusta migratoria,Acrididae,animal,
+nsenene,nsenene (bush cricket),Ruspolia differens,Tettigoniidae,animal,bush cricket
 giant-cricket,giant cricket,Brachytrupes membranaceus,Gryllidae,animal,
 banded-cricket,banded cricket,Gryllodes sigillatus,Gryllidae,animal,
 two-spotted-cricket,two-spotted cricket,Gryllus bimaculatus,Gryllidae,animal,

@@ -214,7 +214,7 @@ const CLADES = {animal:'Animals', fungus:'Fungi', plant:'Land plants', green:'Gr
 const CLADE_ORDER = ['animal','fungus','plant','green','red','brown','other'];
 const fmt = n => Math.round(n).toLocaleString('en-US');
 const fold = s => String(s).normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase();
-const phraseRe = p => new RegExp('(?<![a-z])' + p.replace(/[.*+?^${}()|[\]\\]/g,'\\$&').replace(/\s+/g,'\\s+') + '(?:s|es)?(?![a-z])');
+const phraseRe = p => new RegExp('(?<![a-z])' + p.replace(/[.*+?^${}()|[\]\\]/g,'\\$&').replace(/\s+/g,'\\s+') + (p.endsWith('a') ? '(?:s|es|e)?' : '(?:s|es)?') + '(?![a-z])');   // plurals: -s, -es, and Latin -ae
 
 // ---------- data model ----------
 let DATA = null, PHRASES = []; // {root, nodes[], tips[], byId, total, rootAge}

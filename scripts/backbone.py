@@ -7,6 +7,14 @@ APPROX = "APPROXIMATE, not yet cited; replace"
 MISOF14 = "Misof et al. 2014 Science 346:763 (1KITE insect timetree);"
 PETERS17 = "Peters et al. 2017 Curr Biol 27:1013 (Hymenoptera timetree);"
 KAWA19 = "Kawahara et al. 2019 PNAS 116:22657 (Lepidoptera timetree);"
+WANG16 = "Wang et al. 2016 Sci Rep 6:38939 (insect chronogram evaluated against stem-group fossils);"
+WANG16B = "Wang et al. 2016 Cladistics 32:390 (Heteroptera divergences, aquatic lineages);"
+WANG17 = "Wang et al. 2019 Cladistics 35:42, online 2017 (Hemiptera-Heteroptera phylogenomics);"
+SONG15 = "Song et al. 2015 Cladistics 31:621 (Orthoptera timetree);"
+BLAIMER23 = "Blaimer et al. 2023 Nat Commun 14:1212 (Hymenoptera timetree);"
+ZHANG18 = "Zhang et al. 2018 Nat Commun 9:205 (Coleoptera timetree);"
+WAHL13 = "Wahlberg et al. 2013 PLoS ONE 8:e80875 (Lepidoptera family timetree);"
+WARE26 = "; J. Ware lab, forthcoming 1KITE Nature ms (pers. comm. 2026-09-27, not yet adopted):"
 CHOI24 = "Choi et al. 2024 Curr Biol 34:740 (plastome brown algal timetree, uncorrelated clock, 8 fossil calibrations; Table 3);"
 SHEN20 = "Shen et al. 2020 Sci Adv 6:eabd0079 (1,107-genome Ascomycota timetree, RelTime, six calibrations);"
 TT5 = "TimeTree 5 (Kumar et al. 2022 Mol Biol Evol 39:msac174), median of published estimates; used by permission of the TimeTree team, 2026-09-21;"
@@ -92,31 +100,49 @@ TREE = N("Eukaryotes", 2132, STR21,
                         ),
                       ),
                       ),
-                      N("Hexapoda", 479, MISOF14 + " origin of insects ~479 (Early Ordovician)",
-                        N("Insecta", 440, APPROX + " (Archaeognatha split; Misof et al. 2014 give ~441)",
-                         N("Pterygota", 406, MISOF14 + " insect flight ~406 (Early Devonian)",
-                          N("Neoptera", 373, APPROX + " (cf. Misof et al. 2014)",
-                            N("Polyneoptera", 350, APPROX,
-                              N("Orthoptera", 300, APPROX),
+                      N("Hexapoda", 479, MISOF14 + " origin of insects ~479 (Early Ordovician)" + WARE26 + " ~523",
+                        N("Insecta", 441, MISOF14 + " Archaeognatha split ~441" + WARE26 + " ~523",
+                         N("Pterygota", 406, MISOF14 + " insect flight ~406 (Early Devonian); Thomas et al. 2013 Syst Biol 62:285 give 385" + WARE26 + " ~470s",
+                          N("Neoptera", 383, WANG16 + " Neoptera ~383" + WARE26 + " ~475",
+                            N("Polyneoptera", 350, APPROX + " (Termitidae joins here; Bourguignon et al. 2015 MBE 32:406 date Termitidae vs Coptotermitinae+Heterotermitinae ~67, crown Termitidae ~54)" + WARE26 + " 425+",
+                              N("Orthoptera", 300, APPROX + " (cf. Song et al. 2015)",
+                                N("Ensifera", 268, SONG15 + " Gryllidae vs Tettigoniidae ~268"),
+                                N("Acrididae + Pyrgomorphidae", 140, SONG15 + " ~140"),
+                              ),
                             ),
-                            N("Eumetabola", 370, APPROX,
+                            N("Eumetabola", 373, WANG16 + " Eumetabola ~373",
                               N("Hemiptera", 300, APPROX,
-                                N("Heteroptera", 250, APPROX),
+                                N("Cicadidae", 199, WANG17 + " crown Cicadidae ~199"),
+                                N("Heteroptera", 250, APPROX,
+                                  N("Nepomorpha", 243, WANG17 + " Belostomatidae vs Corixidae ~243"),
+                                  N("Pentatomoidea", 100.5, WANG16B + " Pentatomidae vs Tessaratomidae ~100.5"),
+                                ),
                               ),
                               N("Holometabola", 345, MISOF14 + " major extant lineages ~345 (Mississippian)",
-                                N("Hymenoptera", 281, PETERS17 + " crown Hymenoptera ~281",
+                                N("Hymenoptera", 281, PETERS17 + " crown Hymenoptera ~281" + WARE26 + " ~298",
                                   N("Aculeata", 200, APPROX,
+                                    N("Vespidae", 110, BLAIMER23 + " crown Vespidae ~110"),
                                     N("Apoidea + Formicoidea", 180, APPROX),
                                   ),
                                 ),
                                 N("Aparaglossata", 338, APPROX + " (must sit below Holometabola 345)",
-                                  N("Coleoptera", 300, APPROX),
+                                  N("Coleoptera", 300, ZHANG18 + " crown Coleoptera ~300 (Dytiscidae joins here; its crown ~170)",
+                                    N("Polyphaga", 260, APPROX + " (cf. Zhang et al. 2018)",
+                                      N("Cucujiformia", 200, ZHANG18 + " Tenebrionidae vs Curculionidae ~200 (Curculionidae crown ~120, one genus listed)",
+                                        N("Tenebrionidae", 122, ZHANG18 + " crown Tenebrionidae ~122"),
+                                      ),
+                                      N("Scarabaeidae", 120, ZHANG18 + " crown Scarabaeidae ~120"),
+                                    ),
+                                  ),
                                   N("Panorpida", 320, APPROX + " (Diptera vs Lepidoptera; must sit above Lepidoptera crown 300)",
-                                    N("Diptera", 240, APPROX),
+                                    N("Diptera", 240, APPROX + " (Stratiomyidae vs Chaoboridae; family crowns ~129 Brammer & von Dohlen 2007 MPE 43:660 and ~118 Bertone et al. 2008 Syst Entomol 33:668, one species each)"),
                                     N("Lepidoptera", 300, KAWA19 + " crown Lepidoptera ~300 (Late Carboniferous)",
                                       N("Ditrysia", 210, APPROX,
-                                        N("Obtectomera", 150, APPROX,
-                                          N("Bombycoidea", 90, APPROX),
+                                        N("Cossidae", 120, WAHL13 + " Cossidae ~120"),
+                                        N("Obtectomera", 150, APPROX + " (Hesperiidae joins here; Wahlberg et al. 2013 give Hesperiidae ~85, one species listed)",
+                                          N("Bombycoidea", 88, WAHL13 + " Bombycidae vs Saturniidae ~88",
+                                            N("Saturniidae", 70, WAHL13 + " Saturniidae ~70"),
+                                          ),
                                         ),
                                       ),
                                     ),
