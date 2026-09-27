@@ -7,7 +7,8 @@ authors:
     given-names: Michael J.
     affiliation: "City College of New York, City University of New York; American Museum of Natural History"
 date-released: 2026-09-27
-version: 0.17.0
+version: 0.17.1
+doi: 10.5281/zenodo.22997191
 repository-code: "https://github.com/mjhickerson/phyloplate"
 url: "https://mjhickerson.github.io/phyloplate/app/phyloplate_demo.html"
 keywords:

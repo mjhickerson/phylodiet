@@ -1,5 +1,7 @@
 # Phyloplate
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22997191.svg)](https://doi.org/10.5281/zenodo.22997191)
+
 **How much of the tree of life is on your plate?**
 
 Phyloplate scores a meal by the phylogenetic diversity of the organisms in it. You paste a recipe or name a dish; the app maps each ingredient to the species it came from, prunes a dated tree of edible eukaryotes down to those species, and adds up the branch lengths. The result is Faith's phylogenetic diversity (PD) in millions of years of evolution, reported alongside plain species richness, a coverage percentage, and a drawing of the meal's tree.
@@ -102,9 +104,11 @@ Add a row to `data/dishes.csv` (columns `dish, aliases, cuisine, species, notes`
 
 ## Citing
 
-Hickerson, M.J. (2026). Phyloplate: phylogenetic diversity of what you eat. Software and data, version 0.17 (open tree open-0.17). https://github.com/mjhickerson/phyloplate
+Hickerson, M.J. (2026). Phyloplate: phylogenetic diversity of what you eat. Software and data, version 0.17.1 (open tree open-0.17). Zenodo. https://doi.org/10.5281/zenodo.22997191
 
-A DOI for the archived release will be added here once the release is on Zenodo. GitHub also offers a "Cite this repository" button on the repo page, generated from `CITATION.cff`. Node ages contributed by specialists are credited by name in the changelog in `curation/curation.py`; please cite the primary sources listed in `scripts/backbone.py` for any age you reuse.
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22997191.svg)](https://doi.org/10.5281/zenodo.22997191)
+
+The DOI above is the archived 0.17.1 release; every future GitHub release is archived automatically and gets its own DOI. GitHub also offers a "Cite this repository" button on the repo page, generated from `CITATION.cff`. Node ages contributed by specialists are credited by name in the changelog in `curation/curation.py`; please cite the primary sources listed in `scripts/backbone.py` for any age you reuse.
 
 Code is MIT-licensed; the species list and curation tables are CC BY 4.0 (see `data/LICENSE`).
 
