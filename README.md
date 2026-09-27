@@ -102,7 +102,9 @@ Add a row to `data/dishes.csv` (columns `dish, aliases, cuisine, species, notes`
 
 ## Citing
 
-Hickerson, M.J. (2026). Phyloplate: phylogenetic diversity of what you eat. Software and data, version 0.1.0. https://github.com/<user>/phyloplate
+Hickerson, M.J. (2026). Phyloplate: phylogenetic diversity of what you eat. Software and data, version 0.17 (open tree open-0.17). https://github.com/mjhickerson/phyloplate
+
+A DOI for the archived release will be added here once the release is on Zenodo. GitHub also offers a "Cite this repository" button on the repo page, generated from `CITATION.cff`. Node ages contributed by specialists are credited by name in the changelog in `curation/curation.py`; please cite the primary sources listed in `scripts/backbone.py` for any age you reuse.
 
 Code is MIT-licensed; the species list and curation tables are CC BY 4.0 (see `data/LICENSE`).
 
