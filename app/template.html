@@ -62,6 +62,14 @@ h3{font-family:var(--serif);font-weight:500;font-size:19px;margin:22px 0 8px}
 .chip .dot{width:10px;height:10px;border-radius:50%;flex:none}
 .chip .as{color:var(--muted);font-style:italic}
 .chip button{background:none;border:0;color:var(--muted);padding:0 2px;font-size:18px;line-height:1;font-weight:400}
+.chip .name{cursor:pointer;border-bottom:1px dotted var(--muted)}
+.chip .name:hover{color:var(--hi)}
+.pop{position:absolute;z-index:20;background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:8px 10px;box-shadow:0 6px 24px rgba(0,0,0,.15);font-size:14px;min-width:200px}
+.pop i{display:block;color:var(--muted);font-style:italic;margin-bottom:6px}
+.pop a{display:block;padding:3px 0;color:inherit;text-decoration:none}
+.pop a:hover{color:var(--hi);text-decoration:underline}
+.tiplabel{cursor:pointer}
+.tiplabel:hover{fill:var(--hi);text-decoration:underline}
 .chip button:hover{color:var(--red);opacity:1}
 .addbox{position:relative;display:inline-block;margin-top:6px}
 .addbox input{font:inherit;font-size:15px;padding:7px 12px;border:1px solid var(--line);border-radius:999px;background:var(--bg);color:var(--ink);width:260px}
@@ -145,7 +153,7 @@ footer{margin-top:64px;border-top:1px solid var(--line);padding-top:16px;color:v
 
 <section id="results" class="hidden">
   <h2>Ingredients found</h2>
-  <p class="note">Dashed chips were inferred, from a dish name or from an "or" alternative in the recipe. Remove anything wrong, add anything missing.</p>
+  <p class="note">Dashed chips were inferred, from a dish name or from an "or" alternative in the recipe. Remove anything wrong, add anything missing. Click a name, here or on the tree, for Wikipedia, OneZoom and GBIF.</p>
   <div class="chips" id="chips"></div>
   <div class="addbox"><input id="add" placeholder="Add an ingredient" autocomplete="off"><div class="sugg hidden" id="sugg"></div></div>
   <div class="unmatched" id="unmatched"></div>
@@ -393,13 +401,32 @@ function renderChips(){
     const t = DATA.byId.get(m.id);
     const el = document.createElement('span');
     el.className = 'chip' + (m.inferred ? ' inferred' : '');
-    el.innerHTML = `<i class="dot" style="background:var(--${t.clade})"></i><span>${esc(t.common)}</span>` +
+    el.innerHTML = `<i class="dot" style="background:var(--${t.clade})"></i><span class="name" title="Look this organism up">${esc(t.common)}</span>` +
       (m.as && m.as.toLowerCase() !== t.common.toLowerCase() ? `<span class="as">${esc(m.as)}</span>` : '') +
       `<button title="Remove" aria-label="Remove ${esc(t.common)}">×</button>`;
     el.querySelector('button').onclick = () => { meal = meal.filter(x => x.id !== m.id); renderAll(); };
+    el.querySelector('.name').onclick = e => { e.stopPropagation(); showPop(e.target, t); };
     c.appendChild(el);
   }
 }
+// outside links for a taxon, built from the Latin name (no lookup needed)
+function taxonLinks(t){
+  const sp = String(t.species).replace(/ (spp?\.|agg\.|x |×)/g,' ').trim();
+  const u = encodeURIComponent(sp.replace(/\s+/g,'_')), q = encodeURIComponent(sp);
+  return [['Wikipedia', 'https://en.wikipedia.org/wiki/' + u], ['OneZoom', 'https://www.onezoom.org/life/@' + u], ['GBIF', 'https://www.gbif.org/species/search?q=' + q], ['Encyclopedia of Life', 'https://eol.org/search?q=' + q]];
+}
+let popEl = null;
+function closePop(){ if (popEl){ popEl.remove(); popEl = null; } }
+function showPop(anchor, t){
+  closePop();
+  const r = anchor.getBoundingClientRect();
+  popEl = document.createElement('div'); popEl.className = 'pop';
+  popEl.innerHTML = `<i>${esc(t.species)}</i>` + taxonLinks(t).map(([n,h]) => `<a href="${h}" target="_blank" rel="noopener">${n} ↗</a>`).join('');
+  popEl.style.left = (window.scrollX + r.left) + 'px'; popEl.style.top = (window.scrollY + r.bottom + 6) + 'px';
+  document.body.appendChild(popEl);
+}
+document.addEventListener('click', e => { if (popEl && !popEl.contains(e.target) && !e.target.closest('.name,.tiplabel')) closePop(); });
+document.addEventListener('keydown', e => { if (e.key === 'Escape') closePop(); });
 const esc = s => String(s).replace(/[&<>"']/g, ch => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[ch]));
 
 // add box
@@ -518,7 +545,9 @@ function renderMealTree(M){
     const p = pos.get(t);
     if (!t.kids.length){
       svg.appendChild(el('circle', {cx:p.x, cy:p.y, r:4, fill:`var(--${t.n.clade})`}));
-      svg.appendChild(el('text', {x:p.x+10, y:p.y+1, class:'tiplabel','dominant-baseline':'middle'}, t.n.common));
+      const lab = el('text', {x:p.x+10, y:p.y+1, class:'tiplabel','dominant-baseline':'middle'}, t.n.common);
+      lab.addEventListener('click', e => { e.stopPropagation(); showPop(lab, t.n); });
+      svg.appendChild(lab);
       const w = t.n.common.length*7.2 + 16;
       svg.appendChild(el('text', {x:p.x+10+w, y:p.y+1, class:'tipsp','dominant-baseline':'middle'}, t.n.species));
     } else {
