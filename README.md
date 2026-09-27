@@ -1,6 +1,6 @@
 # Phyloplate
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22997191.svg)](https://doi.org/10.5281/zenodo.22997191)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22997190.svg)](https://doi.org/10.5281/zenodo.22997190)
 
 **How much of the tree of life is on your plate?**
 
@@ -108,7 +108,7 @@ Hickerson, M.J. (2026). Phyloplate: phylogenetic diversity of what you eat. Soft
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22997191.svg)](https://doi.org/10.5281/zenodo.22997191)
 
-The DOI above is the archived 0.17.1 release; every future GitHub release is archived automatically and gets its own DOI. GitHub also offers a "Cite this repository" button on the repo page, generated from `CITATION.cff`. Node ages contributed by specialists are credited by name in the changelog in `curation/curation.py`; please cite the primary sources listed in `scripts/backbone.py` for any age you reuse.
+That DOI is the archived 0.17.1 release. To cite the project as a whole, whichever version is current, use the concept DOI https://doi.org/10.5281/zenodo.22997190; every future GitHub release is archived automatically under it. GitHub also offers a "Cite this repository" button on the repo page, generated from `CITATION.cff`. Node ages contributed by specialists are credited by name in the changelog in `curation/curation.py`; please cite the primary sources listed in `scripts/backbone.py` for any age you reuse.
 
 Code is MIT-licensed; the species list and curation tables are CC BY 4.0 (see `data/LICENSE`).
 
