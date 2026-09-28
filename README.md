@@ -1,18 +1,20 @@
-# Phyloplate
+# Phylodiet
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22997190.svg)](https://doi.org/10.5281/zenodo.22997190)
 
 **How much of the tree of life is on your plate?**
 
-Phyloplate scores a meal by the phylogenetic diversity of the organisms in it. You paste a recipe or name a dish; the app maps each ingredient to the species it came from, prunes a dated tree of edible eukaryotes down to those species, and adds up the branch lengths. The result is Faith's phylogenetic diversity (PD) in millions of years of evolution, reported alongside plain species richness, a coverage percentage, and a drawing of the meal's tree.
+Phylodiet scores a meal by the phylogenetic diversity of the organisms in it. You paste a recipe or name a dish; the app maps each ingredient to the species it came from, prunes a dated tree of edible eukaryotes down to those species, and adds up the branch lengths. The result is Faith's phylogenetic diversity (PD) in millions of years of evolution, reported alongside plain species richness, a coverage percentage, and a drawing of the meal's tree.
 
 A cheeseburger with fries is about 3.7 billion years of branch length. A Japanese set meal with kombu, nori, and miso is about 7.7. A pinch of nori adds more than the entire spice rack, because red algae split from land plants about 1.4 billion years ago and thyme split from oregano about 12 million years ago.
 
 ![The meal tree for a Japanese set meal](docs/images/meal_tree.png)
 
+Formerly Phyloplate (until 28 September 2026); renamed because an unrelated tool of that name, a BEAST model viewer from the Institut Pasteur, appeared a month earlier. Old links redirect.
+
 ## The idea
 
-Dietary species richness (the number of species eaten) has been proposed as a measure of food biodiversity and shown to track nutrient adequacy (Lachat et al. 2018, *PNAS*). Phyloplate is the phylogenetic version of that count, in the same way that Faith's PD (1992) was the phylogenetic version of species richness in conservation biology. Whether PD on a plate predicts anything nutritionally is an open question; the point here is that it is computable, visual, and fun, and that it makes deep time tangible. Two meals with the same number of species can differ tenfold in PD, and the difference is always the same story: seaweed, mushrooms, and the odd invertebrate.
+Dietary species richness (the number of species eaten) has been proposed as a measure of food biodiversity and shown to track nutrient adequacy (Lachat et al. 2018, *PNAS*). Phylodiet is the phylogenetic version of that count, in the same way that Faith's PD (1992) was the phylogenetic version of species richness in conservation biology. Whether PD on a plate predicts anything nutritionally is an open question; the point here is that it is computable, visual, and fun, and that it makes deep time tangible. Two meals with the same number of species can differ tenfold in PD, and the difference is always the same story: seaweed, mushrooms, and the odd invertebrate.
 
 Prokaryotes are excluded on purpose (they are on everything). Amounts are ignored in the current version; an abundance-weighted score (Chao, Chiu & Jost's phylogenetic Hill numbers) is the planned next step.
 
@@ -30,7 +32,7 @@ Prokaryotes are excluded on purpose (they are on everything). Amounts are ignore
 | `scripts/bake.py` | Builds the single-file app from a tree, the dish table and the HTML template. |
 | `scripts/make_placeholder_tree.py` | Generates the original 289-taxon placeholder tree, from hand-set node ages (kept for the record). |
 | `app/template.html` | The app: ingredient parsing, PD and richness, meal phylogram, radial coverage view, meal log, custom-tree loader. |
-| `app/phyloplate_demo.html` | A working demo built on the open tree. Live at https://mjhickerson.github.io/phyloplate/app/phyloplate_demo.html |
+| `app/phylodiet.html` | A working demo built on the open tree. Live at https://mjhickerson.github.io/phylodiet/app/phylodiet.html |
 | `tree/` | The open tree (`food_tree.newick`, `taxa.csv`), its version stamp, provenance, seam report and assembly report. |
 | `scripts/graft_tree.py`, `scripts/backbone.py` | The graft step: stitches pruned published chronograms onto the cited backbone. Source trees are not included (large; all are public downloads listed in `backbone.py`), except `sources/kim2026_red.nwk`, redistributed with the authors' permission. |
 
@@ -81,7 +83,7 @@ python3 scripts/assemble_tree.py dated.nwk data/edible_eukaryotes_candidates.csv
 python3 scripts/check_dishes.py data/dishes.csv out/taxa.csv
 
 # build the app
-python3 scripts/bake.py out/food_tree.newick out/taxa.csv app/template.html phyloplate.html data/dishes.csv
+python3 scripts/bake.py out/food_tree.newick out/taxa.csv app/template.html phylodiet.html data/dishes.csv
 ```
 
 `assemble_tree.py` imports `curation.py` from the working directory if present. The report it writes (`assembly_report.txt`) lists every species that was matched, renamed, gap-filled, or left out.
@@ -105,7 +107,7 @@ Add a row to `data/dishes.csv` (columns `dish, aliases, cuisine, species, notes`
 
 ## Citing
 
-Hickerson, M.J. (2026). Phyloplate: phylogenetic diversity of what you eat. Software and data, version 0.17.1 (open tree open-0.17). Zenodo. https://doi.org/10.5281/zenodo.22997191
+Hickerson, M.J. (2026). Phylodiet: phylogenetic diversity of what you eat. Software and data, version 0.19 (open tree open-0.18). Zenodo. https://doi.org/10.5281/zenodo.22997191
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22997191.svg)](https://doi.org/10.5281/zenodo.22997191)
 

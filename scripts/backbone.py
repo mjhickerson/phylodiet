@@ -1,4 +1,4 @@
-# Backbone for the open Phyloplate tree. Ages in Ma, with the source for each node.
+# Backbone for the open Phylodiet tree. Ages in Ma, with the source for each node.
 STR21 = "Strassert et al. 2021 Nat Commun 12:1879 (MCMCTree AC, Amorphea root, uniform calibrations; mean posterior)"
 IRI17 = "Irisarri et al. 2017 Nat Ecol Evol 1:1370 (genome-averaged timetree of jawed vertebrates)"
 KIM26 = "Kim et al. 2026 preprint (Ahnfeltia genomes; MCMCtree nuclear BUSCO timetree of red algae, Fig. 2E);"
@@ -27,7 +27,7 @@ WOLFE19 = "Wolfe et al. 2019 Proc R Soc B 286:20190079, PhyloBayes UGAM chronogr
 # Rule: a source's crown wins over a backbone node for the same split; backbone ages apply only above it.
 # Nodes with no source or species under them persist as placeholders so curation.PLACEMENTS_OPEN can anchor families to them.
 import os as _os
-OPEN = _os.environ.get("PHYLOPLATE_SOURCES", "sources/")   # folder holding the downloaded source chronograms (not in the repo)
+OPEN = _os.environ.get("PHYLODIET_SOURCES", _os.environ.get("PHYLOPLATE_SOURCES", "sources/"))   # folder holding the downloaded source chronograms (not in the repo)
 import csv as _csv
 
 SB18_SYN = {"Achnatherum hymenoides": "Eriocoma hymenoides", "Amomum tsao-ko": "Lanxangia tsaoko",

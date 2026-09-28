@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Assemble the Phyloplate tree from a dated Newick and the candidate species CSV.
+"""Assemble the Phylodiet tree from a dated Newick and the candidate species CSV.
 
     python3 assemble_tree.py dated.nwk edible_eukaryotes_candidates.csv outdir/ [extra_aliases.csv ...]
     (with no alias file given, data/aliases.csv next to the candidates list is used when present: the hand-curated
@@ -11,8 +11,8 @@ Inputs
   candidates  CSV with columns species, common_name, genus, family, clade, group
 
 Outputs (in outdir)
-  food_tree.newick   tips relabelled to Phyloplate ids, gap-filled taxa added
-  taxa.csv           id, common_name, species, lineage, clade, aliases (Phyloplate format)
+  food_tree.newick   tips relabelled to Phylodiet ids, gap-filled taxa added
+  taxa.csv           id, common_name, species, lineage, clade, aliases (Phylodiet format)
   assembly_report.txt  what was matched, substituted, gap-filled, and left out
 
 Gap-fill rule for a species absent from the tree:

@@ -1,16 +1,16 @@
 cff-version: 1.2.0
-title: "Phyloplate: phylogenetic diversity of what you eat"
+title: "Phylodiet: phylogenetic diversity of what you eat"
 message: "If you use this software or data, please cite it as below."
 type: software
 authors:
   - family-names: Hickerson
     given-names: Michael J.
     affiliation: "City College of New York, City University of New York; American Museum of Natural History"
-date-released: 2026-09-27
-version: 0.17.1
+date-released: 2026-09-28
+version: 0.19.0
 doi: 10.5281/zenodo.22997191
-repository-code: "https://github.com/mjhickerson/phyloplate"
-url: "https://mjhickerson.github.io/phyloplate/app/phyloplate_demo.html"
+repository-code: "https://github.com/mjhickerson/phylodiet"
+url: "https://mjhickerson.github.io/phylodiet/app/phylodiet.html"
 keywords:
   - phylogenetic diversity
   - diet

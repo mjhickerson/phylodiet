@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Phyloplate</title>
+<title>Phylodiet</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,500;0,9..144,600;1,9..144,300;1,9..144,500&family=Source+Sans+3:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
@@ -130,7 +130,7 @@ footer{margin-top:64px;border-top:1px solid var(--line);padding-top:16px;color:v
 <body>
 <div class="wrap">
 <header>
-  <div class="wordmark">Phyloplate <span>prototype</span></div>
+  <div class="wordmark">Phylodiet <span>prototype</span></div>
   <nav><a href="#log">Meal log</a><a href="#data">Data</a><a href="#method">Method</a></nav>
 </header>
 
@@ -157,7 +157,7 @@ footer{margin-top:64px;border-top:1px solid var(--line);padding-top:16px;color:v
   <div class="chips" id="chips"></div>
   <div class="addbox"><input id="add" placeholder="Add an ingredient" autocomplete="off"><div class="sugg hidden" id="sugg"></div></div>
   <div class="unmatched" id="unmatched"></div>
-  <div class="note" id="dishnote">Dish missing or mapped wrong? <a id="suggest" href="https://github.com/mjhickerson/phyloplate/issues/new" target="_blank" rel="noopener">Suggest a fix on GitHub</a>. Dish table <b>dishes-0.1 (2026-09-26)</b>, <b id="d-dishes">0</b> dishes.</div>
+  <div class="note" id="dishnote">Dish missing or mapped wrong? <a id="suggest" href="https://github.com/mjhickerson/phylodiet/issues/new" target="_blank" rel="noopener">Suggest a fix on GitHub</a>. Dish table <b>dishes-0.1 (2026-09-26)</b>, <b id="d-dishes">0</b> dishes.</div>
 
   <div class="metrics">
     <div class="metric"><b id="m-pd">0</b><span>Faith's phylogenetic diversity: total branch length spanning the meal, root included (millions of years)</span></div>
@@ -716,7 +716,7 @@ function scoreLocally(text, prefix){
   setStatus(msg, !n);
   const title = 'Dish request: ' + text.slice(0, 60).replace(/\s+/g, ' ');
   const body = 'Typed:\n' + text.slice(0, 1500) + '\n\nRecognized: ' + (m.dishes.join(', ') || 'nothing') + '\nDish table: ' + DISHES.version + '\nTree: ' + (DATA.root.version || '') + '\n\nWhat should it map to (usual ingredients or species)?';
-  $('#suggest').href = 'https://github.com/mjhickerson/phyloplate/issues/new?title=' + encodeURIComponent(title) + '&body=' + encodeURIComponent(body);
+  $('#suggest').href = 'https://github.com/mjhickerson/phylodiet/issues/new?title=' + encodeURIComponent(title) + '&body=' + encodeURIComponent(body);
   $('#unmatched').textContent = '';
   document.getElementById('results').scrollIntoView({behavior:'smooth', block:'start'});
 }
@@ -727,7 +727,8 @@ $('#recipe').addEventListener('keydown', e => { if ((e.metaKey || e.ctrlKey) && 
 document.querySelectorAll('.examples a').forEach(a => a.onclick = () => { $('#recipe').value = a.dataset.ex.replace(/&#10;/g,'\n'); score(); });
 
 // ---------- meal log (localStorage) ----------
-const KEY = 'phyloplate:meals';
+const KEY = 'phylodiet:meals';
+try { if (!localStorage.getItem(KEY) && localStorage.getItem('phyloplate:meals')) localStorage.setItem(KEY, localStorage.getItem('phyloplate:meals')); } catch {}   // logs kept from the Phyloplate days
 function readLog(){ try { return JSON.parse(localStorage.getItem(KEY) || '[]'); } catch { return []; } }
 function writeLog(v){ try { localStorage.setItem(KEY, JSON.stringify(v)); return true; } catch { return false; } }
 $('#logbtn').onclick = () => {
