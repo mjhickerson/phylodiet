@@ -2,7 +2,7 @@
 
 # Bump TREE_VERSION whenever anything below (or the species list, or the TimeTree export) changes,
 # and add a CHANGELOG line: (date, who, what changed, source). Both are written into the report and shown in the app.
-TREE_VERSION = "open-0.17 (2026-09-27)"
+TREE_VERSION = "open-0.18 (2026-09-28)"
 CHANGELOG = [
     ("2026-09-19", "MH", "First TimeTree 5 build: 2,607 dated species; 49 synonyms; 63 families anchored by hand", "TimeTree 5 export of the 3,279-name list"),
     ("2026-09-19", "MH", "Red algae anchors revised: Gigartinales families to the Gigartinales crown; Gelidiales, Bonnemaisoniales, Ceramiales, Nemaliales to subclass stems", "Yang et al. 2016 Sci Rep 6:21361"),
@@ -21,6 +21,8 @@ CHANGELOG = [
     ("2026-09-26", "MH", "Open tree v0.16.1: full regraft from the source chronograms with the clade-aware graft step (v0.16 had been patched from the built tree). Identical except the oysters: Magallana, Ostrea and Saccostrea now join Crassostrea as a polytomy at the Ostreida node (421) rather than as 20 Myr sisters, pending an Ostreidae crown age", "regraft; seam_report.txt regenerated"),
     ("2026-09-27", "Rhema Uche-Dike, Kate Montana, Julia Amoroso (Ware lab, AMNH)", "Open tree v0.17: insect skeleton dated from their review sheet. Neoptera 383 and Eumetabola 373 (Wang et al. 2016 Sci Rep); Ensifera 268 and Acrididae+Pyrgomorphidae 140 (Song et al. 2015); Cicadidae 199 and Nepomorpha 243 (Wang et al. 2017/2019 Cladistics); Pentatomoidea 100.5 (Wang et al. 2016 Cladistics); Vespidae 110 (Blaimer et al. 2023); Coleoptera 300 now cited, Cucujiformia 200, Tenebrionidae 122, Scarabaeidae 120 (Zhang et al. 2018), Polyphaga 260 approx; Cossidae 120, Bombycoidea 88, Saturniidae 70 (Wahlberg et al. 2013); Insecta 441 upgraded to Misof 2014. Not adopted: Insecta 301 (Cen et al. 2025) and Collembola-Archaeognatha 344, which sit below Pterygota 406; Pterygota 385 (Thomas et al. 2013) kept at Misof's 406 for consistency; Apidae-Formicidae split 110, which is younger than the ant crown; single-species family crowns (Dytiscidae 170, Curculionidae 120, Stratiomyidae 129, Chaoboridae 118, Hesperiidae 85, Termitidae 54) recorded in backbone.py notes", "insect_review_Rhema_Kate.csv, 2026-09-25"),
     ("2026-09-27", "Jessica Ware", "Forthcoming 1KITE Nature ms moves the deep insect nodes older: Hexapoda ~523, Insecta ~523, Pterygota ~470s, Neoptera ~475, Polyneoptera 425+, Hymenoptera ~298. Recorded beside each node in backbone.py; to be adopted when the paper is out (Hexapoda 523 would also need the Pancrustacea node above it revisited)", "J. Ware, email 2026-09-27"),
+    ("2026-09-28", "Hocheol Kim / MH", "Open tree v0.18: red algae now grafted from the Kim et al. 2026 posterior-mean MCMCtree (correlated clock, nuclear BUSCOs, 70 taxa, Fig. 2E), tree file provided by Hocheol Kim with permission to use it in the app and repository with citation. Replaces the Yang et al. 2016 subclass skeleton for reds. Direct matches: Porphyra umbilicalis, Pyropia yezoensis and haitanensis, Devaleraea mollis, Ahnfeltia plicata, Asparagopsis taxiformis, Chondrus crispus, Eucheuma denticulatum, Kappaphycus alvarezii, Catenella nipae, Gracilaria gracilis; congeners kept for Palmaria, Hypnea, Gracilariopsis, Vertebrata. Kim runs older than Yang below the subclass level (Rhodymeniophycidae 506 vs 412, Gigartinales 413 vs 250; Florideophyceae 869 vs 943); the Bangiales-Florideophyceae split at 996 hangs from Strassert's 1415. Gracilaria crown 230 (Maggs) retired for the file's own 175. Families absent from Kim anchor on families present", "Kim et al. 2026 preprint; H. Kim, email 2026-09-28"),
+    ("2026-09-28", "MH", "Placement fix: a species joining on the stem above an anchor at a given age now climbs to the branch that spans that age instead of stopping at the anchor's parent; FAMILY_CROWN table added (Rhodomelaceae 295 from Kim et al. 2026). Naematelia aurantialba, meant to join Tremella at 100 Ma since v0.1, had been landing at 53", "assemble_tree.py"),
     ("2026-09-23", "Christine Maggs", "Gracilariaceae node added at ~300 Ma and Gracilaria crown set to ~230 Ma from the Kim et al. 2026 preprint (Ahnfeltia genomes) she pointed to; GENUS_CROWN table introduced so old genera are not collapsed to 5 Myr", "Kim et al. 2026 preprint, researchgate 405471651"),
     ("2026-09-23", "MH", "Open tree v0.14: red algal crowns from Yang et al. 2016 text (Nemaliophycidae 331, Rhodymeniophycidae 412); finer order splits remain approximate, unresolved in that study", "Yang et al. 2016 Sci Rep"),
     ("2026-09-22", "Tim James", "Mucoromycota split confirmed at ~700 Ma; Discinaceae moved to sister of Morchellaceae; Pyronemataceae and Sarcoscyphaceae on the stem above truffles+morels at ~250. His ballparks for splits now taken from source trees, recorded for the record: Cantharellales 225-263 (Varga 372), morels vs truffles 200 (Shen 173), Suillus vs Boletus 150 (Varga 115), Naematelia vs Tremella 125 (Varga 53)", "T. James pers. comm."),
@@ -309,14 +311,16 @@ PLACEMENTS_OPEN = {
     "Laminariaceae": _O("Laminariales"), "Alariaceae": _O("Laminariales"), "Lessoniaceae": _O("Laminariales"),
     "Fucaceae": _O("Fucales"), "Sargassaceae": _O("Fucales"), "Himanthaliaceae": _O("Fucales"), "Durvillaeaceae": _O("Fucales"),
     # red algae
-    "Bangiaceae": _O("Bangiales"), "Palmariaceae": _O("Nemaliophycidae"), "Liagoraceae": _O("Nemaliophycidae"),
-    "Ahnfeltiaceae": _O("Ahnfeltiophycidae + Rhodymeniophycidae"),
-    "Gelidiaceae": _O("Rhodymeniophycidae"), "Pterocladiaceae": _O("Rhodymeniophycidae"), "Bonnemaisoniaceae": _O("Rhodymeniophycidae"),
-    "Rhodomelaceae": _O("Ceramiales"),
-    "Gracilariaceae": _O("Gracilariaceae"), "Halymeniaceae": _O("Gigartinales + Gracilariales + Halymeniales"),
-    "Endocladiaceae": _O("Gigartinales + Gracilariales + Halymeniales"), "Sarcodiaceae": _O("Gigartinales + Gracilariales + Halymeniales"),
-    "Gigartinaceae": _O("Gigartinales"), "Cystocloniaceae": _O("Gigartinales"), "Phyllophoraceae": _O("Gigartinales"),
-    "Solieriaceae": _O("Gigartinales"), "Kallymeniaceae": _O("Gigartinales"), "Dumontiaceae": _O("Gigartinales"), "Caulacanthaceae": _O("Gigartinales"),
+    # red algae: Kim et al. 2026 is the species-level source; families it lacks anchor on families it has (MRCA of their tips)
+    "Liagoraceae": (["Palmariaceae"], 580),                                   # Nemaliales vs Palmariales: Kim's Nemaliophycidae crown ~582
+    "Gelidiaceae": (["Bonnemaisoniaceae", "Gigartinaceae"], None),           # Gelidiales: polytomy at Kim's Rhodymeniophycidae crown ~506
+    "Pterocladiaceae": (["Bonnemaisoniaceae", "Gigartinaceae"], None),
+    "Halymeniaceae": (["Gigartinaceae", "Gracilariaceae"], None),            # Halymeniales: polytomy at Gigartinales-vs-Gracilariales ~485
+    "Sarcodiaceae": (["Gigartinaceae", "Gracilariaceae"], None),
+    "Endocladiaceae": (["Gigartinaceae", "Cystocloniaceae"], 433),           # Kim: Endocladia joins the Gigartinales crown at ~433
+    "Kallymeniaceae": (["Gigartinaceae", "Cystocloniaceae"], 433),           # Kim: Pugetia (Kallymeniaceae) with Endocladia at ~433
+    "Dumontiaceae": (["Gigartinaceae", "Cystocloniaceae"], None),            # polytomy at Chondrus-vs-Eucheuma ~413
+    "Phyllophoraceae": (["Gigartinaceae", "Cystocloniaceae"], None),
     # green algae
     "Ulvaceae": _O("Ulvales"), "Monostromataceae": _O("Ulvales"), "Caulerpaceae": _O("Bryopsidales"), "Codiaceae": _O("Bryopsidales"),
     "Chlorellaceae": _O("Trebouxiophyceae"), "Prasiolaceae": _O("Trebouxiophyceae"),
@@ -347,6 +351,10 @@ ALIAS_REMOVE = {
 
 
 # Crown ages for genera whose species split far deeper than the default 5 Myr congener rule (Ma).
-GENUS_CROWN = {
-    "Gracilaria": 230,   # early Mesozoic; Kim et al. 2026 preprint via C. Maggs
-}
+GENUS_CROWN = {}
+
+# Crown ages for families where the sources hold a single edible member, so later members are not hung 2-20 Myr from it.
+# Used by assemble_tree.py: a family member joins on the stem above the family MRCA at this age (if older than the MRCA).
+FAMILY_CROWN = {
+    "Rhodomelaceae": 295,   # Kim et al. 2026: Bostrychia vs Chondria+Digenea+Vertebrata ~295
+}   # Gracilaria 230 (Maggs, read off Kim 2026 Fig. 2E) retired: the Kim tree file itself now dates the genus (crown ~175, vs Gracilariopsis ~276)

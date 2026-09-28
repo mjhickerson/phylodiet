@@ -3,6 +3,7 @@ STR21 = "Strassert et al. 2021 Nat Commun 12:1879 (MCMCTree AC, Amorphea root, u
 IRI17 = "Irisarri et al. 2017 Nat Ecol Evol 1:1370 (genome-averaged timetree of jawed vertebrates)"
 KIM26 = "Kim et al. 2026 preprint (Ahnfeltia genomes; MCMCtree nuclear BUSCO timetree of red algae, Fig. 2E);"
 YANG16 = "Yang et al. 2016 Sci Rep 6:21361 (florideophyte red algae timetree)"
+KIM26_SYN = {"Neoporphyra haitanensis": "Pyropia haitanensis", "Aplicata Chile": "Ahnfeltia plicata", "Aborealis Sakhalin": "Ahnfeltia borealis", "Afastigiata Korea": "Ahnfeltia fastigiata"}   # tip labels as in the file (100-Myr units converted to Myr in kim2026_red.nwk)
 APPROX = "APPROXIMATE, not yet cited; replace"
 MISOF14 = "Misof et al. 2014 Science 346:763 (1KITE insect timetree);"
 PETERS17 = "Peters et al. 2017 Curr Biol 27:1013 (Hymenoptera timetree);"
@@ -273,22 +274,8 @@ TREE = N("Eukaryotes", 2132, STR21,
       ),
       N("Archaeplastida", 1925, STR21,
         N("Rhodophyta", 1614, STR21,
-          N("Bangiophyceae + Florideophyceae", 1415, STR21,
-            N("Bangiales", 100, APPROX),
-            N("Florideophyceae", 943, YANG16 + " crown (Hildenbrandiophycidae split)",
-              N("Nemaliophycidae + higher florideophytes", 661, YANG16 + " Nemaliophycidae split 661",
-                N("Nemaliophycidae", 331, YANG16 + " crown Nemaliophycidae 331 (202-458)"),
-                N("Ahnfeltiophycidae + Rhodymeniophycidae", 508, YANG16,
-                  N("Rhodymeniophycidae", 412, YANG16 + " crown Rhodymeniophycidae 412 (359-477); interordinal relationships unresolved in that study",
-                    N("Ceramiales", 335, YANG16),
-                    N("Gigartinales + Gracilariales + Halymeniales", 390, APPROX + " (must sit below Rhodymeniophycidae 412; Yang 2016 leaves these orders unresolved)",
-                      N("Gracilariaceae", 300, KIM26 + " Gracilaria vs Gracilariopsis, late Palaeozoic (C. Maggs, pers. comm. 2026-09-23)"),
-                      N("Gigartinales", 250, APPROX),
-                    ),
-                  ),
-                ),
-              ),
-            ),
+          N("Bangiophyceae + Florideophyceae", 1415, STR21 + " (the Kim et al. 2026 source below puts the Bangiales-Florideophyceae split at ~996; its crown hangs here)",
+            S(OPEN + "kim2026_red.nwk", "Kim et al. 2026 preprint, posterior-mean tree of the correlated-clock MCMCtree analysis (nuclear BUSCOs, 70 red algae, Fig. 2E); tree file provided by Hocheol Kim, 2026-09-28", KIM26_SYN, groups=["Red algae"]),
           ),
         ),
         N("Viridiplantae", 1112, STR21,

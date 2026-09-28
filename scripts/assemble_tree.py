@@ -39,9 +39,10 @@ try:
     PLACEMENTS_OPEN = getattr(curation, "PLACEMENTS_OPEN", {})
     ALIAS_ADD, ALIAS_REMOVE = getattr(curation, "ALIAS_ADD", {}), getattr(curation, "ALIAS_REMOVE", {})
     GENUS_CROWN = getattr(curation, "GENUS_CROWN", {})
+    FAMILY_CROWN = getattr(curation, "FAMILY_CROWN", {})
     TREE_VERSION, CHANGELOG = getattr(curation, "TREE_VERSION", "unversioned"), getattr(curation, "CHANGELOG", [])
 except ImportError:
-    SYNONYMS, PLACEMENTS, CLADE_NAMES, TREE_VERSION, CHANGELOG, PLACEMENTS_OPEN, ALIAS_ADD, ALIAS_REMOVE, GENUS_CROWN = {}, {}, {}, "unversioned", [], {}, {}, {}, {}
+    SYNONYMS, PLACEMENTS, CLADE_NAMES, TREE_VERSION, CHANGELOG, PLACEMENTS_OPEN, ALIAS_ADD, ALIAS_REMOVE, GENUS_CROWN, FAMILY_CROWN = {}, {}, {}, "unversioned", [], {}, {}, {}, {}, {}
 
 # ---------------- Newick ----------------
 class Node:
@@ -258,6 +259,25 @@ def main(nwk_path, csv_path, outdir):
     for g, ts in helper_tips.items():
         if not genus_index.get(g): genus_index[g].extend(ts)
 
+    def attach_on_stem(node, r, age):
+        """insert the new tip on the branch above `node` at `age` (or at node's parent if age is older)."""
+        while node.parent is not None and age >= node.parent.height: node = node.parent   # climb until the branch above `node` spans `age`
+        par = node.parent
+        if par is None:
+            n = Node(r["species"], node.height); node.add(n); return f"child of node at {node.height:.0f} Myr"
+        if age <= node.height:
+            n = Node(r["species"], node.height); node.add(n); return f"child of MRCA at {node.height:.0f} Myr"
+        par.children.remove(node)
+        inner = Node("", par.height - age); inner.height = age; par.add(inner)
+        node.bl = age - node.height; inner.add(node)
+        n = Node(r["species"], age); inner.add(n)
+        return f"sister to anchor clade at {age:.0f} Myr"
+    def attach_family(fm, r, f):
+        """family rule: polytomy at the family MRCA, or sister to a lone member (max 20 Myr); FAMILY_CROWN lifts the join to a known crown age"""
+        node = mrca(fm) if len(fm) >= 2 else fm[0]
+        fc = FAMILY_CROWN.get(f)
+        if fc and fc > node.height: return attach_on_stem(node, r, fc)
+        return attach_polytomy(node, r) if len(fm) >= 2 else attach_sister(node, r, 20.0)
     def attach_polytomy(parent, r):
         n = Node(r["species"], parent.height)
         parent.add(n); return "child of MRCA"
@@ -282,10 +302,8 @@ def main(nwk_path, csv_path, outdir):
             how = attach_polytomy(mrca(gm), r); level = "genus"
         elif len(gm) == 1:
             how = attach_sister(gm[0], r, 5.0); level = "genus"
-        elif len(fm) >= 2:
-            how = attach_polytomy(mrca(fm), r); level = "family"
-        elif len(fm) == 1:
-            how = attach_sister(fm[0], r, 20.0); level = "family"
+        elif fm:
+            how = attach_family(fm, r, f); level = "family"
         if how:
             report[f"gap-filled at {level}"].append(f'{r["species"]}: {how}')
             placed_rows.append(r)
@@ -315,19 +333,6 @@ def main(nwk_path, csv_path, outdir):
                 missing.append(fa)
         tips_ = [t for fa in fams if not fa.startswith("@") for t in family_index.get(fa, [])]
         return (mrca(tips_) if len(tips_) >= 2 else (tips_[0] if tips_ else None)), missing
-    def attach_on_stem(node, r, age):
-        """insert the new tip on the branch above `node` at `age` (or at node's parent if age is older)."""
-        par = node.parent
-        if par is None or age >= par.height:
-            target = par if par is not None else node
-            n = Node(r["species"], target.height); target.add(n); return f"child of node at {target.height:.0f} Myr"
-        if age <= node.height:
-            n = Node(r["species"], node.height); node.add(n); return f"child of MRCA at {node.height:.0f} Myr"
-        par.children.remove(node)
-        inner = Node("", par.height - age); inner.height = age; par.add(inner)
-        node.bl = age - node.height; inner.add(node)
-        n = Node(r["species"], age); inner.add(n)
-        return f"sister to anchor clade at {age:.0f} Myr"
     def placement_for(f):
         """the open-tree table wins when its anchor resolves in this tree; otherwise the general table"""
         for table in (PLACEMENTS_OPEN, PLACEMENTS):
@@ -354,8 +359,7 @@ def main(nwk_path, csv_path, outdir):
             how = attach_on_stem(node, r, age) if age else attach_polytomy(node, r)
             level = "order (anchor)"
         elif fm:
-            node = mrca(fm) if len(fm) >= 2 else fm[0]
-            how = attach_polytomy(node, r) if len(fm) >= 2 else attach_sister(node, r, 20.0)
+            how = attach_family(fm, r, f)
             level = "family"
         elif placement_for(f) is not None:
             fams, age = placement_for(f)

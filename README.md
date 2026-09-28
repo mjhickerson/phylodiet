@@ -32,7 +32,7 @@ Prokaryotes are excluded on purpose (they are on everything). Amounts are ignore
 | `app/template.html` | The app: ingredient parsing, PD and richness, meal phylogram, radial coverage view, meal log, custom-tree loader. |
 | `app/phyloplate_demo.html` | A working demo built on the open tree. Live at https://mjhickerson.github.io/phyloplate/app/phyloplate_demo.html |
 | `tree/` | The open tree (`food_tree.newick`, `taxa.csv`), its version stamp, provenance, seam report and assembly report. |
-| `scripts/graft_tree.py`, `scripts/backbone.py` | The graft step: stitches pruned published chronograms onto the cited backbone. Source trees are not included (large; all are public downloads listed in `backbone.py`). |
+| `scripts/graft_tree.py`, `scripts/backbone.py` | The graft step: stitches pruned published chronograms onto the cited backbone. Source trees are not included (large; all are public downloads listed in `backbone.py`), except `sources/kim2026_red.nwk`, redistributed with the authors' permission. |
 
 ![Coverage of the edible tree](docs/images/coverage.png)
 
@@ -54,6 +54,7 @@ Prokaryotes are excluded on purpose (they are on everything). Amounts are ignore
 | Tonini et al. 2016, *Biol Conserv* (VertLife subset) | squamates | 12 |
 | Varga et al. 2019, *Nat Ecol Evol* | mushrooms (Agaricomycotina) | 75 |
 | Shen et al. 2020, *Sci Adv* | ascomycete fungi (yeasts, moulds, truffles, morels) | 20 |
+| Kim et al. 2026, preprint (tree file courtesy of Hocheol Kim) | red algae (nori, dulse, Irish moss, carrageenan weeds, ogo) | 18 |
 
 Each source keeps its own internal ages and hangs from the backbone at its crown. When a source is pruned to our species, one non-food relative per needed genus is kept so that a species the source lacks can be hung beside a real congener. Molluscs, crustaceans, insects, seaweeds, turtles, crocodilians and the small phyla (about 310 species) have no species-level open chronogram; their families sit on a skeleton of class- and order-level nodes in `scripts/backbone.py`, mapped in `PLACEMENTS_OPEN` in `curation/curation.py`. Most skeleton ages are approximate and listed for review in `curation/node_review_open.csv`, with the number of species each node carries. Families on the skeleton join at their node's crown, which slightly overstates PD for those groups. The seam report (`tree/seam_report.txt`) lists every graft, and `tree/assembly_report.txt` every placement.
 
