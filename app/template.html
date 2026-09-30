@@ -146,6 +146,7 @@ footer{margin-top:64px;border-top:1px solid var(--line);padding-top:16px;color:v
 <div class="examples">Try:
   <a data-ex="Cheeseburger and fries">cheeseburger and fries</a>
   <a data-ex="Pad thai, tom kha gai and a Thai iced tea">Thai dinner</a>
+  <a data-ex="Almuerzo: locro de papa con aguacate, seco de chivo con arroz y maduro, jugo de tomate de árbol">almuerzo quiteño</a>
   <a data-ex="Miso soup with kombu dashi, wakame, silken tofu and scallions; a bowl of white rice; grilled salmon; pickled daikon; a sheet of toasted nori">Japanese set meal</a>
   <a data-ex="2 cups all-purpose flour&#10;1 tsp salt&#10;1 packet active dry yeast&#10;3 tbsp olive oil&#10;1 cup warm water&#10;1 cup crushed San Marzano tomatoes&#10;8 oz fresh mozzarella&#10;fresh basil leaves&#10;grated parmesan">margherita pizza recipe</a>
   <a data-ex="Sauteed maitake and lion's mane mushrooms with garlic and thyme, dulse flakes, a fried duck egg, buckwheat groats, sea urchin roe, and a glass of lambic (barley, wheat, hops, yeast)">a hippie's dream</a>
@@ -196,7 +197,7 @@ footer{margin-top:64px;border-top:1px solid var(--line);padding-top:16px;color:v
 <section id="data" class="data">
   <h2>Data</h2>
   <p>Tree version <b>__TREE_VERSION__</b>. The built-in tree has <b id="d-tips">0</b> edible taxa and <b id="d-total">0</b> Myr of branch length. __TREE_PROVENANCE__</p>
-  <p>Dish names are resolved with a curated lookup table (version <b>__DISHES_VERSION__</b>, <b id="d-dishes2">0</b> dishes with their usual ingredients), kept as <code>data/dishes.csv</code> in the repository. Anything not in the table falls through to ingredient-name matching against the taxon table's aliases. Everything runs in the page; nothing is sent anywhere.</p>
+  <p>Dish names are resolved with a curated lookup table (version <b>__DISHES_VERSION__</b>, <b id="d-dishes2">0</b> dishes with their usual ingredients), kept as <code>data/dishes.csv</code> in the repository. Anything not in the table falls through to ingredient-name matching against the taxon table's aliases. Spanish works too, with regional names (choclo, elote, jojoto; palta, aguacate; poroto, frijol, habichuela) and with or without accents. Everything runs in the page; nothing is sent anywhere.</p>
   <p><b>Reading the numbers.</b> The tree is eukaryotes only, so bacteria are not scored: the cultures in natto, yogurt, kimchi, sauerkraut and cheese count for the plant or animal they are grown on, not for themselves. The root, where plants and fungi-plus-animals part, sits at 2.13 billion years in the source used here (Strassert et al. 2021); other published estimates run from about 1.5 to 2.1, so any meal with both a plant and an animal reaches back that far, and the deepest branches carry the widest uncertainty. Within groups placed on the skeleton rather than a species-level source, families join at their order's crown, which overstates shallow splits a little.</p>
   <p>To test another tree, load a Newick whose tip labels are ids plus a CSV with columns <code>id, common_name, species, lineage, clade, aliases</code>; clade is one of animal, fungus, plant, green, red, brown, other; branch lengths in Myr, ultrametric.</p>
   <label>Newick <input type="file" id="f-newick" accept=".nwk,.newick,.tre,.tree,.txt"></label>

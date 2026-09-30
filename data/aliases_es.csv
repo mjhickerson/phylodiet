@@ -1,0 +1,1077 @@
+species,aliases
+Bos taurus,res;carne de vaca;vaca;vacuno;ternera;carne;bife;lomo;vacío;matambre;entraña;costilla;picaña;picanha;bistec;bisté;cecina;charqui;charque;tasajo;mondongo;chinchulines;molleja;riñón;osobuco;rabo de toro;arrachera;leche;queso;quesillo;requesón;ricota;ricotta;mantequilla;manteca;crema;nata;yogur;yogurt;suero;helado;jocoque;cuajada;provolone;mozzarella;muzzarella;burrata;chantilly;kéfir;kumis;bienmesabe;cebú
+Sus scrofa,cerdo;chancho;puerco;cochino;marrano;cochinillo;chuleta;panceta;tocino;tocineta;longaniza;salchicha;salchichón;morcilla;moronga;rellena;butifarra;fuet;chicharrón;cochinita;lardo;bondiola;sobrasada;mortadela;jamonada;jabalí;cuerito;salame;bacón;beicon;codillo;lacón;pancho;frankfurt;embutido;costillar;paté;prosciutto;pancetta;guanciale;pastor
+Ovis aries,cordero;oveja;borrego;carnero;lechazo;queso de oveja
+Capra hircus,cabra;chivo;cabrito;queso de cabra;cajeta
+Cavia porcellus,cuye;cobayo;conejillo de indias
+Oryctolagus cuniculus,conejo
+Lepus europaeus,liebre
+Lama glama,llama
+Lama guanicoe,guanaco
+Vicugna pacos,alpaca
+Equus caballus,caballo;carne equina;yegua
+Equus asinus,burro;asno
+Bubalus bubalis,búfalo;búfala
+Bison bison,bisonte
+Odocoileus virginianus,venado;venado cola blanca
+Cervus elaphus,ciervo
+Dama dama,gamo
+Capreolus capreolus,corzo
+Rangifer tarandus,reno;caribú
+Alces alces,alce
+Hydrochoerus hydrochaeris,capibara;carpincho;chigüire
+Dasypus novemcinctus,armadillo;quirquincho;mulita;cachicamo;tatú
+Cuniculus paca,paca;tepezcuintle;tepezcuinte;guagua;majaz;guanta;picuro
+Dasyprocta punctata,agutí;guatusa;ñeque;picure;cotuza;guatín
+Pecari tajacu,pecarí;sajino;saíno;sahíno;chancho de monte;báquiro;zaino;coche de monte
+Tayassu pecari,huangana;cariblanco;puerco de monte
+Tapirus terrestris,tapir;danta;sachavaca;anta
+Lagostomus maximus,vizcacha
+Myocastor coypus,coipo;coipú;nutria
+Didelphis marsupialis,zarigüeya;chucha;rabipelado;tlacuache
+Iguana iguana,iguana
+Ctenosaura similis,garrobo;iguana negra
+Caiman yacare,yacaré;caimán
+Alligator mississippiensis,aligátor;lagarto americano
+Crocodylus niloticus,cocodrilo
+Salvator merianae,lagarto overo;tegu;iguana overa
+Lithobates catesbeianus,rana;rana toro
+Trachemys scripta,jicotea;hicotea
+Gallus gallus,pollo;gallina;pechuga;muslo;contramuslo;alitas;huevo;yema;tortilla francesa;tortilla de huevo;menudencias;suprema;nuggets
+Meleagris gallopavo,pavo;guajolote;pavita;chompipe;guanajo;jamón de pavo
+Anas platyrhynchos,pato;magret
+Cairina moschata,pato criollo;pato real;pato mudo;pato mulard
+Coturnix japonica,codorniz;codornices;huevo de codorniz
+Anser anser,ganso
+Struthio camelus,avestruz
+Rhea americana,ñandú
+Alectoris rufa,perdiz;perdices
+Perdix perdix,perdiz pardilla;perdiz gris
+Nothura maculosa,perdiz chica;inambú
+Rhynchotus rufescens,perdiz colorada;martineta colorada
+Eudromia elegans,martineta;perdiz copetona;copetona
+Tinamus major,tinamú;gallina de monte;yuto
+Numida meleagris,gallina de guinea;pintada;gallineta;guinea
+Columba livia,pichón;palomino
+Columba palumbus,paloma torcaz;torcaz
+Zenaida macroura,paloma huilota;huilota
+Zenaida asiatica,paloma aliblanca;paloma de alas blancas
+Streptopelia decaocto,tórtola
+Phasianus colchicus,faisán
+Penelope obscura,pava de monte;yacutinga
+Ortalis vetula,chachalaca
+Crax fasciolata,muitú;paujil;pavón;hoco
+Scolopax rusticola,becada;chocha
+Fulica atra,focha;gallareta
+Somateria mollissima,éider
+Anas crecca,cerceta
+Spatula clypeata,pato cuchara
+Aerodramus fuciphagus,nido de golondrina;salangana
+Dromaius novaehollandiae,emú
+Thunnus albacares,atún;rabil
+Thunnus thynnus,atún rojo;atún aleta azul;cimarrón
+Thunnus alalunga,atún blanco;bonito del norte;albacora del norte
+Thunnus obesus,patudo;atún ojo grande
+Salmo salar,salmón
+Salmo trutta,trucha marrón;trucha común;trucha fario;reo
+Oncorhynchus mykiss,trucha
+Oncorhynchus kisutch,salmón coho;salmón plateado
+Oncorhynchus tshawytscha,salmón chinook;salmón rey
+Oncorhynchus nerka,salmón rojo;salmón sockeye
+Oncorhynchus keta,salmón keta;salmón chum
+Oncorhynchus gorbuscha,salmón rosado
+Salvelinus fontinalis,trucha de arroyo;salvelino
+Salvelinus alpinus,trucha alpina;salvelino alpino
+Percichthys trucha,perca criolla;trucha criolla;perca patagónica
+Gadus morhua,kokotxas;cocochas;pil pil
+Gadus macrocephalus,bacalao del pacífico
+Gadus chalcogrammus,abadejo de alaska;colín de alaska;polaca;surimi;kanikama;kani;palitos de cangrejo;palitos de mar;pollock
+Melanogrammus aeglefinus,eglefino;haddock
+Merlangius merlangus,merlán;plegonero
+Pollachius virens,carbonero;fogonero;saithe
+Pollachius pollachius,abadejo
+Micromesistius poutassou,bacaladilla;lirio;perlita
+Trisopterus luscus,faneca
+Brosme brosme,brosmio
+Molva molva,maruca
+Lota lota,lota
+Urophycis tenuis,brótola;locha blanca
+Merluccius hubbsi,merluza
+Merluccius australis,merluza austral;merluza del sur
+Merluccius merluccius,merluza europea;pescadilla;merluza de pincho
+Merluccius capensis,merluza del cabo
+Merluccius productus,merluza del pacífico
+Genypterus chilensis,congrio
+Genypterus blacodes,congrio dorado;kingklip
+Cilus gilberti,corvina
+Micropogonias furnieri,corvina rubia;corvina blanca
+Cynoscion squamipinnis,corvina del pacífico;corvina aguada;corvina reina
+Cynoscion nebulosus,corvina pinta;trucha de mar
+Argyrosomus regius,corvina europea;corvinón
+Sciaenops ocellatus,corvina roja;tambor rojo;red drum;redfish
+Pogonias cromis,corvina negra;tambor negro;tambor
+Micropogonias undulatus,roncador;corvinilla
+Umbrina cirrosa,verrugato;corvallo
+Larimichthys crocea,corvina amarilla
+Brama brama,palometa negra;japuta;castañeta;reineta
+Trachurus murphyi,jurel
+Trachurus trachurus,jurel europeo;chicharro
+Trachurus symmetricus,charrito
+Caranx hippos,jurel común;jurel toro;toro;cojinúa
+Caranx crysos,cojinúa negra;jurel negro
+Seriola lalandi,palometa;pez limón;serviola;medregal;vidriola;hiramasa;kingfish
+Seriola dumerili,medregal coronado;coronado;lecha
+Seriola rivoliana,fortuno;kampachi;almaco
+Seriola quinqueradiata,buri;hamachi;medregal japonés
+Katsuwonus pelamis,bonito;barrilete;listado;katsuo;katsuobushi;ventresca;marmitako
+Sarda sarda,bonito del atlántico;bonito atlántico
+Sarda chiliensis,bonito del pacífico;bonito chileno;bonito peruano
+Auxis thazard,melva
+Euthynnus alletteratus,bacoreta
+Scomber japonicus,caballa;macarela;saba
+Scomber scombrus,caballa del atlántico;verdel;xarda;sarda
+Scomber colias,estornino
+Scomberomorus sierra,sierra
+Scomberomorus cavalla,carite;peto;sierra del atlántico;macarela rey
+Scomberomorus maculatus,sierra pintada;carite pintado
+Scomberomorus regalis,carite chinigua;pintada de mar
+Acanthocybium solandri,wahoo;peto negro;guaho
+Coryphaena hippurus,dorado;mahi mahi;lampuga;llampuga
+Xiphias gladius,pez espada;albacora;emperador
+Makaira nigricans,marlín;aguja azul
+Istiophorus platypterus,pez vela
+Kajikia audax,marlín rayado;marlín listado
+Rachycentron canadum,cobia;bacalao de arena;esmedregal
+Elagatis bipinnulata,salmón de mar;macarela salmón
+Trachinotus carolinus,pámpano
+Trachinotus falcatus,palometa pompano;permit
+Lobotes surinamensis,dormilona;berrugate
+Oreochromis niloticus,tilapia;mojarra
+Oreochromis mossambicus,tilapia mozambique
+Oreochromis aureus,tilapia azul
+Lutjanus campechanus,huachinango;pargo;chillo;guachinango
+Lutjanus purpureus,pargo del caribe;pargo colorado;pargo rojo del sur
+Lutjanus analis,pargo criollo;pargo mulato;pargo cebal
+Lutjanus griseus,pargo gris;pargo prieto;pargo mangle;pargo dientón
+Lutjanus synagris,pargo biajaiba;biajaiba;pargo rayado
+Lutjanus argentimaculatus,pargo de manglar
+Rhomboplites aurorubens,pargo cunaro;cunaro;rubia
+Ocyurus chrysurus,rabirrubia;pargo rabirrubia;rubia de mar
+Epinephelus marginatus,mero;cherna
+Epinephelus morio,mero rojo;cherna americana;mero del golfo
+Epinephelus striatus,cherna criolla;mero de nassau
+Epinephelus aeneus,cherna de ley;mero blanco
+Mycteroperca bonaci,mero negro;bonací;abadejo negro
+Mycteroperca microlepis,mero gag;cuna aguají;aguají
+Serranus cabrilla,cabrilla
+Polyprion americanus,cherna de fondo;cherne;mero chernia
+Dicentrarchus labrax,lubina;branzino
+Sparus aurata,dorada
+Pagrus pagrus,pargo europeo;bocinegro;besugo americano;pargo besugo
+Pagellus bogaraveo,besugo;voraz
+Pagellus erythrinus,breca;pagel
+Pagellus acarne,aligote;besugo blanco
+Dentex dentex,dentón
+Diplodus sargus,sargo
+Diplodus vulgaris,mojarra sargo;sargo mojarra;vidriada
+Diplodus annularis,raspallón;esparrallón
+Boops boops,boga
+Sarpa salpa,salema;salpa
+Spondyliosoma cantharus,chopa;pargo chopa
+Lithognathus mormyrus,herrera;mabra
+Archosargus probatocephalus,sargo chopa;chopa blanca;sargo americano
+Stenotomus chrysops,sargo escup;scup;pargo escup
+Calamus bajonado,pluma
+Pagrus major,pargo japonés;madai;besugo japonés
+Chrysophrys auratus,pargo australiano;dorada australiana
+Mugil cephalus,lisa;mújol;mugil;lebrancho;cabezudo;botarga;bottarga
+Mugil curema,lisa blanca;lisa criolla;liseta
+Chelon labrosus,lisa negra;corcón
+Solea solea,lenguado
+Solea senegalensis,lenguado senegalés;acedía senegalesa
+Dicologlossa cuneata,acedía
+Pegusa lascaris,lenguado de arena;sortija
+Pleuronectes platessa,solla;platija
+Platichthys flesus,platija europea;platija de río
+Scophthalmus maximus,rodaballo
+Scophthalmus rhombus,rémol;corujo
+Lepidorhombus whiffiagonis,gallo
+Paralichthys dentatus,lenguado de verano;fluke
+Paralichthys californicus,lenguado de california;halibut de california
+Paralichthys olivaceus,hirame;lenguado japonés
+Hippoglossus hippoglossus,fletán;halibut;hipogloso
+Hippoglossus stenolepis,fletán del pacífico;halibut del pacífico
+Reinhardtius hippoglossoides,fletán negro;halibut de groenlandia;fletán de groenlandia
+Microstomus kitt,mendo limón;lenguado limón
+Limanda limanda,limanda
+Lophius piscatorius,rape
+Lophius budegassa,rape negro;rape rojizo
+Lophius americanus,rape americano
+Mullus surmuletus,salmonete
+Mullus barbatus,salmonete de fango
+Scorpaena scrofa,cabracho;escorpora;rascacio;gallineta de roca
+Scorpaena porcus,rascacio negro;escórpora negra
+Helicolenus dactylopterus,cabra de altura
+Sebastes norvegicus,gallineta nórdica;gallineta dorada
+Sebastes mentella,gallineta de canadá;gallineta de profundidad
+Sebastes alutus,perca del pacífico;gallineta del pacífico
+Chelidonichthys lucerna,bejel;rubio;perlón
+Eutrigla gurnardus,borracho;rubio gris
+Trachinus draco,araña;escorpión de mar
+Zeus faber,pez de san pedro;gallo pedro;san pedro;gallopedro
+Belone belone,aguja;agujón
+Cololabis saira,paparda;sanma
+Scomberesox saurus,paparda del atlántico
+Hemiramphus brasiliensis,balajú;ballyhoo;agujeta
+Cheilopogon agoo,pez volador;tobiuo
+Cypselurus poecilopterus,tobiko;pez volador amarillo;huevas de pez volador
+Engraulis ringens,anchoveta
+Engraulis encrasicolus,anchoa;boquerón;bocarte
+Engraulis mordax,anchoveta norteña;anchoa del pacífico norte
+Engraulis japonicus,anchoa japonesa;niboshi;iriko
+Stolephorus indicus,anchoa india;ikan bilis
+Sardina pilchardus,sardina
+Sardinops sagax,sardina del pacífico;sardina peruana;sardina chilena;sardina monterrey;sardina crinuda
+Sardinella aurita,sardinela;alacha;machuelo
+Sprattus sprattus,sprat
+Clupea harengus,arenque
+Clupea pallasii,arenque del pacífico;kazunoko;huevas de arenque
+Alosa alosa,sábalo europeo;alosa
+Alosa sapidissima,sábalo americano;alosa americana
+Brevoortia tyrannus,lacha;menhaden
+Ethmalosa fimbriata,bonga;sábalo bonga
+Tenualosa ilisha,hilsa;ilish
+Konosirus punctatus,kohada;konoshiro
+Harpadon nehereus,pato de bombay;bombil;bummalo
+Mallotus villosus,capelán;capelín;masago
+Osmerus mordax,eperlano
+Osmerus eperlanus,eperlano europeo
+Thaleichthys pacificus,eulacón
+Hypomesus nipponensis,wakasagi
+Galaxias maculatus,puye;inanga;whitebait chileno
+Anguilla anguilla,anguila;angulas;angula
+Anguilla japonica,unagi;anguila japonesa;kabayaki
+Anguilla rostrata,anguila americana
+Conger conger,congrio europeo;congrio común
+Conger myriaster,anago;congrio japonés
+Muraenesox cinereus,hamo;congrio picudo
+Gymnothorax javanicus,morena
+Monopterus albus,anguila de arrozal;anguila asiática de pantano
+Ictalurus punctatus,bagre;pez gato
+Ictalurus furcatus,bagre azul
+Pylodictis olivaris,bagre cabeza plana
+Ameiurus nebulosus,bagre marrón;barbudo marrón
+Rhamdia quelen,bagre negro;bagre sapo;jundiá;barbudo;bagre criollo
+Pseudoplatystoma corruscans,surubí;pintado
+Pseudoplatystoma fasciatum,bagre rayado;surubí atigrado;doncella;bagre tigre;pintadillo
+Phractocephalus hemioliopterus,pirarara;cajaro;bagre pirarara;guacamayo
+Brachyplatystoma filamentosum,piraíba;lechero;saltón;valentón
+Brachyplatystoma rousseauxii,dorada de río;dourada;zúngaro dorado;plateado
+Pterygoplichthys pardalis,pez diablo;plecostomus;pleco;carachama;cucha
+Genidens barbus,bagre de mar;bagre marino;bagre blanco
+Bagre marinus,bagre bandera;bagre cacumo
+Clarias gariepinus,bagre africano;pez gato africano;clarias
+Pangasianodon hypophthalmus,basa;panga;pangasius;swai
+Pangasius bocourti,basa vietnamita
+Silurus glanis,siluro
+Arapaima gigas,paiche;pirarucú
+Odontesthes bonariensis,pejerrey
+Prochilodus lineatus,sábalo;curimba
+Prochilodus nigricans,boquichico;bocachico amazónico;curimatá
+Salminus brasiliensis,dorado de río;dorado fluvial;dorado del paraná;tigre de río
+Piaractus brachypomus,cachama;morocoto;pirapitinga
+Piaractus mesopotamicus,pacú
+Colossoma macropomum,cachama negra;gamitana;tambaqui
+Brycon amazonicus,yamú;sábalo amazónico;matrinxã;sabaleta
+Leporinus obtusidens,boga de río;piapara
+Hoplias malabaricus,tararira;guabina;trahira;dormilona de río;moncholo
+Pygocentrus nattereri,piraña;caribe;palometa piraña
+Cichla ocellaris,tucunaré
+Cichla temensis,pavón pintado;tucunaré pintado
+Astronotus ocellatus,acarahuazú;oscar
+Chirostoma humboldtianum,charal;pescado blanco
+Cyprinus carpio,carpa
+Carassius carassius,carpín
+Ctenopharyngodon idella,carpa herbívora;carpa china
+Hypophthalmichthys molitrix,carpa plateada
+Tinca tinca,tenca
+Barbus barbus,barbo
+Rutilus rutilus,rutilo;bermejuela
+Sander lucioperca,lucioperca
+Sander vitreus,lucioperca americana;walleye
+Esox lucius,lucio
+Perca fluviatilis,perca
+Perca flavescens,perca amarilla
+Micropterus salmoides,lobina;perca americana;black bass;róbalo de agua dulce
+Micropterus dolomieu,lobina de boca chica;lobina boca pequeña
+Morone saxatilis,lubina rayada;róbalo rayado;lobina rayada
+Lepomis macrochirus,mojarra de agalla azul;pez sol;mojarra americana
+Pomoxis nigromaculatus,mojarra negra americana;crappie
+Lates niloticus,perca del nilo
+Lates calcarifer,barramundi;perca gigante
+Channa striata,pez cabeza de serpiente;cabeza de serpiente
+Chanos chanos,sabalote;chano;bangus
+Pomatomus saltatrix,anchoa de banco;anjova;anchova;anchoa grande
+Sphyraena barracuda,barracuda;picuda;picúa
+Sphyraena sphyraena,espetón
+Megalops atlanticus,sábalo real;tarpón
+Elops saurus,macabí;malacho
+Albula vulpes,macabí de hueso;ratón de mar
+Balistes capriscus,pez ballesta;cochino gris;pejepuerco
+Balistes vetula,pez puerco;cachúa
+Lachnolaimus maximus,boquinete;pez perro;doncella de pluma
+Bodianus rufus,vieja española;pez vieja
+Semicossyphus pulcher,vieja de california;sheephead
+Labrus bergylta,maragota
+Sparisoma viride,loro
+Scarus ghobban,loro barbazul;pez loro azul;cotorra de mar
+Haemulon plumierii,ronco
+Anisotremus virginicus,catalineta;burro catalina
+Kyphosus sectatrix,chopa negra;chopa de bermuda
+Lichia amia,palometón;lirio de mar
+Priacanthus arenatus,catalufa;toro de ojo grande
+Chaetodipterus faber,paguara;pámpano de mar;peje luna
+Squalus acanthias,cazón;mielga;tollo;galludo
+Mustelus mustelus,musola;cazón común;tollo de cachos
+Mustelus canis,cazón perro;musola dentuda;cazón de ley americano
+Galeorhinus galeus,cazón vitamínico;tiburón vitamínico;tollo vitamínico;cazón de ley
+Scyliorhinus canicula,pintarroja;gata;lija
+Isurus oxyrinchus,marrajo;mako;tiburón mako
+Lamna nasus,marrajo sardinero;cailón
+Prionace glauca,tiburón azul;tintorera;tiburón;cazón de tintorera
+Raja clavata,raya;raya de clavos
+Amblyraja radiata,raya radiante;raya espinosa
+Petromyzon marinus,lamprea
+Lampetra fluviatilis,lamprea de río
+Eleginops maclovinus,róbalo chileno;robalo patagónico;róbalo de chile
+Dissostichus eleginoides,merluza negra;bacalao de profundidad;bacalao austral;bacalao chileno;mero chileno;bacalao patagónico
+Macruronus magellanicus,merluza de cola;hoki patagónico
+Macruronus novaezelandiae,hoki
+Sicyases sanguineus,pejesapo
+Anoplopoma fimbria,bacalao negro;pez mantequilla;sablefish
+Ophiodon elongatus,bacalao largo;lingcod
+Hoplostethus atlanticus,reloj anaranjado;pez reloj;orange roughy
+Lepidocybium flavobrunneum,escolar;pez mantequilla escolar
+Ruvettus pretiosus,escolar clavo;pez aceite;escolar negro
+Trichiurus lepturus,pez sable;pez cinto;sable;espada de mar
+Lepidopus caudatus,pez cinto plateado;sable plateado
+Aphanopus carbo,pez espada negro;sable negro;espada preta
+Lampris guttatus,opah;pez luna real;luna real
+Beryx splendens,besugo americano de altura;palometa roja
+Pampus argenteus,pámpano plateado;palometa china;pomfret
+Peprilus triacanthus,palometa americana;pámpano americano;butterfish
+Takifugu rubripes,fugu;pez globo;torafugu
+Pterois volitans,pez león
+Nemopilema nomurai,medusa nomura
+Rhopilema esculentum,medusa
+Stomolophus meleagris,medusa bala de cañón;medusa de bala de cañón;aguamala
+Anemonia viridis,ortiguilla;anémona de mar
+Acipenser gueldenstaedtii,caviar;esturión;osetra
+Acipenser stellatus,caviar sevruga;sevruga;esturión estrellado
+Huso huso,caviar beluga;esturión beluga
+Acipenser baerii,esturión siberiano;caviar siberiano;caviar baeri
+Acipenser transmontanus,esturión blanco;caviar de esturión blanco
+Polyodon spathula,pez espátula;pez cuchara;caviar de pez espátula
+Cyclopterus lumpus,lumpo;caviar de lumpo;sucedáneo de caviar
+Octopus vulgaris,pulpo
+Octopus maya,pulpo maya;pulpo rojo;pulpo de yucatán;pulpo yucateco
+Octopus cyanea,pulpo de día;pulpo hawaiano
+Enteroctopus dofleini,pulpo gigante
+Eledone cirrhosa,pulpo blanco;pulpo cabezón;pulpo de roca
+Eledone moschata,pulpo almizclado;pulpito
+Doryteuthis opalescens,calamar de california;calamar del pacífico
+Doryteuthis pealeii,calamar;rabas
+Loligo vulgaris,calamar europeo;chipirón;calamar de potera
+Loligo forbesii,calamar veteado
+Dosidicus gigas,jibia;pota;calamar gigante;calamar de humboldt;jibión
+Illex argentinus,calamar argentino;calamar illex;calamar patagónico
+Todarodes pacificus,calamar japonés;surume;calamar volador japonés
+Todarodes sagittatus,pota europea;calamar volador europeo;pota voladora
+Sepia officinalis,sepia;choco;jibia europea
+Sepiola atlantica,sepiola;choquito;chopito;puntillitas;puntillas
+Sepioteuthis sepioidea,calamar de arrecife;calamar de coral;calamar caribeño
+Mytilus chilensis,choro;choritos;chorito;mejillón chileno;cholga
+Mytilus edulis,mejillón
+Mytilus galloprovincialis,mejillón mediterráneo;mejillón gallego;chorro;mejillón de roca;mejillón de batea
+Perna viridis,mejillón verde;mejillón asiático
+Perna perna,mejillón marrón;mejillón de brasil;mejillón pardo
+Perna canaliculus,mejillón de nueva zelanda;mejillón de labios verdes
+Choromytilus chorus,choro zapato;choros zapato;choro maltón grande
+Modiolus modiolus,mejillón de caballo;mejillón bravo
+Magallana gigas,ostra;ostión
+Magallana angulata,ostra portuguesa;ostión portugués
+Crassostrea virginica,ostra americana;ostión americano;ostra del atlántico;ostión del golfo;ostiones del golfo
+Ostrea edulis,ostra plana;ostra europea;ostra gallega;ostra de arcade
+Ostrea lurida,ostra olympia;ostra olímpica
+Saccostrea glomerata,ostra de roca de sídney;ostra australiana
+Argopecten purpuratus,ostión del norte;ostiones del norte;vieira chilena;concha de abanico;conchas de abanico;conchitas;conchas a la parmesana;ostión peruano
+Argopecten irradians,vieira de bahía;vieiras de bahía;callo de hacha pequeño
+Pecten maximus,vieira;concha de peregrino;concha de santiago
+Pecten jacobaeus,vieira mediterránea;concha de peregrino mediterránea
+Aequipecten opercularis,zamburiña;volandeira
+Chlamys islandica,vieira de islandia;vieira islandesa
+Placopecten magellanicus,vieira americana;vieira del atlántico;vieira gigante
+Mizuhopecten yessoensis,hotate;vieira japonesa;vieira yesso;callo de hacha japonés
+Atrina pectinata,callo de hacha;tairagi;pinna
+Concholepas concholepas,loco;abalón chileno;chanque
+Haliotis rufescens,abulón;abalón;oreja de mar
+Haliotis tuberculata,oreja de mar europea;ormer;abulón europeo
+Haliotis discus,awabi;abulón japonés;abalón japonés
+Haliotis iris,paua;abulón paua
+Haliotis midae,abulón sudafricano;perlemoen
+Haliotis rubra,abulón de labio negro;abulón australiano
+Haliotis laevigata,abulón de labio verde
+Fissurella latimarginata,lapa
+Patella vulgata,lapa europea;lapa común;lapas gallegas;lapa gallega
+Cellana grata,lapa japonesa
+Chiton magnificus,chitón;quitón;apretador
+Acanthopleura granulata,chitón peludo;cucaracha de mar;chitón caribeño
+Aliger gigas,caracol pala;cobo;lambí;caracol rosado;caracol reina;caracol de concha;carrucho;botuto;guarura
+Buccinum undatum,bocina;buccino;caracol bocina;bígaro grande
+Busycon carica,caracol busycon;caracola nudosa
+Littorina littorea,bígaro;caracolillo;mincha
+Nucella lapillus,caracol perro;púrpura
+Bolinus brandaris,cañaílla;cañadilla;busano
+Hexaplex trunculus,cañaílla de fango;corneta;busano de fango
+Rapana venosa,caracol rapana;rapana
+Turbo cornutus,sazae;caracol turbante;turbante japonés
+Turbo marmoratus,turbante verde;caracol turbante verde
+Tectus niloticus,trochus;caracol trochus;caracol de nácar
+Phorcus turbinatus,bígaro mediterráneo;caracol de mar mediterráneo;caragol
+Lunella coronata,caracol luna;turbante luna
+Nerita albicilla,nerita;caracol nerita
+Helix pomatia,caracol de tierra;caracoles de tierra;caracol de borgoña;caracoles de borgoña
+Cornu aspersum,caracol
+Helix lucorum,caracol turco;caracol de bosque
+Otala lactea,caracol lechoso;caracol de leche;cabrilla de tierra;caracol andaluz;caracoles andaluces;vaqueta
+Lissachatina fulica,caracol africano;caracol gigante africano
+Archachatina marginata,caracol gigante de áfrica occidental
+Pomacea canaliculata,churo;caracol manzana;caracol de agua dulce;caracol dorado
+Pila globosa,caracol manzana indio;caracol de arrozal
+Viviparus viviparus,caracol de río;caracol vivíparo
+Cipangopaludina chinensis,caracol chino de agua dulce;caracol misterioso
+Dolabella auricularia,liebre de mar;liebres de mar;babosa de mar
+Mercenaria mercenaria,almeja americana;almeja dura;quahog;almeja de cuello duro
+Ruditapes decussatus,almeja
+Ruditapes philippinarum,almeja japonesa;almeja japónica;almeja de manila;almeja manila
+Venerupis corrugata,almeja babosa;almejas babosas
+Chamelea gallina,chirla;vongola
+Callista chione,almejón;concha fina
+Dosinia exoleta,reloj;almeja reloj
+Cerastoderma edule,berberecho;croque
+Glycymeris glycymeris,almendra de mar;almendras de mar;almeja almendra
+Donax trunculus,coquina;tellina;tellerina
+Donax variabilis,coquina americana;chipichipi;chipi chipi;guacuco
+Ensis magnus,navaja
+Ensis leei,navaja americana;navaja del atlántico
+Solen marginatus,longueirón;navaja recta
+Siliqua patula,navaja del pacífico;navaja de california
+Panopea generosa,almeja panopea;almeja generosa;geoduck;almeja geoduck;almeja elefante
+Mya arenaria,almeja de concha blanda;almeja blanda;almeja de arena
+Spisula solidissima,almeja de mar americana;almeja de surf;almeja surf
+Mactromeris polynyma,hokkigai;almeja ártica;almeja de stimpson
+Arctica islandica,almeja de islandia;almeja negra;quahog oceánico
+Saxidomus gigantea,almeja mantequilla;almeja de mantequilla
+Leukoma staminea,almeja de cuello corto del pacífico;almeja littleneck del pacífico
+Tresus capax,almeja caballo;almeja de caballo
+Meretrix lusoria,hamaguri;almeja hamaguri;almeja japonesa hamaguri
+Meretrix lyrata,almeja blanca vietnamita;almeja de vietnam
+Paphia undulata,almeja lala;lala
+Corbicula fluminea,almeja asiática;almeja de agua dulce;corbícula
+Corbicula japonica,shijimi;almeja shijimi
+Anadara broughtonii,akagai;arca de sangre japonesa;almeja de sangre japonesa
+Tegillarca granosa,berberecho de sangre;almeja de sangre;concha de sangre;concha negra;conchas negras;piangua;concha prieta
+Tridacna gigas,almeja gigante;tridacna
+Pholas dactylus,dátil de mar;dátiles de mar;barrena
+Pinctada margaritifera,ostra perlera;ostra perlífera;madreperla
+Penaeus vannamei,camarón;gamba
+Penaeus monodon,langostino tigre;camarón tigre;langostino jumbo;gamba tigre;gambón tigre
+Penaeus aztecus,camarón café;camarón pardo;camarón marrón
+Penaeus duorarum,camarón rosado;camarón rosa
+Penaeus setiferus,camarón blanco del atlántico;camarón blanco del golfo
+Penaeus indicus,langostino indio;camarón indio;gamba india
+Penaeus japonicus,langostino japonés;kuruma;camarón kuruma;gamba japonesa
+Penaeus merguiensis,langostino banana;camarón banana
+Penaeus chinensis,camarón chino;langostino chino
+Xiphopenaeus kroyeri,camarón siete barbas;titi;camarón titi;camarón sietebarbas;camaroncillo
+Pandalus borealis,camarón nórdico;gamba del ártico;camarón de aguas frías;camarón boreal;gamba nórdica;camarón de fiordo
+Pandalus platyceros,camarón manchado;gamba manchada;spot prawn
+Pandalus jordani,camarón rosado del pacífico;gamba rosada del pacífico
+Pleoticus muelleri,langostino argentino;langostino patagónico;langostino rojo;gambón argentino;langostino austral
+Aristeus antennatus,gamba roja;gamba de palamós;gamba de denia;gamba de garrucha
+Aristaeomorpha foliacea,gamba roja gigante;carabinero chico;langostino moruno
+Palaemon serratus,quisquilla;camarón de roca;camarón común europeo;esquila;camarón de la ría
+Crangon crangon,camarón gris;quisquilla gris;gamba gris;camarón del mar del norte
+Metapenaeus monoceros,camarón moteado;langostino moteado
+Macrobrachium rosenbergii,camarón de río;langostino de río;camarón gigante de malasia;camarón de agua dulce;langostino de agua dulce;camarón malayo
+Macrobrachium nipponense,camarón de río oriental;camarón de río asiático
+Heterocarpus reedi,camarón nailon;camarón nylon;camarón de profundidad
+Plesionika edwardsii,camarón soldado;camarón de fondo;gamba soldado;gamba de fondo
+Munida gregaria,langostino chileno;langostino de los canales;langostino de canal;langostino patagónico chileno;langostino colorado grande
+Pleuroncodes monodon,langostino colorado;langostino rojo chileno
+Homarus americanus,langosta;bogavante;lobster
+Homarus gammarus,bogavante europeo;langosta europea;bogavante azul
+Panulirus argus,langosta espinosa;langosta del caribe;langosta caribeña;langosta espinosa del caribe;langosta de florida
+Panulirus interruptus,langosta roja;langosta de california;langosta de baja california
+Panulirus ornatus,langosta ornamentada;langosta ornada;langosta tropical
+Panulirus homarus,langosta escamosa;langosta de arrecife
+Palinurus elephas,langosta común;langosta del mediterráneo;langosta mediterránea;langosta europea espinosa;langosta roja europea
+Jasus edwardsii,langosta de roca austral;langosta de nueva zelanda;langosta de tasmania
+Jasus lalandii,langosta del cabo;langosta sudafricana;langosta de roca del cabo
+Sagmariasus verreauxi,langosta verde;langosta de roca oriental
+Nephrops norvegicus,cigala;langostino noruego;escampi;scampi
+Metanephrops challengeri,cigala de nueva zelanda;scampi de nueva zelanda
+Scyllarides latus,cigarra de mar;santiaguiño;cigarra;langosta zapatilla
+Thenus orientalis,cigarra de moreton;langosta zapatilla asiática;cigarra de mar asiática
+Ibacus peronii,cigarra de balmain;langosta zapatilla australiana
+Lithodes santolla,centolla;king crab patagónico;cangrejo real patagónico
+Lithodes aequispinus,centolla dorada;cangrejo real dorado;king crab dorado
+Paralithodes camtschaticus,centolla de alaska;cangrejo real;cangrejo rey;king crab;centolla roja
+Paralithodes platypus,cangrejo real azul;centolla azul;king crab azul
+Callinectes sapidus,jaiba;cangrejo azul;cangrejo de concha blanda;jaiba de concha blanda
+Cancer pagurus,buey de mar;buey;cangrejo de mar;cangrejo europeo;cangrejo marrón;bou de mar
+Metacarcinus magister,cangrejo dungeness;cangrejo de dungeness;jaiba dungeness;cangrejo del pacífico norte
+Chionoecetes opilio,cangrejo de las nieves;cangrejo de nieve;cangrejo nieve
+Chionoecetes bairdi,cangrejo tanner;cangrejo de las nieves del pacífico;cangrejo bairdi
+Chionoecetes japonicus,cangrejo de nieve rojo;cangrejo beni zuwai
+Maja squinado,centollo;centolla europea;araña de mar mediterránea
+Maja brachydactyla,centolla gallega;centollo gallego;centollo atlántico;araña de mar;centolla europea atlántica;centollo europeo
+Necora puber,nécora;andarica;cangrejo aterciopelado
+Carcinus maenas,cangrejo verde;cangrejo de costa;cangrejo europeo verde;cangrejo común europeo;cámbaro;cangrejo de mar verde
+Menippe mercenaria,cangrejo de piedra;cangrejo moro;cangrejo piedra de florida
+Cardisoma guanhumi,cangrejo azul de tierra;juey;cangrejo de tierra;cangrejo terrestre;cangrejo azul terrestre;cangrejo de manglar azul
+Ucides cordatus,cangrejo de manglar;cangrejo rojo de manglar;caranguejo uçá;cangrejo uçá
+Portunus pelagicus,cangrejo nadador;jaiba nadadora;jaiba azul asiática;cangrejo azul asiático
+Portunus trituberculatus,cangrejo gazami;gazami;cangrejo nadador japonés;jaiba japonesa
+Scylla serrata,cangrejo de lodo;cangrejo de barro;cangrejo de manglar asiático;cangrejo de mangle asiático;cangrejo de fango
+Charybdis feriata,cangrejo crucifijo;cangrejo cruz;jaiba crucifijo
+Eriocheir sinensis,cangrejo chino;cangrejo de shanghái;cangrejo de mitones chino;cangrejo peludo chino;cangrejo de guantes
+Ranina ranina,cangrejo rana;cangrejo llave;cangrejo de arena
+Procambarus clarkii,cangrejo de río;langosta de río;acocil;cangrejo rojo americano;cangrejo de pantano
+Astacus astacus,cangrejo de río europeo;cangrejo noble;cangrejo de río noble;cangrejo de patas rojas
+Austropotamobius pallipes,cangrejo de río autóctono;cangrejo de patas blancas;cangrejo de río ibérico
+Pacifastacus leniusculus,cangrejo señal;cangrejo de río señal
+Cherax quadricarinatus,langosta australiana;cangrejo australiano;langosta de agua dulce australiana;langosta de pinzas rojas;redclaw
+Cherax destructor,yabby
+Cherax cainii,marrón;cangrejo marrón australiano
+Squilla mantis,galera;camarón mantis;cigala de fango;mantis de mar
+Oratosquilla oratoria,camarón mantis japonés;shako;galera japonesa
+Harpiosquilla raphidea,camarón mantis gigante;galera gigante
+Austromegabalanus psittacus,picoroco
+Pollicipes pollicipes,percebe
+Pollicipes polymerus,percebe del pacífico;percebe americano
+Lepas anatifera,percebe pelágico;percebe de barco;anatifa
+Euphausia superba,krill;kril
+Euphausia pacifica,krill del pacífico;isada
+Acetes japonicus,camarón akiami;camaroncito de pasta;pasta de camarón
+Loxechinus albus,erizo
+Paracentrotus lividus,erizo de mar europeo;erizo mediterráneo;oricio;erizo morado europeo;erizo de mar mediterráneo
+Echinus esculentus,erizo comestible;erizo de mar comestible;erizo europeo grande
+Mesocentrotus franciscanus,erizo rojo
+Strongylocentrotus purpuratus,erizo morado;erizo púrpura
+Strongylocentrotus droebachiensis,erizo verde
+Tripneustes gratilla,erizo colector;erizo tripneustes
+Heliocidaris crassispina,uni murasaki;erizo murasaki;erizo japonés morado
+Mesocentrotus nudus,erizo del norte japonés;kita murasaki
+Isostichopus fuscus,pepino de mar;pepinos de mar;pepino de mar café;pepino de mar marrón;holoturia
+Holothuria scabra,pepino de mar de arena;pepino de arena;sandfish
+Apostichopus japonicus,pepino de mar japonés;namako
+Apostichopus californicus,pepino de mar de california;pepino de mar gigante
+Cucumaria frondosa,pepino de mar naranja;pepino de mar del atlántico norte
+Thelenota ananas,pepino de mar piña;pepino de mar espinoso
+Stichopus horrens,pepino de mar dragón
+Pyura chilensis,piure;piure de chile
+Microcosmus sabatieri,violeta;higo de mar;violet
+Halocynthia roretzi,piña de mar;hoya;meongge
+Styela clava,mideodeok;tunicado coreano
+Halocynthia aurantium,melocotón de mar
+Sipunculus nudus,gusano cacahuete;gusano de maní;gusano maní
+Urechis unicinctus,gaebul;gusano cuchara;pene de mar
+Palola viridis,palolo
+Lingula anatina,lámpara de mar;braquiópodo;lingula
+Branchiostoma belcheri,anfioxo;lanceta;amphioxus
+Apis mellifera,miel;abeja;jalea real;propóleo;hidromiel;miel de azahar;miel de mezquite;miel de aguacate;miel de café;miel de romero;miel de tomillo;miel de tilo;miel de girasol;miel de algarrobo;panal;cera
+Apis cerana,abeja asiática;miel de abeja asiática
+Apis dorsata,abeja gigante;miel de abeja gigante;miel silvestre asiática
+Melipona beecheii,miel de melipona;miel maya;abeja melipona;miel de abeja sin aguijón;miel de abeja melipona;abeja xunan kab;xunan kab;melipona;miel virgen;miel de abeja nativa;abeja nativa sin aguijón;abeja sin aguijón;abejas sin aguijón;miel de abejas sin aguijón;miel yucateca;miel de yucatán;miel de la península;miel de abeja maya;miel de abejas mayas;miel de meliponario;meliponario;miel de jobón;jobón
+Tetragonula carbonaria,miel de abeja sin aguijón australiana;sugarbag;miel sugarbag
+Atta laevigata,hormiga culona;hormigas culonas;hormiga santandereana;hormigas santandereanas;culona;hormiga culona tostada;hormiga culona con sal;hormigas culonas con sal;hormiga reina;hormigas reinas;hormiga arriera reina;hormigas arrieras reinas;hormiga arriera;hormigas arrieras;hormiga cortadora;hormigas cortadoras;hormiga bachaco;bachaco;hormiga chicatana grande;chicatana grande;chicatanas grandes;zompopo;zompopa;sompopo;tzompopo;nucú;chicatana;hormiga chicatana tostada;hormiga chicatana con sal;hormigas chicatanas con sal;hormiga chicatana con limón;hormigas chicatanas con limón;hormiga chicatana con chile;hormigas chicatanas con chile;hormiga chicatana con ajo;hormigas chicatanas con ajo;salsa de chicatana;salsa de hormigas chicatanas;salsa de hormigas;salsa de hormiga;sal de chicatana;sal de hormiga chicatana;sal de hormigas chicatanas;sal de hormiga;chicatana en salsa;chicatana en sal;chicatanas en sal;chicatana en tortilla;chicatanas en tortilla;tortilla de chicatana;tortillas de chicatana;chicatana en empanada;chicatanas en empanada;empanada de chicatana;empanadas de chicatana;chicatana en guacamole;chicatanas en guacamole;guacamole de chicatana;chicatana en tostada;chicatanas en tostada;tostada de chicatana
+Triticum aestivum,trigo;harina;con pan;y pan;pan y;de pan;el pan;un pan;pan de;pan con;pan casero;pan fresco;pan blanco;pan integral;pan tostado;pan dulce;pan francés;pan rallado;pan molido;pan pita;pan de yema;pan lactal;pan amasado;pan batido;bolillo;telera;marraqueta;hallulla;fideos;fideo;tallarines;tallarín;pasta;espaguetis;espagueti;macarrones;tortilla de harina;tortillas de harina;galleta;galletitas;bizcocho;bizcochuelo;pastel;tarta;hojaldre;concha;cuernito;factura;criollos;sémola;semolina;cuscús;bulgur;seitán;salvado;tostada;rosca;roscón;buñuelo;torreja;alfajor;pastelito;panqueque;crepa;hotcake;gluten
+Triticum turgidum,trigo duro;trigo candeal;sémola de trigo duro;farro;emmer
+Triticum spelta,espelta;escanda
+Zea mays,maíz;choclo;jojoto;chócolo;mazorca;mote;cancha;canchita;harina de maíz;masa de maíz;masa harina;harina pan;harina precocida;maicena;maizena;tortilla;totopos;totopo;nixtamal;pozol;pinole;chochoca;chuchoca;chicha;palomitas;pochoclo;cabritas;cotufas;canguil;pipoca;crispetas;gofio;grits;pan de maíz
+Oryza sativa,arroz;harina de arroz;fideos de arroz;leche de arroz
+Avena sativa,avena;leche de avena;quaker;harina de avena
+Hordeum vulgare,cebada;malta;cerveza;maltín
+Secale cereale,centeno;pan de centeno;harina de centeno
+Sorghum bicolor,sorgo;harina de sorgo;maicillo
+Cenchrus americanus,mijo perla;mijo
+Setaria italica,mijo común;panizo;mijo menor
+Panicum miliaceum,mijo proso;mijo blanco
+Eleusine coracana,mijo africano;mijo dedo;ragi
+Eragrostis tef,teff;tef
+Digitaria exilis,fonio
+Coix lacryma-jobi,lágrimas de job;lágrima de job;adlay
+Zizania palustris,arroz salvaje;arroz silvestre
+× Triticosecale,triticale
+Fagopyrum esculentum,trigo sarraceno;alforfón;harina de trigo sarraceno;kasha
+Chenopodium quinoa,quinoa;quinua;kinwa;harina de quinua
+Chenopodium pallidicaule,cañihua;kañiwa;cañahua;kañihua
+Amaranthus caudatus,amaranto;kiwicha;achita;coimi
+Amaranthus hypochondriacus,amaranto mexicano;alegría;huautli;huauhtli
+Amaranthus cruentus,amaranto rojo;amaranto de grano
+Salvia hispanica,chía
+Saccharum officinarum,azúcar;azúcar morena;azúcar rubia;caña;guarapo;panela;piloncillo;chancaca;rapadura;papelón;tapa de dulce;melaza;melado;ron;aguardiente;cachaça;cachaza;guaro;cañazo;almíbar;raspadura
+Beta vulgaris,remolacha;betabel;betarraga;beterraga;betarava;acelga;azúcar de remolacha
+Cyperus esculentus,chufa;horchata valenciana
+Phaseolus vulgaris,frijol;fréjol;poroto;habichuela;caraota;alubia;judía;chaucha;ejote;vainita;judión;cargamanto;calamaco;carioca
+Phaseolus lunatus,pallar;frijol de lima;frijol lima;haba de lima;garrofón;frijol pallar
+Phaseolus coccineus,ayocote;frijol escarlata;judía pinta escarlata;piloy;frijol gordo
+Phaseolus acutifolius,tépari;frijol tépari;escomite;yorimuni
+Phaseolus dumosus,frijol botil;botil;frijol de año;acalete
+Vigna unguiculata,caupí;frijol caupí;frijol de carita;frijol carita;frijoles de carita;frijol chino;frijol cabecita negra;poroto tape;frijol castilla;frijol de castilla;chícharo de vaca;frijol ojo negro;frijol ojito;frijol vaquita;frijol de vara;judía espárrago;frijol metro;bora;frijol de costa;frijol bayo de carita;cowpea
+Vigna radiata,frijol mungo;frijol chino verde;poroto mung;judía mungo;mungo;dientes de dragón;germinado de soya;germinados de soya;brotes de soya;raíces chinas;frijol nacido;frijolito chino;soja germinada;soya germinada
+Vigna angularis,frijol adzuki;poroto adzuki;judía azuki;azuki;adzuki
+Vigna mungo,frijol urad;urad;judía negra india;frijol mungo negro
+Vigna subterranea,maní bambara;frijol bambara;voandzú
+Cicer arietinum,garbanzo;harina de garbanzo;chana
+Lens culinaris,lenteja;lentejón
+Vicia faba,haba;fava
+Pisum sativum,arveja;alverja;guisante;chícharo;petit pois;arvejita;arvejón;alverjita;petipuás;pitipuá;tirabeque;arveja china;holantao;hollantao;ervilla;ervilha
+Lathyrus sativus,almorta;tito;guija;chícharo de almorta;muela;alverjón
+Glycine max,soja;soya;frijol de soya;poroto de soja;porotos de soja;salsa de soja;salsa de soya;tofu;queso de soya;leche de soja;leche de soya;carne de soya;harina de soja;miso;shoyu;proteína texturizada;yuba;tamari
+Arachis hypogaea,maní;cacahuate;cacahuete;mantequilla de maní;manteca de maní;crema de cacahuate;mantequilla de cacahuate;salsa de maní;garapiñados;garrapiñada;turrón de maní;pasta de maní;pasta de cacahuate;turrón de cacahuate;palanqueta;garapiña;garrapiña;chancaca de maní
+Cajanus cajan,gandul;guandú;guandul;frijol de palo;chícharo de árbol;quinchoncho;gandúes;frijol gandul;frijol quinchoncho;frijol de árbol;frijol guandú;frijol chícharo;chícharo de palo;chicharo gandul;toor dal;arhar;cumandá;kumanda
+Lupinus mutabilis,chocho;tarwi;lupino andino;tauri;tarhui;lupino peruano;lupino ecuatoriano;lupino boliviano;lupino
+Lupinus albus,altramuz;altramuces;lupín;chochos españoles;lupino blanco;tremoço;lupino europeo;lupino mediterráneo
+Canavalia ensiformis,frijol espada;haba de burro;frijol canavalia;canavalia;haba de caballo;frijol de caballo;frijol machete;haba de jamaica;haba de las indias;frijol de puerco;frijol de sable
+Canavalia gladiata,frijol sable;frijol espada rojo;canavalia roja;haba de sable
+Erythrina edulis,chachafruto;balú;pajuro;sachaporoto;poroto sachaporoto;basul;frijol de árbol andino;porotón;frisol de monte;poroto de árbol;frijol chachafruto;frijol balú;frijol pajuro;frijol sachaporoto;frijol basul;frijol porotón
+Pachyrhizus erosus,jícama;nabo mexicano;jícama con chile;jícama con limón;jícama con chile y limón;jícama de leche;jícama china;jícama de méxico;jícama de áfrica
+Pachyrhizus ahipa,ahipa;ajipa;jícama andina;jícama boliviana
+Pachyrhizus tuberosus,jíquima;chuin;jícama amazónica;ashipa;yam bean amazónico
+Inga edulis,guama;guaba;pacae;cuaniquil;cuajinicuil;cuijinicuil;jinicuil;paterna;guamo;inga;guaba tropical;guaba de café;guaba de cacao;guaba de plátano;guaba de banano;guaba de yuca;guaba de maíz;guaba de frijol;guaba de arroz;guaba de caña;guaba de coco;guaba de mango;guaba de papaya;guaba de piña;guaba de guayaba;guaba de naranja;guaba de limón;guaba de mandarina;guaba de toronja;guaba de lima;guaba de aguacate;guaba de mamey;guaba de níspero;guaba de chirimoya;guaba de guanábana;guaba de anón;guaba de anona;guaba de curuba;guaba de tomate de árbol;guaba de naranjilla;guaba de lulo;guaba de uchuva;guaba de mora;guaba de fresa;guaba de frambuesa;guaba de arándano;guaba de uva;guaba de manzana;guaba de pera;guaba de durazno;guaba de ciruela;guaba de cereza;guaba de higo;guaba de dátil;guaba de granada;guaba de membrillo;guaba de tamarindo
+Inga feuilleei,pacay peruano;pacae peruano;pacay del perú;pacae del perú;pacay de lima;pacae de lima;pacay costeño;pacae costeño;pacay serrano;pacae serrano;pacay de la costa;pacae de la costa;pacay de la sierra;pacae de la sierra;pacay de ica;pacae de ica;pacay de arequipa;pacae de arequipa;pacay de trujillo;pacae de trujillo;pacay de piura;pacae de piura;pacay de chiclayo;pacae de chiclayo;pacay de huánuco;pacae de huánuco;pacay de cusco;pacae de cusco;pacay de ayacucho;pacae de ayacucho;pacay de huancayo;pacae de huancayo;pacay de tarma;pacae de tarma;pacay de chanchamayo;pacae de chanchamayo;pacay de la selva;pacae de la selva;pacay selvático;pacae selvático
+Prosopis pallida,algarrobo peruano;algarroba peruana;algarrobina;huarango;algarrobo de perú;algarroba de perú;harina de algarroba peruana;algarrobo costeño;algarroba costeña;algarrobo de la costa;algarroba de la costa;algarrobo de piura;algarroba de piura;algarrobo de lambayeque;algarroba de lambayeque;algarrobo de ica;algarroba de ica;algarrobo de tumbes;algarroba de tumbes;algarrobo de la libertad;algarroba de la libertad;algarrobo de ancash;algarroba de ancash;algarrobo de lima;algarroba de lima;algarrobo del norte;algarroba del norte;algarrobo norteño;algarroba norteña;algarrobo desértico;algarroba desértica;algarrobo del desierto;algarroba del desierto;algarrobo peruano de lima;algarroba peruana de lima
+Prosopis alba,algarrobo;algarroba;harina de algarroba;patay;aloja;añapa;algarrobo del chaco;algarroba del chaco;algarrobo de chile;algarroba de chile
+Prosopis glandulosa,mezquite;harina de mezquite;péchita;mezquite de miel
+Ceratonia siliqua,algarroba europea;garrofa;harina de garrofa;garrofín;algarrobo europeo;algarroba española;algarrobo mediterráneo;algarroba mediterránea
+Tamarindus indica,tamarindo;tamarindo en pasta;pasta de tamarindo;tamarindo con chile;tamarindo con sal;tamarindo en almíbar;helado de tamarindo;salsa de tamarindo;salsa agridulce de tamarindo;salsa de tamarindo con chile;salsa de tamarindo para pollo;salsa de tamarindo para carne;salsa de tamarindo para camarones
+Trigonella foenum-graecum,fenogreco;alholva;methi;fenugreco
+Medicago sativa,alfalfa
+Psophocarpus tetragonolobus,frijol alado;judía alada;poroto alado;frijol de cuatro ángulos
+Lablab purpureus,frijol jacinto;dólico;frijol caballo;chícharo de vaca lablab;frijol lablab;zarandaja;frijol chino lablab;poroto de egipto;frijol de egipto;judía de egipto;frijol egipcio;haba de egipto;frijol de la india lablab;judía india lablab
+Macrotyloma uniflorum,kulthi;gramo de caballo;horse gram
+Cyamopsis tetragonoloba,guar;frijol guar;judía guar;poroto guar
+Tylosema esculentum,frijol marama;marama;gemsbok bean
+Pueraria montana,kudzu;kuzu
+Apios americana,apios;papa de la india;hopniss
+Sphenostylis stenocarpa,frijol ñame africano;yam bean africano
+Parkia biglobosa,néré;dawadawa;frijol de langosta africano;algarrobo africano;iru;soumbala
+Parkia speciosa,petai;frijol apestoso;stink bean;sator
+Leucaena esculenta,guaje;huaje;salsa de guaje;guaxmole;huaxmole;guaje poblano;guaje de méxico
+Leucaena leucocephala,guaje blanco;leucaena;ipil ipil;tantán;guaje de vaina;huaxin;guaje ganadero;guaje forrajero;guaje de castilla;guaje manso;guaje de la india;guaje filipino;guaje hawaiano;guaje australiano;guaje africano;guaje asiático;guaje americano;guaje centroamericano;guaje sudamericano;guaje caribeño;guaje tropical;guaje subtropical;guaje de zona cálida;guaje de zona templada;guaje de zona fría;guaje de altura;guaje de valle;guaje de montaña;guaje de costa;guaje de sierra;guaje de selva;guaje de bosque;guaje de sabana;guaje de pradera;guaje de desierto;guaje de matorral;guaje de chaparral;guaje de manglar;guaje de humedal;guaje de ribera;guaje de río;guaje de lago;guaje de laguna;guaje de estero;guaje de pantano;guaje de ciénaga;guaje de marisma;guaje de playa;guaje de duna;guaje de acantilado;guaje de isla;guaje de península;guaje de continente
+Pithecellobium dulce,guamúchil;huamúchil;pinzán;chiminango;tamarindo de manila;payandé;madras thorn;tamarindo chino guamúchil;guamúchil de méxico;guamúchil tropical
+Solanum tuberosum,papa;cachelos;cachelo;patata;puré;chuño;tunta;moraya;milcao;chapalele;tortilla de papas
+Ipomoea batatas,camote;batata;boniato;papa dulce;patata dulce;chaco;kumara;moniato;boniatillo
+Manihot esculenta,yuca;mandioca;casabe;cazabe;cassava;guacamote;aipim;tapioca;pan de yuca;cuñapé;enyucado;carimañola;farofa;fariña;mañoco;almidón agrio;polvilho;casave;cazave
+Dioscorea alata,ñame;ube
+Dioscorea rotundata,ñame blanco;ñame africano
+Dioscorea trifida,ñame criollo;mapuey;yampí;sacha papa;cará;ñampi
+Dioscorea cayenensis,ñame amarillo
+Colocasia esculenta,taro;malanga isleña;papa china;papa japonesa;ocumo chino;pituca;quequisque chino;dasheen;eddoe;bituca;gualuza;malanga china;dalo;otoe
+Xanthosoma sagittifolium,malanga;yautía;ocumo;quequisque;macal;tiquisque;tannia;mafafa;otoy;rascadera;pelma;bore;mangareto
+Oxalis tuberosa,oca;ibia;cuiba;apilla
+Ullucus tuberosus,olluco;ulluco;melloco;papa lisa;papalisa;ruba;olluquito
+Tropaeolum tuberosum,mashua;mashwa;isaño;añu;cubio;majua
+Arracacia xanthorrhiza,arracacha;apio criollo;zanahoria blanca;racacha;virraca;mandioquinha;batata baroa
+Smallanthus sonchifolius,yacón;llacón;aricoma
+Canna indica,achira;sagú;harina de achira;bizcocho de achira
+Maranta arundinacea,arrurruz;arruruz;sagú de las indias;harina de arrurruz;maranta
+Goeppertia allouia,lerén;lairén;dale dale;llerén
+Mirabilis expansa,mauka;chago;miso andino
+Lepidium meyenii,maca;harina de maca
+Daucus carota,zanahoria
+Raphanus sativus,rábano;rabanito;daikon
+Brassica rapa,nabo;nabiza;grelos;grelo;col china;col de napa;bok choy;pak choi;hakusai
+Armoracia rusticana,rábano picante;rábano rusticano;raifort
+Helianthus tuberosus,topinambur;tupinambo;alcachofa de jerusalén;pataca;topinambo;aguaturma
+Pastinaca sativa,chirivía;pastinaca
+Apium graveolens,apio;apio nabo;apionabo;apio rábano;sal de apio
+Cichorium intybus,achicoria;radicheta;radicchio;endivia belga;endibia;café de achicoria
+Cichorium endivia,escarola;endivia rizada
+Zingiber officinale,jengibre;kion;quión;ajengibre;gengibre;té de jengibre
+Curcuma longa,cúrcuma;palillo;azafrán de la india
+Alpinia galanga,galanga;galangal
+Allium cepa,cebolla;cebollita;chalota;chalote;echalote;escalonia
+Allium fistulosum,cebolla de verdeo;cebolla verde;cebollín;cebollita china;cebolla china;cebolla larga;cebolla junca;cebolla de rama;cebolla de cambray;cebolla cambray;cebollita de cambray;cebolleta;cebolla de rabo;cebolla en rama;cebolla de hoja;verdeo;cebolla puerro chino;negi
+Allium sativum,ajo;al ajillo;ajillo;alioli;ajoblanco
+Allium ampeloprasum,puerro;poro;ajo porro;ajoporro;ajo puerro;ajopuerro;ajo elefante;ajo chilote;ajo de elefante
+Allium schoenoprasum,cebollino;ciboulette;cebolleta francesa;cebollín francés
+Allium tuberosum,cebollino chino;ajo cebollino;nira;ciboulette china;cebollín chino
+Allium ursinum,ajo de oso;ajo silvestre
+Allium chinense,rakkyo;cebolla china japonesa
+Solanum lycopersicum,tomate;jitomate;tomate cherry;tomate pera;tomate riñón;pasta de tomate;puré de tomate;salsa de tomate;salsa de jitomate;ketchup;catsup;salmorejo;chirmol;chirmole
+Solanum betaceum,tomate de árbol;tomates de árbol;tamarillo;tomate de palo;tomate andino;tomate serrano;sachatomate;tomate chilto;ají de tomate de árbol
+Solanum quitoense,naranjilla;lulo;lulada
+Solanum muricatum,pepino dulce;pepinos dulces;pepino melón;pepino de fruta;pepino andino;melón de árbol;pepino peruano
+Solanum melongena,berenjena;berenjena china;escalivada
+Solanum aethiopicum,berenjena africana;berenjena escarlata;tomate amargo;jiló;gilo
+Solanum sessiliflorum,cocona;cubiu;topiro;tupiro;lulo amazónico
+Solanum nigrum,hierba mora;yerba mora;hierbamora
+Solanum americanum,macuy;quilete;hierba mora americana;yerba mora americana
+Solanum torvum,friegaplatos;friega platos;berenjena de gallina;tomatillo de perro;pea eggplant;berenjena silvestre
+Solanum sisymbriifolium,tutiá;tomatillo espinoso;revienta caballos;espina colorada
+Solanum caripense,tzimbalo;zimbalo
+Jaltomata procumbens,jaltomate;jaltomata
+Physalis philadelphica,tomatillo;tomate verde;tomates verdes;tomate de cáscara;tomate de milpa;tomate de fresadilla;miltomate;tomate mexicano;tomate de hoja;tomate de bolsa
+Physalis peruviana,uchuva;aguaymanto;uvilla;physalis;alquequenje;topotopo;tomatito silvestre;fisalis;amor en bolsa;cereza del perú;ushun;motojobobo;cape gooseberry;golden berry
+Physalis pruinosa,tomatillo de tierra;cereza de tierra
+Physalis angulata,tomatillo silvestre;capulí angulata;bolsa mullaca;mullaca
+Capsicum annuum,chile;jalapeño;chipotle;serrano;poblano;guajillo;pasilla;piquín;pequín;morita;chilaca;cayena;pimienta de cayena;pimiento;morrón;pimentón;paprika;piquillo;ñora;guindilla;rajas;merkén;merquén;ají de color;ají color;ají cacho de cabra;cacho de cabra;ají cristal;ají verde;ají chileno;salsa picante;ají picante;ají molido;ají en polvo;ají
+Capsicum baccatum,ají amarillo;ajíes amarillos;ají escabeche;ají mirasol;pasta de ají amarillo;ají campanita;ají mochero;ají arnaucho;ají ayuyo;ají dedo de niña;dedo de moza;ají putaparió;ají cumbarí;ají chinchi uchu
+Capsicum chinense,habanero;ají panca;pasta de ají panca;ají limo;ají charapita;charapita;ají dulce;ajíes dulces;ají cachucha;ají gustoso;ají criollo;ajicito;ají chombo;chile chombo;chile congo;chile panameño;scotch bonnet;ají chivato;ají pajarito;ají chirel;chile guaguao;ají guaguao;chile cabro;ají de jardín
+Capsicum frutescens,tabasco;salsa tabasco;chile tabasco;piri piri;peri peri;malagueta;chile malagueta;ají malagueta;chile bravo;ají bravo;ají chiquito;ají de monte;chile de monte;ají pique;chile pajarito;siling labuyo;ají cayena
+Capsicum pubescens,rocoto;locoto;chile manzano;chiles manzanos;chile perón;chile canario;chile ciruelo;salsa de rocoto;pasta de rocoto;chile de cera;chile caballo;chile chamburoto;ají rocoto;ají locoto
+Lactuca sativa,lechuga;lechuga iceberg;cogollos de tudela;cogollos;ensalada verde
+Spinacia oleracea,espinaca
+Brassica oleracea,repollo;col;lombarda;kale;berza;repollito de bruselas;repollitos de bruselas;coliflor;brócoli;brécol;colinabo;colirrábano;col rábano;romanesco;chucrut;curtido;couve;cavolo nero;repollitos;kohlrabi;colecita
+Brassica napus,colza;canola;nabo sueco;rutabaga;nabicol
+Brassica juncea,mostaza parda;mostaza china;hojas de mostaza;mostaza de hoja;mostaza india;mostaza morena;mostaza verde
+Sinapis alba,mostaza;mostaza de dijon;mostaza dijon;salsa de mostaza
+Brassica nigra,mostaza negra
+Eruca vesicaria,rúcula;arúgula;roqueta;oruga;ruca
+Nasturtium officinale,berro;mastuerzo de agua
+Lepidium sativum,mastuerzo;berro de jardín;berro de tierra;lepidio
+Tropaeolum majus,capuchina;taco de reina;mastuerzo de indias;espuela de galán
+Cucumis sativus,pepino;pepinillo;cohombro
+Cucumis melo,melón;cantalupo;cantaloupe;piel de sapo;honeydew
+Citrullus lanatus,sandía;patilla;melón de agua;melancia
+Cucurbita maxima,zapallo;zapallo camote;kabutiá;kabocha;calabaza gigante;buttercup;zapallo mantequilla;calabaza turbante;calabaza kabocha
+Cucurbita moschata,calabaza;calabaza moscada;calabaza cacahuate;calabaza cacahuete;anco;zapallo anco;zapallo anquito;anquito;zapallo coreano;auyama;ayote;ahuyama;zapallo loche;loche;tamalayota;calabaza china;pepita;pipas de calabaza;zapallo de invierno;musquée de provence;calabaza cheese
+Cucurbita pepo,calabacín;calabacita;zapallito;zucchini;zuchini;zuquini;calabaza de verano;calabaza de bellota;calabaza bellota;calabaza acorn;calabaza espagueti;calabaza spaghetti;calabaza pattypan;calabaza patisson;calabaza pastel;calabaza de pastel;calabaza de halloween;calabaza delicata;güicoy;güicoyitos;ayote tierno;ayotes tiernos;pipián tierno;zapallo italiano;aceite de semilla de calabaza;aceite de pepita de calabaza;calabaza estiria;calabaza crookneck;calabaza amarilla;zoodles;fideos de zucchini;noodles de zucchini;tallarines de zucchini;calabaza cocozelle;calabaza costata romanesco;calabaza sweet dumpling;calabaza carnaval;calabaza de cuello torcido
+Cucurbita ficifolia,chilacayote;cayote;lacayote;alcayota;cidra cayote;cabello de ángel;chiverre;zambo;sambo;calabaza confitera;gila;calabaza de siam;cabellos de ángel;calabaza de hoja de higuera
+Cucurbita argyrosperma,calabaza pipiana;calabaza pipián;pipiana;calabaza mixta;cushaw;calabaza cushaw;calabaza de tamal;ayote pipián;pepita de pipián;pepitas de pipián;calabaza de pepita;calabaza pepitera;calabaza de semilla;calabaza de plata;calabaza jonah;salsa de pipián
+Sechium edule,chayote;chayota;guatila;papa de pobre;cidra papa;cidrayota;tayota;güisquil;huisquil;chayotera;chayotli;chuchu;xuxu;papa del aire;papa de aire;chinchayote;ichintal;cueza
+Cyclanthera pedata,caigua;caihua;achojcha;achocha;achogcha;pepino de rellenar;korila;corila;cayua;caygua;cayhua;pepino hueco;jaiba vegetal;caigua rellena
+Momordica charantia,melón amargo;cundeamor;cundiamor;balsamina;pepino amargo;calabaza amarga;bitter melon;goya;karela;sorosí;archucha;tomaco;melón de san cayetano;balsamino;ampalaya
+Luffa aegyptiaca,estropajo;calabaza esponja;lufa;luffa;sikwa;sicua
+Luffa acutangula,estropajo angular;lufa angular;calabaza de aristas;lufa de aristas;pepino angular
+Lagenaria siceraria,bule;guaje tierno;calabaza bule;tecomate;jícaro tierno;calabaza vinatera;porongo;calabaza botella;calabaza de botella;calabaza cuello de cisne;lagenaria;calabaza de agua;calabaza cantimplora;calabaza de mate;opo;upo;calabaza opo;calabaza larga china;cucuzza;calabaza siciliana;bottle gourd;calabaza de peregrino;calabaza peregrina
+Benincasa hispida,calabaza de cera;calabaza china de invierno;calabaza blanca china;melón de invierno;calabaza cenicienta;calabaza ceniza;winter melon;dong gua;tong kwa
+Trichosanthes cucumerina,calabaza serpiente;calabaza culebra;pepino serpiente;chichinda
+Sicana odorifera,cassabanana;casabanana;calabaza melón;melocotón de olor;melón de olor;curuba de olor;pepino melocotón;calabaza de olor;sicana
+Cucumis anguria,pepino cimarrón;maxixe;pepinillo de las antillas;pepino de las antillas;pepino africano;pepino erizado;pepino espinoso
+Cucumis metuliferus,kiwano;melón africano;pepino africano con cuernos;melón cornudo;pepino cornudo
+Melothria scabra,sandiíta;pepinito;pepinillo mexicano;cucamelón;sandía de ratón;sandía miniatura;pepino de ratón
+Abelmoschus esculentus,okra;quimbombó;quingombó;gombo;molondrón;ñajú;chimbombó;bamia;bhindi;calalú;dedos de dama;lady finger;quiabo;angú
+Amaranthus tricolor,bledo;quelite de bledo;quintonil;amaranto de hoja;hoja de amaranto;hojas de amaranto;calalú de bledo;callaloo;espinaca china;yuyo de amaranto;ataco;sangorache
+Amaranthus hybridus,quelite;bledo manso;quintonil silvestre;amaranto silvestre;yuyo
+Amaranthus dubius,calalú dubius;espinaca de la india;bledo blanco
+Amaranthus spinosus,bledo espinoso;bledo con espinas;quelite espinoso;amaranto espinoso
+Amaranthus viridis,bledo verde;bledo delgado;yuyo verde;quelite verde
+Chenopodium berlandieri,huauzontle;huazontle;guauzontle;quelite cenizo;cenizo;quelite de cenizo;chual
+Chenopodium album,cenizo blanco;quinoa silvestre;armuelle silvestre;ceñilgo;bledo blanco cenizo;quinua silvestre;yuyo blanco
+Portulaca oleracea,verdolaga;beldroega;portulaca
+Atriplex hortensis,armuelle;espinaca de monte;orache
+Tetragonia tetragonioides,espinaca de nueva zelanda;espinaca neozelandesa;espinaca de verano
+Basella alba,espinaca de malabar;espinaca china trepadora;espinaca de ceilán;espinaca india;espinaca trepadora;basela;espinaca de vid
+Ipomoea aquatica,espinaca de agua;kangkong;kangkung;espinaca china de agua;ong choy;batata de agua
+Talinum fruticosum,espinaca de java;espinaca de surinam;espinaca de filipinas;verdolaga de jardín;verdolaga francesa;carurú;espinaca tropical;tapaculo;ilán
+Cnidoscolus aconitifolius,chaya;árbol de espinaca;espinaca maya;dzotobichay;brazo de reina
+Crotalaria longirostrata,chipilín;chepil
+Yucca gigantea,flor de izote;flores de izote;izote;flor de yuca;flores de yuca;flor de itabo;itabo
+Chamaedorea tepejilote,pacaya;tepejilote;palmito de pacaya
+Anoda cristata,alache;quelite alache;amapolita;malva de campo
+Galinsoga parviflora,guasca;hierba de ajiaco;yerba de ajiaco;mielcilla;piojito;saetilla
+Eryngium foetidum,culantro;cilantro de monte;cilantro cimarrón;cilantro ancho;cilantro de hoja ancha;recao;recaíto;cilantro de coyote;chicoria;cilantro habanero;alcapate;samat;cilantro sabanero;cilantrón;ngo gai;cilantro de pata;cilantro extranjero;culantro habanero
+Coriandrum sativum,cilantro;coriandro;culantro de castilla
+Petroselinum crispum,perejil
+Anethum graveolens,eneldo;hinojo de perro
+Foeniculum vulgare,hinojo;anís de hinojo
+Ocimum basilicum,albahaca;albaca;salsa pesto
+Ocimum tenuiflorum,albahaca sagrada;tulsi;albahaca santa;albahaca india
+Origanum vulgare,orégano
+Origanum majorana,mejorana;mayorana;marjoram
+Lippia graveolens,orégano mexicano;orégano de méxico;orégano de campo;orégano cimarrón;orégano criollo;orégano de monte mexicano
+Lippia alba,juanilama;salvia sija;pronto alivio;prontoalivio;salvia santa;cidrón de monte;hierba del negro;curatodo;curalotodo;orégano poleo;toronjil de monte
+Coleus amboinicus,orégano orejón;oreganón;orégano de hoja gruesa;orégano brujo;orégano francés;orégano cubano;orégano grueso;orégano de la costa
+Piper nigrum,pimienta
+Pimenta dioica,pimienta gorda;pimienta de jamaica;pimienta dulce;malagueta dulce;guayabita;pimienta de tabasco;pimienta inglesa
+Cinnamomum verum,canela
+Cinnamomum cassia,canela cassia;canela china;casia
+Syzygium aromaticum,clavo
+Myristica fragrans,nuez moscada;macis;moscada
+Cuminum cyminum,comino
+Carum carvi,alcaravea;comino de prado;carvi
+Pimpinella anisum,anís
+Illicium verum,anís estrellado;anís estrella;badiana
+Elettaria cardamomum,cardamomo
+Amomum subulatum,cardamomo negro
+Crocus sativus,azafrán
+Bixa orellana,achiote;annato;annatto;onoto;bija;bijol;urucú;color;pasta de achiote;recado rojo
+Vanilla planifolia,vainilla
+Laurus nobilis,laurel
+Thymus vulgaris,tomillo
+Salvia rosmarinus,romero
+Salvia officinalis,salvia
+Mentha spicata,yerbabuena;menta;hierba buena;yerba buena
+Mentha × piperita,menta piperita;peppermint
+Mentha × villosa,hierbabuena cubana;menta de mojito;hierbabuena de mojito
+Tagetes minuta,huacatay;wacatay;chinchilla;chiquilla;suico;ocopa hierba
+Tagetes lucida,pericón;yerbaniz;hierbanís;yerba anís;tarragón mexicano;estragón mexicano;santa maría
+Tagetes erecta,cempasúchil;flor de muerto;zempasúchil;cempoal
+Tagetes filifolia,anisillo;anís de campo;hierba anís
+Dysphania ambrosioides,epazote;paico;apazote;hierba santa mexicana;ipazote;pazote;yerba de santa maría
+Piper auritum,hoja santa;hojas santas;acuyo;hierba santa;tlanepa;hoja de anís
+Porophyllum ruderale,pápalo;papaloquelite;quilquiña;quirquiña;killi
+Porophyllum linaria,pipicha;pipitza;pepicha;chepiche
+Artemisia dracunculus,estragón;tarragón
+Anthriscus cerefolium,perifollo
+Levisticum officinale,levístico;apio de monte;ligústico
+Satureja hortensis,ajedrea
+Satureja montana,ajedrea de monte
+Hyssopus officinalis,hisopo
+Melissa officinalis,toronjil;melisa;toronjil de limón;cidronela
+Aloysia citrodora,cedrón;hierba luisa;hierbaluisa;yerba luisa;verbena de limón;maría luisa
+Aloysia polystachya,té de burro;té de burrito
+Cymbopogon citratus,zacate limón;zacate de limón;malojillo;caña santa;hierba limón;té de limón;pasto limón;lemongrass;hierba de limón
+Minthostachys mollis,muña;poleo andino
+Minthostachys verticillata,peperina;piperina
+Peumus boldus,boldo;té de boldo
+Drimys winteri,canelo;foye
+Baccharis trimera,carqueja;carquejilla
+Matricaria chamomilla,manzanilla;té de manzanilla;camomila
+Chamaemelum nobile,manzanilla romana
+Tilia cordata,tilo;té de tilo;tila
+Valeriana officinalis,valeriana;té de valeriana
+Rosa rubiginosa,rosa mosqueta;mosqueta;té de rosa mosqueta
+Rosa damascena,agua de rosas;rosa de damasco;pétalos de rosa
+Hibiscus sabdariffa,rosella;té de jamaica;hibisco;saril
+Stevia rebaudiana,estevia;stevia;yerba dulce;kaá heé;ka'a he'ê
+Glycyrrhiza glabra,regaliz;orozuz;palo dulce;paloduz
+Nigella sativa,comino negro;ajenuz;neguilla;semilla negra
+Trachyspermum ammi,ajowan;ajwain;comino de etiopía
+Sesamum indicum,sésamo;ajonjolí;tahini;tahina;pasta de sésamo
+Linum usitatissimum,linaza;lino
+Helianthus annuus,girasol;pipas;maravilla;pepitas de girasol
+Papaver somniferum,amapola
+Capparis spinosa,alcaparra;alcaparrón;tápara
+Olea europaea,aceituna;oliva;tapenade
+Elaeis guineensis,aceite de palma;palma aceitera;dendé;corozo africano
+Cocos nucifera,coco;leche de coco;crema de coco;pipa;harina de coco;azúcar de coco;manjar de coco
+Persea americana,aguacate;palta;cura;avocado;guacamol;salsa de aguacate
+Persea schiedeana,chinene;chinini;pagua;coyó;yas;aguacate de anís;chinín
+Cynara cardunculus,alcachofa;alcaucil;cardo
+Asparagus officinalis,espárrago
+Urtica dioica,ortiga
+Taraxacum officinale,diente de león;amargón;achicoria amarga;dientes de león
+Rumex acetosa,acedera;vinagrera;lengua de vaca
+Rumex crispus,lengua de vaca rizada;romaza;acedera rizada
+Plantago major,llantén;plantago
+Malva sylvestris,malva;té de malva
+Borago officinalis,borraja
+Equisetum arvense,cola de caballo;té de cola de caballo;equiseto
+Nelumbo nucifera,loto
+Eleocharis dulcis,castaña de agua;castañas de agua;castaña de agua china
+Trapa natans,castaña de agua europea;abrojo de agua;tríbulo acuático;nuez de agua
+Schoenoplectus acutus,tule
+Typha latifolia,totora;espadaña;enea;anea;junco de estera
+Sagittaria latifolia,flecha de agua;sagitaria;wapato;papa de pato
+Opuntia ficus-indica,nopal;nopalito;higo chumbo;higos chumbos;higo de tuna;tuna verde;tuna roja;tuna amarilla;tuna blanca;tuna de castilla;tuna cardona;chumbera;tuna fruta;fruta tuna;higo de la india;higo de pala;higo de barbaria;tunas
+Opuntia joconostle,xoconostle;joconostle;tuna agria;tuna ácida;xoconoxtle
+Opuntia robusta,nopal tapón;tapón;nopal camueso;tuna tapona;tuna camuesa;tuna morada;tuna de tapón
+Opuntia engelmannii,nopal de engelmann;tuna de engelmann;nopal cuijo;cuijo;tuna cuija;nopal texano;tuna texana
+Stenocereus thurberi,pitaya dulce;pitaya de órgano;pitaya de sonora;pitaya sonorense;pitahaya de órgano;órgano;pitaya
+Stenocereus griseus,pitayo de mayo;pitaya de mayo;pitaya griseus;pitaya venezolana;pitaya colombiana;pitaya de cardón;cardón de dato;dato
+Stenocereus queretaroensis,pitaya de querétaro;pitaya queretana;pitaya de jalisco;pitaya jalisciense;pitaya de zacatecas;pitaya zacatecana;pitaya de aguascalientes;pitaya de guanajuato
+Stenocereus pruinosus,pitaya de octubre;pitaya de oaxaca;pitaya oaxaqueña;pitaya de puebla;pitaya poblana;pitaya de mixteca;pitaya mixteca;pitaya de tehuacán
+Selenicereus undatus,pitahaya;pitaya blanca;fruta del dragón;fruta de dragón;dragon fruit
+Selenicereus costaricensis,pitahaya roja;pitaya roja;pitahaya de pulpa roja;pitahaya costarricense;pitahaya de costa rica;fruta del dragón roja;pitahaya morada;pitaya morada
+Selenicereus megalanthus,pitahaya amarilla;pitaya amarilla;pitahaya colombiana;pitahaya de colombia;fruta del dragón amarilla;pitahaya ecuatoriana;pitahaya de ecuador;pitahaya de palora
+Carnegiea gigantea,saguaro;sahuaro;pitahaya de saguaro;vino de saguaro
+Pachycereus pringlei,cardón
+Myrtillocactus geometrizans,garambullo;garambuyo
+Echinocactus platyacanthus,biznaga;acitrón
+Echinopsis chiloensis,quisco;guillave;pitaya chilena
+Eulychnia acida,copao;rumpa
+Corryocactus brevistylus,sancayo;sanky
+Cereus repandus,pitahaya peruana;pitaya peruana;cactus manzana;manzana de cactus;cardón peruano;pitaya de cardón peruano
+Cereus jamacaru,mandacaru;cardón brasileño;pitaya de mandacaru;cactus mandacaru
+Pereskia aculeata,ora pro nóbis;hoja de cactus;hojas de cactus;carne de pobre;cactus de hoja;pereskia;guamacho
+Agave tequilana,agave azul;agave tequilero;jarabe de agave;miel de agave;sirope de agave;néctar de agave;agave
+Agave angustifolia,agave espadín;maguey espadín;bacanora;espadín mezcalero;agave mezcalero;maguey mezcalero
+Agave salmiana,pulque;maguey pulquero;maguey;mixiote
+Agave americana,maguey americano;agave americano;aguamiel de maguey americano;pulque de maguey americano;maguey pita;agave pita
+Dahlia pinnata,dalia
+Dahlia coccinea,dalia roja;dalia silvestre;dalia escarlata;dalia coccinea;dalia de monte;dalia mexicana
+Citrus sinensis,naranja;china;naranjada
+Citrus aurantium,naranja agria;naranja amarga;naranja cajera;naranja de sevilla;naranja sevillana;naranja bigarade;azahar
+Citrus limon,limón;limonada
+Citrus aurantiifolia,lima;limón sutil;limón criollo;limón peruano;limón mexicano;limón ceutí;limón de pica;limón chico;limón verde;limón pequeño;limón agrio;limón colima;limón key;key lime;limoncito;limón de cocina
+Citrus latifolia,limón tahití;limón persa;lima persa;lima tahití;limón sin semilla;limón grande;lima de persia
+Citrus hystrix,lima kaffir;lima makrut;combava;limón kaffir;lima de kaffir
+Citrus reticulata,mandarina;tangerina;mandarino
+Citrus clementina,clementina;clementino
+Citrus unshiu,satsuma;mandarina satsuma;mikan
+Citrus paradisi,toronja;pomelo;pamplemusa
+Citrus maxima,pomelo chino;pampelmusa;pomelo gigante;pummelo;toronja china;cimboa;zamboa;pomelo asiático
+Citrus medica,cidra;cidro;citrón;cedro;cidra en almíbar;etrog
+Citrus junos,yuzu;limón yuzu
+Citrus japonica,kumquat;quinoto;naranjita china;naranja enana;kinoto;naranjita
+Citrus bergamia,bergamota;té earl grey
+Malus domestica,manzana;puré de manzana;sidra;manzana reineta;tarta de manzana;pastel de manzana;manzana de la sierra
+Pyrus communis,pera;pera piña;pera al vino;peras al vino;pera en almíbar;peras en almíbar;tarta de pera;pastel de pera;pera de la sierra
+Prunus persica,durazno;melocotón;nectarina;pelón
+Prunus armeniaca,damasco;albaricoque;chabacano
+Prunus domestica,ciruela;ciruela pasa;ciruelas pasas;claudia
+Prunus salicina,ciruela japonesa;ciruela roja;ciruela santa rosa;ciruela criolla
+Prunus avium,cereza;picota
+Prunus cerasus,guinda;cereza ácida;cereza agria;marrasquino
+Prunus dulcis,almendra;leche de almendras;harina de almendra;turrón
+Prunus serotina,capulí;cereza negra
+Prunus spinosa,endrina;pacharán
+Cydonia oblonga,membrillo;carne de membrillo
+Eriobotrya japonica,níspero;míspero
+Mespilus germanica,níspero europeo;níspero alemán
+Punica granatum,granada;granadina
+Ficus carica,higo;breva
+Phoenix dactylifera,dátil
+Diospyros kaki,caqui;kaki;persimón;palosanto
+Diospyros digyna,zapote negro;zapotes negros;zapote prieto;sapote negro
+Actinidia deliciosa,kiwi;quivi
+Fragaria × ananassa,frutilla;fresa;fresón
+Fragaria chiloensis,frutilla chilena;frutilla blanca;frutilla de chile;fresa chilena
+Rubus glaucus,mora
+Rubus fruticosus,zarzamora;mora silvestre;mora europea
+Rubus idaeus,frambuesa
+Rubus chamaemorus,mora de los pantanos;mora ártica
+Vaccinium corymbosum,arándano;blueberry
+Vaccinium macrocarpon,arándano rojo;arándanos rojos;cranberry;cranberries;arándano agrio
+Vaccinium myrtillus,mirtilo;arándano europeo;arándano silvestre
+Vaccinium floribundum,mortiño;agraz andino
+Vaccinium meridionale,agraz;mortiño colombiano
+Vaccinium vitis-idaea,arándano rojo europeo;lingonberry
+Ribes nigrum,grosella negra;grosellas negras;casis;cassis;zarzaparrilla negra
+Ribes rubrum,grosella
+Ribes uva-crispa,grosella espinosa;uva espina;uva crespa;grosella verde
+Sambucus nigra,saúco
+Morus nigra,mora negra;morera negra;mora de morera
+Morus alba,morera;mora blanca;mora de árbol
+Vitis vinifera,uva;vino;pasas;pasa;pisco;mosto;espumante;champán;champaña;cava;brandy;coñac;jerez;oporto;vermut;grapa;grappa;singani;arrope;hoja de parra;hojas de parra;sultana
+Vitis labrusca,uva concord;uva americana;uva chinche;uva isabella
+Musa × paradisiaca,plátano;banano;guineo;cambur;tostón;patacón;tajadas;chifles;mariquitas;platanitos;platanutres;chips de plátano;plátano asado;harina de plátano;pan de plátano;pan de banana
+Ananas comosus,piña;ananá
+Mangifera indica,mango;mango con chile
+Carica papaya,papaya;lechosa;fruta bomba;papayón
+Vasconcellea pubescens,papayuela;papaya de monte;chamburo;papaya andina;papaya de altura;chilacuán
+Vasconcellea × heilbornii,babaco
+Psidium guajava,guayaba;guayabo;guayabate;pasta de guayaba
+Psidium cattleyanum,guayaba fresa;arazá rojo;arazá amarillo;guayaba cattley
+Psidium guineense,guayaba agria;guayaba ácida;guayaba brasileña;arazá guineense;guayabita sabanera;guayaba de sabana
+Acca sellowiana,feijoa;guayabo del país;guayaba del país;guayaba chilena
+Ugni molinae,murta;murtilla
+Luma apiculata,arrayán;palo colorado;temu
+Eugenia uniflora,pitanga;ñangapirí;cereza de cayena;cereza de surinam
+Plinia cauliflora,jabuticaba;jaboticaba;guapurú;guaperu;yvapurú;ivapurú
+Syzygium malaccense,pomarrosa malaya;manzana de agua;manzana malaya;pomarrosa;marañón japonés;cajuil japonés
+Syzygium jambos,pomarrosa común;pomarrosa blanca;poma rosa;pomarosa;manzana rosa;yambo
+Syzygium cumini,jambolán;aceituna negra dulce;ciruela de java;jambul;jamún
+Annona cherimola,chirimoya;cherimoya;chirimoyo
+Annona muricata,guanábana;graviola;catuche;catoche
+Annona squamosa,anón;saramuyo;anona blanca;fruta del conde
+Annona reticulata,anona;mamón anona
+Annona mucosa,biribá;anón amazónico;anona amazónica;chirimoya brasileña;anona de brasil
+Pouteria lucuma,lúcuma;helado de lúcuma;harina de lúcuma
+Pouteria sapota,mamey;zapote colorado;zapote rojo
+Pouteria campechiana,canistel;zapote amarillo;zapotillo;kanisté;huevo vegetal;fruta huevo
+Pouteria caimito,caimito amarillo;abiu;abio;caimo;cauje;luma amazónica
+Manilkara zapota,chicozapote;níspero de venezuela;níspero venezolano;zapote chico;sapodilla
+Casimiroa edulis,zapote blanco;zapotes blancos;matasano;cochitzapotl;zapote dormilón;zapote de castilla
+Mammea americana,mamey de santo domingo;mamey amarillo;mamey de cartagena;mamey americano;mamey de las antillas;mamey criollo
+Chrysophyllum cainito,caimito;cainito
+Melicoccus bijugatus,mamoncillo;mamón;quenepa
+Spondias purpurea,jocote;ciruela de huesito;ciruela huesito;ciruela roja tropical;ciruela mexicana
+Spondias mombin,jobo;hobo;ciruela amarilla;jobito;ubos
+Spondias dulcis,ciruela dulce;juplón;yuplón;ciruela de cristal;jobo de la india;mango de la india
+Byrsonima crassifolia,nance;nanche;nancite;changunga
+Malpighia emarginata,acerola;semeruco;cereza de barbados;cereza de jamaica;cereza de las antillas
+Anacardium occidentale,marañón;merey;cajú;anacardo;castaña de cajú;nuez de la india;nueces de la india;cajuil
+Bertholletia excelsa,castaña de brasil;castañas de brasil;nuez de brasil;nueces de brasil;castaña de pará;castaña amazónica;castaña de monte
+Juglans regia,nuez;nueces;nogal
+Juglans neotropica,nuez andina;tocte;nogal andino;nogal peruano;nuez de tocte
+Carya illinoinensis,pecana;nuez pecán;nuez pacana;pacana
+Corylus avellana,avellana;crema de avellanas
+Gevuina avellana,avellana chilena;avellanas chilenas;gevuina;avellano chileno;nefuén
+Castanea sativa,castaña;marrón glacé
+Pistacia vera,pistacho;pistache;alfóncigo
+Araucaria araucana,piñón chileno;piñones chilenos;piñón de araucaria;pehuén;ngülliu;piñón mapuche
+Araucaria angustifolia,pinhão;piñón brasileño;piñón del paraná;piñón de brasil;piñón misionero
+Macadamia integrifolia,macadamia;nuez de macadamia;nueces de macadamia
+Terminalia catappa,almendro de playa;almendra de playa;almendrón;almendra tropical;almendro tropical;almendra de la india
+Bactris gasipaes,pejibaye;chontaduro;pijuayo;pupuña;pixbae;cachipay
+Euterpe edulis,palmito juçara;jussara;palmito de juçara;corazón de palma
+Prestoea acuminata,palmito de montaña;palmito andino;palmito de monte;palmito ecuatoriano;palmito colombiano;palmito de bosque
+Euterpe oleracea,asaí;azaí;huasaí;manaca
+Mauritia flexuosa,aguaje;moriche;buriti;canangucha
+Oenocarpus bataua,ungurahui;milpesos;seje;patauá;ungurahua;chapil
+Acrocomia aculeata,coyol;corozo;macaúba;mbocayá;coco de coyol
+Attalea speciosa,babasú;babassu;coco babasú
+Jubaea chilensis,coquito chileno;coquitos chilenos;palma chilena;miel de palma;coquito de palma;coquitos
+Butia capitata,butiá;yatay;coco de butiá
+Syagrus romanzoffiana,pindó;coco pindó;coquito de pindó;jerivá
+Crescentia alata,jícaro;morro
+Brosimum alicastrum,ramón;nuez maya;ojoche;ujuxte;capomo;nuez de ramón
+Theobroma cacao,cacao;manteca de cacao;chocolate con leche;pasta de cacao;bombón;trufa de chocolate;trufas de chocolate;ganache;chocolatina
+Coffea arabica,café;café con leche;cortado;expreso;cafecito;capuchino;nescafé;cafeína
+Coffea canephora,café robusta;robusta
+Camellia sinensis,té negro;té verde;té rojo;té blanco;té oolong;té chai;té helado;té con leche;té de la tarde;hojas de té;té en bolsita;bolsita de té;té english breakfast;té de jazmín;té de burbujas
+Ilex paraguariensis,yerba;yerbamate;cimarrón mate;chimarrão
+Ilex guayusa,guayusa;té de guayusa;wayusa;waysa
+Ilex dumosa,yerba señorita;yerba de señorita;caá chirí
+Paullinia cupana,guaraná
+Erythroxylum coca,coca;mate de coca;té de coca;harina de coca
+Cola nitida,nuez de cola;nueces de cola;cola;kola;nuez de kola;nueces de kola
+Humulus lupulus,lúpulo
+Cannabis sativa,cáñamo;leche de cáñamo;harina de cáñamo
+Aloe vera,sábila;aloe
+Panax ginseng,ginseng;ginsén;té de ginseng
+Withania somnifera,ashwagandha;ginseng indio;bufera;oroval;cereza de invierno;hierba del sueño
+Piper methysticum,kava;kawa;té de kava
+Areca catechu,nuez de areca;nuez de betel;areca;buyo;nuez de buyo
+Piper betle,betel;buyo hoja;paan;pan de betel
+Catha edulis,khat;qat;cat;té árabe
+Agaricus bisporus,champiñón;portobello;portobelo;cremini;crimini;hongo;seta;callampa;champiñón café
+Pleurotus ostreatus,gírgola;seta de ostra;setas de ostra;hongo ostra;hongos ostra;champiñón ostra;seta ostra;orellana;hongo de ostra;hongos de ostra;pleuroto;gírgola de ostra;hongo ostión;hongos ostión;seta ostrera;setas ostreras
+Pleurotus eryngii,seta de cardo;setas de cardo;hongo de cardo;hongos de cardo;gírgola de cardo;eringi;eryngii;hongo rey;hongos rey;seta rey;setas rey;king oyster;champiñón rey;hongo trompeta real;seta trompeta real
+Lentinula edodes,shiitake;shitake;hongo shiitake;hongos shiitake;seta shiitake;setas shiitake;champiñón shiitake;champiñones shiitake;hongo japonés;hongos japoneses;seta japonesa;setas japonesas;hongo chino;hongos chinos;seta china;setas chinas
+Boletus edulis,porcini;boleto;hongo porcini;hongos porcini;seta porcini;setas porcini;hongo de pino;hongos de pino;seta de pino;setas de pino;boletus;hongo calabaza;hongos calabaza;seta calabaza;setas calabaza;cep;cèpe;porcino;hongo boletus;hongos boletus;seta boletus;setas boletus;hongo de calabaza;hongos de calabaza;seta de calabaza;setas de calabaza;hongo pambazo;hongos pambazo;pambazo hongo;pambazos hongo
+Suillus luteus,hongo de pino chileno;hongos de pino chilenos;callampa de pino;callampas de pino;boleto anillado;boletos anillados;hongo de pino seco;hongos de pino secos;seta de pino seca;setas de pino secas;babosa;hongo babosa;hongos babosa;boleto babosa;boletos babosa;hongo de pino con anillo;hongos de pino con anillo;seta de pino con anillo;setas de pino con anillo;hongo pino;hongos pino;seta pino;setas pino
+Suillus granulatus,boleto granulado;boletos granulados;hongo de pino granulado;hongos de pino granulados;seta de pino granulada;setas de pino granuladas;hongo de pino sin anillo;hongos de pino sin anillo;seta de pino sin anillo;setas de pino sin anillo;boleto llorón;boletos llorones;hongo llorón;hongos llorones;seta llorona;setas lloronas
+Cantharellus cibarius,rebozuelo;chantarela;chanterelle;cabrilla hongo;hongo cabrilla;seta cabrilla;anacate;hongo anacate;hongos anacate;seta anacate;setas anacate;rossinyol;duraznillo;hongo duraznillo;hongos duraznillo;seta duraznillo;setas duraznillo
+Morchella esculenta,colmenilla;morilla;morel;morchela;hongo morilla;hongos morilla;seta morilla;setas morilla;hongo colmenilla;hongos colmenilla;seta colmenilla;setas colmenilla;cagarria;múrgula;hongo elote;hongos elote;seta elote;setas elote;mazorquita;hongo mazorquita;hongos mazorquita;seta mazorquita;setas mazorquita
+Lactarius deliciosus,níscalo;robellón;rovellón;rovelló;mízcalo;hongo níscalo;hongos níscalo;seta níscalo;setas níscalo;hongo robellón;hongos robellón;seta robellón;setas robellón;hongo mízcalo;hongos mízcalo;seta mízcalo;setas mízcalo;lactario;hongo lactario;hongos lactario;seta lactario;setas lactario;hongo de leche;hongos de leche;seta de leche;setas de leche;pinatell;esne gorri;esne gorria;níscalo naranja;níscalos naranja;robellón naranja;robellones naranja;mízcalo naranja;mízcalos naranja
+Tuber melanosporum,trufa;hongo trufa;hongos trufa;seta trufa;setas trufa;sal de trufa;mantequilla de trufa;manteca de trufa;crema de trufa;salsa de trufa;miel de trufa;queso con trufa;paté de trufa;pasta con trufa;huevo con trufa;tortilla con trufa;tortillas con trufa;papas con trufa;patatas con trufa;puré con trufa;carne con trufa;pollo con trufa;crema con trufa;salsa con trufa;mantequilla con trufa;miel con trufa;sal con trufa
+Tuber magnatum,trufa blanca;trufas blancas;trufa de alba;trufas de alba;trufa piamontesa;trufas piamontesas;trufa italiana;trufas italianas;sal de trufa blanca;mantequilla de trufa blanca;crema de trufa blanca;salsa de trufa blanca;miel de trufa blanca;queso con trufa blanca;paté de trufa blanca;pasta con trufa blanca;huevo con trufa blanca;tortilla con trufa blanca;tortillas con trufa blanca;papas con trufa blanca;patatas con trufa blanca;puré con trufa blanca;carne con trufa blanca;pollo con trufa blanca;crema con trufa blanca;salsa con trufa blanca;mantequilla con trufa blanca;queso con trufas blancas;miel con trufa blanca;sal con trufa blanca
+Ustilago maydis,cuitlacoche;hongo del maíz;hongos del maíz;hongo de maíz;hongos de maíz;carbón del maíz;carbón de maíz;trufa mexicana;trufas mexicanas;caviar mexicano;caviar azteca;hongo azteca;hongos aztecas;crema de huitlacoche;salsa de huitlacoche;huitlacoche con queso;huitlacoches con queso;huitlacoche con elote;huitlacoches con elote;huitlacoche con flor de calabaza;huitlacoches con flor de calabaza;huitlacoche con epazote;huitlacoches con epazote;huitlacoche con chile;huitlacoches con chile;huitlacoche con cebolla;huitlacoches con cebolla;huitlacoche con ajo;huitlacoches con ajo;huitlacoche con tomate;huitlacoches con tomate;huitlacoche con crema;huitlacoches con crema;huitlacoche con pollo;huitlacoches con pollo;huitlacoche con carne;huitlacoches con carne;huitlacoche con camarón;huitlacoches con camarón;huitlacoche con huevo;huitlacoches con huevo;huitlacoche con frijoles;huitlacoches con frijoles;huitlacoche con arroz;huitlacoches con arroz;huitlacoche con pasta;huitlacoches con pasta;huitlacoche con tortillas;huitlacoches con tortillas;huitlacoche con pan;huitlacoches con pan;huitlacoche con pipián;huitlacoches con pipián
+Cyttaria espinosae,digüeñe;dihueñe;diweñe;pinatra;quideñe;hongo del hualle;hongos del hualle;hongo del roble chileno;hongos del roble chileno;digüeñes con cebolla;digüeñes con cilantro;digüeñes con limón;digüeñes con ají;digüeñes con tomate;digüeñes con huevo;digüeñes con queso;digüeñes con pan;digüeñes con papas;digüeñes con arroz;digüeñes con carne;digüeñes con pollo;digüeñes con crema;digüeñes con salsa;digüeñes con sal;digüeñes con pimienta;digüeñes con merkén;digüeñes con orégano;digüeñes con perejil;digüeñes con ajo;digüeñes con mantequilla;digüeñes con manteca;digüeñes con leche;digüeñes con yogur;digüeñes con miel;digüeñes con azúcar;digüeñes con canela;digüeñes con vainilla;digüeñes con chocolate;digüeñes con café;digüeñes con té;digüeñes con mate;digüeñes con vino;digüeñes con cerveza;digüeñes con pisco;digüeñes con chicha
+Saccharomyces cerevisiae,levadura;levadura de cerveza;levadura de pan;masa madre;pan con levadura;pan de levadura;pan de masa madre;fermento;fermento de pan;fermento de cerveza;fermento de trigo;fermento de centeno;fermento de cebada;fermento de avena;fermento de maíz;fermento de arroz;fermento de papa;fermento de yuca;fermento de plátano;fermento de banana;fermento de manzana;fermento de uva;fermento de pera;fermento de durazno;fermento de ciruela;fermento de cereza;fermento de higo;fermento de dátil;fermento de pasas;fermento de miel;fermento de azúcar;fermento de panela;fermento de piloncillo;fermento de chancaca;fermento de rapadura;fermento de papelón;fermento de melaza;fermento de caña;fermento de agave;fermento de maguey;fermento de aguamiel;fermento de nopal;fermento de tuna;fermento de xoconostle;fermento de garambullo;fermento de pitaya;fermento de pitahaya;fermento de saguaro;fermento de cardón
+Durvillaea antarctica,cochayuyo;ulte
+Pyropia yezoensis,nori;alga para sushi
+Porphyra umbilicalis,luche;laver
+Saccharina japonica,kombu;konbu;dashi kombu
+Undaria pinnatifida,wakame
+Gracilaria gracilis,pelillo;ogo;ogonori;agar de pelillo
+Chondracanthus chamissoi,chicoria de mar;chicorea de mar;mococho
+Gigartina skottsbergii,luga negra;luga
+Macrocystis pyrifera,huiro;sargazo gigante
+Lessonia nigrescens,huiro negro;huiro palo;chascón;huiro chascón
+Ulva lactuca,lechuga de mar;lechugas de mar;lamilla;ulva
+Palmaria palmata,dulse;dillisk
+Chondrus crispus,musgo irlandés;musgo de irlanda;carragenina;carragenano;irish moss
+Sargassum fusiforme,hiziki
+Chlorella vulgaris,chlorella;clorela;clorella
+Eisenia bicyclis,arame
+Himanthalia elongata,espagueti de mar;espaguetis de mar;spaghetti de mar;judía de mar;judías de mar
+Salicornia europaea,salicornia;espárrago de mar;espárragos de mar;hierba salada
+Crithmum maritimum,hinojo marino;hinojo de mar;perejil de mar;perejil marino;empetro;cresta marina

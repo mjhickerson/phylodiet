@@ -2,8 +2,9 @@
 """Assemble the Phylodiet tree from a dated Newick and the candidate species CSV.
 
     python3 assemble_tree.py dated.nwk edible_eukaryotes_candidates.csv outdir/ [extra_aliases.csv ...]
-    (with no alias file given, data/aliases.csv next to the candidates list is used when present: the hand-curated
-     food-word aliases such as egg, bacon, bread, flour; without it the app only knows common and Latin names)
+    (with no alias file given, every data/aliases*.csv next to the candidates list is used: aliases.csv holds the
+     hand-curated English food words such as egg, bacon, bread, flour; aliases_es.csv the Spanish ones; without them
+     the app only knows common and Latin names)
 
 Inputs
   dated.nwk   ultrametric tree with branch lengths in Myr; tip labels are species
@@ -405,7 +406,7 @@ def main(nwk_path, csv_path, outdir):
             # the other table's plain common name(s) become aliases too ("basil" for a species now called "sweet basil")
             names = [re.sub(r"\(.*?\)", "", p).strip() for p in r.get("common_name", "").split("/")]
             al = ";".join([a for a in names if a] + ([al] if al else []))
-            if key and al: extra_aliases[key] = al
+            if key and al: extra_aliases[key] = ";".join([extra_aliases[key], al]) if key in extra_aliases else al
     def name_mrca(groups, label_of, need_monophyly=True):
         for key, tips_ in groups.items():
             if len(tips_) < 2: continue
@@ -465,7 +466,8 @@ if __name__ == "__main__":
     if len(sys.argv) < 4:
         print(__doc__); sys.exit(1)
     EXTRA_ALIAS_FILES = sys.argv[4:]
-    _default_aliases = os.path.join(os.path.dirname(os.path.abspath(sys.argv[2])), "aliases.csv")   # data/aliases.csv beside the candidates list
-    if not EXTRA_ALIAS_FILES and os.path.exists(_default_aliases): EXTRA_ALIAS_FILES = [_default_aliases]
+    import glob
+    _default_aliases = sorted(glob.glob(os.path.join(os.path.dirname(os.path.abspath(sys.argv[2])), "aliases*.csv")))   # data/aliases*.csv beside the candidates list
+    if not EXTRA_ALIAS_FILES and _default_aliases: EXTRA_ALIAS_FILES = _default_aliases
     print("alias files:", EXTRA_ALIAS_FILES or "none (common names only)", file=sys.stderr)
     main(*sys.argv[1:4])

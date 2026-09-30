@@ -62,8 +62,8 @@ quesadilla,cheese quesadilla; chicken quesadilla,Tex-Mex,Triticum aestivum; Bos 
 fajitas,chicken fajitas; steak fajitas,Tex-Mex,Gallus gallus; Bos taurus; Capsicum annuum; Allium cepa; Triticum aestivum; Citrus aurantiifolia; Cuminum cyminum,
 burrito,bean burrito; breakfast burrito; burritos,Tex-Mex,Triticum aestivum; Oryza sativa; Phaseolus vulgaris; Bos taurus; Solanum lycopersicum; Allium cepa; Capsicum annuum; Lactuca sativa,
 chimichanga,,Tex-Mex,Triticum aestivum; Bos taurus; Phaseolus vulgaris; Solanum lycopersicum; Allium cepa; Capsicum annuum,
-tacos,taco; street tacos; tacos al pastor; carne asada tacos; carnitas tacos,Mexican,Zea mays; Bos taurus; Sus scrofa; Allium cepa; Coriandrum sativum; Citrus aurantiifolia; Capsicum annuum,
-fish tacos,baja fish tacos,Mexican,Zea mays; Oreochromis niloticus; Brassica oleracea; Citrus aurantiifolia; Capsicum annuum; Triticum aestivum; Gallus gallus; Coriandrum sativum,
+tacos,taco; street tacos; carne asada tacos; carnitas tacos,Mexican,Zea mays; Bos taurus; Sus scrofa; Allium cepa; Coriandrum sativum; Citrus aurantiifolia; Capsicum annuum,
+fish tacos,baja fish tacos; tacos de pescado; taco de pescado; tacos de camarón; tacos de camarones,Mexican,Zea mays; Oreochromis niloticus; Brassica oleracea; Citrus aurantiifolia; Capsicum annuum; Triticum aestivum; Gallus gallus; Coriandrum sativum,
 guacamole,guac,Mexican,Persea americana; Allium cepa; Coriandrum sativum; Citrus aurantiifolia; Capsicum annuum; Solanum lycopersicum,
 salsa,pico de gallo; salsa fresca; salsa roja,Mexican,Solanum lycopersicum; Allium cepa; Capsicum annuum; Coriandrum sativum; Citrus aurantiifolia,
 salsa verde,tomatillo salsa,Mexican,Physalis philadelphica; Capsicum annuum; Allium cepa; Allium sativum; Coriandrum sativum,
@@ -71,18 +71,18 @@ enchiladas,enchilada; chicken enchiladas,Mexican,Zea mays; Gallus gallus; Capsic
 tamales,tamal; tamale,Mexican,Zea mays; Sus scrofa; Capsicum annuum; Allium sativum,
 chilaquiles,,Mexican,Zea mays; Physalis philadelphica; Capsicum annuum; Allium cepa; Bos taurus; Gallus gallus; Coriandrum sativum,
 huevos rancheros,,Mexican,Gallus gallus; Zea mays; Solanum lycopersicum; Capsicum annuum; Allium cepa; Allium sativum; Phaseolus vulgaris,
-pozole,posole; pozole rojo,Mexican,Zea mays; Sus scrofa; Capsicum annuum; Allium sativum; Allium cepa; Lippia graveolens; Brassica oleracea; Raphanus sativus; Citrus aurantiifolia,
+pozole,posole,Mexican,Zea mays; Sus scrofa; Capsicum annuum; Allium sativum; Allium cepa; Lippia graveolens; Brassica oleracea; Raphanus sativus; Citrus aurantiifolia,
 mole poblano,mole; chicken mole,Mexican,Gallus gallus; Capsicum annuum; Theobroma cacao; Prunus dulcis; Sesamum indicum; Cinnamomum verum; Syzygium aromaticum; Allium sativum; Allium cepa; Solanum lycopersicum; Musa × paradisiaca; Vitis vinifera,
-elote,mexican street corn; esquites,Mexican,Zea mays; Bos taurus; Capsicum annuum; Citrus aurantiifolia,
+elote,mexican street corn,Mexican,Zea mays; Bos taurus; Capsicum annuum; Citrus aurantiifolia,
 ceviche,,Peruvian,Dicentrarchus labrax; Citrus aurantiifolia; Allium cepa; Capsicum annuum; Coriandrum sativum; Ipomoea batatas; Zea mays,
 cochinita pibil,,Mexican,Sus scrofa; Bixa orellana; Citrus sinensis; Allium sativum; Allium cepa; Capsicum chinense,
 carnitas,,Mexican,Sus scrofa; Citrus sinensis; Allium sativum; Lippia graveolens; Cuminum cyminum,
 birria,birria tacos; quesabirria,Mexican,Bos taurus; Capra hircus; Capsicum annuum; Allium sativum; Allium cepa; Cuminum cyminum; Cinnamomum verum; Syzygium aromaticum; Laurus nobilis; Zea mays; Coriandrum sativum,
-sopes,sope; huaraches,Mexican,Zea mays; Phaseolus vulgaris; Bos taurus; Lactuca sativa; Solanum lycopersicum; Allium cepa,
-tortilla soup,sopa de tortilla,Mexican,Zea mays; Gallus gallus; Solanum lycopersicum; Capsicum annuum; Allium cepa; Allium sativum; Persea americana; Bos taurus; Citrus aurantiifolia,
+sopes,sope,Mexican,Zea mays; Phaseolus vulgaris; Bos taurus; Lactuca sativa; Solanum lycopersicum; Allium cepa,
+tortilla soup,,Mexican,Zea mays; Gallus gallus; Solanum lycopersicum; Capsicum annuum; Allium cepa; Allium sativum; Persea americana; Bos taurus; Citrus aurantiifolia,
 churros,churro,Mexican,Triticum aestivum; Gallus gallus; Saccharum officinarum; Cinnamomum verum; Theobroma cacao,
 flan,creme caramel; crème caramel,Mexican,Gallus gallus; Bos taurus; Saccharum officinarum; Vanilla planifolia,
-tres leches cake,tres leches,Mexican,Triticum aestivum; Gallus gallus; Bos taurus; Saccharum officinarum; Vanilla planifolia,
+tres leches cake,,Mexican,Triticum aestivum; Gallus gallus; Bos taurus; Saccharum officinarum; Vanilla planifolia,
 horchata,,Mexican,Oryza sativa; Cinnamomum verum; Saccharum officinarum; Vanilla planifolia,
 margarita,,Mexican,Agave tequilana; Saccharomyces cerevisiae; Citrus aurantiifolia; Citrus sinensis,
 margherita pizza,pizza margherita; pizza; cheese pizza; neapolitan pizza,Italian,Triticum aestivum; Saccharomyces cerevisiae; Solanum lycopersicum; Bos taurus; Ocimum basilicum; Olea europaea,
@@ -409,7 +409,7 @@ cape malay curry,,South African,Gallus gallus; Ovis aries; Allium cepa; Solanum 
 thieboudienne,ceebu jen; thiéboudienne,Senegalese,Oryza sativa; Oreochromis niloticus; Solanum lycopersicum; Allium cepa; Allium sativum; Capsicum annuum; Manihot esculenta; Daucus carota; Brassica oleracea; Solanum melongena; Petroselinum crispum; Tamarindus indica,
 matoke,,Ugandan,Musa × paradisiaca; Allium cepa; Solanum lycopersicum; Arachis hypogaea,
 attieke,attiéké,Ivorian,Manihot esculenta; Oreochromis niloticus; Allium cepa; Solanum lycopersicum; Capsicum annuum,
-bissap,hibiscus tea; sorrel drink; agua de jamaica,West African,Hibiscus sabdariffa; Saccharum officinarum; Mentha spicata; Zingiber officinale,
+bissap,hibiscus tea; sorrel drink,West African,Hibiscus sabdariffa; Saccharum officinarum; Mentha spicata; Zingiber officinale,
 jerk chicken,jerk; jerk pork,Jamaican,Gallus gallus; Capsicum chinense; Pimenta dioica; Thymus vulgaris; Allium fistulosum; Allium sativum; Zingiber officinale; Saccharum officinarum; Cinnamomum verum; Myristica fragrans; Citrus aurantiifolia; Oryza sativa; Vigna unguiculata; Cocos nucifera,
 rice and peas,,Jamaican,Oryza sativa; Vigna unguiculata; Cocos nucifera; Allium fistulosum; Thymus vulgaris; Allium sativum; Capsicum chinense; Pimenta dioica,
 ackee and saltfish,,Jamaican,Blighia sapida; Gadus morhua; Allium cepa; Solanum lycopersicum; Capsicum chinense; Thymus vulgaris; Allium fistulosum,
@@ -519,3 +519,195 @@ shojin ryori,buddhist vegetarian japanese,Japanese,Glycine max; Aspergillus oryz
 japanese set meal,teishoku; japanese breakfast,Japanese,Oryza sativa; Glycine max; Aspergillus oryzae; Saccharina japonica; Katsuwonus pelamis; Undaria pinnatifida; Allium fistulosum; Salmo salar; Raphanus sativus; Pyropia yezoensis; Gallus gallus; Prunus mume,
 korean banchan,banchan,Korean,Brassica rapa; Capsicum annuum; Allium sativum; Spinacia oleracea; Vigna radiata; Sesamum indicum; Cucumis sativus; Glycine max; Aspergillus oryzae; Raphanus sativus; Solanum tuberosum; Pteridium aquilinum,
 vegetarian hot pot,veggie hot pot,Chinese,Brassica rapa; Glycine max; Flammulina filiformis; Lentinula edodes; Pleurotus eryngii; Auricularia heimuer; Nelumbo nucifera; Solanum tuberosum; Ipomoea batatas; Triticum aestivum; Sesamum indicum; Allium sativum; Allium fistulosum; Capsicum annuum; Zanthoxylum bungeanum,
+chivito,chivito uruguayo; chivito al pan; chivito al plato,Uruguayan,Bos taurus; Triticum aestivum; Sus scrofa; Gallus gallus; Solanum lycopersicum; Lactuca sativa; Olea europaea; Saccharomyces cerevisiae,beef sandwich with ham; bacon; cheese; egg; not goat
+guiso de lentejas,lentejas guisadas; lentejas con chorizo; potaje de lentejas; lentejas estofadas,Rioplatense,Lens culinaris; Sus scrofa; Solanum tuberosum; Cucurbita maxima; Daucus carota; Allium cepa; Capsicum annuum; Solanum lycopersicum; Allium sativum,
+puchero,puchero criollo; puchero rioplatense,Rioplatense,Bos taurus; Sus scrofa; Solanum tuberosum; Ipomoea batatas; Cucurbita maxima; Zea mays; Brassica oleracea; Daucus carota; Allium ampeloprasum; Cicer arietinum,
+tortas fritas,torta frita,Rioplatense,Triticum aestivum; Bos taurus; Saccharum officinarum,fried in beef fat; dusted with sugar
+pastel de papa,pastel de papas; pastel de carne con papa,Rioplatense,Solanum tuberosum; Bos taurus; Allium cepa; Gallus gallus; Olea europaea; Capsicum annuum,
+matambre a la pizza,matambre con pizza,Argentine,Bos taurus; Solanum lycopersicum; Origanum vulgare; Olea europaea,cheese is Bos taurus
+choripán,choripan; choripanes,Rioplatense,Sus scrofa; Triticum aestivum; Petroselinum crispum; Allium sativum; Origanum vulgare; Capsicum annuum,with chimichurri
+provoleta,provoleta a la parrilla,Argentine,Bos taurus; Origanum vulgare; Capsicum annuum; Olea europaea,
+locro,locro criollo; locro de zapallo; locro argentino,Andean,Zea mays; Cucurbita maxima; Phaseolus vulgaris; Bos taurus; Sus scrofa; Ipomoea batatas; Allium cepa; Capsicum annuum,
+humita en chala,humitas en chala; humita; humitas,Andean,Zea mays; Allium cepa; Bos taurus; Ocimum basilicum,cheese is Bos taurus; Chilean humitas use basil
+tamal de choclo,,Chilean,Zea mays; Bos taurus; Gallus gallus; Allium cepa; Olea europaea; Vitis vinifera; Ocimum basilicum; Saccharum officinarum,
+dulce de leche,manjar; arequipe; cajeta de leche; manjar blanco; dulce de leche repostero,Rioplatense,Bos taurus; Saccharum officinarum; Vanilla planifolia,
+alfajor de maicena,alfajores de maicena; alfajor de dulce de leche; alfajores,Rioplatense,Triticum aestivum; Zea mays; Bos taurus; Saccharum officinarum; Gallus gallus; Cocos nucifera; Citrus limon,
+medialunas,medialuna; medialunas de manteca,Argentine,Triticum aestivum; Bos taurus; Saccharum officinarum; Saccharomyces cerevisiae; Gallus gallus,
+ñoquis,ñoqui; gnocchi de papa; ñoquis de papa,Rioplatense,Solanum tuberosum; Triticum aestivum; Gallus gallus; Solanum lycopersicum; Bos taurus,
+fainá,faina; fainá con pizza,Rioplatense,Cicer arietinum; Olea europaea; Piper nigrum,
+carbonada,carbonada criolla; carbonada en zapallo,Argentine,Bos taurus; Cucurbita maxima; Solanum tuberosum; Ipomoea batatas; Zea mays; Prunus persica; Allium cepa; Solanum lycopersicum,
+mate cocido con leche,mate con leche; mate cocido,Rioplatense,Ilex paraguariensis; Bos taurus; Saccharum officinarum,
+chipa,chipá; chipas; chipá paraguayo; chipa guazú,Paraguayan,Manihot esculenta; Bos taurus; Gallus gallus; Pimpinella anisum,cheese is Bos taurus
+sopa paraguaya,,Paraguayan,Zea mays; Bos taurus; Allium cepa; Gallus gallus; Sus scrofa,cornbread; cheese and milk
+vorí vorí,bori bori; vori vori,Paraguayan,Zea mays; Bos taurus; Gallus gallus; Allium cepa; Origanum vulgare,
+tereré,terere; tereré con yuyos,Paraguayan,Ilex paraguariensis; Mentha spicata; Citrus limon,
+completo,completo italiano; completo chileno; completo con palta,Chilean,Sus scrofa; Triticum aestivum; Persea americana; Solanum lycopersicum; Gallus gallus; Sinapis alba,mayonnaise is egg
+pastel de choclo,pastel de choclo chileno,Chilean,Zea mays; Bos taurus; Gallus gallus; Allium cepa; Olea europaea; Vitis vinifera; Ocimum basilicum; Saccharum officinarum; Cuminum cyminum,
+curanto,curanto en hoyo; curanto en olla; pulmay,Chilean,Mytilus chilensis; Choromytilus chorus; Ruditapes decussatus; Sus scrofa; Gallus gallus; Solanum tuberosum; Triticum aestivum; Vitis vinifera,milcao and chapalele are potato and wheat
+caldillo de congrio,caldillo de congrio colorado,Chilean,Genypterus chilensis; Solanum tuberosum; Allium cepa; Solanum lycopersicum; Daucus carota; Coriandrum sativum; Vitis vinifera; Bos taurus,
+cazuela de vacuno,cazuela chilena; cazuela de carne; cazuela de ave; cazuela de pollo,Chilean,Bos taurus; Solanum tuberosum; Cucurbita maxima; Zea mays; Oryza sativa; Phaseolus vulgaris; Daucus carota; Allium cepa; Coriandrum sativum,
+porotos granados,porotos granados con mazamorra; porotos con mazamorra,Chilean,Phaseolus vulgaris; Zea mays; Cucurbita maxima; Ocimum basilicum; Allium cepa; Capsicum annuum,
+charquicán,charquican,Chilean,Bos taurus; Solanum tuberosum; Cucurbita maxima; Zea mays; Allium cepa; Gallus gallus; Pisum sativum; Daucus carota,
+sopaipillas,sopaipilla; sopaipillas pasadas; sopaipillas con pebre,Chilean,Cucurbita maxima; Triticum aestivum; Sus scrofa; Saccharum officinarum; Cinnamomum verum; Citrus sinensis,
+pebre,pebre chileno; pebre de cilantro,Chilean,Coriandrum sativum; Allium cepa; Solanum lycopersicum; Capsicum annuum; Allium sativum; Olea europaea; Citrus limon,
+machas a la parmesana,machas a la parmesana chilenas,Chilean,Ruditapes decussatus; Bos taurus; Citrus limon; Vitis vinifera,machas absent from the tree; carpet-shell clam stands in
+chorrillana,chorrillana chilena,Chilean,Solanum tuberosum; Bos taurus; Allium cepa; Gallus gallus; Sus scrofa,
+mote con huesillo,mote con huesillos,Chilean,Zea mays; Prunus persica; Saccharum officinarum; Cinnamomum verum,
+leche asada,,Chilean,Bos taurus; Gallus gallus; Saccharum officinarum; Vanilla planifolia,
+pie de limón,pie de limon; kuchen de limón,Chilean,Citrus aurantiifolia; Triticum aestivum; Bos taurus; Gallus gallus; Saccharum officinarum,condensed milk is Bos taurus
+kuchen,kuchen de manzana; kuchen de frambuesa; kuchen de murta,Chilean,Triticum aestivum; Bos taurus; Gallus gallus; Saccharum officinarum; Malus domestica; Rubus idaeus; Ugni molinae,
+paila marina,,Chilean,Mytilus chilensis; Ruditapes decussatus; Penaeus vannamei; Genypterus chilensis; Concholepas concholepas; Allium cepa; Solanum lycopersicum; Coriandrum sativum; Vitis vinifera,
+erizos al matico,erizos con salsa verde; lenguas de erizo,Chilean,Loxechinus albus; Allium cepa; Coriandrum sativum; Citrus limon; Olea europaea,
+piure al natural,piure con cebolla; ceviche de piure,Chilean,Pyura chilensis; Allium cepa; Coriandrum sativum; Citrus limon,
+ceviche de camarón,cebiche de camarón; ceviche ecuatoriano; ceviche de camarones,Ecuadorian,Penaeus vannamei; Solanum lycopersicum; Allium cepa; Citrus aurantiifolia; Coriandrum sativum; Citrus sinensis; Zea mays; Musa × paradisiaca,served with canguil and chifles
+encebollado,encebollado de pescado; encebollado ecuatoriano,Ecuadorian,Thunnus albacares; Manihot esculenta; Allium cepa; Solanum lycopersicum; Coriandrum sativum; Citrus aurantiifolia; Cuminum cyminum; Zea mays; Musa × paradisiaca,albacora in Ecuador is usually yellowfin or bigeye tuna
+bolón de verde,bolón; bolones; bolón mixto,Ecuadorian,Musa × paradisiaca; Bos taurus; Sus scrofa; Arachis hypogaea,cheese is Bos taurus; chicharrón is Sus scrofa
+tigrillo,tigrillo ecuatoriano,Ecuadorian,Musa × paradisiaca; Gallus gallus; Bos taurus; Allium cepa; Coriandrum sativum,
+llapingachos,llapingacho; yapingachos,Ecuadorian,Solanum tuberosum; Bos taurus; Bixa orellana; Allium cepa; Gallus gallus; Arachis hypogaea; Lactuca sativa; Persea americana; Sus scrofa,
+hornado,hornado ecuatoriano; hornado de chancho,Ecuadorian,Sus scrofa; Zea mays; Solanum tuberosum; Allium cepa; Solanum lycopersicum; Capsicum annuum; Lactuca sativa; Persea americana; Bixa orellana,with mote; llapingacho; agrio
+fritada,fritada de chancho; fritada ecuatoriana,Ecuadorian,Sus scrofa; Zea mays; Musa × paradisiaca; Solanum tuberosum; Allium cepa; Solanum lycopersicum; Persea americana; Lupinus mutabilis,with mote; maduro; chochos
+locro de papa,locro quiteño; locro de papas; locro ecuatoriano,Ecuadorian,Solanum tuberosum; Bos taurus; Persea americana; Bixa orellana; Allium cepa; Allium sativum; Cuminum cyminum,cheese and milk are Bos taurus
+seco de chivo,seco de chivo ecuatoriano; seco de cabrito,Ecuadorian,Capra hircus; Solanum quitoense; Allium cepa; Solanum lycopersicum; Capsicum annuum; Coriandrum sativum; Cuminum cyminum; Oryza sativa; Musa × paradisiaca; Hordeum vulgare,cooked with naranjilla juice and beer
+seco de pollo,seco de gallina,Ecuadorian,Gallus gallus; Solanum quitoense; Allium cepa; Solanum lycopersicum; Capsicum annuum; Coriandrum sativum; Cuminum cyminum; Oryza sativa; Musa × paradisiaca,
+cevichocho,ceviche de chochos; cevichochos,Ecuadorian,Lupinus mutabilis; Solanum lycopersicum; Allium cepa; Citrus aurantiifolia; Coriandrum sativum; Zea mays; Musa × paradisiaca,with tostado and chifles
+fanesca,,Ecuadorian,Gadus morhua; Cucurbita maxima; Cucurbita ficifolia; Zea mays; Phaseolus vulgaris; Lupinus mutabilis; Vicia faba; Pisum sativum; Lens culinaris; Arachis hypogaea; Bos taurus; Gallus gallus; Musa × paradisiaca,Easter soup with twelve grains
+colada morada,,Ecuadorian,Zea mays; Rubus glaucus; Vaccinium floribundum; Ananas comosus; Fragaria × ananassa; Solanum quitoense; Musa × paradisiaca; Cinnamomum verum; Syzygium aromaticum; Saccharum officinarum,purple maize flour with fruit
+guaguas de pan,guagua de pan; t'anta wawa,Ecuadorian,Triticum aestivum; Gallus gallus; Bos taurus; Saccharum officinarum; Saccharomyces cerevisiae,
+morocho,morocho con leche; morocho ecuatoriano,Ecuadorian,Zea mays; Bos taurus; Cinnamomum verum; Saccharum officinarum; Vitis vinifera,cracked white maize in milk with raisins
+empanadas de viento,empanada de viento,Ecuadorian,Triticum aestivum; Bos taurus; Allium cepa; Saccharum officinarum,fried cheese empanada
+empanadas de verde,empanada de verde; empanadas de plátano verde,Ecuadorian,Musa × paradisiaca; Bos taurus; Gallus gallus; Bixa orellana,
+corviche,corviches; corviche manabita,Ecuadorian,Musa × paradisiaca; Arachis hypogaea; Thunnus albacares; Allium cepa; Bixa orellana; Coriandrum sativum,
+viche,viche de pescado; biche; viche manabita,Ecuadorian,Coryphaena hippurus; Arachis hypogaea; Musa × paradisiaca; Manihot esculenta; Zea mays; Cucurbita moschata; Ipomoea batatas; Allium cepa; Coriandrum sativum,
+sango de camarón,sango,Ecuadorian,Penaeus vannamei; Musa × paradisiaca; Arachis hypogaea; Allium cepa; Coriandrum sativum; Bixa orellana,
+caldo de bolas,caldo de bola; sopa de bolas de verde,Ecuadorian,Musa × paradisiaca; Bos taurus; Arachis hypogaea; Manihot esculenta; Zea mays; Brassica oleracea; Allium cepa; Coriandrum sativum,
+yaguarlocro,yahuarlocro; locro de sangre,Ecuadorian,Ovis aries; Solanum tuberosum; Persea americana; Allium cepa; Arachis hypogaea; Bixa orellana; Coriandrum sativum,
+chugchucaras,chugchucara,Ecuadorian,Sus scrofa; Zea mays; Musa × paradisiaca; Solanum tuberosum; Triticum aestivum,
+salchipapas,salchipapa,Latin American,Solanum tuberosum; Sus scrofa; Gallus gallus; Solanum lycopersicum; Sinapis alba,mayonnaise is egg; ketchup is tomato
+choclo con queso,choclo asado con queso; elote con queso,Andean,Zea mays; Bos taurus,
+papa rellena,papas rellenas,Peruvian,Solanum tuberosum; Bos taurus; Allium cepa; Gallus gallus; Olea europaea; Capsicum baccatum; Cuminum cyminum,
+papa a la huancaína,papas a la huancaína; huancaína,Peruvian,Solanum tuberosum; Capsicum baccatum; Bos taurus; Gallus gallus; Lactuca sativa; Olea europaea; Triticum aestivum,cheese and evaporated milk are Bos taurus
+ocopa,papas a la ocopa,Peruvian,Solanum tuberosum; Tagetes minuta; Capsicum baccatum; Arachis hypogaea; Bos taurus; Gallus gallus; Olea europaea; Triticum aestivum,
+seco de res,seco de carne; seco norteño; seco de cordero,Peruvian,Bos taurus; Coriandrum sativum; Capsicum baccatum; Allium cepa; Phaseolus vulgaris; Oryza sativa; Manihot esculenta; Hordeum vulgare,
+arroz chaufa,chaufa; chaufa de pollo,Peruvian,Oryza sativa; Gallus gallus; Glycine max; Zingiber officinale; Allium fistulosum; Capsicum annuum,
+tacu tacu,tacu tacu con lomo,Peruvian,Phaseolus vulgaris; Oryza sativa; Capsicum baccatum; Allium cepa; Bos taurus; Gallus gallus; Musa × paradisiaca,
+rocoto relleno,rocotos rellenos,Peruvian,Capsicum pubescens; Bos taurus; Allium cepa; Arachis hypogaea; Olea europaea; Gallus gallus; Solanum tuberosum,
+pachamanca,,Peruvian,Sus scrofa; Ovis aries; Gallus gallus; Solanum tuberosum; Ipomoea batatas; Zea mays; Vicia faba; Tagetes minuta; Capsicum baccatum; Manihot esculenta,
+chupe de camarones,chupe de camarón; chupe arequipeño,Peruvian,Penaeus vannamei; Solanum tuberosum; Zea mays; Oryza sativa; Vicia faba; Bos taurus; Gallus gallus; Capsicum baccatum; Origanum vulgare,river shrimp Cryphiops not in the tree; whiteleg shrimp stands in
+picarones,picarón,Peruvian,Cucurbita maxima; Ipomoea batatas; Triticum aestivum; Saccharomyces cerevisiae; Saccharum officinarum; Pimpinella anisum,with chancaca syrup
+suspiro a la limeña,suspiro limeño; suspiro de limeña,Peruvian,Bos taurus; Gallus gallus; Saccharum officinarum; Vitis vinifera; Cinnamomum verum,manjar blanco with port meringue
+chicha morada,chicha de maíz morado,Peruvian,Zea mays; Ananas comosus; Malus domestica; Cinnamomum verum; Syzygium aromaticum; Citrus aurantiifolia; Saccharum officinarum,
+salteñas,salteña; salteñas bolivianas,Bolivian,Triticum aestivum; Bos taurus; Gallus gallus; Solanum tuberosum; Pisum sativum; Olea europaea; Vitis vinifera; Capsicum baccatum; Cuminum cyminum,
+pique macho,pique a lo macho,Bolivian,Bos taurus; Sus scrofa; Solanum tuberosum; Allium cepa; Solanum lycopersicum; Capsicum pubescens; Gallus gallus,
+silpancho,silpancho cochabambino,Bolivian,Bos taurus; Triticum aestivum; Oryza sativa; Solanum tuberosum; Gallus gallus; Solanum lycopersicum; Allium cepa; Capsicum pubescens,
+sajta de pollo,sajta,Bolivian,Gallus gallus; Capsicum baccatum; Solanum tuberosum; Allium cepa; Pisum sativum; Petroselinum crispum,with chuño
+api con pastel,api morado; api,Bolivian,Zea mays; Cinnamomum verum; Syzygium aromaticum; Saccharum officinarum; Triticum aestivum; Bos taurus,
+sancocho,sancocho de gallina; sancocho trifásico; sancocho dominicano; sancocho colombiano,Caribbean,Gallus gallus; Bos taurus; Sus scrofa; Manihot esculenta; Musa × paradisiaca; Solanum tuberosum; Zea mays; Dioscorea alata; Cucurbita moschata; Coriandrum sativum; Allium cepa,
+arepa de huevo,arepas de huevo,Colombian,Zea mays; Gallus gallus; Bos taurus,
+lechona,lechona tolimense,Colombian,Sus scrofa; Oryza sativa; Pisum sativum; Allium cepa; Allium sativum; Cuminum cyminum; Zea mays,served with arepa
+changua,,Colombian,Bos taurus; Gallus gallus; Allium fistulosum; Coriandrum sativum; Triticum aestivum,milk soup with egg
+tamal tolimense,tamales tolimenses; tamal colombiano,Colombian,Zea mays; Oryza sativa; Sus scrofa; Gallus gallus; Pisum sativum; Daucus carota; Solanum tuberosum; Musa × paradisiaca; Allium cepa; Bixa orellana,
+aguapanela,agua de panela; aguapanela con queso; aguapanela con limón,Colombian,Saccharum officinarum; Citrus aurantiifolia; Bos taurus,
+pandebono,pan de bono; pandebonos,Colombian,Manihot esculenta; Zea mays; Bos taurus; Gallus gallus,cheese is Bos taurus
+buñuelos colombianos,buñuelo colombiano; buñuelos de queso,Colombian,Zea mays; Manihot esculenta; Bos taurus; Gallus gallus; Saccharum officinarum,
+pabellón criollo,pabellón; pabellon criollo,Venezuelan,Bos taurus; Phaseolus vulgaris; Oryza sativa; Musa × paradisiaca; Allium cepa; Capsicum annuum; Allium sativum,
+cachapa,cachapas; cachapa con queso,Venezuelan,Zea mays; Bos taurus; Saccharum officinarum,queso de mano is Bos taurus
+hallaca,hallacas; hayaca,Venezuelan,Zea mays; Bos taurus; Sus scrofa; Gallus gallus; Bixa orellana; Allium cepa; Capsicum annuum; Olea europaea; Vitis vinifera; Capparis spinosa; Musa × paradisiaca,
+tequeños,tequeño,Venezuelan,Triticum aestivum; Bos taurus; Gallus gallus; Saccharum officinarum,
+asado negro,,Venezuelan,Bos taurus; Saccharum officinarum; Allium cepa; Allium sativum; Vitis vinifera; Capsicum annuum,with papelón
+gallo pinto nicaragüense,gallopinto,Nicaraguan,Oryza sativa; Phaseolus vulgaris; Allium cepa; Capsicum annuum; Coriandrum sativum,
+vigorón,vigoron,Nicaraguan,Manihot esculenta; Sus scrofa; Brassica oleracea; Solanum lycopersicum; Allium cepa; Capsicum annuum; Citrus aurantiifolia,
+nacatamal,nacatamales,Nicaraguan,Zea mays; Sus scrofa; Oryza sativa; Solanum tuberosum; Allium cepa; Capsicum annuum; Solanum lycopersicum; Mentha spicata; Musa × paradisiaca; Bixa orellana,
+baleadas,baleada,Honduran,Triticum aestivum; Phaseolus vulgaris; Bos taurus; Gallus gallus; Persea americana,
+pepián,pepián de pollo; pepian,Guatemalan,Gallus gallus; Cucurbita moschata; Sesamum indicum; Solanum lycopersicum; Physalis philadelphica; Capsicum annuum; Cinnamomum verum; Solanum tuberosum; Daucus carota; Sechium edule; Oryza sativa,
+kak'ik,kakik; kak ik,Guatemalan,Meleagris gallopavo; Solanum lycopersicum; Physalis philadelphica; Capsicum annuum; Bixa orellana; Coriandrum sativum; Mentha spicata; Oryza sativa,
+jocón,jocon; jocón de pollo,Guatemalan,Gallus gallus; Physalis philadelphica; Coriandrum sativum; Allium fistulosum; Capsicum annuum; Cucurbita moschata; Sesamum indicum; Zea mays,
+chiles rellenos guatemaltecos,chile relleno guatemalteco,Guatemalan,Capsicum annuum; Bos taurus; Sus scrofa; Daucus carota; Pisum sativum; Phaseolus vulgaris; Gallus gallus; Solanum lycopersicum,
+fiambre,fiambre guatemalteco,Guatemalan,Gallus gallus; Sus scrofa; Bos taurus; Beta vulgaris; Brassica oleracea; Daucus carota; Pisum sativum; Phaseolus vulgaris; Olea europaea; Capsicum annuum; Chamaedorea tepejilote; Zea mays,All Saints salad; dozens of ingredients
+yuca con chicharrón,yuca frita con chicharrón; yuca con chicharrones,Salvadoran,Manihot esculenta; Sus scrofa; Brassica oleracea; Daucus carota; Solanum lycopersicum; Allium cepa,with curtido
+sopa de pata,,Salvadoran,Bos taurus; Manihot esculenta; Musa × paradisiaca; Zea mays; Brassica oleracea; Cucurbita moschata; Phaseolus vulgaris; Coriandrum sativum,
+casamiento,casamiento salvadoreño,Salvadoran,Oryza sativa; Phaseolus vulgaris; Allium cepa; Capsicum annuum; Allium sativum,
+mangú,mangu; los tres golpes; mangú con los tres golpes,Dominican,Musa × paradisiaca; Allium cepa; Bos taurus; Sus scrofa; Gallus gallus,fried cheese; salami; eggs
+la bandera,la bandera dominicana; bandera dominicana,Dominican,Oryza sativa; Phaseolus vulgaris; Gallus gallus; Bos taurus; Solanum lycopersicum; Allium cepa; Capsicum annuum; Coriandrum sativum; Eryngium foetidum,
+locrio,locrio de pollo; locrio dominicano,Dominican,Oryza sativa; Gallus gallus; Allium cepa; Capsicum annuum; Solanum lycopersicum; Bixa orellana; Coriandrum sativum; Olea europaea,
+habichuelas con dulce,habichuelas con dulce dominicanas,Dominican,Phaseolus vulgaris; Cocos nucifera; Bos taurus; Ipomoea batatas; Saccharum officinarum; Cinnamomum verum; Vitis vinifera; Triticum aestivum,with evaporated milk; raisins; milk cookies
+tostones rellenos,tostones rellenos de camarones,Puerto Rican,Musa × paradisiaca; Penaeus vannamei; Allium sativum; Solanum lycopersicum; Gallus gallus,
+arroz con gandules,arroz con guandules; arroz con gandules puertorriqueño,Puerto Rican,Oryza sativa; Cajanus cajan; Sus scrofa; Capsicum annuum; Allium cepa; Allium sativum; Coriandrum sativum; Eryngium foetidum; Bixa orellana; Olea europaea,with sofrito and ham
+pasteles puertorriqueños,pasteles de masa; pasteles en hoja,Puerto Rican,Musa × paradisiaca; Xanthosoma sagittifolium; Cucurbita moschata; Sus scrofa; Bixa orellana; Capsicum annuum; Allium sativum; Olea europaea; Cicer arietinum,
+alcapurrias,alcapurria,Puerto Rican,Musa × paradisiaca; Xanthosoma sagittifolium; Bos taurus; Bixa orellana; Allium cepa; Capsicum annuum,
+lechón asado,lechón a la vara; pernil asado; pernil,Caribbean,Sus scrofa; Allium sativum; Origanum vulgare; Citrus aurantium; Citrus aurantiifolia; Cuminum cyminum,mojo with sour orange
+moros y cristianos,moros; congrí; congri; arroz congrí,Cuban,Oryza sativa; Phaseolus vulgaris; Sus scrofa; Allium cepa; Capsicum annuum; Allium sativum; Cuminum cyminum; Origanum vulgare,
+picadillo cubano,picadillo a la habanera; picadillo,Cuban,Bos taurus; Solanum lycopersicum; Allium cepa; Capsicum annuum; Allium sativum; Olea europaea; Vitis vinifera; Capparis spinosa; Solanum tuberosum,
+tamal en cazuela,tamal en cazuela cubano,Cuban,Zea mays; Sus scrofa; Allium cepa; Capsicum annuum; Solanum lycopersicum; Allium sativum; Cuminum cyminum,
+vaca frita,,Cuban,Bos taurus; Allium cepa; Allium sativum; Citrus aurantiifolia; Olea europaea,
+pozole rojo,pozole de puerco; pozole blanco; pozole verde,Mexican,Zea mays; Sus scrofa; Capsicum annuum; Allium sativum; Allium cepa; Origanum vulgare; Lactuca sativa; Raphanus sativus; Citrus aurantiifolia; Cucurbita moschata,verde uses pepitas and tomatillo
+tacos al pastor,al pastor; tacos de pastor; taco al pastor,Mexican,Sus scrofa; Zea mays; Capsicum annuum; Bixa orellana; Ananas comosus; Allium cepa; Coriandrum sativum; Citrus aurantiifolia; Citrus aurantium,
+tacos de carnitas,taco de carnitas,Mexican,Sus scrofa; Zea mays; Allium cepa; Coriandrum sativum; Capsicum annuum; Citrus aurantiifolia,
+tacos de barbacoa,barbacoa de borrego; barbacoa; barbacoa de res,Mexican,Ovis aries; Bos taurus; Zea mays; Allium cepa; Coriandrum sativum; Capsicum annuum; Citrus aurantiifolia; Agave salmiana,cooked in maguey leaves
+tacos de suadero,suadero,Mexican,Bos taurus; Zea mays; Allium cepa; Coriandrum sativum; Capsicum annuum; Citrus aurantiifolia,
+tacos de canasta,tacos sudados; taco de canasta,Mexican,Zea mays; Solanum tuberosum; Sus scrofa; Phaseolus vulgaris; Capsicum annuum; Allium cepa,
+tacos dorados,flautas; taquitos; tacos de pollo dorados,Mexican,Zea mays; Gallus gallus; Solanum tuberosum; Lactuca sativa; Bos taurus; Solanum lycopersicum; Capsicum annuum,crema and queso are Bos taurus
+tlayuda,tlayudas; tlayuda oaxaqueña,Oaxacan,Zea mays; Sus scrofa; Phaseolus vulgaris; Bos taurus; Brassica oleracea; Solanum lycopersicum; Persea americana; Capsicum annuum,asiento; quesillo; tasajo
+mole negro,mole negro oaxaqueño; mole oaxaqueño,Oaxacan,Gallus gallus; Capsicum annuum; Theobroma cacao; Solanum lycopersicum; Physalis philadelphica; Allium cepa; Allium sativum; Sesamum indicum; Arachis hypogaea; Prunus dulcis; Vitis vinifera; Musa × paradisiaca; Triticum aestivum; Piper auritum; Cinnamomum verum; Zea mays,
+mole verde,pipián verde; mole verde de pepita,Mexican,Gallus gallus; Sus scrofa; Cucurbita moschata; Physalis philadelphica; Capsicum annuum; Coriandrum sativum; Dysphania ambrosioides; Piper auritum; Lactuca sativa; Allium cepa; Zea mays,
+pipián rojo,pipián; pipian,Mexican,Gallus gallus; Sus scrofa; Cucurbita argyrosperma; Capsicum annuum; Solanum lycopersicum; Sesamum indicum; Arachis hypogaea; Allium cepa; Allium sativum; Zea mays,
+chiles en nogada,chile en nogada,Mexican,Capsicum annuum; Sus scrofa; Bos taurus; Juglans regia; Punica granatum; Malus domestica; Pyrus communis; Prunus persica; Musa × paradisiaca; Vitis vinifera; Prunus dulcis; Solanum lycopersicum; Allium cepa; Petroselinum crispum; Gallus gallus,
+sopa de tortilla,sopa azteca; sopa tarasca,Mexican,Zea mays; Solanum lycopersicum; Capsicum annuum; Allium cepa; Allium sativum; Gallus gallus; Persea americana; Bos taurus; Dysphania ambrosioides,crema and queso are Bos taurus
+sopa de lima,sopa de lima yucateca,Yucatecan,Gallus gallus; Citrus aurantiifolia; Zea mays; Solanum lycopersicum; Allium cepa; Capsicum annuum; Coriandrum sativum,
+panuchos,panucho,Yucatecan,Zea mays; Phaseolus vulgaris; Meleagris gallopavo; Allium cepa; Solanum lycopersicum; Persea americana; Capsicum chinense; Bixa orellana,
+salbutes,salbute,Yucatecan,Zea mays; Meleagris gallopavo; Allium cepa; Solanum lycopersicum; Persea americana; Capsicum chinense; Brassica oleracea,
+papadzules,papadzul,Yucatecan,Zea mays; Gallus gallus; Cucurbita moschata; Dysphania ambrosioides; Solanum lycopersicum; Capsicum chinense; Allium cepa,
+relleno negro,relleno negro yucateco; chilmole,Yucatecan,Meleagris gallopavo; Sus scrofa; Capsicum annuum; Gallus gallus; Solanum lycopersicum; Allium cepa; Dysphania ambrosioides; Bixa orellana; Zea mays,
+poc chuc,poc-chuc,Yucatecan,Sus scrofa; Citrus aurantium; Allium cepa; Solanum lycopersicum; Coriandrum sativum; Capsicum chinense; Zea mays; Phaseolus vulgaris,
+huevos motuleños,huevo motuleño,Yucatecan,Gallus gallus; Zea mays; Phaseolus vulgaris; Solanum lycopersicum; Sus scrofa; Pisum sativum; Musa × paradisiaca; Bos taurus,
+huevos divorciados,,Mexican,Gallus gallus; Zea mays; Solanum lycopersicum; Physalis philadelphica; Capsicum annuum; Allium cepa; Phaseolus vulgaris,
+enfrijoladas,enfrijolada,Mexican,Zea mays; Phaseolus vulgaris; Gallus gallus; Bos taurus; Allium cepa; Dysphania ambrosioides; Capsicum annuum,
+entomatadas,entomatada,Mexican,Zea mays; Solanum lycopersicum; Gallus gallus; Bos taurus; Allium cepa; Capsicum annuum,
+enmoladas,enmolada,Mexican,Zea mays; Gallus gallus; Capsicum annuum; Theobroma cacao; Sesamum indicum; Bos taurus; Allium cepa,
+gorditas,gordita; gorditas de chicharrón,Mexican,Zea mays; Sus scrofa; Capsicum annuum; Bos taurus; Lactuca sativa; Solanum lycopersicum,
+tlacoyos,tlacoyo; tlacoyos de frijol,Mexican,Zea mays; Phaseolus vulgaris; Vicia faba; Opuntia ficus-indica; Bos taurus; Allium cepa; Coriandrum sativum; Capsicum annuum,
+huaraches,huarache,Mexican,Zea mays; Phaseolus vulgaris; Bos taurus; Opuntia ficus-indica; Capsicum annuum; Allium cepa; Lactuca sativa,
+quesadillas de maíz,quesadilla de queso; quesadillas de flor de calabaza,Mexican,Zea mays; Bos taurus; Cucurbita pepo; Dysphania ambrosioides; Capsicum annuum,queso oaxaca is Bos taurus
+memelas,memela; memelitas,Oaxacan,Zea mays; Sus scrofa; Phaseolus vulgaris; Bos taurus; Capsicum annuum,
+tetelas,tetela,Oaxacan,Zea mays; Phaseolus vulgaris; Bos taurus; Capsicum annuum,
+chapulines con guacamole,tacos de chapulines; chapulines a la mexicana,Oaxacan,Sphenarium purpurascens; Zea mays; Persea americana; Allium sativum; Citrus aurantiifolia; Capsicum annuum,
+chicatanas en salsa,salsa de chicatanas; salsa de hormiga chicatana,Oaxacan,Atta laevigata; Capsicum annuum; Allium sativum; Solanum lycopersicum,Atta mexicana not in the tree; a congener stands in
+gusanos de maguey,gusano de maguey; tacos de gusanos de maguey; chinicuiles,Mexican,Aegiale hesperiaris; Comadia redtenbacheri; Zea mays; Persea americana; Capsicum annuum; Citrus aurantiifolia,
+jumiles,tacos de jumiles; salsa de jumiles,Mexican,Euschistus taxcoensis; Zea mays; Solanum lycopersicum; Capsicum annuum; Allium sativum,
+aguachile,aguachile de camarón; aguachile verde; aguachile rojo,Sinaloan,Penaeus vannamei; Citrus aurantiifolia; Capsicum annuum; Cucumis sativus; Allium cepa; Coriandrum sativum; Persea americana; Zea mays,
+ceviche mexicano,ceviche de pescado mexicano; ceviche de camarón mexicano; tostadas de ceviche,Mexican,Coryphaena hippurus; Penaeus vannamei; Citrus aurantiifolia; Solanum lycopersicum; Allium cepa; Coriandrum sativum; Capsicum annuum; Persea americana; Zea mays,
+pescado zarandeado,zarandeado,Nayarit,Lutjanus campechanus; Capsicum annuum; Allium sativum; Citrus aurantiifolia; Glycine max; Sinapis alba; Allium cepa; Zea mays,
+huachinango a la veracruzana,pescado a la veracruzana; a la veracruzana,Veracruzan,Lutjanus campechanus; Solanum lycopersicum; Olea europaea; Capparis spinosa; Allium cepa; Allium sativum; Capsicum annuum; Origanum vulgare; Laurus nobilis; Vitis vinifera,
+camarones a la diabla,camarones al mojo de ajo; camarones al ajillo mexicanos,Mexican,Penaeus vannamei; Capsicum annuum; Solanum lycopersicum; Allium sativum; Bos taurus; Oryza sativa,
+caldo de res,caldo de res mexicano; cocido de res; puchero mexicano,Mexican,Bos taurus; Zea mays; Solanum tuberosum; Daucus carota; Cucurbita pepo; Brassica oleracea; Sechium edule; Allium cepa; Coriandrum sativum; Citrus aurantiifolia,
+caldo tlalpeño,,Mexican,Gallus gallus; Cicer arietinum; Capsicum annuum; Daucus carota; Cucurbita pepo; Persea americana; Bos taurus; Dysphania ambrosioides; Citrus aurantiifolia; Oryza sativa,
+menudo,pancita; mondongo mexicano,Mexican,Bos taurus; Zea mays; Capsicum annuum; Origanum vulgare; Allium cepa; Citrus aurantiifolia; Allium sativum,
+chicharrón en salsa verde,chicharrón en salsa; chicharrón en salsa roja,Mexican,Sus scrofa; Physalis philadelphica; Capsicum annuum; Allium cepa; Allium sativum; Coriandrum sativum; Zea mays,
+carne asada,carne asada con guacamole; tacos de carne asada,Northern Mexican,Bos taurus; Zea mays; Persea americana; Allium cepa; Coriandrum sativum; Citrus aurantiifolia; Capsicum annuum; Phaseolus vulgaris,
+machaca con huevo,machaca; machacado con huevo,Northern Mexican,Bos taurus; Gallus gallus; Solanum lycopersicum; Allium cepa; Capsicum annuum; Triticum aestivum,with flour tortillas
+burrito norteño,burrito de carne asada; burrito de frijol,Northern Mexican,Triticum aestivum; Phaseolus vulgaris; Bos taurus; Oryza sativa; Solanum lycopersicum; Allium cepa; Capsicum annuum,
+chilorio,,Sinaloan,Sus scrofa; Capsicum annuum; Allium sativum; Cuminum cyminum; Origanum vulgare; Citrus aurantium; Triticum aestivum,
+discada,discada norteña,Northern Mexican,Bos taurus; Sus scrofa; Allium cepa; Solanum lycopersicum; Capsicum annuum; Hordeum vulgare; Triticum aestivum,with beer; flour tortillas
+frijoles charros,frijoles charros norteños; frijoles borrachos,Northern Mexican,Phaseolus vulgaris; Sus scrofa; Solanum lycopersicum; Allium cepa; Capsicum annuum; Coriandrum sativum; Hordeum vulgare,
+esquites,esquite; elote en vaso; vasolote,Mexican,Zea mays; Bos taurus; Gallus gallus; Dysphania ambrosioides; Capsicum annuum; Citrus aurantiifolia,mayonnaise is egg; queso cotija is Bos taurus
+tamales oaxaqueños,tamal oaxaqueño; tamales de mole,Oaxacan,Zea mays; Gallus gallus; Sus scrofa; Capsicum annuum; Theobroma cacao; Sesamum indicum; Musa × paradisiaca,wrapped in banana leaf
+tamales de rajas,tamal de rajas; tamales de rajas con queso,Mexican,Zea mays; Capsicum annuum; Bos taurus; Sus scrofa; Solanum lycopersicum,
+tamales dulces,tamal dulce; tamales de dulce,Mexican,Zea mays; Sus scrofa; Saccharum officinarum; Vitis vinifera; Ananas comosus; Fragaria × ananassa,
+atole de avena,atole; atole de arroz; atole de maíz,Mexican,Zea mays; Avena sativa; Bos taurus; Cinnamomum verum; Saccharum officinarum; Vanilla planifolia,
+champurrado,,Mexican,Zea mays; Theobroma cacao; Saccharum officinarum; Cinnamomum verum; Bos taurus,with piloncillo
+agua de jamaica,agua de flor de jamaica; jamaica,Mexican,Hibiscus sabdariffa; Saccharum officinarum; Citrus aurantiifolia,
+agua de horchata de arroz,horchata de arroz; horchata mexicana,Mexican,Oryza sativa; Cinnamomum verum; Saccharum officinarum; Bos taurus; Vanilla planifolia,
+tepache,tepache de piña,Mexican,Ananas comosus; Saccharum officinarum; Cinnamomum verum; Syzygium aromaticum; Saccharomyces cerevisiae,
+paletas de fruta,paleta de mango; paletas de agua; paleta de fresa; paletas de crema,Mexican,Mangifera indica; Fragaria × ananassa; Saccharum officinarum; Citrus aurantiifolia; Bos taurus; Capsicum annuum,
+mangonada,chamoyada; mango con chile y limón; chamoy,Mexican,Mangifera indica; Capsicum annuum; Prunus armeniaca; Citrus aurantiifolia; Tamarindus indica; Saccharum officinarum,chamoy is apricot or tamarind
+dulce de calabaza,calabaza en tacha; calabaza en dulce,Mexican,Cucurbita moschata; Saccharum officinarum; Cinnamomum verum; Citrus sinensis,
+arroz con leche,arroz con leche mexicano; arroz de leche,Latin American,Oryza sativa; Bos taurus; Cinnamomum verum; Saccharum officinarum; Vitis vinifera; Citrus limon; Vanilla planifolia,
+cocadas,cocada,Latin American,Cocos nucifera; Saccharum officinarum; Bos taurus; Gallus gallus,
+natilla colombiana,natilla,Colombian,Zea mays; Bos taurus; Saccharum officinarum; Cinnamomum verum; Cocos nucifera; Vitis vinifera,with panela
+tres leches,pastel de tres leches; torta tres leches; torta de tres leches,Latin American,Triticum aestivum; Bos taurus; Gallus gallus; Saccharum officinarum; Vanilla planifolia,
+bife de chorizo,bife de chorizo a la parrilla; bife ancho; bife angosto; ojo de bife,Argentine,Bos taurus,a beef cut; not sausage
+pollo asado,pollo al horno; pollo rostizado; pollo a la brasa; pollo al carbón; pollo a la parrilla,Latin American,Gallus gallus; Allium sativum; Citrus aurantiifolia; Origanum vulgare; Capsicum annuum,
+cuy asado,cuy al horno; cuy chactado; cuy frito,Andean,Cavia porcellus; Solanum tuberosum; Zea mays; Allium sativum; Cuminum cyminum,
+cordero asado,cordero al palo; cordero al asador; cordero patagónico; asado de cordero,Patagonian,Ovis aries; Allium sativum; Origanum vulgare; Vitis vinifera,
+chancho asado,cerdo asado; cerdo al horno; chancho al horno; puerco asado,Latin American,Sus scrofa; Allium sativum; Origanum vulgare; Cuminum cyminum; Citrus aurantium,
+pescado asado,pescado a la parrilla; pescado al horno; pescado frito; pescado a la plancha,Latin American,Lutjanus campechanus; Allium sativum; Citrus aurantiifolia; Capsicum annuum,generic fish stands in as red snapper
+cocido madrileño,cocido; cocido montañés; cocido maragato,Spanish,Cicer arietinum; Bos taurus; Gallus gallus; Sus scrofa; Solanum tuberosum; Brassica oleracea; Daucus carota; Triticum aestivum; Allium cepa,
