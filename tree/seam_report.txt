@@ -1,4 +1,4 @@
-stitched tree: 2678 candidate species placed of 3279; root 2132 Ma
+stitched tree: 2678 candidate species placed of 3281; root 2132 Ma
 
 [Shen et al. 2020 Sci Adv 6:eabd0079, 1,107-genome Ascomycota timetree (RelTime, 815 genes; exact times)] 1107 tips in source; 34 candidate species kept; crown 518.4 Ma
   hung from node at 646 Ma; stem 127.6 Myr
@@ -26,4 +26,4 @@ stitched tree: 2678 candidate species placed of 3279; root 2132 Ma
 [Smith & Brown 2018 Am J Bot 105:302, ALLMB (seed plants, Magallon backbone)] 356305 tips in source; 2695 candidate species kept; crown 325.1 Ma
   hung from node at 480 Ma; stem 154.9 Myr
 
-== not yet in any source (601); assemble_tree.py will gap-fill those with a congener or family member present, and list the rest
+== not yet in any source (603); assemble_tree.py will gap-fill those with a congener or family member present, and list the rest

@@ -165,7 +165,11 @@ buds bud cooked stems stem pith bulb bulbs corm corms larva larvae pupa pupae br
 fat butter colourant rennet jelly starch gum needles receptacle fleshy inner grain nectar young pulp heart hearts
 in the of and a an or white red black green yellow blue brown purple pink orange golden silver giant small large common
 wild domestic dwarf greater lesser european american asian african chinese japanese indian pacific atlantic mediterranean
-northern southern eastern western sweet sour bitter edible true false farmed cultivated historical marxianus'''.split())
+northern southern eastern western sweet sour bitter edible true false farmed cultivated historical marxianus
+berries berry acorn acorns hips rhizome rhizomes manna flavouring flavoring samaras seedling
+gulf africa west east north south central europe asia america americas chile peru mexico brazil argentina india china japan
+korea thailand nz australia tasmania hawaii sahel cape sonoran nsw florida yunnan mauritius indochina caribbean andes
+patagonia amazon texas california alaska'''.split())
 def _is_part(piece):
     words = [w for w in re.split(r"[^a-z]+", piece.lower()) if w]
     return bool(words) and all(w in PART_WORDS for w in words)
@@ -184,10 +188,11 @@ def aliases_for(common, species):
     for p in parts:
         p2 = re.sub(r"\(.*?\)", "", p).strip()
         if p2 and p2.lower() != p0 and not _is_part(p2): out.append(p2)
+    latin = {w.lower() for w in re.split(r"[\s×]+", species) if w}
     for e in extra:
         for piece in e.split(","):
             piece = piece.strip()
-            if piece and len(piece) > 2 and not _is_part(piece): out.append(piece)
+            if piece and len(piece) > 2 and not _is_part(piece) and piece.lower() not in latin: out.append(piece)   # "(acuminata)" is not an alias
     return ";".join(dict.fromkeys(out))
 
 # ---------------- main ----------------

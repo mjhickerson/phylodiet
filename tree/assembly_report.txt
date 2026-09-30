@@ -1,5 +1,5 @@
-tree version: open-0.18.1 (2026-09-29)
-tips in output: 3279   root age: 2132 Myr   total branch length: 205286 Myr
+tree version: open-0.18.2 (2026-09-30)
+tips in output: 3281   root age: 2132 Myr   total branch length: 205296 Myr
 
 == changelog
    2026-09-19  MH: First TimeTree 5 build: 2,607 dated species; 49 synonyms; 63 families anchored by hand  [TimeTree 5 export of the 3,279-name list]
@@ -20,6 +20,7 @@ tips in output: 3279   root age: 2132 Myr   total branch length: 205286 Myr
    2026-09-27  Rhema Uche-Dike, Kate Montana, Julia Amoroso (Ware lab, AMNH): Open tree v0.17: insect skeleton dated from their review sheet. Neoptera 383 and Eumetabola 373 (Wang et al. 2016 Sci Rep); Ensifera 268 and Acrididae+Pyrgomorphidae 140 (Song et al. 2015); Cicadidae 199 and Nepomorpha 243 (Wang et al. 2017/2019 Cladistics); Pentatomoidea 100.5 (Wang et al. 2016 Cladistics); Vespidae 110 (Blaimer et al. 2023); Coleoptera 300 now cited, Cucujiformia 200, Tenebrionidae 122, Scarabaeidae 120 (Zhang et al. 2018), Polyphaga 260 approx; Cossidae 120, Bombycoidea 88, Saturniidae 70 (Wahlberg et al. 2013); Insecta 441 upgraded to Misof 2014. Not adopted: Insecta 301 (Cen et al. 2025) and Collembola-Archaeognatha 344, which sit below Pterygota 406; Pterygota 385 (Thomas et al. 2013) kept at Misof's 406 for consistency; Apidae-Formicidae split 110, which is younger than the ant crown; single-species family crowns (Dytiscidae 170, Curculionidae 120, Stratiomyidae 129, Chaoboridae 118, Hesperiidae 85, Termitidae 54) recorded in backbone.py notes  [insect_review_Rhema_Kate.csv, 2026-09-25]
    2026-09-27  Jessica Ware: Forthcoming 1KITE Nature ms moves the deep insect nodes older: Hexapoda ~523, Insecta ~523, Pterygota ~470s, Neoptera ~475, Polyneoptera 425+, Hymenoptera ~298. Recorded beside each node in backbone.py; to be adopted when the paper is out (Hexapoda 523 would also need the Pancrustacea node above it revisited)  [J. Ware, email 2026-09-27]
    2026-09-28  Hocheol Kim / MH: Open tree v0.18: red algae now grafted from the Kim et al. 2026 posterior-mean MCMCtree (correlated clock, nuclear BUSCOs, 70 taxa, Fig. 2E), tree file provided by Hocheol Kim with permission to use it in the app and repository with citation. Replaces the Yang et al. 2016 subclass skeleton for reds. Direct matches: Porphyra umbilicalis, Pyropia yezoensis and haitanensis, Devaleraea mollis, Ahnfeltia plicata, Asparagopsis taxiformis, Chondrus crispus, Eucheuma denticulatum, Kappaphycus alvarezii, Catenella nipae, Gracilaria gracilis; congeners kept for Palmaria, Hypnea, Gracilariopsis, Vertebrata. Kim runs older than Yang below the subclass level (Rhodymeniophycidae 506 vs 412, Gigartinales 413 vs 250; Florideophyceae 869 vs 943); the Bangiales-Florideophyceae split at 996 hangs from Strassert's 1415. Gracilaria crown 230 (Maggs) retired for the file's own 175. Families absent from Kim anchor on families present  [Kim et al. 2026 preprint; H. Kim, email 2026-09-28]
+   2026-09-30  MH: Open tree v0.18.2: Jonah crab (Cancer borealis) and Atlantic rock crab (Cancer irroratus) added beside Cancer pagurus ('Jonah crab' had fallen through to the generic 'crab' alias, the blue crab). Keyword fixes: parenthetical descriptors and place names in common names no longer become aliases ('corvina (Chile)' had made 'chile' match a fish, '(berries)' six species, '(acorn)' twelve oaks); the page now gives a common name to the first tip that claims it, so 'laver' is Porphyra umbilicalis alone rather than both Porphyra species, likewise corvina, banana, wild rice and the other congener pairs; wrong English aliases removed (striped bass on branzino, manila clam on quahog, sour cherry on sweet cherry, king oyster on the oyster mushroom, cassia on Ceylon cinnamon, wormwood on tarragon, emu on ostrich, elk on red deer). Spanish: orito (Musa acuminata), maqueño, papa criolla added; mayonnaise added to the dish table. Found by MH on a Maine dinner and by Justin Yeager on a Quito lunch  [user reports]
    2026-09-29  MH: Open tree v0.18.1: Spanish alias layer (data/aliases_es.csv, about 4,750 names for 1,076 species: Mexican, Central American, Caribbean, Andean, Chilean, Rioplatense and Iberian usage, regional synonyms included, so choclo, elote and jojoto all reach Zea mays). Tree and ages unchanged. Alias corrections that came with it: 'aji' dropped from the Japanese jack mackerel (it is the chile), 'membrillo' from Gustavia superba (the quince), 'palillo' from Campomanesia lineatifolia (turmeric in Peruvian recipes), 'uvilla' from the Amazon tree grape (the goldenberry in Ecuador and Colombia); Manilkara kauki renamed from 'caqui' to 'kauki' (caqui is the persimmon). Requested by Guillermo D'Elía and Justin Yeager  [data/aliases_es.csv]
    2026-09-28  MH: Placement fix: a species joining on the stem above an anchor at a given age now climbs to the branch that spans that age instead of stopping at the anchor's parent; FAMILY_CROWN table added (Rhodomelaceae 295 from Kim et al. 2026). Naematelia aurantialba, meant to join Tremella at 100 Ma since v0.1, had been landing at 53  [assemble_tree.py]
    2026-09-28  MH: Project renamed Phylodiet (was Phyloplate): an unrelated BEAST model viewer called PhyloPlate, from the Institut Pasteur, went public a month before this project. Repository, demo URL and page file renamed; the old repository name redirects. Tree unchanged  [github.com/mjhickerson/phylodiet]
@@ -40,7 +41,7 @@ tips in output: 3279   root age: 2132 Myr   total branch length: 205286 Myr
 
 == assumed substitute (tree label -> candidate): 0
 
-== gap-filled at genus: 275
+== gap-filled at genus: 277
    Pyropia tenera: child of MRCA
    Porphyra purpurea: sister to Porphyra umbilicalis at 5.00 Myr
    Porphyra dioica: child of MRCA
@@ -297,6 +298,8 @@ tips in output: 3279   root age: 2132 Myr   total branch length: 205286 Myr
    Jasus lalandii: sister to Jasus edwardsii at 5.00 Myr
    Cherax destructor: sister to Cherax quadricarinatus at 5.00 Myr
    Cherax cainii: child of MRCA
+   Cancer borealis: sister to Cancer pagurus at 5.00 Myr
+   Cancer irroratus: child of MRCA
    Portunus pelagicus: sister to Portunus trituberculatus at 5.00 Myr
    Scylla paramamosain: sister to Scylla serrata at 5.00 Myr
    Charybdis japonica: sister to Charybdis feriata at 5.00 Myr

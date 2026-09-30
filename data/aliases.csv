@@ -6,7 +6,7 @@ Zamia integrifolia,Florida arrowroot
 Pinus sibirica,cedar nut
 Pinus koraiensis,pine nut;Korean pine nut
 Pinus pinea,pine nut;pignoli;pinoli
-Juniperus communis,berry;juniper berry;gin
+Juniperus communis,juniper berry;gin
 Araucaria araucana,piñón
 Araucaria angustifolia,pinhão
 Brasenia schreberi,junsai
@@ -23,7 +23,7 @@ Myristica fragrans,mace;nutmeg
 Persea americana,avocado;guacamole
 Laurus nobilis,bay leaf;bay
 Sassafras albidum,filé
-Cinnamomum verum,cinnamon;cassia
+Cinnamomum verum,cinnamon
 Cinnamomum tamala,Indian bay
 Chamelea gallina,vongola
 Colocasia esculenta,taro;poi;dasheen
@@ -37,7 +37,6 @@ Dioscorea polystachya,nagaimo
 Dioscorea alata,ube
 Lilium brownii,bai he
 Vanilla planifolia,vanilla
-Disa robusta,Disa
 Orchis mascula,salep
 Curculigo latifolia,curculin
 Asparagus officinalis,asparagus
@@ -49,20 +48,17 @@ Allium cepa,shallot;onion;onions;shallots;scallion;scallions;green onion;spring 
 Allium ampeloprasum,elephant garlic;leek;leeks
 Allium schoenoprasum,chive;chives
 Allium fistulosum,negi
-Dianella caerulea,berries
 Hemerocallis citrina,huang hua cai
 Ananas comosus,pineapple
-Schoenoplectus acutus,rhizome;pollen
+Schoenoplectus acutus,pollen
 Cyperus esculentus,chufa
 Zizania latifolia,jiaobai
 Oryza sativa,rice;sushi rice;rice vinegar;rice noodles;rice flour;mochi;sake
 Melocanna baccifera,bamboo rice
-Glyceria fluitans,manna
 Thinopyrum intermedium,intermediate wheatgrass
 Triticum turgidum,emmer
 Triticum aestivum,wheat;flour;bread;pasta;noodles;bun;couscous;bulgur;semolina;durum;seitan;soy sauce;tortilla;crackers;breadcrumbs;panko;pastry
 Secale cereale,rye
-Elymus repens,rhizome
 Hordeum vulgare,barley;malt;beer;pearl barley
 Avena sativa,oat;oats;oatmeal;rolled oats
 Anthoxanthum nitens,żubrówka
@@ -70,7 +66,6 @@ Zea mays,maize;corn;cornmeal;polenta;masa;corn syrup;cornstarch;popcorn;grits;to
 Saccharum edule,pitpit
 Saccharum officinarum,sugarcane;sugar;cane sugar;molasses;rum;brown sugar
 Sorghum bicolor,sorghum
-Phragmites australis,manna
 Phoenix dactylifera,date palm;dates
 Phoenix sylvestris,jaggery
 Corypha utan,sago
@@ -89,9 +84,6 @@ Nypa fruticans,attap
 Raphia hookeri,palm wine
 Mauritia flexuosa,moriche
 Salacca zalacca,snake fruit
-Musa × paradisiaca,banana hybrids
-Musa acuminata,acuminata
-Musa balbisiana,balbisiana
 Boesenbergia rotunda,krachai
 Zingiber officinale,ginger
 Zingiber zerumbet,awapuhi
@@ -135,8 +127,6 @@ Ferocactus wislizeni,cactus candy
 Echinocactus platyacanthus,acitrón
 Stenocereus thurberi,pitaya dulce
 Echinopsis chiloensis,guillave
-Pereskia grandifolia,grandifolia
-Opuntia matudae,matudae
 Opuntia ficus-indica,nopal;prickly pear;nopales;cactus
 Talinum fruticosum,waterleaf
 Claytonia virginica,fairy spuds
@@ -145,28 +135,20 @@ Phytolacca americana,poke sallet
 Cornus officinalis,shanzhuyu
 Halesia carolina,pickled fruit
 Actinidia deliciosa,kiwi;kiwifruit
-Arbutus menziesii,berries
-Gaultheria mucronata,berries
-Gaultheria hispida,Tasmania
-Gaylussacia baccata,Gaylussacia
 Paphia undulata,lala
 Vaccinium macrocarpon,cranberry;cranberries
 Vaccinium vitis-idaea,lingonberry
 Vaccinium corymbosum,blueberry;blueberries
 Empetrum rubrum,diddle-dee
-Camellia taliensis,Yunnan
 Camellia sinensis,tea;green tea;black tea;matcha;oolong
 Mimusops elengi,bakul
 Englerophytum magalismontanum,stamvrug
 Chrysophyllum albidum,udara
-Barringtonia procera,procera
 Barringtonia edulis,pao
-Gustavia superba,Gustavia
 Bertholletia excelsa,Brazil nut
 Diospyros blancoi,velvet apple
 Diospyros kaki,persimmon
 Embelia ribes,vidanga
-Ardisia compressa,Ardisia
 Ilex latifolia,kuding
 Elwendia persica,shahi jeera
 Centella asiatica,pegaga
@@ -176,7 +158,6 @@ Pimpinella anisum,anise;aniseed
 Oenanthe javanica,seri
 Cuminum cyminum,cumin
 Daucus carota,carrot;carrots
-Ferula foetida,foetida
 Anethum graveolens,dill
 Apium graveolens,celeriac;celery;celery seed
 Foeniculum vulgare,fennel;fennel seed
@@ -206,7 +187,6 @@ Cichorium endivia,escarole;endive;frisee
 Microseris lanceolata,yam daisy
 Cicerbita alpina,turt
 Lactuca sativa,lettuce;romaine;iceberg;salad greens;mesclun
-Launaea cornuta,East Africa
 Taraxacum officinale,dandelion
 Petasites japonicus,butterbur
 Crassocephalum crepidioides,fireweed
@@ -217,7 +197,7 @@ Artemisia arborescens,sheeba
 Artemisia princeps,yomogi
 Artemisia annua,qinghao
 Artemisia herba-alba,shih
-Artemisia dracunculus,tarragon;wormwood;absinthe
+Artemisia dracunculus,tarragon
 Pluchea indica,beluntas
 Acmella oleracea,jambu
 Helianthus annuus,sunflower;sunflower oil;sunflower seeds
@@ -226,17 +206,14 @@ Pectis papposa,limoncillo
 Madia sativa,melosa
 Stevia rebaudiana,stevia
 Carphephorus odoratissimus,deer tongue
-Ipomoea costata,Ipomoea
 Ipomoea batatas,sweet potato;yam (US);camote
 Ipomoea aquatica,kangkong
 Capsicum chinense,habanero;scotch bonnet
 Capsicum frutescens,bird's eye
-Capsicum annuum,bell pepper;chili;jalapeno;paprika;cayenne;chile;chilli;red pepper flakes
+Capsicum annuum,bell pepper;chili;jalapeno;paprika;cayenne;chilli;red pepper flakes
 Physalis peruviana,cape gooseberry
-Physalis philadelphica,tomatillo;goldenberry
+Physalis philadelphica,tomatillo
 Withania coagulans,vegetable rennet
-Solanum curtilobum,curtilobum
-Solanum juzepczukii,juzepczukii
 Solanum quitoense,lulo
 Solanum tuberosum,potato;potatoes;fries;french fries;chips
 Solanum lycopersicum,tomato;tomatoes;ketchup;catsup;tomato paste;marinara;salsa
@@ -245,28 +222,22 @@ Solanum torvum,pea eggplant
 Solanum aethiopicum,garden egg
 Solanum melongena,eggplant;aubergine
 Solanum centrale,desert raisin
-Lycium andersonii,berries
 Lycium chinense,goji
 Saba senegalensis,madd
 Coffea canephora,robusta coffee
 Coffea arabica,coffee;espresso
-Gardenia erubescens,Sahel
 Micromeria fruticosa,zuta
 Jasminum sambac,jasmine tea
-Jasminum officinale,flavouring
 Osmanthus fragrans,gui hua
 Olea europaea,olive;olive oil;olives
 Limnophila aromatica,ngò om
 Plantago coronopus,erba stella
 Plantago asiatica,oobako
 Sesamum indicum,sesame;tahini;sesame oil;sesame seeds
-Justicia insularis,Africa
 Ruspolia differens,bush cricket
 Cistanche deserticola,rou cong rong
-Vitex doniana,Vitex
 Vitex agnus-castus,monk's pepper
 Stachys affinis,crosnes
-Sideritis scardica,Sideritis
 Perilla frutescens,perilla;shiso
 Elsholtzia ciliata,kinh giới
 Lavandula angustifolia,lavender
@@ -277,7 +248,6 @@ Coleus amboinicus,Indian borage
 Ocimum gratissimum,clove basil
 Ocimum tenuiflorum,tulsi
 Ocimum basilicum,basil;thai basil;pesto
-Hyptis spicigera,Africa
 Salvia rosmarinus,rosemary
 Salvia officinalis,sage
 Agastache rugosa,bangah
@@ -296,19 +266,15 @@ Cordia myxa,lasura
 Vitis coignetiae,yamabudo
 Vitis labrusca,Concord
 Vitis vinifera,grape;wine;raisin;raisins;grapes;wine vinegar;balsamic
-Fuchsia magellanica,berries
 Ludwigia adscendens,rau dua
 Punica granatum,pomegranate
 Syzygium polyanthum,daun salam
 Syzygium aromaticum,clove;cloves
-Myrtus communis,berries
 Psidium guajava,guava
 Pimenta dioica,allspice
 Ugni molinae,Chilean guava
-Eugenia luschnathiana,Eugenia
 Eugenia uniflora,pitanga
 Luma apiculata,Chilean myrtle
-Aphloia theiformis,Mauritius
 Zanthoxylum rhetsa,teppal
 Zanthoxylum armatum,Nepal pepper
 Tetradium ruticarpum,wu zhu yu
@@ -328,7 +294,6 @@ Acer palmatum,momiji tempura
 Dacryodes edulis,African pear
 Spondias mombin,hog plum
 Spondias pinnata,amra
-Harpephyllum caffrum,Cape
 Choerospondias axillaris,Nepali hog plum
 Pistacia vera,pistachio;pistachios
 Pistacia terebinthus,menengiç
@@ -338,7 +303,6 @@ Mangifera indica,mango
 Mangifera foetida,bachang
 Anacardium occidentale,cashew;cashews
 Shorea stenoptera,tengkawang
-Amoreuxia palmatifida,Sonoran root
 Durio zibethinus,durian
 Quararibea cordata,chupa-chupa
 Thespesia garckeana,snot apple
@@ -373,13 +337,11 @@ Brassica juncea,mustard greens;brown mustard;dijon;gai choy
 Brassica rapa,bok choy;napa;turnip;napa cabbage;pak choi;turnip greens;mizuna;rapini
 Tamarindus indica,tamarind
 Dialium indum,keranji
-Dialium cochinchinense,Indochina
 Gymnocladus dioicus,roasted
 Ceratonia siliqua,carob
 Senna siamea,khi-lek
 Senna obtusifolia,kawal
 Prosopis cineraria,sangri
-Prosopis juliflora,juliflora
 Parkia biglobosa,dawadawa
 Parkia timoriana,yongchak
 Parkia speciosa,stink bean
@@ -404,12 +366,10 @@ Lens culinaris,lentil;lentils;dal
 Pisum sativum,pea;peas;split peas;snap peas
 Vicia faba,fava bean;broad bean
 Trigonella foenum-graecum,fenugreek;methi
-Melilotus officinalis,flavouring
 Medicago sativa,sprouts
 Shepherdia canadensis,Indian ice cream
 Ziziphus nummularia,jhar ber
 Ziziphus mauritiana,Indian jujube
-Ulmus pumila,samaras
 Cannabis sativa,hemp seed
 Humulus lupulus,hops;beer;ipa
 Pourouma cecropiifolia,uvilla
@@ -421,7 +381,7 @@ Ficus carica,fig;figs
 Ficus pumila,jelly fig
 Prunus ilicifolia,islay
 Prunus laurocerasus,taflan
-Prunus avium,cherry;cherries;sour cherry
+Prunus avium,cherry;cherries
 Prunus dulcis,almond;almonds;marzipan;almond milk
 Prunus persica,nectarine;peach
 Prunus armeniaca,apricot
@@ -435,8 +395,6 @@ Malus domestica,apple;cider;apples;applesauce
 Rubus idaeus,raspberry;raspberries
 Rosa rubiginosa,rosa mosqueta
 Rosa damascena,rosewater
-Rosa rugosa,hips
-Rosa canina,hips
 Fragaria × ananassa,strawberry;strawberries
 Corylus avellana,hazelnut;filbert;hazelnuts
 Betula lenta,birch beer
@@ -446,27 +404,14 @@ Myrica gale,gruit
 Juglans ailantifolia,heartnut
 Juglans regia,walnut;walnuts
 Carya illinoinensis,pecan;pecans
-Notholithocarpus densiflorus,acorn
 Quercus mongolica,dotori
-Quercus robur,acorn
-Quercus petraea,acorn
-Quercus ilex,acorn
 Quercus emoryi,bellota
 Quercus rotundifolia,bellota
-Quercus alba,acorn
-Quercus macrocarpa,acorn
-Quercus lobata,acorn
-Quercus agrifolia,acorn
-Quercus kelloggii,acorn
-Quercus dentata,acorn
-Quercus acutissima,acorn
-Quercus variabilis,acorn
 Quercus brantii,acorn bread
 Castanopsis cuspidata,shii
 Fagus grandifolia,beechnut
 Fagus sylvatica,beechnut
 Fagus crenata,beechnut
-Cucumeropsis mannii,mannii
 Momordica charantia,bitter melon;bitter gourd
 Momordica dioica,kakrol
 Siraitia grosvenorii,luo han guo
@@ -474,8 +419,7 @@ Telfairia occidentalis,ugu
 Cyclanthera pedata,achocha
 Trichosanthes dioica,parwal
 Cucurbita ficifolia,chilacayote
-Cucurbita maxima,maxima
-Cucurbita pepo,pumpkin;pepo;zucchini;summer squash;acorn squash;courgette;pepitas
+Cucurbita pepo,pumpkin;zucchini;summer squash;acorn squash;courgette;pepitas
 Lagenaria siceraria,calabash
 Citrullus lanatus,watermelon
 Benincasa hispida,wax gourd
@@ -483,7 +427,6 @@ Coccinia grandis,tindora
 Cucumis metuliferus,horned melon
 Cucumis melo,melon;cantaloupe;honeydew
 Cucumis sativus,cucumber;pickle;pickles;gherkin
-Davidsonia jerseyana,NSW
 Oxalis pes-caprae,sour grass
 Flacourtia jangomas,paniala
 Passiflora tripartita,curuba
@@ -499,7 +442,6 @@ Equisetum arvense,tsukushi
 Diplazium esculentum,paco
 Matteuccia struthiopteris,fiddlehead;fiddlehead fern;ostrich fern
 Pteridium aquilinum,warabi
-Auxenochlorella pyrenoidosa,pyrenoidosa
 Chlorella vulgaris,chlorella
 Haematococcus lacustris,astaxanthin
 Codium fragile,dead man's fingers
@@ -512,7 +454,6 @@ Nemalion helminthoides,umisomen
 Palmaria palmata,dulse
 Porphyra umbilicalis,laver;laverbread
 Pyropia yezoensis,nori;seaweed;sushi seaweed;gim;kim
-Ecklonia radiata,Australia
 Alaria esculenta,dabberlocks;winged kelp
 Undaria pinnatifida,wakame
 Saccharina japonica,kombu;kelp;dashi;kelp noodles;laminaria
@@ -534,7 +475,7 @@ Phasianus colchicus,pheasant
 Meleagris gallopavo,turkey
 Lagopus lagopus,red grouse
 Coturnix coturnix,quail;quail egg
-Struthio camelus,ostrich;emu
+Struthio camelus,ostrich
 Alligator mississippiensis,alligator;crocodile
 Chelydra serpentina,snapping turtle;turtle
 Bungarus multicinctus,snake soup
@@ -558,7 +499,7 @@ Bos taurus,cattle;beef;milk;cheese;butter;cream;yogurt;ghee;steak;veal;whey;parm
 Odocoileus virginianus,deer
 Rangifer tarandus,caribou
 Cervus canadensis,wapiti
-Cervus elaphus,red deer;elk
+Cervus elaphus,red deer
 Sus scrofa,wild boar;pig;pork;bacon;ham;lard;prosciutto;sausage;pancetta;gelatin
 Camelus dromedarius,camel
 Equus caballus,horse
@@ -575,7 +516,6 @@ Prochilodus lineatus,curimba
 Pangasianodon hypophthalmus,swai);basa/swai
 Ictalurus punctatus,catfish
 Rhamdia quelen,jundiá
-Chrysichthys nigrodigitatus,West Africa
 Misgurnus anguillicaudatus,dojo
 Cyprinus carpio,carp
 Tor tambroides,empurau
@@ -600,7 +540,6 @@ Thamnaconus modestus,umazurahagi
 Takifugu rubripes,torafugu
 Naso unicornis,kala
 Acanthurus triostegus,manini
-Cilus gilberti,Chile
 Argyrosomus japonicus,kob
 Branchiostegus japonicus,amadai
 Pagrus major,madai
@@ -612,7 +551,7 @@ Etelis coruscans,onaga
 Pristipomoides filamentosus,opakapaka
 Lutjanus kasmira,ta'ape
 Parapristipoma trilineatum,isaki
-Dicentrarchus labrax,branzino;sea bass;striped bass
+Dicentrarchus labrax,branzino;sea bass
 Ammodytes personatus,ikanago
 Lateolabrax japonicus,suzuki
 Doederleinia berycoides,nodoguro
@@ -655,7 +594,6 @@ Cypselurus poecilopterus,tobiko
 Cheilopogon agoo,tobiuo
 Galeorhinus galeus,school shark
 Squalus acanthias,dogfish;shark;rock salmon
-Chimaera monstrosa,chimaera
 Eptatretus burgeri,kkomjangeo
 Petromyzon marinus,lamprey
 Microcosmus sabatieri,sea fig
@@ -675,7 +613,6 @@ Helix pomatia,escargot;land snail;snail;snails
 Cornu aspersum,petit-gris
 Aliger gigas,queen conch
 Telescopium telescopium,mud creeper
-Tympanotonus fuscatus,West Africa
 Littorina littorea,periwinkle;winkle;winkles
 Babylonia japonica,bai
 Buccinum undatum,whelk
@@ -685,13 +622,12 @@ Turbo cornutus,horned turban
 Haliotis midae,perlemoen
 Haliotis discus,ezo awabi
 Cerastoderma edule,cockle
-Ensis magnus,Europe
 Panopea generosa,geoduck
 Bactronophorus thoracites,shipworm
 Tresus capax,horse clam
 Mactromeris polynyma,hokkigai
 Mya arenaria,soft-shell clam;steamers
-Mercenaria mercenaria,quahog;hard clam;clam;clams;littleneck;cherrystone;manila clam
+Mercenaria mercenaria,quahog;hard clam;clam;clams;littleneck;cherrystone
 Mizuhopecten yessoensis,hotate
 Atrina pectinata,tairagi
 Mytilus edulis,mussel;mussels
@@ -706,13 +642,11 @@ Cybister tripunctatus,long ga
 Rhynchophorus palmarum,chontacuro
 Alphitobius diaperinus,buffalo worm
 Tenebrio molitor,mealworm
-Polybia occidentalis,Mexico
 Vespa mandarinia,hachinoko
 Atta laevigata,leafcutter ant
 Apis mellifera,honey bee;honey;royal jelly;bee pollen
 Corisella texcocana,water boatman eggs
 Lethocerus indicus,maeng da
-Macrotermes subhyalinus,subhyalinus
 Acheta domesticus,cricket;crickets;cricket flour
 Oratosquilla oratoria,shako
 Neomysis intermedia,ami
@@ -731,8 +665,6 @@ Procambarus clarkii,crayfish;crawfish;crawdad
 Macrobrachium rosenbergii,freshwater prawn
 Crangon crangon,North Sea
 Aristeus antennatus,gamba roja
-Penaeus duorarum,Gulf
-Penaeus aztecus,Gulf
 Penaeus vannamei,shrimp;prawns;prawn;shrimps
 Pollicipes pollicipes,percebes
 Cyriopagopus albostriatus,a-ping
@@ -743,27 +675,25 @@ Rhizopus oligosporus,tempeh mold;tempeh
 Ustilago maydis,huitlacoche;corn smut
 Tremella fuciformis,snow fungus;white fungus
 Cantharellus cibarius,chanterelle
-Auricularia cornea,cornea
 Auricularia auricula-judae,wood ear;black fungus;cloud ear
 Grifola frondosa,maitake;hen of the woods
 Lentinus squarrosulus,tropical
 Hericium erinaceus,lion's mane
 Boletus edulis,porcini;cep;penny bun
 Phlebopus portentosus,Thai
-Pleurotus ostreatus,oyster mushroom;king oyster
-Pholiota adiposa,adiposa
+Pleurotus ostreatus,oyster mushroom
 Agaricus subrufescens,blazei
 Agaricus bisporus,cremini;portobello;button;mushroom;mushrooms;portabella;champignon
 Flammulina velutipes,enoki;enokitake
 Lentinula edodes,shiitake
 Saccharomyces cerevisiae,brewer's yeast;baker's;yeast;bread;beer;wine;sourdough;leavened
 Torulaspora delbrueckii,wine
-Geotrichum candidum,geotrichum
 Morchella esculenta,morel;morels
 Tuber magnatum,white truffle
 Tuber melanosporum,black truffle;truffle
-Neurospora intermedia,intermedia
 Fusarium venenatum,Quorn;mycoprotein;quorn
 Aspergillus oryzae,koji mold;koji;miso;soy sauce;sake;mirin
 Penicillium roqueforti,blue cheese mold;blue cheese;roquefort;gorgonzola;stilton
 Penicillium camemberti,camembert mold;brie;camembert
+Musa acuminata,banana;bananas
+Cancer irroratus,rock crab;Maine rock crab;peekytoe crab;peekytoe

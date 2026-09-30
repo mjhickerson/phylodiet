@@ -137,7 +137,7 @@ footer{margin-top:64px;border-top:1px solid var(--line);padding-top:16px;color:v
 <h1>How much of the tree of life is on your plate?</h1>
 <p class="lede">Paste a recipe or name a dish. Every ingredient gets mapped to the organism it came from, the eukaryote tree gets pruned to what's on the plate, and the branch lengths get added up: millions of years of evolution per meal.</p>
 
-<textarea id="recipe" placeholder="e.g. miso soup with kombu dashi, tofu, wakame and scallions&#10;or paste the ingredient list from a recipe"></textarea>
+<textarea id="recipe" placeholder="List what was on the plate, in English or Spanish: e.g. laver, salmon, Jonah crab, green sea urchin, rice, kombu, bread, mayonnaise, soy sauce, lettuce, tomato&#10;Ingredient lists work best; dish names are looked up in a table and many regional dishes are not in it yet"></textarea>
 <div class="row">
   <button id="score">Score this meal</button>
   <button id="stop" class="quiet hidden">Stop</button>
@@ -315,13 +315,14 @@ function metrics(ids){
 
 // ---------- local matcher (fallback + add box) ----------
 function buildMatcher(){
-  const map = new Map();
+  const map = new Map(), commonTaken = new Set();
+  const put = (q, id) => { if (q.length >= 3 && !(map.get(q) || []).includes(id)) map.set(q, (map.get(q) || []).concat(id)); };
   for (const t of DATA.tips){
-    const ph = new Set();
-    t.common.split('/').forEach(s => ph.add(s.replace(/\(.*?\)/g,'').trim()));
-    (t.aliases||'').split(';').forEach(s => s.trim() && ph.add(s.trim()));
-    ph.add(t.species.replace(/ spp\.| agg\.| x /g,' ').trim());
-    for (const p of ph){ const q = fold(p); if (q.length >= 3) map.set(q, (map.get(q) || []).concat(t.id)); }
+    // common names: the first tip to claim a name keeps it ("laver" is Porphyra umbilicalis, not also "laver (Atlantic)")
+    for (const s of t.common.split('/')){ const q = fold(s.replace(/\(.*?\)/g,'').trim()); if (q.length >= 3 && !commonTaken.has(q)){ commonTaken.add(q); put(q, t.id); } }
+    // aliases may deliberately name several tips (bread: wheat and yeast; beer: barley, hops and yeast)
+    (t.aliases||'').split(';').forEach(s => { if (s.trim()) put(fold(s.trim()), t.id); });
+    put(fold(t.species.replace(/ spp\.| agg\.| x /g,' ').trim()), t.id);
   }
   PHRASES = [...map].map(([p, ids]) => ({p, ids}));
   PHRASES.sort((a,b) => b.p.length - a.p.length);

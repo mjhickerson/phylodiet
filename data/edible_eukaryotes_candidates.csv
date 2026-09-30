@@ -33,7 +33,7 @@ Pyropia tenera,asakusa nori,Pyropia,Bangiaceae,red,Red algae
 Pyropia haitanensis,tan zicai,Pyropia,Bangiaceae,red,Red algae
 Porphyra umbilicalis,laver,Porphyra,Bangiaceae,red,Red algae
 Porphyra purpurea,purple laver,Porphyra,Bangiaceae,red,Red algae
-Porphyra dioica,laver (Atlantic),Porphyra,Bangiaceae,red,Red algae
+Porphyra dioica,Atlantic laver,Porphyra,Bangiaceae,red,Red algae
 Bangia fuscopurpurea,bangia,Bangia,Bangiaceae,red,Red algae
 Palmaria palmata,dulse,Palmaria,Palmariaceae,red,Red algae
 Palmaria mollis,Pacific dulse,Palmaria,Palmariaceae,red,Red algae
@@ -450,6 +450,8 @@ Cherax destructor,yabby,Cherax,Parastacidae,animal,Crustaceans and barnacles
 Cherax cainii,marron,Cherax,Parastacidae,animal,Crustaceans and barnacles
 Faxonius virilis,virile crayfish,Faxonius,Cambaridae,animal,Crustaceans and barnacles
 Cancer pagurus,brown crab,Cancer,Cancridae,animal,Crustaceans and barnacles
+Cancer borealis,Jonah crab,Cancer,Cancridae,animal,Crustaceans and barnacles
+Cancer irroratus,Atlantic rock crab,Cancer,Cancridae,animal,Crustaceans and barnacles
 Metacarcinus magister,Dungeness crab,Metacarcinus,Cancridae,animal,Crustaceans and barnacles
 Callinectes sapidus,blue crab,Callinectes,Portunidae,animal,Crustaceans and barnacles
 Portunus trituberculatus,gazami crab,Portunus,Portunidae,animal,Crustaceans and barnacles
@@ -673,7 +675,7 @@ Pygocentrus nattereri,red-bellied piranha,Pygocentrus,Serrasalmidae,animal,"Bony
 Prochilodus lineatus,sábalo (curimba),Prochilodus,Prochilodontidae,animal,"Bony fishes: primitive groups, eels, herrings, carps, catfish, characins"
 Prochilodus nigricans,curimatã,Prochilodus,Prochilodontidae,animal,"Bony fishes: primitive groups, eels, herrings, carps, catfish, characins"
 Brycon amazonicus,matrinxã,Brycon,Bryconidae,animal,"Bony fishes: primitive groups, eels, herrings, carps, catfish, characins"
-Salminus brasiliensis,dorado,Salminus,Bryconidae,animal,"Bony fishes: primitive groups, eels, herrings, carps, catfish, characins"
+Salminus brasiliensis,river dorado,Salminus,Bryconidae,animal,"Bony fishes: primitive groups, eels, herrings, carps, catfish, characins"
 Hoplias malabaricus,trahira,Hoplias,Erythrinidae,animal,"Bony fishes: primitive groups, eels, herrings, carps, catfish, characins"
 Leporinus obtusidens,piapara,Leporinus,Anostomidae,animal,"Bony fishes: primitive groups, eels, herrings, carps, catfish, characins"
 Hydrocynus vittatus,tigerfish,Hydrocynus,Alestidae,animal,"Bony fishes: primitive groups, eels, herrings, carps, catfish, characins"
@@ -878,7 +880,7 @@ Argyrosomus japonicus,mulloway (kob),Argyrosomus,Sciaenidae,animal,"Bony fishes:
 Sciaenops ocellatus,red drum,Sciaenops,Sciaenidae,animal,"Bony fishes: perch-like fishes, tunas, flatfishes and others"
 Cynoscion nebulosus,spotted seatrout,Cynoscion,Sciaenidae,animal,"Bony fishes: perch-like fishes, tunas, flatfishes and others"
 Cynoscion regalis,weakfish,Cynoscion,Sciaenidae,animal,"Bony fishes: perch-like fishes, tunas, flatfishes and others"
-Cynoscion squamipinnis,corvina (Pacific),Cynoscion,Sciaenidae,animal,"Bony fishes: perch-like fishes, tunas, flatfishes and others"
+Cynoscion squamipinnis,Pacific corvina,Cynoscion,Sciaenidae,animal,"Bony fishes: perch-like fishes, tunas, flatfishes and others"
 Micropogonias undulatus,Atlantic croaker,Micropogonias,Sciaenidae,animal,"Bony fishes: perch-like fishes, tunas, flatfishes and others"
 Micropogonias furnieri,whitemouth croaker,Micropogonias,Sciaenidae,animal,"Bony fishes: perch-like fishes, tunas, flatfishes and others"
 Larimichthys crocea,large yellow croaker,Larimichthys,Sciaenidae,animal,"Bony fishes: perch-like fishes, tunas, flatfishes and others"
@@ -1582,8 +1584,8 @@ Chamaedorea tepejilote,pacaya,Chamaedorea,Arecaceae,plant,Monocots: palms
 Prestoea acuminata,palmito (mountain cabbage),Prestoea,Arecaceae,plant,Monocots: palms
 Eugeissona utilis,wild Bornean sago,Eugeissona,Arecaceae,plant,Monocots: palms
 Livistona australis,cabbage-tree palm,Livistona,Arecaceae,plant,Monocots: palms
-Musa acuminata,banana (acuminata),Musa,Musaceae,plant,"Monocots: gingers, bananas, arrowroots, spiderworts"
-Musa balbisiana,banana (balbisiana),Musa,Musaceae,plant,"Monocots: gingers, bananas, arrowroots, spiderworts"
+Musa acuminata,dessert banana (acuminata),Musa,Musaceae,plant,"Monocots: gingers, bananas, arrowroots, spiderworts"
+Musa balbisiana,balbisiana banana,Musa,Musaceae,plant,"Monocots: gingers, bananas, arrowroots, spiderworts"
 Musa × paradisiaca,plantain / banana hybrids,Musa,Musaceae,plant,"Monocots: gingers, bananas, arrowroots, spiderworts"
 Ensete ventricosum,enset,Ensete,Musaceae,plant,"Monocots: gingers, bananas, arrowroots, spiderworts"
 Zingiber officinale,ginger,Zingiber,Zingiberaceae,plant,"Monocots: gingers, bananas, arrowroots, spiderworts"
@@ -2206,7 +2208,7 @@ Myrciaria dubia,camu camu,Myrciaria,Myrtaceae,plant,"Eudicots: myrtles, pomegran
 Myrciaria floribunda,rumberry,Myrciaria,Myrtaceae,plant,"Eudicots: myrtles, pomegranate, water caltrop, evening primrose, terminalia"
 Myrciaria glazioviana,cabeludinha,Myrciaria,Myrtaceae,plant,"Eudicots: myrtles, pomegranate, water caltrop, evening primrose, terminalia"
 Campomanesia xanthocarpa,guabiroba,Campomanesia,Myrtaceae,plant,"Eudicots: myrtles, pomegranate, water caltrop, evening primrose, terminalia"
-Campomanesia lineatifolia,palillo,Campomanesia,Myrtaceae,plant,"Eudicots: myrtles, pomegranate, water caltrop, evening primrose, terminalia"
+Campomanesia lineatifolia,palillo fruit (Campomanesia),Campomanesia,Myrtaceae,plant,"Eudicots: myrtles, pomegranate, water caltrop, evening primrose, terminalia"
 Campomanesia adamantium,gabiroba,Campomanesia,Myrtaceae,plant,"Eudicots: myrtles, pomegranate, water caltrop, evening primrose, terminalia"
 Pimenta dioica,allspice,Pimenta,Myrtaceae,plant,"Eudicots: myrtles, pomegranate, water caltrop, evening primrose, terminalia"
 Pimenta racemosa,West Indian bay,Pimenta,Myrtaceae,plant,"Eudicots: myrtles, pomegranate, water caltrop, evening primrose, terminalia"

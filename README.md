@@ -29,7 +29,7 @@ Prokaryotes are excluded on purpose (they are on everything). Amounts are ignore
 | `scripts/assemble_tree.py` | Takes any dated Newick plus the species list and produces the app's tree: matches species, applies synonyms, gap-fills missing species next to congeners, at family nodes, or by anchor, names internal nodes, and writes a report. Pure Python, no dependencies. |
 | `data/aliases.csv` | English food-word aliases per species (egg, bacon, bread, flour, tofu, ...), 768 rows. `assemble_tree.py` picks up every `data/aliases*.csv` automatically; without them the app knows only common and Latin names. |
 | `data/aliases_es.csv` | Spanish aliases, about 4,750 names for 1,076 species, with the regional synonyms (frijol, poroto, habichuela, caraota, alubia, judía; choclo, elote, jojoto; palta, aguacate; camarón, gamba, langostino). Built for the Latin American and Iberian kitchens first; accents are optional in the app. Words that collide with English food words are left out ("tuna" stays the fish; "pan" is recognised only in Spanish phrasing such as "con pan", so "pan-seared" does not add wheat). |
-| `data/dishes.csv` | The dish lookup table: 711 dishes and about 1,700 names (aliases, spellings) across the major cuisines, each mapped to the organisms it is usually made from. Typing "cheeseburger" or "bánh mì" works because of this file. Versioned in `data/dishes_version.txt`; checked by `scripts/check_dishes.py`. |
+| `data/dishes.csv` | The dish lookup table: 713 dishes and about 1,750 names (aliases, spellings) across the major cuisines, each mapped to the organisms it is usually made from. Typing "cheeseburger" or "bánh mì" works because of this file. Versioned in `data/dishes_version.txt`; checked by `scripts/check_dishes.py`. |
 | `scripts/bake.py` | Builds the single-file app from a tree, the dish table and the HTML template. |
 | `scripts/make_placeholder_tree.py` | Generates the original 289-taxon placeholder tree, from hand-set node ages (kept for the record). |
 | `app/template.html` | The app: ingredient parsing, PD and richness, meal phylogram, radial coverage view, meal log, custom-tree loader. |
@@ -100,7 +100,7 @@ Add a row to `data/dishes.csv` (columns `dish, aliases, cuisine, species, notes`
 - [x] Working prototype: parsing, PD, richness, coverage, meal phylogram, radial coverage, meal log
 - [x] Species list (3,279) and placement tables
 - [x] Assembly pipeline with synonyms, gap-filling, node naming, versioning
-- [x] Dish lookup table (v0.2: 711 dishes, 190 of them Latin American, Caribbean and Iberian; no server, no model call)
+- [x] Dish lookup table (v0.2.1: 713 dishes, 190 of them Latin American, Caribbean and Iberian; no server, no model call)
 - [x] Spanish ingredient and dish names (aliases_es.csv)
 - [x] Open, redistributable dated tree (v0.4: every listed species placed; nine species-level sources; decapod, bivalve and insect-order and brown-algal skeletons dated from Wolfe et al. 2019, Li et al. 2025, Misof et al. 2014, Peters et al. 2017, Kawahara et al. 2019 and Choi et al. 2024, Tanner et al. 2017; other invertebrate, algal and ascomycete skeleton ages under review)
 - [ ] Standalone hosting with the tree server-side
@@ -109,7 +109,7 @@ Add a row to `data/dishes.csv` (columns `dish, aliases, cuisine, species, notes`
 
 ## Citing
 
-Hickerson, M.J. (2026). Phylodiet: phylogenetic diversity of what you eat. Software and data, version 0.19 (open tree open-0.18.1). Zenodo. https://doi.org/10.5281/zenodo.22997191
+Hickerson, M.J. (2026). Phylodiet: phylogenetic diversity of what you eat. Software and data, version 0.19 (open tree open-0.18.2). Zenodo. https://doi.org/10.5281/zenodo.22997191
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22997191.svg)](https://doi.org/10.5281/zenodo.22997191)
 

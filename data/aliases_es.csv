@@ -647,7 +647,7 @@ Lupinus albus,altramuz;altramuces;lupín;chochos españoles;lupino blanco;tremo�
 Canavalia ensiformis,frijol espada;haba de burro;frijol canavalia;canavalia;haba de caballo;frijol de caballo;frijol machete;haba de jamaica;haba de las indias;frijol de puerco;frijol de sable
 Canavalia gladiata,frijol sable;frijol espada rojo;canavalia roja;haba de sable
 Erythrina edulis,chachafruto;balú;pajuro;sachaporoto;poroto sachaporoto;basul;frijol de árbol andino;porotón;frisol de monte;poroto de árbol;frijol chachafruto;frijol balú;frijol pajuro;frijol sachaporoto;frijol basul;frijol porotón
-Pachyrhizus erosus,jícama;nabo mexicano;jícama con chile;jícama con limón;jícama con chile y limón;jícama de leche;jícama china;jícama de méxico;jícama de áfrica
+Pachyrhizus erosus,jícama;nabo mexicano;jícama con chile;jícama con limón;jícama con chile y limón;jícama de leche;jícama china
 Pachyrhizus ahipa,ahipa;ajipa;jícama andina;jícama boliviana
 Pachyrhizus tuberosus,jíquima;chuin;jícama amazónica;ashipa;yam bean amazónico
 Inga edulis,guama;guaba;pacae;cuaniquil;cuajinicuil;cuijinicuil;jinicuil;paterna;guamo;inga;guaba tropical;guaba de café;guaba de cacao;guaba de plátano;guaba de banano;guaba de yuca;guaba de maíz;guaba de frijol;guaba de arroz;guaba de caña;guaba de coco;guaba de mango;guaba de papaya;guaba de piña;guaba de guayaba;guaba de naranja;guaba de limón;guaba de mandarina;guaba de toronja;guaba de lima;guaba de aguacate;guaba de mamey;guaba de níspero;guaba de chirimoya;guaba de guanábana;guaba de anón;guaba de anona;guaba de curuba;guaba de tomate de árbol;guaba de naranjilla;guaba de lulo;guaba de uchuva;guaba de mora;guaba de fresa;guaba de frambuesa;guaba de arándano;guaba de uva;guaba de manzana;guaba de pera;guaba de durazno;guaba de ciruela;guaba de cereza;guaba de higo;guaba de dátil;guaba de granada;guaba de membrillo;guaba de tamarindo
@@ -669,9 +669,9 @@ Apios americana,apios;papa de la india;hopniss
 Sphenostylis stenocarpa,frijol ñame africano;yam bean africano
 Parkia biglobosa,néré;dawadawa;frijol de langosta africano;algarrobo africano;iru;soumbala
 Parkia speciosa,petai;frijol apestoso;stink bean;sator
-Leucaena esculenta,guaje;huaje;salsa de guaje;guaxmole;huaxmole;guaje poblano;guaje de méxico
+Leucaena esculenta,guaje;huaje;salsa de guaje;guaxmole;huaxmole;guaje poblano
 Leucaena leucocephala,guaje blanco;leucaena;ipil ipil;tantán;guaje de vaina;huaxin;guaje ganadero;guaje forrajero;guaje de castilla;guaje manso;guaje de la india;guaje filipino;guaje hawaiano;guaje australiano;guaje africano;guaje asiático;guaje americano;guaje centroamericano;guaje sudamericano;guaje caribeño;guaje tropical;guaje subtropical;guaje de zona cálida;guaje de zona templada;guaje de zona fría;guaje de altura;guaje de valle;guaje de montaña;guaje de costa;guaje de sierra;guaje de selva;guaje de bosque;guaje de sabana;guaje de pradera;guaje de desierto;guaje de matorral;guaje de chaparral;guaje de manglar;guaje de humedal;guaje de ribera;guaje de río;guaje de lago;guaje de laguna;guaje de estero;guaje de pantano;guaje de ciénaga;guaje de marisma;guaje de playa;guaje de duna;guaje de acantilado;guaje de isla;guaje de península;guaje de continente
-Pithecellobium dulce,guamúchil;huamúchil;pinzán;chiminango;tamarindo de manila;payandé;madras thorn;tamarindo chino guamúchil;guamúchil de méxico;guamúchil tropical
+Pithecellobium dulce,guamúchil;huamúchil;pinzán;chiminango;tamarindo de manila;payandé;madras thorn;tamarindo chino guamúchil;guamúchil tropical
 Solanum tuberosum,papa;cachelos;cachelo;patata;puré;chuño;tunta;moraya;milcao;chapalele;tortilla de papas
 Ipomoea batatas,camote;batata;boniato;papa dulce;patata dulce;chaco;kumara;moniato;boniatillo
 Manihot esculenta,yuca;mandioca;casabe;cazabe;cassava;guacamote;aipim;tapioca;pan de yuca;cuñapé;enyucado;carimañola;farofa;fariña;mañoco;almidón agrio;polvilho;casave;cazave
@@ -705,7 +705,7 @@ Curcuma longa,cúrcuma;palillo;azafrán de la india
 Alpinia galanga,galanga;galangal
 Allium cepa,cebolla;cebollita;chalota;chalote;echalote;escalonia
 Allium fistulosum,cebolla de verdeo;cebolla verde;cebollín;cebollita china;cebolla china;cebolla larga;cebolla junca;cebolla de rama;cebolla de cambray;cebolla cambray;cebollita de cambray;cebolleta;cebolla de rabo;cebolla en rama;cebolla de hoja;verdeo;cebolla puerro chino;negi
-Allium sativum,ajo;al ajillo;ajillo;alioli;ajoblanco
+Allium sativum,ajo;al ajillo;ajillo;ajoblanco
 Allium ampeloprasum,puerro;poro;ajo porro;ajoporro;ajo puerro;ajopuerro;ajo elefante;ajo chilote;ajo de elefante
 Allium schoenoprasum,cebollino;ciboulette;cebolleta francesa;cebollín francés
 Allium tuberosum,cebollino chino;ajo cebollino;nira;ciboulette china;cebollín chino
@@ -960,7 +960,8 @@ Morus nigra,mora negra;morera negra;mora de morera
 Morus alba,morera;mora blanca;mora de árbol
 Vitis vinifera,uva;vino;pasas;pasa;pisco;mosto;espumante;champán;champaña;cava;brandy;coñac;jerez;oporto;vermut;grapa;grappa;singani;arrope;hoja de parra;hojas de parra;sultana
 Vitis labrusca,uva concord;uva americana;uva chinche;uva isabella
-Musa × paradisiaca,plátano;banano;guineo;cambur;tostón;patacón;tajadas;chifles;mariquitas;platanitos;platanutres;chips de plátano;plátano asado;harina de plátano;pan de plátano;pan de banana
+Musa acuminata,orito;guineo orito;banano bocadillo;bananito;guineo manzano;cambur manzano;plátano de seda;plátano de la isla;banana de seda;cavendish
+Musa × paradisiaca,plátano;maqueño;banano;guineo;cambur;tostón;patacón;tajadas;chifles;mariquitas;platanitos;platanutres;chips de plátano;plátano asado;harina de plátano;pan de plátano;pan de banana
 Ananas comosus,piña;ananá
 Mangifera indica,mango;mango con chile
 Carica papaya,papaya;lechosa;fruta bomba;papayón
