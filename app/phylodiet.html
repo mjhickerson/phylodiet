@@ -85,6 +85,8 @@ h3{font-family:var(--serif);font-weight:500;font-size:19px;margin:22px 0 8px}
 .metric b{display:block;font-family:var(--serif);font-weight:300;font-size:52px;line-height:1;letter-spacing:-.03em;font-variant-numeric:tabular-nums}
 .metric b small{font-size:22px;font-weight:300;margin-left:4px;color:var(--ink-2)}
 .metric span{display:block;color:var(--ink-2);font-size:15px;margin-top:6px;max-width:26ch}
+.metric .cmp{color:var(--ink);max-width:30ch}
+.metric .cmp:empty{display:none}
 .note{color:var(--muted);font-size:15px;max-width:70ch}
 /* trees */
 .treewrap{margin-top:18px;overflow-x:auto}
@@ -161,7 +163,7 @@ footer{margin-top:64px;border-top:1px solid var(--line);padding-top:16px;color:v
   <div class="note" id="dishnote">Dish missing or mapped wrong? <a id="suggest" href="https://github.com/mjhickerson/phylodiet/issues/new" target="_blank" rel="noopener">Suggest a fix on GitHub</a>. Dish table <b>dishes-0.2.1 (2026-09-30)</b>, <b id="d-dishes">0</b> dishes.</div>
 
   <div class="metrics">
-    <div class="metric"><b id="m-pd">0</b><span>Faith's phylogenetic diversity: total branch length spanning the meal, root included (millions of years)</span></div>
+    <div class="metric"><b id="m-pd">0</b><span>Faith's phylogenetic diversity: total branch length spanning the meal, root included (millions of years)</span><span class="cmp" id="m-pd-cmp"></span></div>
     <div class="metric"><b id="m-rich">0</b><span>Species richness: distinct organisms on the plate</span></div>
     <div class="metric"><b id="m-cov">0<small>%</small></b><span id="m-cov-note">of the tracked edible tree's total branch length</span></div>
     <div class="metric"><b id="m-span">0</b><span id="m-span-note">Myr spanned below the meal's own common ancestor</span></div>
@@ -245,7 +247,9 @@ function buildIndex(root){
   })(root);
   return {root, nodes, tips, byId, total, rootAge: root.age};
 }
+let DISH_PDS = null;   // PD of every dish in the table, sorted; rebuilt when the tree or the dish table changes
 function loadTree(root){
+  DISH_PDS = null;
   DATA = buildIndex(root);
   DATA.bySpecies = new Map(); DATA.byGenus = new Map();
   for (const t of DATA.tips){
@@ -330,6 +334,7 @@ function buildMatcher(){
 // ---------- dish lookup table ----------
 let DISHES = {version:'none', dishes:[]}, DISH_PHRASES = [];
 function loadDishes(obj){
+  DISH_PDS = null;
   DISHES = obj && Array.isArray(obj.dishes) ? obj : {version:'none', dishes:[]};
   const map = new Map();
   for (const d of DISHES.dishes) for (const n of d.n){ const q = fold(n).replace(/[^a-z0-9\s'-]/g,' ').replace(/\s+/g,' ').trim(); if (q.length >= 3 && !map.has(q)) map.set(q, d); }
@@ -467,11 +472,36 @@ $('#scale').addEventListener('click', e => {
 });
 function xOf(age, W){ const r = age / DATA.rootAge; return W * (1 - (scaleMode === 'sqrt' ? Math.sqrt(r) : r)); }
 
+// ---------- context for the PD number: the dish table as a reference set, and the browser's own log once it has five meals ----------
+function dishPDs(){
+  if (DISH_PDS) return DISH_PDS;
+  const out = [];
+  for (const d of (DISHES && DISHES.dishes) || []){
+    const ids = [];
+    for (const sp of d.s){ const r = resolveItem({species: sp, common: '', as: d.n[0], inferred: true}); if (r && !ids.includes(r.id)) ids.push(r.id); }
+    if (ids.length) out.push(metrics(ids).pd);
+  }
+  DISH_PDS = out.sort((a, b) => a - b);
+  return DISH_PDS;
+}
+function median(a){ const v = [...a].sort((x, y) => x - y), h = v.length >> 1; return v.length % 2 ? v[h] : (v[h-1] + v[h]) / 2; }
+function pdContext(pd){
+  const ref = dishPDs(); if (!ref.length) return '';
+  const below = ref.filter(v => v < pd).length;
+  let s = `More diverse than ${Math.round(100 * below / ref.length)}% of the ${ref.length} dishes in the table (median ${fmt(median(ref))})`;
+  const log = readLog();
+  if (log.length >= 5){
+    const m = median(log.map(l => metrics(l.ids).pd));
+    s += pd > m ? `, and above your own median of ${fmt(m)}` : pd < m ? `, and below your own median of ${fmt(m)}` : `, and right at your own median of ${fmt(m)}`;
+  }
+  return s + '.';
+}
 function renderAll(){
   renderChips();
   const ids = meal.map(m => m.id);
   const M = metrics(ids);
   $('#m-pd').textContent = fmt(M.pd);
+  try { $('#m-pd-cmp').textContent = M.pd ? pdContext(M.pd) : ''; } catch { $('#m-pd-cmp').textContent = ''; }
   $('#m-rich').textContent = M.richness;
   $('#m-cov').innerHTML = (M.coverage*100).toFixed(1) + '<small>%</small>';
   $('#m-span').textContent = fmt(M.span);
