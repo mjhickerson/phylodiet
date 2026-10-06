@@ -63,7 +63,7 @@ Each source keeps its own internal ages and hangs from the backbone at its crown
 
 The working prototype used during development ran on a tree with divergence times from TimeTree 5 (Kumar et al. 2022). The TimeTree team has agreed (September 2026) to that tree being used inside the app, with citation; their terms still restrict redistribution, so the TimeTree-dated tree is **not** in this repository and will only ever run server-side. Five skeleton node ages in `scripts/backbone.py` cite TimeTree 5 medians individually, with attribution.
 
-The insect skeleton (about 50 species) was reviewed by Jessica Ware's lab at the AMNH (Rhema Uche-Dike, Kate Montana, Julia Amoroso), who supplied published ages for most of its nodes (Song et al. 2015, Wang et al. 2016 and 2017, Zhang et al. 2018, Wahlberg et al. 2013, Blaimer et al. 2023); the deep nodes stay at Misof et al. 2014 until the lab's new 1KITE timetree is published, and its forthcoming values are recorded beside each node in `scripts/backbone.py`. `curation/node_review_open.csv` lists every backbone node with its basis (regenerate it with `scripts/node_review.py`); 48 of 155 are still approximate.
+The insect skeleton (about 50 species) was reviewed by Jessica Ware's lab at the AMNH (Rhema Uche-Dike, Kate Montana, Julia Amoroso), who supplied published ages for most of its nodes (Song et al. 2015, Wang et al. 2016 and 2017, Zhang et al. 2018, Wahlberg et al. 2013, Blaimer et al. 2023); the deep nodes stay at Misof et al. 2014 until the lab's new 1KITE timetree is published, and its forthcoming values are recorded beside each node in `scripts/backbone.py`. David Lohman (CCNY) then pointed to the timetrees that date the remaining insect nodes (Kawahara et al. 2019 and 2023, Toussaint et al. 2026, Johnson et al. 2018, Blaimer et al. 2023, Wiegmann et al. 2011), adopted in open tree 0.19. `curation/node_review_open.csv` lists every backbone node with its basis (regenerate it with `scripts/node_review.py`); 38 of 148 are still approximate, five of them in the insects (Polyneoptera, Orthoptera, Aparaglossata, Polyphaga, Panorpida).
 
 Two mycologists have reviewed the mushroom source: one finds Varga et al. 2019 runs old, the other that it runs young for deep nodes, so it is kept as published and Varga et al. 2019 is bracketed by expert opinion on both sides (see the changelog in `curation/curation.py`). Bacteria are not scored: the tree is eukaryotes only, so fermentation cultures count for the plant or animal they are grown on.
 
@@ -109,7 +109,7 @@ Add a row to `data/dishes.csv` (columns `dish, aliases, cuisine, species, notes`
 
 ## Citing
 
-Hickerson, M.J. (2026). Phylodiet: phylogenetic diversity of what you eat. Software and data, version 0.19 (open tree open-0.18.2). Zenodo. https://doi.org/10.5281/zenodo.22997191
+Hickerson, M.J. (2026). Phylodiet: phylogenetic diversity of what you eat. Software and data, version 0.19 (open tree open-0.19). Zenodo. https://doi.org/10.5281/zenodo.22997191
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22997191.svg)](https://doi.org/10.5281/zenodo.22997191)
 
