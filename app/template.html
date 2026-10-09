@@ -160,7 +160,7 @@ footer{margin-top:64px;border-top:1px solid var(--line);padding-top:16px;color:v
   <div class="chips" id="chips"></div>
   <div class="addbox"><input id="add" placeholder="Add an ingredient" autocomplete="off"><div class="sugg hidden" id="sugg"></div></div>
   <div class="unmatched" id="unmatched"></div>
-  <div class="note" id="dishnote">Dish missing or mapped wrong? <a id="suggest" href="https://github.com/mjhickerson/phylodiet/issues/new" target="_blank" rel="noopener">Suggest a fix on GitHub</a>. Dish table <b>__DISHES_VERSION__</b>, <b id="d-dishes">0</b> dishes.</div>
+  <div class="note" id="dishnote">Dish missing or mapped wrong? <a id="suggest" href="https://github.com/mjhickerson/phylodiet/issues/new" target="_blank" rel="noopener">Suggest a fix on GitHub</a>, or <a id="suggest-mail" href="#">email it</a>. Dish table <b>__DISHES_VERSION__</b>, <b id="d-dishes">0</b> dishes.</div>
 
   <div class="metrics">
     <div class="metric"><b id="m-pd">0</b><span>Faith's phylogenetic diversity: total branch length spanning the meal, root included (millions of years)</span><span class="cmp" id="m-pd-cmp"></span></div>
@@ -777,8 +777,10 @@ function scoreLocally(text, prefix){
   msg += n ? `${n} organism${n === 1 ? '' : 's'} on the plate. Check the chips.` : 'nothing matched. Try listing the ingredients, or suggest the dish below.';
   setStatus(msg, !n);
   const title = 'Dish request: ' + text.slice(0, 60).replace(/\s+/g, ' ');
-  const body = 'Typed:\n' + text.slice(0, 1500) + '\n\nRecognized: ' + (m.dishes.join(', ') || 'nothing') + '\nDish table: ' + DISHES.version + '\nTree: ' + (DATA.root.version || '') + '\n\nWhat should it map to (usual ingredients or species)?';
-  $('#suggest').href = 'https://github.com/mjhickerson/phylodiet/issues/new?title=' + encodeURIComponent(title) + '&body=' + encodeURIComponent(body);
+  const matched = [...new Set(m.list.map(x => DATA.byId.get(x.id).common))].join(', ') || 'nothing';
+  const report = n => 'Typed:\n' + text.slice(0, n) + '\n\nRecognized dishes: ' + (m.dishes.join(', ') || 'none') + '\nMatched organisms: ' + matched + '\nDish table: ' + DISHES.version + '\nTree: ' + (DATA.root.version || '') + '\n\nWhat should it map to (usual ingredients or species)?';
+  $('#suggest').href = 'https://github.com/mjhickerson/phylodiet/issues/new?title=' + encodeURIComponent(title) + '&body=' + encodeURIComponent(report(1500));
+  $('#suggest-mail').href = 'mailto:' + ['mhickerson+phylodiet', 'gmail.com'].join('@') + '?subject=' + encodeURIComponent('Phylodiet ' + title.toLowerCase()) + '&body=' + encodeURIComponent(report(800));   // mailto links are short-lived, so the typed text is capped
   $('#unmatched').textContent = '';
   document.getElementById('results').scrollIntoView({behavior:'smooth', block:'start'});
 }
@@ -876,6 +878,7 @@ $('#loaddata').onclick = async () => {
   } catch (e) { st.textContent = 'Could not load: ' + (e.message || e); }
 };
 
+$('#suggest-mail').href = 'mailto:' + ['mhickerson+phylodiet', 'gmail.com'].join('@') + '?subject=' + encodeURIComponent('Phylodiet dish request');   // until a meal is scored
 renderAll();
 })();
 </script>
