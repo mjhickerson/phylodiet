@@ -160,6 +160,7 @@ def slugify(text, taken):
     return slug
 
 PART_WORDS = set('''seed seeds petals petal greens leaves leaf root roots tuber tubers flowers flower fruit fruits
+roasted dried raw smoked pickled boiled fried tropical temperate thai wild farmed cultivated edible
 shoots shoot sap oil oils processed historical historically egg eggs nut nuts honey caviar roe tea tips bark pods pod
 buds bud cooked stems stem pith bulb bulbs corm corms larva larvae pupa pupae brood alate fry fermented foaming agent
 fat butter colourant rennet jelly starch gum needles receptacle fleshy inner grain nectar young pulp heart hearts

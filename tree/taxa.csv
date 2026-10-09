@@ -871,7 +871,7 @@ rocoto,rocoto,Capsicum pubescens,Solanaceae,plant,rocoto;locoto;chile manzano;ch
 habanero,habanero,Capsicum chinense,Solanaceae,plant,habanero;scotch bonnet;ají panca;pasta de ají panca;ají limo;ají charapita;charapita;ají dulce;ajíes dulces;ají cachucha;ají gustoso;ají criollo;ajicito;ají chombo;chile chombo;chile congo;chile panameño;ají chivato;ají pajarito;ají chirel;chile guaguao;ají guaguao;chile cabro;ají de jardín
 aji-amarillo,ají amarillo,Capsicum baccatum,Solanaceae,plant,ají amarillo;ajíes amarillos;ají escabeche;ají mirasol;pasta de ají amarillo;ají campanita;ají mochero;ají arnaucho;ají ayuyo;ají dedo de niña;dedo de moza;ají putaparió;ají cumbarí;ají chinchi uchu
 tabasco-eye,tabasco / bird's eye,Capsicum frutescens,Solanaceae,plant,bird's eye;tabasco;salsa tabasco;chile tabasco;piri piri;peri peri;malagueta;chile malagueta;ají malagueta;chile bravo;ají bravo;ají chiquito;ají de monte;chile de monte;ají pique;chile pajarito;siling labuyo;ají cayena
-chili-pepper,chili / bell pepper,Capsicum annuum,Solanaceae,plant,bell pepper;chili;jalapeno;paprika;cayenne;chilli;red pepper flakes;chile;jalapeño;chipotle;serrano;poblano;guajillo;pasilla;piquín;pequín;morita;chilaca;cayena;pimienta de cayena;pimiento;morrón;pimentón;piquillo;ñora;guindilla;rajas;merkén;merquén;ají de color;ají color;ají cacho de cabra;cacho de cabra;ají cristal;ají verde;ají chileno;salsa picante;ají picante;ají molido;ají en polvo;ají
+chili-pepper,chili / bell pepper,Capsicum annuum,Solanaceae,plant,bell pepper;chili;jalapeno;paprika;cayenne;chilli;red pepper flakes;chile;jalapeño;chipotle;serrano;poblano;guajillo;pasilla;piquín;pequín;morita;chilaca;cayena;pimienta de cayena;pimiento;morrón;pimentón;piquillo;ñora;guindilla;rajas;merkén;merquén;ají de color;ají color;ají cacho de cabra;cacho de cabra;ají cristal;ají verde;ají chileno;salsa picante;ají picante;ají molido;ají en polvo;ají;banana pepper;banana peppers
 cutleaf-groundcherry,cutleaf groundcherry,Physalis angulata,Solanaceae,plant,tomatillo silvestre;capulí angulata;bolsa mullaca;mullaca
 strawberry-tomato,strawberry tomato,Physalis grisea,Solanaceae,plant,
 ground-cherry,ground cherry,Physalis pruinosa,Solanaceae,plant,tomatillo de tierra;cereza de tierra
@@ -1485,7 +1485,7 @@ orchid-tree,orchid tree (buds),Bauhinia purpurea,Fabaceae,plant,
 tamarind-plum,tamarind plum (keranji),Dialium indum,Fabaceae,plant,keranji
 velvet-tamarind,velvet tamarind,Dialium guineense,Fabaceae,plant,
 velvet-tamarind-2,velvet tamarind (Indochina),Dialium cochinchinense,Fabaceae,plant,
-kentucky-coffeetree,Kentucky coffeetree (roasted),Gymnocladus dioicus,Fabaceae,plant,roasted
+kentucky-coffeetree,Kentucky coffeetree (roasted),Gymnocladus dioicus,Fabaceae,plant,
 carob,carob,Ceratonia siliqua,Fabaceae,plant,carob;algarroba europea;garrofa;harina de garrofa;garrofín;algarrobo europeo;algarroba española;algarrobo mediterráneo;algarroba mediterránea
 honey-locust,honey locust (pod pulp),Gleditsia triacanthos,Fabaceae,plant,
 cassod-tree,cassod tree (khi-lek),Senna siamea,Fabaceae,plant,khi-lek
@@ -1791,7 +1791,7 @@ sudajii,sudajii,Castanopsis sieboldii,Fagaceae,plant,
 indian-chestnut,Indian chestnut,Castanopsis indica,Fagaceae,plant,
 chinquapin,chinquapin,Castanea pumila,Fagaceae,plant,
 henrys-chestnut,Henry's chestnut,Castanea henryi,Fagaceae,plant,
-sweet-chestnut,sweet chestnut,Castanea sativa,Fagaceae,plant,castaña;marrón glacé
+sweet-chestnut,sweet chestnut,Castanea sativa,Fagaceae,plant,castaña;marrón glacé;chestnut;chestnuts;roasted chestnuts;marron;marrons;chestnut flour
 american-chestnut,American chestnut,Castanea dentata,Fagaceae,plant,
 chinese-chestnut,Chinese chestnut,Castanea mollissima,Fagaceae,plant,
 japanese-chestnut,Japanese chestnut,Castanea crenata,Fagaceae,plant,
@@ -2278,7 +2278,7 @@ bronze-featherback,bronze featherback,Notopterus notopterus,Notopteridae,animal,
 clown-featherback,clown featherback,Chitala ornata,Notopteridae,animal,
 aba,aba,Gymnarchus niloticus,Gymnarchidae,animal,
 cornish-jack,cornish jack,Mormyrops anguilloides,Mormyridae,animal,
-indian-anchovy,Indian anchovy,Stolephorus indicus,Engraulidae,animal,anchoa india;ikan bilis
+indian-anchovy,Indian anchovy,Stolephorus indicus,Engraulidae,animal,anchoa india;ikan bilis;fish sauce;nam pla;nuoc mam;patis;anchovy sauce
 japanese-grenadier-anchovy,Japanese grenadier anchovy,Coilia nasus,Engraulidae,animal,
 peruvian-anchoveta,Peruvian anchoveta,Engraulis ringens,Engraulidae,animal,anchoveta
 northern-anchovy,northern anchovy,Engraulis mordax,Engraulidae,animal,anchoveta norteña;anchoa del pacífico norte
@@ -3175,7 +3175,7 @@ lingzhi,lingzhi,Ganoderma lingzhi,Ganodermataceae,fungus,
 reishi,reishi,Ganoderma lucidum,Ganodermataceae,fungus,
 dryads-saddle,dryad's saddle,Cerioporus squamosus,Polyporaceae,fungus,
 hed-kradang,hed kradang,Lentinus polychrous,Polyporaceae,fungus,
-lentinus,lentinus (tropical),Lentinus squarrosulus,Polyporaceae,fungus,tropical
+lentinus,lentinus (tropical),Lentinus squarrosulus,Polyporaceae,fungus,
 turkey-tail,turkey tail,Trametes versicolor,Polyporaceae,fungus,
 green-cracking-russula,green-cracking russula,Russula virescens,Russulaceae,fungus,
 charcoal-burner,charcoal burner,Russula cyanoxantha,Russulaceae,fungus,
@@ -3195,7 +3195,7 @@ summer-bolete,summer bolete,Boletus reticulatus,Boletaceae,fungus,
 birch-bolete,birch bolete,Leccinum scabrum,Boletaceae,fungus,
 orange-birch-bolete,orange birch bolete,Leccinum aurantiacum,Boletaceae,fungus,
 chestnut-bolete,chestnut bolete,Gyroporus castaneus,Gyroporaceae,fungus,
-black-bolete,black bolete (Thai),Phlebopus portentosus,Boletinellaceae,fungus,Thai
+black-bolete,black bolete (Thai),Phlebopus portentosus,Boletinellaceae,fungus,
 weeping-bolete,weeping bolete,Suillus granulatus,Suillaceae,fungus,boleto granulado;boletos granulados;hongo de pino granulado;hongos de pino granulados;seta de pino granulada;setas de pino granuladas;hongo de pino sin anillo;hongos de pino sin anillo;seta de pino sin anillo;setas de pino sin anillo;boleto llorón;boletos llorones;hongo llorón;hongos llorones;seta llorona;setas lloronas
 jersey-cow-bolete,jersey cow bolete,Suillus bovinus,Suillaceae,fungus,
 slippery-jack,slippery jack,Suillus luteus,Suillaceae,fungus,hongo de pino chileno;hongos de pino chilenos;callampa de pino;callampas de pino;boleto anillado;boletos anillados;hongo de pino seco;hongos de pino secos;seta de pino seca;setas de pino secas;babosa;hongo babosa;hongos babosa;boleto babosa;boletos babosa;hongo de pino con anillo;hongos de pino con anillo;seta de pino con anillo;setas de pino con anillo;hongo pino;hongos pino;seta pino;setas pino
@@ -3216,11 +3216,11 @@ caesars-mushroom,Caesar's mushroom,Amanita caesarea,Amanitaceae,fungus,
 blusher,blusher,Amanita rubescens,Amanitaceae,fungus,
 pioppino,pioppino,Cyclocybe aegerita,Strophariaceae,fungus,
 nameko,nameko,Pholiota nameko,Strophariaceae,fungus,
-chestnut-mushroom,chestnut mushroom (adiposa),Pholiota adiposa,Strophariaceae,fungus,
+fat-pholiota,fat pholiota,Pholiota adiposa,Strophariaceae,fungus,numeritake;chestnut pholiota
 wine-cap,wine cap,Stropharia rugosoannulata,Strophariaceae,fungus,
 sheathed-woodtuft,sheathed woodtuft,Kuehneromyces mutabilis,Strophariaceae,fungus,
 almond-mushroom,almond mushroom (blazei),Agaricus subrufescens,Agaricaceae,fungus,blazei
-button,button / cremini / portobello,Agaricus bisporus,Agaricaceae,fungus,cremini;portobello;button;mushroom;mushrooms;portabella;champignon;champiñón;portobelo;crimini;hongo;seta;callampa;champiñón café
+button,button / cremini / portobello,Agaricus bisporus,Agaricaceae,fungus,cremini;portobello;button;mushroom;mushrooms;portabella;champignon;champiñón;portobelo;crimini;hongo;seta;callampa;champiñón café;chestnut mushroom;chestnut mushrooms
 field-mushroom,field mushroom,Agaricus campestris,Agaricaceae,fungus,
 horse-mushroom,horse mushroom,Agaricus arvensis,Agaricaceae,fungus,
 the-prince,the prince,Agaricus augustus,Agaricaceae,fungus,
@@ -3229,7 +3229,7 @@ giant-puffball,giant puffball,Calvatia gigantea,Agaricaceae,fungus,
 common-puffball,common puffball,Lycoperdon perlatum,Agaricaceae,fungus,
 shaggy-ink-cap,shaggy ink cap,Coprinus comatus,Agaricaceae,fungus,
 hon-shimeji,hon-shimeji,Lyophyllum shimeji,Lyophyllaceae,fungus,
-buna-shimeji,buna-shimeji,Hypsizygus tessellatus,Lyophyllaceae,fungus,
+buna-shimeji,buna-shimeji,Hypsizygus tessellatus,Lyophyllaceae,fungus,beech mushroom;beech mushrooms;shimeji;brown beech mushroom;white beech mushroom;bunapi
 termite-mushroom,termite mushroom,Termitomyces robustus,Lyophyllaceae,fungus,
 giant-termite-mushroom,giant termite mushroom,Termitomyces titanicus,Lyophyllaceae,fungus,
 st-georges-mushroom,St George's mushroom,Calocybe gambosa,Lyophyllaceae,fungus,
