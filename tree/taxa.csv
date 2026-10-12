@@ -27,7 +27,7 @@ kaya-nut,kaya nut,Torreya nucifera,Taxaceae,plant,
 common-juniper,common juniper (berry),Juniperus communis,Cupressaceae,plant,juniper berry;gin
 bunya-pine,bunya pine,Araucaria bidwillii,Araucariaceae,plant,
 monkey-puzzle,monkey puzzle (piñón),Araucaria araucana,Araucariaceae,plant,piñón;piñón chileno;piñones chilenos;piñón de araucaria;pehuén;ngülliu;piñón mapuche
-parana-pine,Paraná pine (pinhão),Araucaria angustifolia,Araucariaceae,plant,pinhão;piñón brasileño;piñón del paraná;piñón de brasil;piñón misionero
+parana-pine,Paraná pine (pinhão),Araucaria angustifolia,Araucariaceae,plant,pinhão;araucaria;piñón brasileño;piñón del paraná;piñón de brasil;piñón misionero
 kusamaki,kusamaki (fleshy receptacle),Podocarpus macrophyllus,Podocarpaceae,plant,
 watershield,watershield (junsai),Brasenia schreberi,Cabombaceae,plant,junsai
 yellow-water-lily,yellow water lily (seeds),Nuphar lutea,Nymphaeaceae,plant,
@@ -56,7 +56,7 @@ biriba,biribá,Annona mucosa,Annonaceae,plant,biribá;anón amazónico;anona ama
 custard-apple,custard apple,Annona reticulata,Annonaceae,plant,anona;mamón anona
 cherimoya,cherimoya,Annona cherimola,Annonaceae,plant,chirimoya;cherimoya;chirimoyo
 sugar-apple,sugar apple,Annona squamosa,Annonaceae,plant,anón;saramuyo;anona blanca;fruta del conde
-soursop,soursop,Annona muricata,Annonaceae,plant,guanábana;graviola;catuche;catoche
+soursop,soursop,Annona muricata,Annonaceae,plant,guanábana lisa;masasamba;guanábana;graviola;catuche;catoche
 pawpaw,pawpaw,Asimina triloba,Annonaceae,plant,
 calabash-nutmeg,calabash nutmeg (ehuru),Monodora myristica,Annonaceae,plant,ehuru
 finger-root,finger root (bush banana),Uvaria chamae,Annonaceae,plant,bush banana
@@ -83,9 +83,9 @@ taro,taro,Colocasia esculenta,Araceae,plant,taro;poi;dasheen;malanga isleña;pap
 giant-taro,giant taro,Alocasia macrorrhizos,Araceae,plant,
 elephant-foot-yam,elephant foot yam,Amorphophallus paeoniifolius,Araceae,plant,
 konjac,konjac,Amorphophallus konjac,Araceae,plant,
-malanga,malanga (yautía),Xanthosoma sagittifolium,Araceae,plant,yautía;malanga;ocumo;quequisque;macal;tiquisque;tannia;mafafa;otoy;rascadera;pelma;bore;mangareto
+malanga,malanga (yautía),Xanthosoma sagittifolium,Araceae,plant,yautía;camacho;sango azul;coco yam;ancucha;urianchum;malanga;ocumo;quequisque;macal;tiquisque;tannia;mafafa;otoy;rascadera;pelma;bore;mangareto
 swamp-taro,swamp taro (pulaka),Cyrtosperma merkusii,Araceae,plant,pulaka
-monstera-fruit,monstera fruit,Monstera deliciosa,Araceae,plant,
+monstera-fruit,monstera fruit,Monstera deliciosa,Araceae,plant,piña anona
 watermeal,watermeal (khai-nam),Wolffia globosa,Araceae,plant,khai-nam
 arrowhead,arrowhead (cigu),Sagittaria sagittifolia,Alismataceae,plant,cigu
 wapato,wapato,Sagittaria latifolia,Alismataceae,plant,flecha de agua;sagitaria;wapato;papa de pato
@@ -128,7 +128,7 @@ chikanda-orchid-2,chikanda orchid,Satyrium buchananii,Orchidaceae,plant,
 early-purple-orchid,early purple orchid (salep),Orchis mascula,Orchidaceae,plant,salep
 salep-orchid,salep orchid,Dactylorhiza romana,Orchidaceae,plant,
 lumbah,lumbah (curculin),Curculigo latifolia,Hypoxidaceae,plant,curculin
-asparagus,asparagus,Asparagus officinalis,Asparagaceae,plant,asparagus;espárrago
+asparagus,asparagus,Asparagus officinalis,Asparagaceae,plant,asparagus;coralillo;saucecillo;espárrago
 wild-asparagus,wild asparagus,Asparagus acutifolius,Asparagaceae,plant,
 shatavari,shatavari,Asparagus racemosus,Asparagaceae,plant,
 false-solomons-seal,false Solomon's seal (shoots),Maianthemum racemosum,Asparagaceae,plant,
@@ -148,10 +148,10 @@ safed-musli,safed musli,Chlorophytum borivilianum,Asparagaceae,plant,
 bath-asparagus,Bath asparagus,Ornithogalum pyrenaicum,Asparagaceae,plant,
 lampascioni,lampascioni (tassel hyacinth),Leopoldia comosa,Asparagaceae,plant,tassel hyacinth
 egyptian-walking-onion,Egyptian walking onion,Allium × proliferum,Amaryllidaceae,plant,
-garlic,garlic,Allium sativum,Amaryllidaceae,plant,garlic;ajo;al ajillo;ajillo;ajoblanco
+garlic,garlic,Allium sativum,Amaryllidaceae,plant,garlic;akcha;cebolla jívara;ajo;al ajillo;ajillo;ajoblanco
 wild-onion,wild onion,Allium canadense,Amaryllidaceae,plant,
 french-grey-shallot,French grey shallot,Allium oschaninii,Amaryllidaceae,plant,
-onion,onion / shallot,Allium cepa,Amaryllidaceae,plant,shallot;onion;onions;shallots;scallion;scallions;green onion;spring onion;cebolla;cebollita;chalota;chalote;echalote;escalonia
+onion,onion / shallot,Allium cepa,Amaryllidaceae,plant,shallot;onion;onions;shallots;scallion;scallions;green onion;spring onion;cebolla blanca;cebolla paiteña;puka cebolla;cebolla colorada;cebolla;cebollita;chalota;chalote;echalote;escalonia
 ramsons,ramsons,Allium ursinum,Amaryllidaceae,plant,ajo de oso;ajo silvestre
 leek-garlic,leek / elephant garlic,Allium ampeloprasum,Amaryllidaceae,plant,elephant garlic;leek;leeks;puerro;poro;ajo porro;ajoporro;ajo puerro;ajopuerro;ajo elefante;ajo chilote;ajo de elefante
 hookers-chives,Hooker's chives,Allium hookeri,Amaryllidaceae,plant,
@@ -167,7 +167,7 @@ daylily,daylily,Hemerocallis fulva,Asphodelaceae,plant,
 citron-daylily,citron daylily (huang hua cai),Hemerocallis citrina,Asphodelaceae,plant,huang hua cai
 asphodel,asphodel (tubers),Asphodelus ramosus,Asphodelaceae,plant,
 foxtail-lily,foxtail lily (shoots),Eremurus spectabilis,Asphodelaceae,plant,
-aloe-vera,aloe vera,Aloe vera,Asphodelaceae,plant,sábila;aloe
+aloe-vera,aloe vera,Aloe vera,Asphodelaceae,plant,sábila hembra;sábila macho;sábila;aloe
 cape-aloe,Cape aloe,Aloe ferox,Asphodelaceae,plant,
 saffron,saffron,Crocus sativus,Iridaceae,plant,azafrán
 natal-lily,natal lily (corm),Gladiolus dalenii,Iridaceae,plant,
@@ -178,7 +178,7 @@ chagual,chagual (shoots),Puya chilensis,Bromeliaceae,plant,
 chupon,chupón,Greigia sphacelata,Bromeliaceae,plant,
 karatas,karatas,Bromelia karatas,Bromeliaceae,plant,
 pinuela,piñuela,Bromelia pinguin,Bromeliaceae,plant,
-pineapple,pineapple,Ananas comosus,Bromeliaceae,plant,pineapple;piña;ananá
+pineapple,pineapple,Ananas comosus,Bromeliaceae,plant,pineapple;chiwilla;sacha chiwilla;sacha piña;achupalla;piña de leche;piña tierna;piña;ananá
 chinese-water-chestnut,Chinese water chestnut,Eleocharis dulcis,Cyperaceae,plant,castaña de agua;castañas de agua;castaña de agua china
 sea-clubrush,sea clubrush (tubers),Bolboschoenus maritimus,Cyperaceae,plant,
 tule,"tule (rhizome, pollen)",Schoenoplectus acutus,Cyperaceae,plant,pollen;tule
@@ -257,29 +257,29 @@ sugar-palm,sugar palm (kolang kaling),Arenga pinnata,Arecaceae,plant,kolang kali
 kitul,kitul (fishtail palm),Caryota urens,Arecaceae,plant,fishtail palm
 pacaya,pacaya,Chamaedorea tepejilote,Arecaceae,plant,pacaya;tepejilote;palmito de pacaya
 jucara,juçara (palm heart),Euterpe edulis,Arecaceae,plant,palm heart;palmito juçara;jussara;palmito de juçara;corazón de palma
-acai-do-amazonas,açaí-do-amazonas,Euterpe precatoria,Arecaceae,plant,
+acai-do-amazonas,açaí-do-amazonas,Euterpe precatoria,Arecaceae,plant,pamiwa;pamiwa anku;wasay
 acai,açaí,Euterpe oleracea,Arecaceae,plant,asaí;azaí;huasaí;manaca
-palmito,palmito (mountain cabbage),Prestoea acuminata,Arecaceae,plant,mountain cabbage;palmito de montaña;palmito andino;palmito de monte;palmito ecuatoriano;palmito colombiano;palmito de bosque
-pataua,patauá,Oenocarpus bataua,Arecaceae,plant,ungurahui;milpesos;seje;patauá;ungurahua;chapil
+palmito,palmito (mountain cabbage),Prestoea acuminata,Arecaceae,plant,mountain cabbage;manti panka;sisawa;chitil;tinguisa;tinguiso;palmito de montaña;palmito andino;palmito de monte;palmito ecuatoriano;palmito colombiano;palmito de bosque
+pataua,patauá,Oenocarpus bataua,Arecaceae,plant,shinpi muyu;shiwa;shiwa muyu;mil pesos;pepa de usma;chambil;miguchas;ungurahui;milpesos;seje;patauá;ungurahua;chapil
 areca-nut,areca nut,Areca catechu,Arecaceae,plant,nuez de areca;nuez de betel;areca;buyo;nuez de buyo
 american-oil-palm,American oil palm,Elaeis oleifera,Arecaceae,plant,
-african-oil-palm,African oil palm,Elaeis guineensis,Arecaceae,plant,oil palm;palm oil;palm sugar;aceite de palma;palma aceitera;dendé;corozo africano
+african-oil-palm,African oil palm,Elaeis guineensis,Arecaceae,plant,oil palm;palm oil;palm sugar;palma africana;palma de aceite;aceite de palma;palma aceitera;dendé;corozo africano
 macauba,macaúba (coyol),Acrocomia aculeata,Arecaceae,plant,coyol;corozo;macaúba;mbocayá;coco de coyol
-peach-palm,peach palm (pejibaye),Bactris gasipaes,Arecaceae,plant,pejibaye;chontaduro;pijuayo;pupuña;pixbae;cachipay
+peach-palm,peach palm (pejibaye),Bactris gasipaes,Arecaceae,plant,pejibaye;chunta;chunta ruru;chunta yura;killu chunta;pawa chunta;pifayu;puka chunta;shalin chunta;chontaduro;pijuayo;pupuña;pixbae;cachipay
 awarra,awarra,Astrocaryum vulgare,Arecaceae,plant,
 tucuma,tucumã,Astrocaryum aculeatum,Arecaceae,plant,
-coconut,coconut,Cocos nucifera,Arecaceae,plant,coconut;coconut milk;coconut oil;coconut cream;coco;leche de coco;crema de coco;pipa;harina de coco;azúcar de coco;manjar de coco
+coconut,coconut,Cocos nucifera,Arecaceae,plant,coconut;coconut milk;coconut oil;coconut cream;coco costeño;cocotero;palma de coco;coco;leche de coco;crema de coco;pipa;harina de coco;azúcar de coco;manjar de coco
 chonta,chonta (coco cumbi),Parajubaea cocoides,Arecaceae,plant,coco cumbi
 jelly-palm,jelly palm,Butia capitata,Arecaceae,plant,butiá;yatay;coco de butiá
 chilean-wine-palm,Chilean wine palm (coquito),Jubaea chilensis,Arecaceae,plant,coquito;coquito chileno;coquitos chilenos;palma chilena;miel de palma;coquito de palma;coquitos
-inaja,inajá,Attalea maripa,Arecaceae,plant,
+inaja,inajá,Attalea maripa,Arecaceae,plant,inayu;urkusi
 babassu,babassu,Attalea speciosa,Arecaceae,plant,babasú;babassu;coco babasú
 licuri,licuri,Syagrus coronata,Arecaceae,plant,
 queen-palm,queen palm,Syagrus romanzoffiana,Arecaceae,plant,pindó;coco pindó;coquito de pindó;jerivá
 royal-palm,royal palm (heart),Roystonea regia,Arecaceae,plant,
 nipa-palm,nipa palm (attap),Nypa fruticans,Arecaceae,plant,attap
 raffia-palm,raffia palm (palm wine),Raphia hookeri,Arecaceae,plant,palm wine
-buriti,buriti (moriche),Mauritia flexuosa,Arecaceae,plant,moriche;aguaje;buriti;canangucha
+buriti,buriti (moriche),Mauritia flexuosa,Arecaceae,plant,moriche;morete;aguaschi;canangucho;canongo;aguaje;buriti;canangucha
 rakum,rakum,Salacca wallichiana,Arecaceae,plant,
 salak,salak (snake fruit),Salacca zalacca,Arecaceae,plant,snake fruit
 rattan,rattan (shoots),Calamus tenuis,Arecaceae,plant,
@@ -315,7 +315,7 @@ torch-ginger,torch ginger,Etlingera elatior,Zingiberaceae,plant,
 green-cardamom,green cardamom,Elettaria cardamomum,Zingiberaceae,plant,cardamom;cardamomo
 tsaoko,tsaoko (cao guo),Lanxangia tsaoko,Zingiberaceae,plant,cao guo
 black-cardamom,black cardamom,Amomum subulatum,Zingiberaceae,plant,cardamomo negro
-achira,achira (Queensland arrowroot),Canna indica,Cannaceae,plant,Queensland arrowroot;achira;sagú;harina de achira;bizcocho de achira
+achira,achira (Queensland arrowroot),Canna indica,Cannaceae,plant,Queensland arrowroot;achira sisa;hoja de achira;platanillo;edible canna;achira;sagú;harina de achira;bizcocho de achira
 leren,lerén (Guinea arrowroot),Goeppertia allouia,Marantaceae,plant,Guinea arrowroot;lerén;lairén;dale dale;llerén
 arrowroot,arrowroot,Maranta arundinacea,Marantaceae,plant,arrurruz;arruruz;sagú de las indias;harina de arrurruz;maranta
 katemfe,katemfe (thaumatin),Thaumatococcus daniellii,Marantaceae,plant,thaumatin
@@ -355,13 +355,13 @@ coral-vine,coral vine (tubers),Antigonon leptopus,Polygonaceae,plant,
 japanese-knotweed,Japanese knotweed (shoots),Reynoutria japonica,Polygonaceae,plant,
 canaigre,canaigre,Rumex hymenosepalus,Polygonaceae,plant,
 monks-rhubarb,monk's rhubarb,Rumex alpinus,Polygonaceae,plant,
-sheep-sorrel,sheep sorrel,Rumex acetosella,Polygonaceae,plant,
-curly-dock,curly dock,Rumex crispus,Polygonaceae,plant,lengua de vaca rizada;romaza;acedera rizada
+sheep-sorrel,sheep sorrel,Rumex acetosella,Polygonaceae,plant,puka kiwa;sacha wulak colorado;acederilla;acetosella;alfarito;escoba bruja;gula blanca;hierba colorada
+curly-dock,curly dock,Rumex crispus,Polygonaceae,plant,sacha wulak;wakra kallu;wulak negro;lengua de vaca rizada;romaza;acedera rizada
 french-sorrel,French sorrel,Rumex scutatus,Polygonaceae,plant,
 bladder-dock,bladder dock (hummeidh),Rumex vesicarius,Polygonaceae,plant,hummeidh
 bloody-dock,bloody dock,Rumex sanguineus,Polygonaceae,plant,
 patience-dock,patience dock,Rumex patientia,Polygonaceae,plant,
-sorrel,sorrel,Rumex acetosa,Polygonaceae,plant,acedera;vinagrera;lengua de vaca
+sorrel,sorrel,Rumex acetosa,Polygonaceae,plant,vinagrilla;acedera;vinagrera;lengua de vaca
 mountain-sorrel,mountain sorrel,Oxyria digyna,Polygonaceae,plant,
 persian-rhubarb,Persian rhubarb (rivas),Rheum ribes,Polygonaceae,plant,rivas
 false-rhubarb,false rhubarb,Rheum rhaponticum,Polygonaceae,plant,
@@ -375,8 +375,8 @@ buckwheat,buckwheat,Fagopyrum esculentum,Polygonaceae,plant,buckwheat;soba;kasha
 tartary-buckwheat,Tartary buckwheat,Fagopyrum tataricum,Polygonaceae,plant,
 sea-sandwort,sea sandwort,Honckenya peploides,Caryophyllaceae,plant,
 halva-root,halva root (çöven),Gypsophila arrostii,Caryophyllaceae,plant,çöven
-chickweed,chickweed,Stellaria media,Caryophyllaceae,plant,
-carnation,carnation (petals),Dianthus caryophyllus,Caryophyllaceae,plant,
+chickweed,chickweed,Stellaria media,Caryophyllaceae,plant,hierba de puerco;chamapollo
+carnation,carnation (petals),Dianthus caryophyllus,Caryophyllaceae,plant,clavel;clavel blanco;clavel ordinario;clavel rojo;clavelinas
 soapwort,soapwort,Saponaria officinalis,Caryophyllaceae,plant,
 bladder-campion,bladder campion (sculpit),Silene vulgaris,Caryophyllaceae,plant,sculpit
 algerian-tea,Algerian tea,Paronychia argentea,Caryophyllaceae,plant,
@@ -389,10 +389,10 @@ old-man-saltbush,old man saltbush,Atriplex nummularia,Amaranthaceae,plant,
 sea-orache,sea orache,Atriplex halimus,Amaranthaceae,plant,
 kaniwa,kañiwa,Chenopodium pallidicaule,Amaranthaceae,plant,cañihua;kañiwa;cañahua;kañihua
 huauzontle,huauzontle,Chenopodium berlandieri,Amaranthaceae,plant,huauzontle;huazontle;guauzontle;quelite cenizo;cenizo;quelite de cenizo;chual
-quinoa,quinoa,Chenopodium quinoa,Amaranthaceae,plant,quinoa;quinua;kinwa;harina de quinua
+quinoa,quinoa,Chenopodium quinoa,Amaranthaceae,plant,quinoa;quinua de castilla;quinua;kinwa;harina de quinua
 tree-spinach,tree spinach,Chenopodium giganteum,Amaranthaceae,plant,
 fig-leaved-goosefoot,fig-leaved goosefoot,Chenopodium ficifolium,Amaranthaceae,plant,
-lambs-quarters,lamb's quarters (bathua),Chenopodium album,Amaranthaceae,plant,bathua;cenizo blanco;quinoa silvestre;armuelle silvestre;ceñilgo;bledo blanco cenizo;quinua silvestre;yuyo blanco
+lambs-quarters,lamb's quarters (bathua),Chenopodium album,Amaranthaceae,plant,bathua;allpa quinua;palitaria;cenizo blanco;quinoa silvestre;armuelle silvestre;ceñilgo;bledo blanco cenizo;quinua silvestre;yuyo blanco
 spinach,spinach,Spinacia oleracea,Amaranthaceae,plant,spinach;espinaca
 epazote,epazote,Dysphania ambrosioides,Amaranthaceae,plant,epazote;paico;apazote;hierba santa mexicana;ipazote;pazote;yerba de santa maría
 sand-rice,sand rice,Agriophyllum squarrosum,Amaranthaceae,plant,
@@ -408,10 +408,10 @@ samphire,samphire (glasswort),Salicornia europaea,Amaranthaceae,plant,glasswort;
 lagos-spinach,Lagos spinach (soko),Celosia argentea,Amaranthaceae,plant,soko
 deeringia,deeringia (leaves),Deeringia amaranthoides,Amaranthaceae,plant,
 red-amaranth,red amaranth (grain),Amaranthus cruentus,Amaranthaceae,plant,amaranto rojo;amaranto de grano
-love-lies-bleeding,love-lies-bleeding (kiwicha),Amaranthus caudatus,Amaranthaceae,plant,kiwicha;amaranto;achita;coimi
+love-lies-bleeding,love-lies-bleeding (kiwicha),Amaranthus caudatus,Amaranthaceae,plant,kiwicha;ataku;sankurachi;amaranto;achita;coimi
 princes-feather,Prince's feather (grain),Amaranthus hypochondriacus,Amaranthaceae,plant,amaranto mexicano;alegría;huautli;huauhtli
 spleen-amaranth,spleen amaranth,Amaranthus dubius,Amaranthaceae,plant,calalú dubius;espinaca de la india;bledo blanco
-spiny-amaranth,spiny amaranth,Amaranthus spinosus,Amaranthaceae,plant,bledo espinoso;bledo con espinas;quelite espinoso;amaranto espinoso
+spiny-amaranth,spiny amaranth,Amaranthus spinosus,Amaranthaceae,plant,rabo de gallo;bledo espinoso;bledo con espinas;quelite espinoso;amaranto espinoso
 redroot-pigweed,redroot pigweed,Amaranthus retroflexus,Amaranthaceae,plant,
 smooth-amaranth,smooth amaranth,Amaranthus hybridus,Amaranthaceae,plant,quelite;bledo manso;quintonil silvestre;amaranto silvestre;yuyo
 slender-amaranth,slender amaranth,Amaranthus viridis,Amaranthaceae,plant,bledo verde;bledo delgado;yuyo verde;quelite verde
@@ -422,7 +422,7 @@ sessile-joyweed,sessile joyweed,Alternanthera sessilis,Amaranthaceae,plant,
 slender-carpetweed,slender carpetweed,Glinus oppositifolius,Molluginaceae,plant,
 fishhook-barrel,fishhook barrel (cactus candy),Ferocactus wislizeni,Cactaceae,plant,cactus candy
 biznaga,biznaga (acitrón),Echinocactus platyacanthus,Cactaceae,plant,acitrón;biznaga
-yellow-dragon-fruit,yellow dragon fruit,Selenicereus megalanthus,Cactaceae,plant,pitahaya amarilla;pitaya amarilla;pitahaya colombiana;pitahaya de colombia;fruta del dragón amarilla;pitahaya ecuatoriana;pitahaya de ecuador;pitahaya de palora
+yellow-dragon-fruit,yellow dragon fruit,Selenicereus megalanthus,Cactaceae,plant,awakulla;gigantón;pitahaya amarilla;pitaya amarilla;pitahaya colombiana;pitahaya de colombia;fruta del dragón amarilla;pitahaya ecuatoriana;pitahaya de ecuador;pitahaya de palora
 red-dragon-fruit,red dragon fruit,Selenicereus costaricensis,Cactaceae,plant,pitahaya roja;pitaya roja;pitahaya de pulpa roja;pitahaya costarricense;pitahaya de costa rica;fruta del dragón roja;pitahaya morada;pitaya morada
 white-dragon-fruit,white dragon fruit,Selenicereus undatus,Cactaceae,plant,pitahaya;pitaya blanca;fruta del dragón;fruta de dragón;dragon fruit
 pitayo-de-mayo,pitayo de Mayo,Stenocereus griseus,Cactaceae,plant,pitayo de mayo;pitaya de mayo;pitaya griseus;pitaya venezolana;pitaya colombiana;pitaya de cardón;cardón de dato;dato
@@ -458,8 +458,8 @@ purslane,purslane,Portulaca oleracea,Portulacaceae,plant,verdolaga;beldroega;por
 ceylon-spinach,Ceylon spinach (waterleaf),Talinum fruticosum,Talinaceae,plant,waterleaf;espinaca de java;espinaca de surinam;espinaca de filipinas;verdolaga de jardín;verdolaga francesa;carurú;espinaca tropical;tapaculo;ilán
 jewels-of-opar,jewels of Opar (leaves),Talinum paniculatum,Talinaceae,plant,
 spekboom,spekboom,Portulacaria afra,Didiereaceae,plant,
-malabar-spinach,Malabar spinach,Basella alba,Basellaceae,plant,espinaca de malabar;espinaca china trepadora;espinaca de ceilán;espinaca india;espinaca trepadora;basela;espinaca de vid
-ulluco,ulluco,Ullucus tuberosus,Basellaceae,plant,olluco;ulluco;melloco;papa lisa;papalisa;ruba;olluquito
+malabar-spinach,Malabar spinach,Basella alba,Basellaceae,plant,yutu yuyu;espinaca de malabar;espinaca china trepadora;espinaca de ceilán;espinaca india;espinaca trepadora;basela;espinaca de vid
+ulluco,ulluco,Ullucus tuberosus,Basellaceae,plant,ulluku;melloco amarillo;olluco;ulluco;melloco;papa lisa;papalisa;ruba;olluquito
 madeira-vine,Madeira vine,Anredera cordifolia,Basellaceae,plant,
 water-blinks,water blinks,Montia fontana,Montiaceae,plant,
 siberian-spring-beauty,Siberian spring beauty,Claytonia sibirica,Montiaceae,plant,
@@ -470,8 +470,8 @@ new-zealand-spinach,New Zealand spinach,Tetragonia tetragonioides,Aizoaceae,plan
 ice-plant,ice plant,Mesembryanthemum crystallinum,Aizoaceae,plant,
 karkalla,karkalla,Carpobrotus rossii,Aizoaceae,plant,
 sour-fig,sour fig (Hottentot fig),Carpobrotus edulis,Aizoaceae,plant,Hottentot fig
-sea-purslane,sea purslane,Sesuvium portulacastrum,Aizoaceae,plant,
-horse-purslane,horse purslane,Trianthema portulacastrum,Aizoaceae,plant,
+sea-purslane,sea purslane,Sesuvium portulacastrum,Aizoaceae,plant,sacha espinaca;falsa espinaca
+horse-purslane,horse purslane,Trianthema portulacastrum,Aizoaceae,plant,monte salado
 indian-pokeweed,Indian pokeweed,Phytolacca acinosa,Phytolaccaceae,plant,
 pokeweed,pokeweed (poke sallet),Phytolacca americana,Phytolaccaceae,plant,poke sallet
 lettuce-tree,lettuce tree,Pisonia grandis,Nyctaginaceae,plant,
@@ -624,7 +624,7 @@ ogapi,ogapi,Eleutherococcus sessiliflorus,Araliaceae,plant,
 koshiabura,koshiabura,Chengiopanax sciadophylloides,Araliaceae,plant,
 macquarie-island-cabbage,Macquarie Island cabbage,Stilbocarpa polaris,Araliaceae,plant,
 sea-holly,sea holly (root),Eryngium maritimum,Apiaceae,plant,
-culantro,culantro,Eryngium foetidum,Apiaceae,plant,culantro;cilantro de monte;cilantro cimarrón;cilantro ancho;cilantro de hoja ancha;recao;recaíto;cilantro de coyote;chicoria;cilantro habanero;alcapate;samat;cilantro sabanero;cilantrón;ngo gai;cilantro de pata;cilantro extranjero;culantro habanero
+culantro,culantro,Eryngium foetidum,Apiaceae,plant,culantro panka;cilantro de pozo;culantrillo;culantro hediondo;culantro;cilantro de monte;cilantro cimarrón;cilantro ancho;cilantro de hoja ancha;recao;recaíto;cilantro de coyote;chicoria;cilantro habanero;alcapate;samat;cilantro sabanero;cilantrón;ngo gai;cilantro de pata;cilantro extranjero;culantro habanero
 striped-hemlock,striped hemlock (coscoll),Molopospermum peloponnesiacum,Apiaceae,plant,coscoll
 anise,anise,Pimpinella anisum,Apiaceae,plant,anise;aniseed;anís
 yampah,yampah,Perideridia gairdneri,Apiaceae,plant,
@@ -684,7 +684,7 @@ seacoast-angelica,seacoast angelica,Angelica lucida,Apiaceae,plant,
 purplestem-angelica,purplestem angelica,Angelica atropurpurea,Apiaceae,plant,
 indian-celery,Indian celery,Lomatium nudicaule,Apiaceae,plant,
 cous-biscuitroot,cous biscuitroot,Lomatium cous,Apiaceae,plant,
-arracacha,arracacha,Arracacia xanthorrhiza,Apiaceae,plant,arracacha;apio criollo;zanahoria blanca;racacha;virraca;mandioquinha;batata baroa
+arracacha,arracacha,Arracacia xanthorrhiza,Apiaceae,plant,zanahoria del país;arracacha;apio criollo;zanahoria blanca;racacha;virraca;mandioquinha;batata baroa
 syrian-cephalaria,Syrian cephalaria (pelemir),Cephalaria syriaca,Caprifoliaceae,plant,pelemir
 red-valerian,red valerian,Centranthus ruber,Caprifoliaceae,plant,
 valerian,valerian,Valeriana officinalis,Caprifoliaceae,plant,valeriana;té de valeriana
@@ -725,9 +725,9 @@ wall-lettuce,wall lettuce,Mycelis muralis,Asteraceae,plant,
 stemless-carline-thistle,stemless carline thistle,Carlina acaulis,Asteraceae,plant,
 cotton-thistle,cotton thistle,Onopordum acanthium,Asteraceae,plant,
 purple-milk-thistle,purple milk thistle,Galactites tomentosus,Asteraceae,plant,
-artichoke,artichoke / cardoon,Cynara cardunculus,Asteraceae,plant,cardoon;artichoke;alcachofa;alcaucil;cardo
+artichoke,artichoke / cardoon,Cynara cardunculus,Asteraceae,plant,cardoon;artichoke;puyín;alcachofa;alcaucil;cardo
 syrian-thistle,Syrian thistle,Notobasis syriaca,Asteraceae,plant,
-milk-thistle,milk thistle,Silybum marianum,Asteraceae,plant,
+milk-thistle,milk thistle,Silybum marianum,Asteraceae,plant,kasha marucha;cardo santo;cardón santo
 yamagobo,yamagobo,Cirsium dipsacolepis,Asteraceae,plant,
 cabbage-thistle,cabbage thistle,Cirsium oleraceum,Asteraceae,plant,
 edible-thistle,edible thistle,Cirsium edule,Asteraceae,plant,
@@ -745,7 +745,7 @@ spotted-golden-thistle,spotted golden thistle,Scolymus maculatus,Asteraceae,plan
 golden-thistle,golden thistle (tagarnina),Scolymus hispanicus,Asteraceae,plant,tagarnina
 cut-leaved-vipers-grass,cut-leaved viper's grass,Podospermum laciniatum,Asteraceae,plant,
 black-salsify,black salsify,Scorzonera hispanica,Asteraceae,plant,
-salsify,salsify,Tragopogon porrifolius,Asteraceae,plant,
+salsify,salsify,Tragopogon porrifolius,Asteraceae,plant,ostión vegetal;salsifí blanco
 meadow-salsify,meadow salsify,Tragopogon pratensis,Asteraceae,plant,
 yellow-salsify,yellow salsify,Tragopogon dubius,Asteraceae,plant,
 stamnagathi,stamnagathi,Cichorium spinosum,Asteraceae,plant,
@@ -762,13 +762,13 @@ french-scorzonera,French scorzonera,Reichardia picroides,Asteraceae,plant,
 african-lettuce,African lettuce,Launaea taraxacifolia,Asteraceae,plant,
 wild-lettuce,wild lettuce (East Africa),Launaea cornuta,Asteraceae,plant,
 field-sow-thistle,field sow thistle,Sonchus arvensis,Asteraceae,plant,
-sow-thistle,sow thistle,Sonchus oleraceus,Asteraceae,plant,
+sow-thistle,sow thistle,Sonchus oleraceus,Asteraceae,plant,plumillo;quinquin hembra;quinquin
 prickly-sow-thistle,prickly sow thistle,Sonchus asper,Asteraceae,plant,
 skeletonweed,skeletonweed,Chondrilla juncea,Asteraceae,plant,
-cats-ear,cat's ear,Hypochaeris radicata,Asteraceae,plant,
+cats-ear,cat's ear,Hypochaeris radicata,Asteraceae,plant,kari chicoria
 cretan-weed,Cretan weed,Hedypnois rhagadioloides,Asteraceae,plant,
 bristly-oxtongue,bristly oxtongue,Helminthotheca echioides,Asteraceae,plant,
-dandelion,dandelion,Taraxacum officinale,Asteraceae,plant,dandelion;diente de león;amargón;achicoria amarga;dientes de león
+dandelion,dandelion,Taraxacum officinale,Asteraceae,plant,dandelion;warmi taraxaco;diente de caballo;taraxaco hembra;tañi grande;kulcas;tañig;diente de león;amargón;achicoria amarga;dientes de león
 sseumbagwi,sseumbagwi,Ixeris dentata,Asteraceae,plant,
 go-deul-ppae-gi,go-deul-ppae-gi,Crepidiastrum sonchifolium,Asteraceae,plant,
 oriental-false-hawksbeard,Oriental false hawksbeard,Youngia japonica,Asteraceae,plant,
@@ -794,7 +794,7 @@ field-marigold,field marigold,Calendula arvensis,Asteraceae,plant,
 roman-chamomile,Roman chamomile,Chamaemelum nobile,Asteraceae,plant,manzanilla romana
 tansy,tansy,Tanacetum vulgare,Asteraceae,plant,
 costmary,costmary,Tanacetum balsamita,Asteraceae,plant,
-german-chamomile,German chamomile,Matricaria chamomilla,Asteraceae,plant,chamomile;manzanilla;té de manzanilla;camomila
+german-chamomile,German chamomile,Matricaria chamomilla,Asteraceae,plant,chamomile;manzanilla de castilla;manzanilla oficinal;manzanilla;té de manzanilla;camomila
 yarrow,yarrow,Achillea millefolium,Asteraceae,plant,
 corn-marigold,corn marigold (mantilida),Glebionis segetum,Asteraceae,plant,mantilida
 garland-chrysanthemum,garland chrysanthemum (shungiku),Glebionis coronaria,Asteraceae,plant,shungiku
@@ -802,7 +802,7 @@ florists-chrysanthemum,florist's chrysanthemum (tea),Chrysanthemum morifolium,As
 indian-chrysanthemum,Indian chrysanthemum,Chrysanthemum indicum,Asteraceae,plant,
 genepi,génépi,Artemisia genipi,Asteraceae,plant,
 white-genepi,white génépi,Artemisia umbelliformis,Asteraceae,plant,
-wormwood,wormwood,Artemisia absinthium,Asteraceae,plant,
+wormwood,wormwood,Artemisia absinthium,Asteraceae,plant,ajenjo
 tree-wormwood,tree wormwood (sheeba),Artemisia arborescens,Asteraceae,plant,sheeba
 glacier-wormwood,glacier wormwood,Artemisia glacialis,Asteraceae,plant,
 white-sagebrush,white sagebrush,Artemisia ludoviciana,Asteraceae,plant,
@@ -830,10 +830,10 @@ red-dahlia,red dahlia (tubers),Dahlia coccinea,Asteraceae,plant,dalia roja;dalia
 garden-dahlia,garden dahlia (tubers),Dahlia pinnata,Asteraceae,plant,dalia
 ulam-raja,ulam raja,Cosmos caudatus,Asteraceae,plant,
 sulphur-cosmos,sulphur cosmos (flowers),Cosmos sulphureus,Asteraceae,plant,
-blackjack,blackjack (leaves),Bidens pilosa,Asteraceae,plant,
+blackjack,blackjack (leaves),Bidens pilosa,Asteraceae,plant,putsu;shiñan;shiñan yana;shiñan blanco;amor seco;crespa morada;morisco;moriseco
 sumpweed,sumpweed,Iva annua,Asteraceae,plant,
 sochan,sochan,Rudbeckia laciniata,Asteraceae,plant,
-false-daisy,false daisy,Eclipta prostrata,Asteraceae,plant,
+false-daisy,false daisy,Eclipta prostrata,Asteraceae,plant,amarun panka;buyu kiwa
 beach-sunflower,beach sunflower (leaves),Melanthera biflora,Asteraceae,plant,
 chinese-wedelia,Chinese wedelia,Wedelia chinensis,Asteraceae,plant,
 toothache-plant,toothache plant (jambu),Acmella oleracea,Asteraceae,plant,jambu
@@ -844,17 +844,17 @@ woodland-sunflower,woodland sunflower (tubers),Helianthus strumosus,Asteraceae,p
 jerusalem-artichoke,Jerusalem artichoke,Helianthus tuberosus,Asteraceae,plant,topinambur;tupinambo;alcachofa de jerusalén;pataca;topinambo;aguaturma
 niger-seed,niger seed (nug),Guizotia abyssinica,Asteraceae,plant,nug
 coat-buttons,coat buttons,Tridax procumbens,Asteraceae,plant,
-shaggy-soldier,shaggy soldier,Galinsoga quadriradiata,Asteraceae,plant,
-guascas,guascas,Galinsoga parviflora,Asteraceae,plant,guasca;hierba de ajiaco;yerba de ajiaco;mielcilla;piojito;saetilla
+shaggy-soldier,shaggy soldier,Galinsoga quadriradiata,Asteraceae,plant,shirán;shushutil
+guascas,guascas,Galinsoga parviflora,Asteraceae,plant,killu sisu;amarilla pakunka;burrionera;guasca;hierba de ajiaco;yerba de ajiaco;mielcilla;piojito;saetilla
 yacon,yacón,Smallanthus sonchifolius,Asteraceae,plant,yacón;llacón;aricoma
 signet-marigold,signet marigold,Tagetes tenuifolia,Asteraceae,plant,
-anisillo,anisillo,Tagetes filifolia,Asteraceae,plant,anisillo;anís de campo;hierba anís
+anisillo,anisillo,Tagetes filifolia,Asteraceae,plant,allpa anís;panpa anís;sacha anís;anís común;anisillo;anís de campo;hierba anís
 mexican-tarragon,Mexican tarragon,Tagetes lucida,Asteraceae,plant,pericón;yerbaniz;hierbanís;yerba anís;tarragón mexicano;estragón mexicano;santa maría
-aztec-marigold,Aztec marigold,Tagetes erecta,Asteraceae,plant,cempasúchil;flor de muerto;zempasúchil;cempoal
+aztec-marigold,Aztec marigold,Tagetes erecta,Asteraceae,plant,ashna yuyu;rusawaita;aya rosa;killu rosa;rosa el muerto;rosa muerta;rosaflor;rosas de muerto;cempasúchil;flor de muerto;zempasúchil;cempoal
 french-marigold,French marigold,Tagetes patula,Asteraceae,plant,
 huacatay,huacatay,Tagetes minuta,Asteraceae,plant,huacatay;wacatay;chinchilla;chiquilla;suico;ocopa hierba
 pipicha,pipicha,Porophyllum linaria,Asteraceae,plant,pipicha;pipitza;pepicha;chepiche
-papalo,pápalo,Porophyllum ruderale,Asteraceae,plant,pápalo;papaloquelite;quilquiña;quirquiña;killi
+papalo,pápalo,Porophyllum ruderale,Asteraceae,plant,hierba de gallinazo;ruda de gallinazo;pápalo;papaloquelite;quilquiña;quirquiña;killi
 cinchweed,cinchweed (limoncillo),Pectis papposa,Asteraceae,plant,limoncillo
 helencha,helencha,Enydra fluctuans,Asteraceae,plant,
 madia,madia (melosa),Madia sativa,Asteraceae,plant,melosa
@@ -865,7 +865,7 @@ umari,umari,Poraqueiba sericea,Icacinaceae,plant,
 man-of-the-earth,man-of-the-earth (root),Ipomoea pandurata,Convolvulaceae,plant,
 bush-potato,bush potato (Ipomoea),Ipomoea costata,Convolvulaceae,plant,
 bush-morning-glory,bush morning glory (root),Ipomoea leptophylla,Convolvulaceae,plant,
-sweet-potato,sweet potato,Ipomoea batatas,Convolvulaceae,plant,sweet potato;yam (US);camote;batata;boniato;papa dulce;patata dulce;chaco;kumara;moniato;boniatillo
+sweet-potato,sweet potato,Ipomoea batatas,Convolvulaceae,plant,sweet potato;yam (US);camote;kumal;sacha kumal;sacha camote;apichu;cumar;batata;boniato;papa dulce;patata dulce;chaco;kumara;moniato;boniatillo
 water-spinach,water spinach (kangkong),Ipomoea aquatica,Convolvulaceae,plant,kangkong;espinaca de agua;kangkung;espinaca china de agua;ong choy;batata de agua
 rocoto,rocoto,Capsicum pubescens,Solanaceae,plant,rocoto;locoto;chile manzano;chiles manzanos;chile perón;chile canario;chile ciruelo;salsa de rocoto;pasta de rocoto;chile de cera;chile caballo;chile chamburoto;ají rocoto;ají locoto
 habanero,habanero,Capsicum chinense,Solanaceae,plant,habanero;scotch bonnet;ají panca;pasta de ají panca;ají limo;ají charapita;charapita;ají dulce;ajíes dulces;ají cachucha;ají gustoso;ají criollo;ajicito;ají chombo;chile chombo;chile congo;chile panameño;ají chivato;ají pajarito;ají chirel;chile guaguao;ají guaguao;chile cabro;ají de jardín
@@ -928,7 +928,7 @@ white-rubber-vine,white rubber vine (fruit),Landolphia owariensis,Apocynaceae,pl
 sand-apricot-vine,sand apricot-vine,Landolphia kirkii,Apocynaceae,plant,
 mangaba,mangaba,Hancornia speciosa,Apocynaceae,plant,
 sorva-pequena,sorva pequena,Couma utilis,Apocynaceae,plant,
-sorva,sorva,Couma macrocarpa,Apocynaceae,plant,
+sorva,sorva,Couma macrocarpa,Apocynaceae,plant,leche guayo
 kambroo,kambroo,Fockea edulis,Apocynaceae,plant,
 utazi,utazi,Gongronema latifolium,Apocynaceae,plant,
 green-wax-flower,green wax flower (leaves),Dregea volubilis,Apocynaceae,plant,
@@ -993,13 +993,13 @@ fever-tea,fever tea,Lippia javanica,Verbenaceae,plant,
 black-benniseed,black benniseed (leaves),Sesamum radiatum,Pedaliaceae,plant,
 false-sesame,false sesame,Ceratotheca sesamoides,Pedaliaceae,plant,
 sesame,sesame,Sesamum indicum,Pedaliaceae,plant,sesame;tahini;sesame oil;sesame seeds;sésamo;ajonjolí;tahina;pasta de sésamo
-garlic-vine,garlic vine,Mansoa alliacea,Bignoniaceae,plant,
+garlic-vine,garlic vine,Mansoa alliacea,Bignoniaceae,plant,ajus waska;ajo waska;sacha ajo
 broken-bones-tree,broken bones tree (pods),Oroxylum indicum,Bignoniaceae,plant,
 sausage-tree,sausage tree (fermented),Kigelia africana,Bignoniaceae,plant,
 mangrove-trumpet-tree,mangrove trumpet tree (flowers),Dolichandrone spathacea,Bignoniaceae,plant,
 cuajilote,cuajilote,Parmentiera aculeata,Bignoniaceae,plant,
 candle-tree,candle tree,Parmentiera cereifera,Bignoniaceae,plant,
-calabash-tree,calabash tree (seeds),Crescentia cujete,Bignoniaceae,plant,
+calabash-tree,calabash tree (seeds),Crescentia cujete,Bignoniaceae,plant,auka pillchi;hatun pillchi;kuya;kuya yura;pillchi;pillchi yura;tuntuma;árbol de calabaza
 jicaro,jícaro,Crescentia alata,Bignoniaceae,plant,jícaro;morro
 devils-claw,"devil's claw (pods, seeds)",Proboscidea parviflora,Martyniaceae,plant,
 grey-mangrove,grey mangrove (processed seeds),Avicennia marina,Acanthaceae,plant,
@@ -1122,7 +1122,7 @@ yerba-santa,yerba santa,Eriodictyon californicum,Namaceae,plant,
 virginia-waterleaf,Virginia waterleaf,Hydrophyllum virginianum,Hydrophyllaceae,plant,
 lungwort,lungwort,Pulmonaria officinalis,Boraginaceae,plant,
 comfrey,comfrey (historical),Symphytum officinale,Boraginaceae,plant,
-borage,borage,Borago officinalis,Boraginaceae,plant,borraja
+borage,borage,Borago officinalis,Boraginaceae,plant,borrago;borraja azul;borraja blanca;borraja morada;borraja
 italian-bugloss,Italian bugloss (flowers),Anchusa azurea,Boraginaceae,plant,
 common-bugloss,common bugloss,Anchusa officinalis,Boraginaceae,plant,
 patersons-curse,Paterson's curse (seed oil),Echium plantagineum,Boraginaceae,plant,
@@ -1290,10 +1290,10 @@ galip-nut,galip nut,Canarium indicum,Burseraceae,plant,
 dabai,dabai,Canarium odontophyllum,Burseraceae,plant,
 atom,atom (fruit),Dacryodes macrophylla,Burseraceae,plant,
 safou,safou (African pear),Dacryodes edulis,Burseraceae,plant,African pear
-jocote,jocote,Spondias purpurea,Anacardiaceae,plant,jocote;ciruela de huesito;ciruela huesito;ciruela roja tropical;ciruela mexicana
+jocote,jocote,Spondias purpurea,Anacardiaceae,plant,ciruela colorada;hobito;hocos poca;ñabe;jocote;ciruela de huesito;ciruela huesito;ciruela roja tropical;ciruela mexicana
 umbu,umbu,Spondias tuberosa,Anacardiaceae,plant,
-yellow-mombin,yellow mombin (hog plum),Spondias mombin,Anacardiaceae,plant,hog plum;jobo;hobo;ciruela amarilla;jobito;ubos
-ambarella,ambarella,Spondias dulcis,Anacardiaceae,plant,ciruela dulce;juplón;yuplón;ciruela de cristal;jobo de la india;mango de la india
+yellow-mombin,yellow mombin (hog plum),Spondias mombin,Anacardiaceae,plant,hog plum;auru muyu;urti muyu;hobo ciruela;manguillo;pepa agria;jobo;hobo;ciruela amarilla;jobito;ubos
+ambarella,ambarella,Spondias dulcis,Anacardiaceae,plant,manzana de oro;ciruela dulce;juplón;yuplón;ciruela de cristal;jobo de la india;mango de la india
 wild-mango,wild mango (amra),Spondias pinnata,Anacardiaceae,plant,amra
 dao,dao,Dracontomelon dao,Anacardiaceae,plant,
 sau,sau,Dracontomelon duperreanum,Anacardiaceae,plant,
@@ -1311,7 +1311,7 @@ terebinth,terebinth (menengiç),Pistacia terebinthus,Anacardiaceae,plant,menengi
 smooth-sumac,smooth sumac,Rhus glabra,Anacardiaceae,plant,
 staghorn-sumac,staghorn sumac,Rhus typhina,Anacardiaceae,plant,
 sumac,sumac,Rhus coriaria,Anacardiaceae,plant,sumac;za'atar
-peruvian-pepper,Peruvian pepper (pink peppercorn),Schinus molle,Anacardiaceae,plant,pink peppercorn
+peruvian-pepper,Peruvian pepper (pink peppercorn),Schinus molle,Anacardiaceae,plant,pink peppercorn;molle;muelle;pepper tree;engamolle;tancar
 brazilian-pepper,Brazilian pepper,Schinus terebinthifolia,Anacardiaceae,plant,
 cuachalalate,cuachalalate,Amphipterygium adstringens,Anacardiaceae,plant,
 binjai,binjai,Mangifera caesia,Anacardiaceae,plant,
@@ -1327,7 +1327,7 @@ sal,sal (seed butter),Shorea robusta,Dipterocarpaceae,plant,
 dhupa,dhupa (seed fat),Vateria indica,Dipterocarpaceae,plant,
 pink-rockrose,pink rockrose (tea),Cistus creticus,Cistaceae,plant,
 saya,saya (Sonoran root),Amoreuxia palmatifida,Bixaceae,plant,
-annatto,annatto,Bixa orellana,Bixaceae,plant,achiote;annato;annatto;onoto;bija;bijol;urucú;color;pasta de achiote;recado rojo
+annatto,annatto,Bixa orellana,Bixaceae,plant,achiwiti;aya manturu;manturu;puka manturu;achiote colorado;achiote de racimo;pulumoco;achiote;annato;annatto;onoto;bija;bijol;urucú;color;pasta de achiote;recado rojo
 lai,lai,Durio kutejensis,Malvaceae,plant,
 red-fleshed-durian,red-fleshed durian,Durio graveolens,Malvaceae,plant,
 durian-marangang,durian marangang,Durio dulcis,Malvaceae,plant,
@@ -1362,7 +1362,7 @@ baobab,baobab,Adansonia digitata,Malvaceae,plant,
 boab,boab,Adansonia gregorii,Malvaceae,plant,
 red-silk-cotton,red silk-cotton (semal flowers),Bombax ceiba,Malvaceae,plant,semal flowers
 shaving-brush-tree,shaving brush tree (flowers),Pseudobombax ellipticum,Malvaceae,plant,
-malabar-chestnut,Malabar chestnut,Pachira aquatica,Malvaceae,plant,
+malabar-chestnut,Malabar chestnut,Pachira aquatica,Malvaceae,plant,charapa putu;llantias;capira;mococha;piscanquinol
 saba-nut,saba nut,Pachira glabra,Malvaceae,plant,
 american-basswood,American basswood,Tilia americana,Malvaceae,plant,
 large-leaved-lime,large-leaved lime,Tilia platyphyllos,Malvaceae,plant,
@@ -1393,12 +1393,12 @@ dwarf-nasturtium,dwarf nasturtium,Tropaeolum minus,Tropaeolaceae,plant,
 garden-nasturtium,garden nasturtium,Tropaeolum majus,Tropaeolaceae,plant,capuchina;taco de reina;mastuerzo de indias;espuela de galán
 african-moringa,African moringa,Moringa stenopetala,Moringaceae,plant,
 moringa,moringa (drumstick),Moringa oleifera,Moringaceae,plant,drumstick
-papaya,papaya,Carica papaya,Caricaceae,plant,papaya;lechosa;fruta bomba;papayón
+papaya,papaya,Carica papaya,Caricaceae,plant,papaya;kari papaya;papaya blanca;papaya de mico;papayo;lechosa;fruta bomba;papayón
 bonete,bonete,Jacaratia mexicana,Caricaceae,plant,
-jaracatia,jaracatiá,Jacaratia spinosa,Caricaceae,plant,
-mountain-papaya,mountain papaya,Vasconcellea pubescens,Caricaceae,plant,papayuela;papaya de monte;chamburo;papaya andina;papaya de altura;chilacuán
-babaco,babaco,Vasconcellea × heilbornii,Caricaceae,plant,babaco
-col-de-montana,col de montaña,Vasconcellea monoica,Caricaceae,plant,
+jaracatia,jaracatiá,Jacaratia spinosa,Caricaceae,plant,sacha papaya
+mountain-papaya,mountain papaya,Vasconcellea pubescens,Caricaceae,plant,chanpuru;toronche redondo;chiblacán;chihualcán;jigacho;rolo jimba;siglalón;sigloalón;papayuela;papaya de monte;chamburo;papaya andina;papaya de altura;chilacuán
+babaco,babaco,Vasconcellea × heilbornii,Caricaceae,plant,babaco redondo;higacho;toronchi;babaco
+col-de-montana,col de montaña,Vasconcellea monoica,Caricaceae,plant,rola quimba;yumbo papaya
 meadowfoam,meadowfoam (oil),Limnanthes alba,Limnanthaceae,plant,
 dobera,dobera (fruit),Dobera glabra,Salvadoraceae,plant,
 toothbrush-tree,toothbrush tree (miswak fruit),Salvadora persica,Salvadoraceae,plant,miswak fruit
@@ -1425,14 +1425,14 @@ winter-cress,winter cress,Barbarea vulgaris,Brassicaceae,plant,
 upland-cress,upland cress,Barbarea verna,Brassicaceae,plant,
 marsh-yellowcress,marsh yellowcress,Rorippa palustris,Brassicaceae,plant,
 narrow-fruited-watercress,narrow-fruited watercress,Nasturtium microphyllum,Brassicaceae,plant,
-watercress,watercress,Nasturtium officinale,Brassicaceae,plant,watercress;berro;mastuerzo de agua
+watercress,watercress,Nasturtium officinale,Brassicaceae,plant,watercress;chichira negra;chichira negro;berro;mastuerzo de agua
 crinkleroot,crinkleroot,Cardamine diphylla,Brassicaceae,plant,
 cutleaf-toothwort,cutleaf toothwort,Cardamine concatenata,Brassicaceae,plant,
 hairy-bittercress,hairy bittercress,Cardamine hirsuta,Brassicaceae,plant,
 cuckooflower,cuckooflower,Cardamine pratensis,Brassicaceae,plant,
 tower-mustard,tower mustard,Turritis glabra,Brassicaceae,plant,
 camelina,camelina (gold-of-pleasure),Camelina sativa,Brassicaceae,plant,gold-of-pleasure
-shepherds-purse,shepherd's purse,Capsella bursa-pastoris,Brassicaceae,plant,
+shepherds-purse,shepherd's purse,Capsella bursa-pastoris,Brassicaceae,plant,yurak sisa;bolsa kiwa;bolsa yuyu;chakra berro;bolsa del pastor;bolsetilla;bolsilla;hierba del elefante
 blue-mustard,blue mustard,Chorispora tenella,Brassicaceae,plant,
 crested-warty-cabbage,crested warty cabbage,Bunias erucago,Brassicaceae,plant,
 turkish-rocket,Turkish rocket,Bunias orientalis,Brassicaceae,plant,
@@ -1456,14 +1456,14 @@ white-wall-rocket,white wall-rocket,Diplotaxis erucoides,Brassicaceae,plant,
 wild-rocket,wild rocket,Diplotaxis tenuifolia,Brassicaceae,plant,
 bastard-cabbage,bastard cabbage,Rapistrum rugosum,Brassicaceae,plant,
 wild-radish,wild radish,Raphanus raphanistrum,Brassicaceae,plant,
-radish,radish / daikon,Raphanus sativus,Brassicaceae,plant,daikon;radish;rábano;rabanito
+radish,radish / daikon,Raphanus sativus,Brassicaceae,plant,daikon;radish;papay yuyu;rabanillo;rábano;rabanito
 black-mustard,black mustard,Brassica nigra,Brassicaceae,plant,mostaza negra
 ethiopian-mustard,Ethiopian mustard,Brassica carinata,Brassicaceae,plant,
 sahara-mustard,Sahara mustard (seed),Brassica tournefortii,Brassicaceae,plant,
 cabbage,cabbage / kale / broccoli / cauliflower,Brassica oleracea,Brassicaceae,plant,kale;broccoli;cauliflower;cabbage;brussels sprouts;collard;kohlrabi;sauerkraut;kimchi;coleslaw;repollo;col;lombarda;berza;repollito de bruselas;repollitos de bruselas;coliflor;brócoli;brécol;colinabo;colirrábano;col rábano;romanesco;chucrut;curtido;couve;cavolo nero;repollitos;colecita
 rapeseed,rapeseed / rutabaga,Brassica napus,Brassicaceae,plant,rutabaga;canola;rapeseed;canola oil;swede;colza;nabo sueco;nabicol
 brown-mustard,brown mustard / mustard greens,Brassica juncea,Brassicaceae,plant,mustard greens;brown mustard;dijon;gai choy;mostaza parda;mostaza china;hojas de mostaza;mostaza de hoja;mostaza india;mostaza morena;mostaza verde
-turnip,turnip / bok choy / napa,Brassica rapa,Brassicaceae,plant,bok choy;napa;turnip;napa cabbage;pak choi;turnip greens;mizuna;rapini;nabo;nabiza;grelos;grelo;col china;col de napa;hakusai
+turnip,turnip / bok choy / napa,Brassica rapa,Brassicaceae,plant,bok choy;napa;turnip;napa cabbage;pak choi;turnip greens;mizuna;rapini;sacha nabo;nabo;nabiza;grelos;grelo;col china;col de napa;hakusai
 london-rocket,London rocket,Sisymbrium irio,Brassicaceae,plant,
 hedge-mustard,hedge mustard,Sisymbrium officinale,Brassicaceae,plant,
 princes-plume,prince's plume (greens),Stanleya pinnata,Brassicaceae,plant,
@@ -1867,17 +1867,17 @@ sweet-granadilla,sweet granadilla,Passiflora ligularis,Passifloraceae,plant,
 heartsease,heartsease,Viola tricolor,Violaceae,plant,
 sweet-violet,sweet violet (flowers),Viola odorata,Violaceae,plant,
 keluak,keluak,Pangium edule,Achariaceae,plant,
-mamey-apple,mamey apple,Mammea americana,Calophyllaceae,plant,mamey de santo domingo;mamey amarillo;mamey de cartagena;mamey americano;mamey de las antillas;mamey criollo
+mamey-apple,mamey apple,Mammea americana,Calophyllaceae,plant,mamey mata serrana;mamey serrano;mata serrano;mamey de santo domingo;mamey amarillo;mamey de cartagena;mamey americano;mamey de las antillas;mamey criollo
 bacuri,bacuri,Platonia insignis,Clusiaceae,plant,
 achachairu,achachairú,Garcinia humilis,Clusiaceae,plant,
-mangosteen,mangosteen,Garcinia mangostana,Clusiaceae,plant,
+mangosteen,mangosteen,Garcinia mangostana,Clusiaceae,plant,mangostán
 asam-gelugor,asam gelugor,Garcinia atroviridis,Clusiaceae,plant,
 kokum,kokum,Garcinia indica,Clusiaceae,plant,
 malabar-tamarind,Malabar tamarind (kodampuli),Garcinia gummi-gutta,Clusiaceae,plant,kodampuli
 cowa,cowa,Garcinia cowa,Clusiaceae,plant,
 button-mangosteen,button mangosteen,Garcinia prainiana,Clusiaceae,plant,
 african-mangosteen,African mangosteen,Garcinia livingstonei,Clusiaceae,plant,
-madrono,madroño,Garcinia madruno,Clusiaceae,plant,
+madrono,madroño,Garcinia madruno,Clusiaceae,plant,punkara muyu
 bitter-kola,bitter kola,Garcinia kola,Clusiaceae,plant,
 gamboge,gamboge (false mangosteen),Garcinia xanthochymus,Clusiaceae,plant,false mangosteen
 st-johns-wort,St John's wort (tea),Hypericum perforatum,Hypericaceae,plant,
@@ -1896,7 +1896,7 @@ coca,coca (leaf),Erythroxylum coca,Erythroxylaceae,plant,coca;mate de coca;té d
 panda-nut,panda nut,Panda oleosa,Pandaceae,plant,
 bitter-bush-mango,bitter bush mango,Irvingia wombolu,Irvingiaceae,plant,
 bush-mango,bush mango (dika nut),Irvingia gabonensis,Irvingiaceae,plant,dika nut
-cocoplum,cocoplum,Chrysobalanus icaco,Chrysobalanaceae,plant,
+cocoplum,cocoplum,Chrysobalanus icaco,Chrysobalanaceae,plant,hicaco
 sansapote,sansapote,Licania platypus,Chrysobalanaceae,plant,
 gingerbread-plum,gingerbread plum,Neocarya macrophylla,Chrysobalanaceae,plant,
 mobola-plum,mobola plum,Parinari curatellifolia,Chrysobalanaceae,plant,
@@ -1911,7 +1911,7 @@ cassava,cassava,Manihot esculenta,Euphorbiaceae,plant,cassava;tapioca;yuca;manio
 african-walnut,African walnut (conophor),Tetracarpidium conophorum,Euphorbiaceae,plant,conophor
 sacha-inchi,sacha inchi,Plukenetia volubilis,Euphorbiaceae,plant,
 uxi,uxi,Endopleura uchi,Humiriaceae,plant,
-field-horsetail,field horsetail (tsukushi),Equisetum arvense,Equisetaceae,plant,tsukushi;cola de caballo;té de cola de caballo;equiseto
+field-horsetail,field horsetail (tsukushi),Equisetum arvense,Equisetaceae,plant,tsukushi;caballo chupa;cola de caballo;té de cola de caballo;equiseto
 giant-fern,giant fern (starch),Angiopteris evecta,Marattiaceae,plant,
 cinnamon-fern,cinnamon fern,Osmundastrum cinnamomeum,Osmundaceae,plant,
 zenmai,zenmai,Osmunda japonica,Osmundaceae,plant,
@@ -1919,7 +1919,7 @@ nardoo,nardoo,Marsilea drummondii,Marsileaceae,plant,
 vegetable-fern,vegetable fern (paco),Diplazium esculentum,Athyriaceae,plant,paco
 ostrich-fern,ostrich fern (fiddlehead),Matteuccia struthiopteris,Onocleaceae,plant,fiddlehead;fiddlehead fern;ostrich fern
 midin,midin,Stenochlaena palustris,Blechnaceae,plant,
-bracken,bracken (warabi),Pteridium aquilinum,Dennstaedtiaceae,plant,warabi
+bracken,bracken (warabi),Pteridium aquilinum,Dennstaedtiaceae,plant,warabi;yashipa
 water-sprite,water sprite,Ceratopteris thalictroides,Pteridaceae,plant,
 kawanori,kawanori,Prasiola japonica,Prasiolaceae,green,
 chlorella,chlorella (pyrenoidosa),Auxenochlorella pyrenoidosa,Chlorellaceae,green,
