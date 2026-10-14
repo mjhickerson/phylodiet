@@ -682,7 +682,7 @@ Hydrocynus vittatus,tigerfish,Hydrocynus,Alestidae,animal,"Bony fishes: primitiv
 Distichodus rostratus,grass-eater,Distichodus,Distichodontidae,animal,"Bony fishes: primitive groups, eels, herrings, carps, catfish, characins"
 Citharinus citharus,moon fish,Citharinus,Citharinidae,animal,"Bony fishes: primitive groups, eels, herrings, carps, catfish, characins"
 Salmo salar,Atlantic salmon,Salmo,Salmonidae,animal,"Bony fishes: salmon, smelts, pike, cod, and relatives"
-Salmo trutta,brown / sea trout,Salmo,Salmonidae,animal,"Bony fishes: salmon, smelts, pike, cod, and relatives"
+Salmo trutta,brown trout / sea trout,Salmo,Salmonidae,animal,"Bony fishes: salmon, smelts, pike, cod, and relatives"
 Oncorhynchus mykiss,rainbow trout / steelhead,Oncorhynchus,Salmonidae,animal,"Bony fishes: salmon, smelts, pike, cod, and relatives"
 Oncorhynchus nerka,sockeye salmon,Oncorhynchus,Salmonidae,animal,"Bony fishes: salmon, smelts, pike, cod, and relatives"
 Oncorhynchus kisutch,coho salmon,Oncorhynchus,Salmonidae,animal,"Bony fishes: salmon, smelts, pike, cod, and relatives"
@@ -3280,3 +3280,6 @@ Stilbocarpa polaris,Macquarie Island cabbage,Stilbocarpa,Araliaceae,plant,"Eudic
 Hydrocotyle sibthorpioides,lawn pennywort,Hydrocotyle,Araliaceae,plant,"Eudicots: carrot family, ginseng family, pittosporums"
 Billardiera scandens,appleberry,Billardiera,Pittosporaceae,plant,"Eudicots: carrot family, ginseng family, pittosporums"
 Billardiera longiflora,purple appleberry,Billardiera,Pittosporaceae,plant,"Eudicots: carrot family, ginseng family, pittosporums"
+Ocotea quixos,ishpingo (flor de canela),Ocotea,Lauraceae,plant,Basal angiosperms and magnoliids
+Myrcianthes hallii,Andean arrayán,Myrcianthes,Myrtaceae,plant,"Eudicots: myrtles, pomegranate, water caltrop, evening primrose, terminalia"
+Vitex gigantea,pechiche,Vitex,Lamiaceae,plant,"Eudicots: mints, olives, sesame, verbenas, acanthus, bignonias, plantains, broomrapes"
