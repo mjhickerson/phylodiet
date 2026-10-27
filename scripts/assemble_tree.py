@@ -211,7 +211,7 @@ def main(nwk_path, csv_path, outdir):
             if key in syn:
                 report["synonym applied (tree label -> candidate)"].append(f"{clean_label(n.label)} -> {syn[key]}")
                 n.label = syn[key]
-        elif re.fullmatch(r"'?\d+'?", n.label or ""):
+        elif re.fullmatch(r"'?(\d+|mrcaott\d+ott\d+)'?", n.label or ""):   # bare numbers and Open Tree node ids are not names
             n.label = ""
 
     # index tree tips by normalised species and by genus

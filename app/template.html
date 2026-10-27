@@ -3,7 +3,18 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Phylodiet</title>
+<title>Phylodiet: how much of the tree of life is on your plate?</title>
+<meta name="description" content="Phylodiet scores a meal by the phylogenetic diversity of what is on the plate. Paste a recipe or name a dish and get millions of years of evolution, species richness and a drawing of the meal's tree. Runs entirely in your browser.">
+<link rel="canonical" href="https://mjhickerson.github.io/phylodiet/app/phylodiet.html">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Phylodiet">
+<meta property="og:title" content="Phylodiet: how much of the tree of life is on your plate?">
+<meta property="og:description" content="Score a meal by the phylogenetic diversity of what is on it: millions of years of evolution per plate.">
+<meta property="og:url" content="https://mjhickerson.github.io/phylodiet/app/phylodiet.html">
+<meta property="og:image" content="https://mjhickerson.github.io/phylodiet/docs/images/share.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,500;0,9..144,600;1,9..144,300;1,9..144,500&family=Source+Sans+3:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
@@ -834,7 +845,7 @@ function parseNewick(s){
     let label = '';
     while (i < s.length && !':,()'.includes(s[i])) label += s[i++];
     label = label.trim().replace(/^'|'$/g,'');
-    if (n.children) n.name = label.replace(/_/g,' '); else n.id = label;
+    if (n.children) n.name = /^mrcaott\d+/.test(label) ? '' : label.replace(/_/g,' '); else n.id = label;
     if (s[i] === ':'){ i++; let num=''; while (i < s.length && !',()'.includes(s[i])) num += s[i++]; n.bl = parseFloat(num) || 0; }
     return n;
   }

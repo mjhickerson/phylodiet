@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Phylodiet: how much of the tree of life is on your plate?</title>
+<meta name="description" content="Phylodiet scores a meal by the phylogenetic diversity of what is on the plate. Paste a recipe or name a dish and get millions of years of evolution, species richness and a drawing of the meal's tree. Free, runs in your browser, nothing is sent anywhere.">
+<link rel="canonical" href="https://mjhickerson.github.io/phylodiet/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Phylodiet">
+<meta property="og:title" content="Phylodiet: how much of the tree of life is on your plate?">
+<meta property="og:description" content="Score a meal by the phylogenetic diversity of what is on it: millions of years of evolution per plate.">
+<meta property="og:url" content="https://mjhickerson.github.io/phylodiet/">
+<meta property="og:image" content="https://mjhickerson.github.io/phylodiet/docs/images/share.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebApplication","name":"Phylodiet","alternateName":"Phylo diet","url":"https://mjhickerson.github.io/phylodiet/app/phylodiet.html","applicationCategory":"EducationalApplication","operatingSystem":"Any (web browser)","isAccessibleForFree":true,"description":"Scores a meal by the phylogenetic diversity of the organisms in it: Faith's PD over a dated tree of edible eukaryotes.","author":{"@type":"Person","name":"Michael J. Hickerson","affiliation":"City College of New York"},"codeRepository":"https://github.com/mjhickerson/phylodiet"}
+</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,500;0,9..144,600;1,9..144,300&family=Source+Sans+3:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#F4F6F1; --panel:#E9EDE4; --ink:#1B231C; --ink-2:#4F5A51; --muted:#8A948B; --line:#CBD2C7;
+  --animal:#2F6DB5; --fungus:#7B58A8; --plant:#2E7A3F; --red:#B8394B; --brown:#A2701F;
+  --sans:"Source Sans 3",system-ui,-apple-system,"Segoe UI",sans-serif; --serif:"Fraunces",Georgia,"Times New Roman",serif;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --bg:#151A16; --panel:#1E2620; --ink:#E9ECE4; --ink-2:#B9C1B7; --muted:#7E877E; --line:#33403A;
+    --animal:#6E9FDB; --fungus:#B394E0; --plant:#5DB56F; --red:#E06A79; --brown:#D9A24A;
+  }
+}
+:root[data-theme="dark"]{
+  --bg:#151A16; --panel:#1E2620; --ink:#E9ECE4; --ink-2:#B9C1B7; --muted:#7E877E; --line:#33403A;
+  --animal:#6E9FDB; --fungus:#B394E0; --plant:#5DB56F; --red:#E06A79; --brown:#D9A24A;
+}
+*{box-sizing:border-box}
+html,body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--sans);font-size:17px;line-height:1.45}
+body{padding:0 20px 80px}
+.wrap{max-width:900px;margin:0 auto}
+header{display:flex;align-items:baseline;justify-content:space-between;padding:26px 0 8px;gap:16px;flex-wrap:wrap}
+.wordmark{font-family:var(--serif);font-weight:600;font-size:22px;letter-spacing:-.01em}
+nav a{color:var(--ink-2);text-decoration:none;margin-left:18px;font-size:15px}
+nav a:hover{color:var(--ink);text-decoration:underline}
+h1{font-family:var(--serif);font-weight:300;font-size:clamp(36px,6vw,64px);line-height:1.05;letter-spacing:-.02em;margin:40px 0 16px;max-width:16ch}
+.lede{font-size:19px;color:var(--ink-2);max-width:58ch;margin:0 0 28px}
+.cta{display:inline-block;background:var(--ink);color:var(--bg);text-decoration:none;font-weight:600;font-size:18px;padding:14px 26px;border-radius:8px}
+.cta:hover{opacity:.9}
+.sub{display:block;margin:12px 0 0;color:var(--muted);font-size:15px}
+.nums{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:14px;margin:44px 0 10px}
+.num{background:var(--panel);border-radius:10px;padding:16px 18px}
+.num b{display:block;font-family:var(--serif);font-weight:500;font-size:30px;line-height:1.1;letter-spacing:-.01em}
+.num span{color:var(--ink-2);font-size:15px}
+.num i{font-style:normal;color:var(--muted);font-size:13px;display:block;margin-top:6px}
+figure{margin:40px 0 0}
+figure img{width:100%;height:auto;border-radius:8px;border:1px solid var(--line)}
+figcaption{color:var(--muted);font-size:14px;margin-top:8px}
+p{max-width:62ch}
+a{color:var(--ink)}
+footer{margin-top:48px;color:var(--muted);font-size:14px;border-top:1px solid var(--line);padding-top:16px}
+footer a{color:var(--ink-2)}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header>
+  <div class="wordmark">Phylodiet</div>
+  <nav><a href="app/phylodiet.html">Open the app</a><a href="https://github.com/mjhickerson/phylodiet">GitHub</a></nav>
+</header>
+
+<h1>How much of the tree of life is on your plate?</h1>
+<p class="lede">Phylodiet scores a meal by the phylogenetic diversity of what is on it. Paste a recipe or name a dish; every ingredient is mapped to the organism it came from, the tree of edible eukaryotes is pruned to what is on the plate, and the branch lengths are added up: millions of years of evolution per meal.</p>
+<a class="cta" href="app/phylodiet.html">Open Phylodiet</a>
+<span class="sub">Free. Runs in your browser; nothing you type is sent anywhere. English and Spanish.</span>
+
+<div class="nums">
+  <div class="num"><b>6.3 billion years</b><span>Cheeseburger and fries</span><i>10 species: cow, wheat, yeast, sesame, lettuce, tomato, onion, cucumber, mustard, potato</i></div>
+  <div class="num"><b>10.6 billion years</b><span>Japanese set meal</span><i>14 species: miso, kombu, wakame, nori, rice, salmon, daikon and the rest</i></div>
+  <div class="num"><b>+1.9 billion years</b><span>A pinch of nori</span><i>more than a fifteen-jar spice rack adds, because red algae left the land-plant line 1.9 billion years ago</i></div>
+</div>
+
+<figure>
+  <img src="docs/images/meal_tree.png" alt="The meal tree Phylodiet draws for a Japanese set meal: koji, two fish, two kelps, nori and eight land plants, with the ages of the nodes that join them" width="2080" height="960">
+  <figcaption>The meal tree for a Japanese set meal. Node ages in millions of years; the root of the eukaryotes is at 2,132.</figcaption>
+</figure>
+
+<p>Not a paleo diet, a phylo diet: the score rewards eating across the tree of life rather than deep in one branch. The number is Faith's phylogenetic diversity, the standard measure used in conservation biology, computed over a dated tree of about 3,300 edible species assembled from published chronograms. The tree, the dish table and the code are open and in the <a href="https://github.com/mjhickerson/phylodiet">repository</a>, with a changelog of every node age that a specialist has reviewed.</p>
+
+<footer>Phylodiet is a prototype by <a href="https://github.com/mjhickerson">Mike Hickerson</a> (City College of New York, American Museum of Natural History). Dish missing or mapped wrong? The app has a report link under every score.</footer>
+</div>
+</body>
+</html>

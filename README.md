@@ -6,7 +6,7 @@
 
 Phylodiet scores a meal by the phylogenetic diversity of the organisms in it. You paste a recipe or name a dish; the app maps each ingredient to the species it came from, prunes a dated tree of edible eukaryotes down to those species, and adds up the branch lengths. The result is Faith's phylogenetic diversity (PD) in millions of years of evolution, reported alongside plain species richness, a coverage percentage, and a drawing of the meal's tree.
 
-A cheeseburger with fries is about 3.7 billion years of branch length. A Japanese set meal with kombu, nori, and miso is about 7.7. A pinch of nori adds more than the entire spice rack, because red algae split from land plants about 1.4 billion years ago and thyme split from oregano about 12 million years ago.
+A cheeseburger with fries is about 6.3 billion years of branch length. A Japanese set meal with kombu, nori and miso is about 10.6. A pinch of nori adds more than the entire spice rack (about 1.9 billion years against 0.9 for fifteen spices), because red algae and land plants parted about 1.9 billion years ago and thyme and oregano about 7 million years ago.
 
 ![The meal tree for a Japanese set meal](docs/images/meal_tree.png)
 
