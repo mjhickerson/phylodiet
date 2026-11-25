@@ -518,7 +518,7 @@ black-huckleberry,black huckleberry (Gaylussacia),Gaylussacia baccata,Ericaceae,
 dangleberry,dangleberry,Gaylussacia frondosa,Ericaceae,plant,
 mortino,mortiño,Vaccinium floribundum,Ericaceae,plant,manzanilla de cerro;mortiño de comer;mortiño de quito;joyapa chiquito;mortiño;agraz andino
 evergreen-huckleberry,evergreen huckleberry,Vaccinium ovatum,Ericaceae,plant,
-cranberry,cranberry,Vaccinium macrocarpon,Ericaceae,plant,cranberry;cranberries;arándano rojo;arándanos rojos;arándano agrio
+cranberry,cranberry,Vaccinium macrocarpon,Ericaceae,plant,cranberry;cranberries;arándano rojo;arándanos rojos;arándano agrio;craisins;craisin;dried cranberry
 lingonberry,lingonberry,Vaccinium vitis-idaea,Ericaceae,plant,lingonberry;arándano rojo europeo
 oval-leaf-blueberry,oval-leaf blueberry,Vaccinium ovalifolium,Ericaceae,plant,
 black-huckleberry-2,black huckleberry,Vaccinium membranaceum,Ericaceae,plant,
@@ -866,13 +866,13 @@ umari,umari,Poraqueiba sericea,Icacinaceae,plant,
 man-of-the-earth,man-of-the-earth (root),Ipomoea pandurata,Convolvulaceae,plant,
 bush-potato,bush potato (Ipomoea),Ipomoea costata,Convolvulaceae,plant,
 bush-morning-glory,bush morning glory (root),Ipomoea leptophylla,Convolvulaceae,plant,
-sweet-potato,sweet potato,Ipomoea batatas,Convolvulaceae,plant,sweet potato;yam (US);camote;kumal;sacha kumal;sacha camote;apichu;cumar;batata;boniato;papa dulce;patata dulce;chaco;kumara;moniato;boniatillo
+sweet-potato,sweet potato,Ipomoea batatas,Convolvulaceae,plant,sweet potato;yam (US);camote;kumal;sacha kumal;sacha camote;apichu;cumar;batata;boniato;papa dulce;patata dulce;chaco;kumara;moniato;boniatillo;yams
 water-spinach,water spinach (kangkong),Ipomoea aquatica,Convolvulaceae,plant,kangkong;espinaca de agua;kangkung;espinaca china de agua;ong choy;batata de agua
 rocoto,rocoto,Capsicum pubescens,Solanaceae,plant,rocoto;locoto;chile manzano;chiles manzanos;chile perón;chile canario;chile ciruelo;salsa de rocoto;pasta de rocoto;chile de cera;chile caballo;chile chamburoto;ají rocoto;ají locoto
 habanero,habanero,Capsicum chinense,Solanaceae,plant,habanero;scotch bonnet;araray uchu;atallpa uchu;sasi uchu;botón uchu;ají panca;pasta de ají panca;ají limo;ají charapita;charapita;ají dulce;ajíes dulces;ají cachucha;ají gustoso;ají criollo;ajicito;ají chombo;chile chombo;chile congo;chile panameño;ají chivato;ají pajarito;ají chirel;chile guaguao;ají guaguao;chile cabro;ají de jardín
 aji-amarillo,ají amarillo,Capsicum baccatum,Solanaceae,plant,ají amarillo;ajíes amarillos;ají escabeche;ají mirasol;pasta de ají amarillo;ají campanita;ají mochero;ají arnaucho;ají ayuyo;ají dedo de niña;dedo de moza;ají putaparió;ají cumbarí;ají chinchi uchu
 tabasco-eye,tabasco / bird's eye,Capsicum frutescens,Solanaceae,plant,bird's eye;tabasco;salsa tabasco;chile tabasco;piri piri;peri peri;malagueta;chile malagueta;ají malagueta;chile bravo;ají bravo;ají chiquito;ají de monte;chile de monte;ají pique;chile pajarito;siling labuyo;ají cayena
-chili-pepper,chili / bell pepper,Capsicum annuum,Solanaceae,plant,bell pepper;chili;jalapeno;paprika;cayenne;chilli;red pepper flakes;uchu muyu;ají de yunguilla;ají del paute;pénjamo;chile;jalapeño;chipotle;serrano;poblano;guajillo;pasilla;piquín;pequín;morita;chilaca;cayena;pimienta de cayena;pimiento;morrón;pimentón;piquillo;ñora;guindilla;rajas;merkén;merquén;ají de color;ají color;ají cacho de cabra;cacho de cabra;ají cristal;ají verde;ají chileno;salsa picante;ají picante;ají molido;ají en polvo;ají;banana pepper;banana peppers;uchu;puka uchu
+chili-pepper,chili / bell pepper,Capsicum annuum,Solanaceae,plant,bell pepper;chili;jalapeno;paprika;cayenne;chilli;red pepper flakes;uchu muyu;ají de yunguilla;ají del paute;pénjamo;chile;jalapeño;chipotle;serrano;poblano;guajillo;pasilla;piquín;pequín;morita;chilaca;cayena;pimienta de cayena;pimiento;morrón;pimentón;piquillo;ñora;guindilla;rajas;merkén;merquén;ají de color;ají color;ají cacho de cabra;cacho de cabra;ají cristal;ají verde;ají chileno;salsa picante;ají picante;ají molido;ají en polvo;ají;banana pepper;banana peppers;uchu;puka uchu;peppers;sweet peppers;mini peppers
 cutleaf-groundcherry,cutleaf groundcherry,Physalis angulata,Solanaceae,plant,tomatillo silvestre;capulí angulata;bolsa mullaca;mullaca
 strawberry-tomato,strawberry tomato,Physalis grisea,Solanaceae,plant,
 ground-cherry,ground cherry,Physalis pruinosa,Solanaceae,plant,tomatillo de tierra;cereza de tierra
@@ -1824,9 +1824,9 @@ snake-gourd,snake gourd,Trichosanthes cucumerina,Cucurbitaceae,plant,calabaza se
 pointed-gourd,pointed gourd (parwal),Trichosanthes dioica,Cucurbitaceae,plant,parwal
 fig-leaf-gourd,fig-leaf gourd (chilacayote),Cucurbita ficifolia,Cucurbitaceae,plant,chilacayote;alcayata;zambumbia;cayote;lacayote;alcayota;cidra cayote;cabello de ángel;chiverre;zambo;sambo;calabaza confitera;gila;calabaza de siam;cabellos de ángel;calabaza de hoja de higuera
 cushaw,cushaw,Cucurbita argyrosperma,Cucurbitaceae,plant,calabaza pipiana;calabaza pipián;pipiana;calabaza mixta;cushaw;calabaza cushaw;calabaza de tamal;ayote pipián;pepita de pipián;pepitas de pipián;calabaza de pepita;calabaza pepitera;calabaza de semilla;calabaza de plata;calabaza jonah;salsa de pipián
-winter-squash,winter squash (maxima),Cucurbita maxima,Cucurbitaceae,plant,zapallo para chupo;zapallo;zapallo camote;kabutiá;kabocha;calabaza gigante;buttercup;zapallo mantequilla;calabaza turbante;calabaza kabocha
-zucchini,zucchini / pumpkin (pepo),Cucurbita pepo,Cucurbitaceae,plant,pumpkin;zucchini;summer squash;acorn squash;courgette;pepitas;sanpu;calabacín;calabacita;zapallito;zuchini;zuquini;calabaza de verano;calabaza de bellota;calabaza bellota;calabaza acorn;calabaza espagueti;calabaza spaghetti;calabaza pattypan;calabaza patisson;calabaza pastel;calabaza de pastel;calabaza de halloween;calabaza delicata;güicoy;güicoyitos;ayote tierno;ayotes tiernos;pipián tierno;zapallo italiano;aceite de semilla de calabaza;aceite de pepita de calabaza;calabaza estiria;calabaza crookneck;calabaza amarilla;zoodles;fideos de zucchini;noodles de zucchini;tallarines de zucchini;calabaza cocozelle;calabaza costata romanesco;calabaza sweet dumpling;calabaza carnaval;calabaza de cuello torcido
-butternut-squash,butternut squash,Cucurbita moschata,Cucurbitaceae,plant,chirija;calabaza;calabaza moscada;calabaza cacahuate;calabaza cacahuete;anco;zapallo anco;zapallo anquito;anquito;zapallo coreano;auyama;ayote;ahuyama;zapallo loche;loche;tamalayota;calabaza china;pepita;pipas de calabaza;zapallo de invierno;musquée de provence;calabaza cheese
+winter-squash,winter squash (maxima),Cucurbita maxima,Cucurbitaceae,plant,zapallo para chupo;zapallo;zapallo camote;kabutiá;kabocha;calabaza gigante;buttercup;zapallo mantequilla;calabaza turbante;calabaza kabocha;hubbard squash;hubbard;buttercup squash;red kuri squash;red kuri;kuri squash;turban squash
+zucchini,zucchini / pumpkin (pepo),Cucurbita pepo,Cucurbitaceae,plant,pumpkin;zucchini;summer squash;acorn squash;courgette;pepitas;sanpu;calabacín;calabacita;zapallito;zuchini;zuquini;calabaza de verano;calabaza de bellota;calabaza bellota;calabaza acorn;calabaza espagueti;calabaza spaghetti;calabaza pattypan;calabaza patisson;calabaza pastel;calabaza de pastel;calabaza de halloween;calabaza delicata;güicoy;güicoyitos;ayote tierno;ayotes tiernos;pipián tierno;zapallo italiano;aceite de semilla de calabaza;aceite de pepita de calabaza;calabaza estiria;calabaza crookneck;calabaza amarilla;zoodles;fideos de zucchini;noodles de zucchini;tallarines de zucchini;calabaza cocozelle;calabaza costata romanesco;calabaza sweet dumpling;calabaza carnaval;calabaza de cuello torcido;squash;delicata squash;delicata;spaghetti squash;pattypan squash;pattypan
+butternut-squash,butternut squash,Cucurbita moschata,Cucurbitaceae,plant,chirija;calabaza;calabaza moscada;calabaza cacahuate;calabaza cacahuete;anco;zapallo anco;zapallo anquito;anquito;zapallo coreano;auyama;ayote;ahuyama;zapallo loche;loche;tamalayota;calabaza china;pepita;pipas de calabaza;zapallo de invierno;musquée de provence;calabaza cheese;canned pumpkin;pumpkin puree;pumpkin purée;libby's pumpkin
 cassabanana,cassabanana,Sicana odorifera,Cucurbitaceae,plant,uksha;girón;cassabanana;casabanana;calabaza melón;melocotón de olor;melón de olor;curuba de olor;pepino melocotón;calabaza de olor;sicana
 bottle-gourd,bottle gourd (calabash),Lagenaria siceraria,Cucurbitaceae,plant,calabash;mati;puru;calabazo;bule;guaje tierno;calabaza bule;tecomate;jícaro tierno;calabaza vinatera;porongo;calabaza botella;calabaza de botella;calabaza cuello de cisne;lagenaria;calabaza de agua;calabaza cantimplora;calabaza de mate;opo;upo;calabaza opo;calabaza larga china;cucuzza;calabaza siciliana;bottle gourd;calabaza de peregrino;calabaza peregrina
 watermelon,watermelon,Citrullus lanatus,Cucurbitaceae,plant,watermelon;sandía;patilla;melón de agua;melancia
@@ -2055,7 +2055,7 @@ grey-francolin,grey francolin,Francolinus pondicerianus,Phasianidae,animal,
 indian-peafowl,Indian peafowl (farmed),Pavo cristatus,Phasianidae,animal,
 grey-partridge,grey partridge,Perdix perdix,Phasianidae,animal,perdiz pardilla;perdiz gris;partridge;partridges
 common-pheasant,common pheasant,Phasianus colchicus,Phasianidae,animal,pheasant;faisán
-turkey,turkey,Meleagris gallopavo,Phasianidae,animal,turkey;pavo;guajolote;pavita;chompipe;guanajo;jamón de pavo
+turkey,turkey,Meleagris gallopavo,Phasianidae,animal,turkey;pavo;guajolote;pavita;chompipe;guanajo;jamón de pavo;turkey breast;turkey thigh;turkey legs;turkey leg;turkey drumstick;turkey wings;turkey neck;turkey stock;turkey broth;turkey drippings;ground turkey;turkey bacon;turkey sausage;leftover turkey
 hazel-grouse,hazel grouse,Tetrastes bonasia,Phasianidae,animal,
 ruffed-grouse,ruffed grouse,Bonasa umbellus,Phasianidae,animal,
 willow-ptarmigan,willow ptarmigan / red grouse,Lagopus lagopus,Phasianidae,animal,red grouse;grouse
@@ -2195,7 +2195,7 @@ european-bison,European bison (wisent),Bison bonasus,Bovidae,animal,wisent
 gayal,gayal (mithun),Bos frontalis,Bovidae,animal,mithun
 banteng-cattle,banteng / Bali cattle,Bos javanicus,Bovidae,animal,Bali cattle
 zebu,zebu,Bos indicus,Bovidae,animal,
-cattle,cattle,Bos taurus,Bovidae,animal,cattle;beef;milk;cheese;butter;cream;yogurt;ghee;steak;veal;whey;parmesan;cheddar;mozzarella;burger;hamburger;cheeseburger;ground beef;res;carne de vaca;vaca;vacuno;ternera;carne;bife;lomo;vacío;matambre;entraña;costilla;picaña;picanha;bistec;bisté;cecina;charqui;charque;tasajo;mondongo;chinchulines;molleja;riñón;osobuco;rabo de toro;arrachera;leche;queso;quesillo;requesón;ricota;ricotta;mantequilla;manteca;crema;nata;yogur;suero;helado;jocoque;cuajada;provolone;muzzarella;burrata;chantilly;kéfir;kumis;bienmesabe;cebú;suet;beef suet;dripping;beef dripping;custard;clotted cream;wensleydale;caerphilly;red leicester;double gloucester;cheshire cheese;lancashire cheese
+cattle,cattle,Bos taurus,Bovidae,animal,cattle;beef;milk;cheese;butter;cream;yogurt;ghee;steak;veal;whey;parmesan;cheddar;mozzarella;burger;hamburger;cheeseburger;ground beef;res;carne de vaca;vaca;vacuno;ternera;carne;bife;lomo;vacío;matambre;entraña;costilla;picaña;picanha;bistec;bisté;cecina;charqui;charque;tasajo;mondongo;chinchulines;molleja;riñón;osobuco;rabo de toro;arrachera;leche;queso;quesillo;requesón;ricota;ricotta;mantequilla;manteca;crema;nata;yogur;suero;helado;jocoque;cuajada;provolone;muzzarella;burrata;chantilly;kéfir;kumis;bienmesabe;cebú;suet;beef suet;dripping;beef dripping;custard;clotted cream;wensleydale;caerphilly;red leicester;double gloucester;cheshire cheese;lancashire cheese;sour cream;half and half;half-and-half;sweetened condensed milk;cream cheese frosting
 moose,moose,Alces alces,Cervidae,animal,alce
 roe-deer,roe deer,Capreolus capreolus,Cervidae,animal,corzo
 water-deer,water deer,Hydropotes inermis,Cervidae,animal,
@@ -2853,7 +2853,7 @@ northern-sea-urchin,northern sea urchin (kita-murasaki),Mesocentrotus nudus,Stro
 red-sea-urchin,red sea urchin,Mesocentrotus franciscanus,Strongylocentrotidae,animal,erizo rojo
 green-sea-urchin,green sea urchin,Strongylocentrotus droebachiensis,Strongylocentrotidae,animal,erizo verde
 purple-sea-urchin,purple sea urchin,Strongylocentrotus purpuratus,Strongylocentrotidae,animal,sea urchin;uni;sea urchin roe;erizo morado;erizo púrpura
-lamp-shell,lamp shell (brachiopod),Lingula anatina,Lingulidae,animal,brachiopod;lámpara de mar;braquiópodo;lingula
+lamp-shell,lamp shell (brachiopod),Lingula anatina,Lingulidae,animal,brachiopod;lámpara de mar;braquiópodo;lingula;หอยปากเป็ด;hoi pak pet;hoy pak pet;duck-bill clam;duck bill clam;duckbill clam;lamp shells
 fuzzy-chiton,fuzzy chiton,Acanthopleura granulata,Chitonidae,animal,chitón peludo;cucaracha de mar;chitón caribeño
 chilean-chiton,Chilean chiton,Chiton magnificus,Chitonidae,animal,chitón;quitón;apretador
 double-ear-bobtail-squid,double-ear bobtail squid,Euprymna berryi,Sepiolidae,animal,

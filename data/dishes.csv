@@ -478,7 +478,7 @@ vodka,vodka soda; martini,,Triticum aestivum; Saccharomyces cerevisiae,
 rum,mojito; daiquiri; rum and coke,,Saccharum officinarum; Saccharomyces cerevisiae; Citrus aurantiifolia; Mentha spicata,
 tequila,tequila shot; paloma,,Agave tequilana; Saccharomyces cerevisiae; Citrus aurantiifolia; Citrus paradisi,
 mezcal,,,Agave angustifolia; Saccharomyces cerevisiae; Citrus sinensis,
-cider,hard cider; apple cider,,Malus domestica; Saccharomyces cerevisiae,
+cider,hard cider; dry cider,,Malus domestica; Saccharomyces cerevisiae,fermented; for the US sweet kind see apple cider
 kombucha,,,Camellia sinensis; Saccharum officinarum; Saccharomyces cerevisiae; Brettanomyces bruxellensis,
 hot chocolate,cocoa; hot cocoa,,Theobroma cacao; Bos taurus; Saccharum officinarum,
 green tea,sencha; black tea; tea; earl grey; oolong,,Camellia sinensis,
@@ -798,3 +798,78 @@ full welsh breakfast,welsh breakfast; welsh fry-up,Welsh,Gallus gallus; Sus scro
 bao bun,bao; bao buns; baozi; steamed bun; steamed buns; gua bao; mantou; lotus bun,Chinese,Triticum aestivum; Saccharomyces cerevisiae; Saccharum officinarum,the bun only; type the filling
 char siu bao,pork bun; pork buns; bbq pork bun; char siu bun,Cantonese,Triticum aestivum; Saccharomyces cerevisiae; Sus scrofa; Glycine max; Aspergillus sojae; Saccharum officinarum,
 hoisin sauce,hoisin,Chinese,Glycine max; Triticum aestivum; Allium sativum; Saccharum officinarum; Capsicum annuum; Sesamum indicum,
+thanksgiving dinner,thanksgiving plate; thanksgiving meal; traditional thanksgiving dinner; classic thanksgiving dinner; turkey dinner; friendsgiving dinner,American,Meleagris gallopavo; Triticum aestivum; Saccharomyces cerevisiae; Bos taurus; Allium cepa; Apium graveolens; Salvia officinalis; Thymus vulgaris; Gallus gallus; Solanum tuberosum; Vaccinium macrocarpon; Saccharum officinarum; Phaseolus vulgaris; Agaricus bisporus; Ipomoea batatas; Carya illinoinensis; Cucurbita moschata; Cinnamomum verum; Myristica fragrans,"the classic plate: turkey, bread stuffing, mashed potatoes, gravy, cranberry sauce, green bean casserole, sweet potato casserole with pecans, rolls, pumpkin pie; list the dishes instead if yours differs"
+roast turkey,roasted turkey; whole turkey; turkey breast roast; herb roasted turkey; brined turkey; spatchcocked turkey; smoked turkey,American,Meleagris gallopavo; Bos taurus; Salvia officinalis; Thymus vulgaris; Piper nigrum,butter and herbs under the skin
+deep fried turkey,fried turkey; deep-fried turkey; cajun fried turkey,American,Meleagris gallopavo; Arachis hypogaea; Capsicum annuum,peanut oil
+turducken,,American,Meleagris gallopavo; Anas platyrhynchos; Gallus gallus; Sus scrofa; Triticum aestivum,sausage stuffing between the birds
+tofurky,tofurkey; tofu turkey; vegan turkey; vegetarian turkey; field roast; seitan roast; celebration roast,American,Glycine max; Triticum aestivum; Helianthus annuus; Salvia officinalis; Thymus vulgaris,
+glazed ham,baked ham; spiral ham; spiral-cut ham; holiday ham; brown sugar ham; pineapple glazed ham,American,Sus scrofa; Saccharum officinarum; Syzygium aromaticum; Sinapis alba; Ananas comosus,
+prime rib,standing rib roast; rib roast; beef rib roast,American,Bos taurus; Piper nigrum; Allium sativum; Armoracia rusticana,horseradish cream on the side
+roast goose,christmas goose,British,Anser anser; Malus domestica; Allium cepa; Salvia officinalis,
+stuffing,dressing; bread stuffing; herb stuffing; sage stuffing; sage and onion stuffing; thanksgiving stuffing; turkey stuffing; turkey dressing; stove top stuffing; stuffing mix; boxed stuffing,American,Triticum aestivum; Saccharomyces cerevisiae; Bos taurus; Allium cepa; Apium graveolens; Salvia officinalis; Thymus vulgaris; Gallus gallus,"bread, butter, onion, celery, sage, thyme, egg and stock; bare 'dressing' is taken as this, not the salad kind; type sausage, oysters, chestnuts or apples if yours has them"
+sausage stuffing,sausage dressing; sausage and sage stuffing; sausage and apple stuffing,American,Sus scrofa; Triticum aestivum; Saccharomyces cerevisiae; Bos taurus; Allium cepa; Apium graveolens; Salvia officinalis; Thymus vulgaris; Gallus gallus; Malus domestica,
+cornbread dressing,cornbread stuffing; southern dressing; southern cornbread dressing,American,Zea mays; Triticum aestivum; Gallus gallus; Bos taurus; Allium cepa; Apium graveolens; Salvia officinalis; Saccharum officinarum,
+oyster stuffing,oyster dressing,American,Crassostrea virginica; Triticum aestivum; Saccharomyces cerevisiae; Bos taurus; Allium cepa; Apium graveolens; Salvia officinalis; Thymus vulgaris; Gallus gallus,
+chestnut stuffing,chestnut dressing,American,Castanea sativa; Triticum aestivum; Saccharomyces cerevisiae; Bos taurus; Allium cepa; Apium graveolens; Salvia officinalis; Thymus vulgaris; Gallus gallus,
+wild rice stuffing,wild rice dressing; wild rice pilaf; wild rice salad,American,Zizania palustris; Allium cepa; Apium graveolens; Bos taurus; Vaccinium macrocarpon; Carya illinoinensis; Agaricus bisporus,
+turkey gravy,giblet gravy; pan gravy; thanksgiving gravy,American,Meleagris gallopavo; Triticum aestivum; Bos taurus,drippings and stock thickened with flour and butter
+giblets,turkey giblets; neck and giblets,American,Meleagris gallopavo,
+cranberry sauce,jellied cranberry sauce; canned cranberry sauce; whole berry cranberry sauce; homemade cranberry sauce; cranberry jelly,American,Vaccinium macrocarpon; Saccharum officinarum,
+cranberry orange relish,cranberry relish; cranberry orange sauce; orange cranberry sauce,American,Vaccinium macrocarpon; Citrus sinensis; Saccharum officinarum,
+green bean casserole,green bean bake; string bean casserole,American,Phaseolus vulgaris; Agaricus bisporus; Bos taurus; Triticum aestivum; Allium cepa; Glycine max,cream of mushroom soup and fried onions (soybean oil)
+sweet potato casserole,sweet potato bake; sweet potato pecan casserole; candied sweet potatoes; sweet potato souffle; sweet potato soufflé,American,Ipomoea batatas; Bos taurus; Saccharum officinarum; Gallus gallus; Carya illinoinensis; Cinnamomum verum; Vanilla planifolia,pecan topping; type marshmallows if yours has them
+candied yams,yams with marshmallows; marshmallow yams; marshmallow sweet potatoes; sweet potatoes with marshmallows; sweet potato marshmallow casserole,American,Ipomoea batatas; Bos taurus; Saccharum officinarum; Cinnamomum verum; Zea mays; Sus scrofa,US yams are sweet potatoes; marshmallows bring corn syrup and gelatin
+marshmallows,marshmallow; mini marshmallows; marshmallow fluff; marshmallow creme,American,Saccharum officinarum; Zea mays; Sus scrofa,"sugar, corn syrup and gelatin; the plant Althaea is long gone from the recipe"
+vegan marshmallows,vegan marshmallow; dandies,American,Saccharum officinarum; Zea mays; Manihot esculenta,tapioca instead of gelatin
+dinner rolls,dinner roll; rolls; bread rolls; parker house rolls; yeast rolls; crescent rolls; hawaiian rolls; pull-apart rolls; buttermilk rolls; potato rolls,American,Triticum aestivum; Saccharomyces cerevisiae; Bos taurus; Gallus gallus; Saccharum officinarum,
+buttermilk biscuits,biscuits; southern biscuits; flaky biscuits; drop biscuits,American,Triticum aestivum; Bos taurus,the American biscuit; the British kind is under digestive biscuits and shortbread
+corn casserole,corn pudding; jiffy corn casserole; corn souffle; corn soufflé; scalloped corn; spoonbread; spoon bread,American,Zea mays; Bos taurus; Gallus gallus; Triticum aestivum; Saccharum officinarum,
+creamed corn,cream corn; cream-style corn,American,Zea mays; Bos taurus; Saccharum officinarum,
+succotash,,American,Zea mays; Phaseolus lunatus; Bos taurus; Capsicum annuum; Allium cepa,
+collard greens,collards; braised collards; southern collard greens,American,Brassica oleracea; Sus scrofa; Allium cepa; Allium sativum; Capsicum annuum,ham hock or bacon
+glazed carrots,brown sugar carrots; candied carrots; roasted carrots,American,Daucus carota; Bos taurus; Saccharum officinarum,honey or maple glazes compose if you type them
+creamed onions,creamed pearl onions; pearl onions in cream sauce; onions in cream,American,Allium cepa; Bos taurus; Triticum aestivum; Myristica fragrans,
+scalloped potatoes,potatoes au gratin; au gratin potatoes; potato gratin; gratin dauphinois; cheesy potatoes; funeral potatoes; hashbrown casserole; hash brown casserole,American,Solanum tuberosum; Bos taurus; Allium sativum; Myristica fragrans; Triticum aestivum,
+garlic mashed potatoes,mashed potatoes and gravy; whipped potatoes; smashed potatoes,American,Solanum tuberosum; Bos taurus; Allium sativum,
+mashed sweet potatoes,sweet potato mash; whipped sweet potatoes,American,Ipomoea batatas; Bos taurus; Cinnamomum verum,
+mashed turnips,mashed rutabaga; rutabaga mash; turnip mash; swede mash,American,Brassica napus; Bos taurus; Piper nigrum,
+roasted brussels sprouts,shaved brussels sprouts salad; brussel sprouts; roasted brussel sprouts,American,Brassica oleracea; Olea europaea; Piper nigrum,"bacon, balsamic and parmesan compose if you type them"
+roasted squash,roasted butternut squash; roasted acorn squash; baked acorn squash; stuffed acorn squash; roasted delicata squash,American,Cucurbita moschata; Cucurbita pepo; Olea europaea; Bos taurus; Saccharum officinarum,"butternut is C. moschata, acorn and delicata are C. pepo"
+butternut squash soup,squash soup; pumpkin soup; butternut soup,American,Cucurbita moschata; Allium cepa; Bos taurus; Gallus gallus; Myristica fragrans; Malus domestica,
+roasted root vegetables,roasted roots; root vegetable medley; roasted parsnips and carrots,American,Daucus carota; Pastinaca sativa; Beta vulgaris; Brassica napus; Allium cepa; Olea europaea; Thymus vulgaris; Salvia rosmarinus,
+deviled eggs,devilled eggs; stuffed eggs; angel eggs,American,Gallus gallus; Glycine max; Sinapis alba; Capsicum annuum,mayonnaise (soybean oil) and paprika
+relish tray,crudites; crudités; veggie tray; vegetable tray; vegetable platter; crudite platter,American,Olea europaea; Cucumis sativus; Apium graveolens; Daucus carota; Raphanus sativus; Capsicum annuum,"olives, pickles, celery, carrots, radishes, peppers"
+cheese ball,cheese log; pecan cheese ball,American,Bos taurus; Carya illinoinensis; Allium cepa; Allium sativum,
+spinach artichoke dip,spinach dip; artichoke dip; hot spinach dip,American,Spinacia oleracea; Cynara cardunculus; Bos taurus; Allium sativum; Glycine max,
+pigs in a blanket,pigs in blankets; cocktail franks in pastry; mini hot dogs in crescent rolls,American,Sus scrofa; Bos taurus; Triticum aestivum,"the British pigs in blankets are sausages in bacon, pork only"
+shrimp cocktail,prawn cocktail; cocktail shrimp,American,Penaeus vannamei; Solanum lycopersicum; Armoracia rusticana; Citrus limon,
+cocktail sauce,,American,Solanum lycopersicum; Armoracia rusticana; Citrus limon; Saccharum officinarum,
+ambrosia salad,ambrosia; five cup salad,American,Citrus reticulata; Ananas comosus; Cocos nucifera; Bos taurus; Prunus avium; Sus scrofa; Zea mays,"mandarins, pineapple, coconut, sour cream, maraschino cherries and marshmallows"
+jello salad,jello; jell-o; jello mold; gelatin salad,American,Sus scrofa; Saccharum officinarum; Zea mays,"gelatin, sugar and corn syrup; the fruit composes if you type it"
+cool whip,whipped topping; non-dairy whipped topping; reddi wip; reddi-wip,American,Zea mays; Cocos nucifera; Elaeis guineensis; Bos taurus,"corn syrup, coconut and palm oils, skim milk"
+whipped cream,chantilly cream; sweetened whipped cream; fresh whipped cream,American,Bos taurus; Saccharum officinarum; Vanilla planifolia,
+pie crust,pie dough; pastry crust; shortcrust; pâte brisée; pate brisee; graham cracker crust,American,Triticum aestivum; Bos taurus,
+shortening,vegetable shortening; crisco,American,Glycine max; Elaeis guineensis,
+sweet potato pie,,American,Ipomoea batatas; Triticum aestivum; Bos taurus; Gallus gallus; Saccharum officinarum; Cinnamomum verum; Myristica fragrans; Vanilla planifolia,
+apple crisp,apple crumble; apple cobbler; apple brown betty; apple pandowdy,American,Malus domestica; Avena sativa; Triticum aestivum; Bos taurus; Saccharum officinarum; Cinnamomum verum,
+pumpkin roll,pumpkin bars; pumpkin cake; pumpkin spice cake,American,Cucurbita moschata; Triticum aestivum; Gallus gallus; Saccharum officinarum; Bos taurus; Cinnamomum verum; Zingiber officinale; Syzygium aromaticum,cream cheese filling
+pumpkin spice,pumpkin pie spice; pumpkin spice mix,American,Cinnamomum verum; Zingiber officinale; Myristica fragrans; Syzygium aromaticum; Pimenta dioica,no pumpkin in the spice; the latte adds coffee and milk if you type them
+chess pie,buttermilk pie; vinegar pie,American,Bos taurus; Gallus gallus; Saccharum officinarum; Zea mays; Triticum aestivum; Vanilla planifolia,
+apple cider donuts,cider donuts; cider doughnuts; apple cider doughnuts,American,Triticum aestivum; Malus domestica; Gallus gallus; Bos taurus; Saccharum officinarum; Cinnamomum verum; Myristica fragrans; Glycine max,
+apple cider,sweet cider; fresh cider; hot apple cider; unfiltered apple cider; apple juice,American,Malus domestica,unfermented; hard cider is under cider
+mulled cider,hot mulled cider; spiced cider; wassail,American,Malus domestica; Cinnamomum verum; Syzygium aromaticum; Citrus sinensis; Pimenta dioica,
+mulled wine,glühwein; gluhwein; vin chaud; glogg; glögg,European,Vitis vinifera; Saccharomyces cerevisiae; Cinnamomum verum; Syzygium aromaticum; Citrus sinensis; Illicium verum; Saccharum officinarum,
+eggnog,egg nog; holiday nog; spiked eggnog,American,Bos taurus; Gallus gallus; Saccharum officinarum; Myristica fragrans; Vanilla planifolia,"bourbon, rum or brandy compose if you type them"
+hot toddy,,American,Hordeum vulgare; Saccharomyces cerevisiae; Apis mellifera; Citrus limon; Syzygium aromaticum,whisky
+turkey pot pie,leftover turkey pot pie,American,Meleagris gallopavo; Triticum aestivum; Bos taurus; Pisum sativum; Daucus carota; Allium cepa; Apium graveolens; Thymus vulgaris,
+turkey soup,turkey noodle soup; leftover turkey soup; turkey carcass soup; turkey stock soup,American,Meleagris gallopavo; Triticum aestivum; Gallus gallus; Daucus carota; Apium graveolens; Allium cepa; Thymus vulgaris; Petroselinum crispum,
+turkey tetrazzini,,American,Meleagris gallopavo; Triticum turgidum; Agaricus bisporus; Bos taurus; Triticum aestivum; Allium cepa; Vitis vinifera,
+thanksgiving leftovers sandwich,leftover turkey sandwich; thanksgiving sandwich; moist maker; turkey cranberry sandwich; turkey and stuffing sandwich,American,Meleagris gallopavo; Triticum aestivum; Saccharomyces cerevisiae; Vaccinium macrocarpon; Bos taurus; Allium cepa; Apium graveolens; Salvia officinalis; Glycine max,"turkey, stuffing, cranberry sauce, gravy and mayo on bread"
+ranch dressing,ranch; ranch dip; buttermilk ranch,American,Bos taurus; Gallus gallus; Glycine max; Allium sativum; Anethum graveolens; Allium schoenoprasum; Allium cepa,
+vinaigrette,salad dressing; italian dressing; balsamic vinaigrette; french dressing; house dressing; oil and vinegar,American,Olea europaea; Vitis vinifera; Sinapis alba; Allium sativum,"oil, wine vinegar, mustard, garlic"
+blue cheese dressing,blue cheese dip; bleu cheese dressing,American,Bos taurus; Penicillium roqueforti; Gallus gallus; Glycine max; Allium sativum,
+thousand island dressing,thousand island; russian dressing,American,Gallus gallus; Glycine max; Solanum lycopersicum; Cucumis sativus; Allium cepa; Capsicum annuum,
+honey mustard dressing,honey mustard; honey mustard sauce; honey mustard dip,American,Apis mellifera; Sinapis alba; Gallus gallus; Glycine max; Vitis vinifera,
+pumpkin spice latte,psl; pumpkin latte,American,Coffea arabica; Bos taurus; Saccharum officinarum; Cucurbita moschata; Cinnamomum verum; Zingiber officinale; Myristica fragrans; Syzygium aromaticum,
+coquito,puerto rican eggnog,Puerto Rican,Cocos nucifera; Bos taurus; Saccharum officinarum; Saccharomyces cerevisiae; Cinnamomum verum; Myristica fragrans; Vanilla planifolia,coconut and rum
+stuffed peppers,stuffed bell peppers; stuffed capsicum,American,Capsicum annuum; Oryza sativa; Bos taurus; Solanum lycopersicum; Allium cepa; Allium sativum,
