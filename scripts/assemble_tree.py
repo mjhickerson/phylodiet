@@ -211,8 +211,10 @@ def main(nwk_path, csv_path, outdir):
             if key in syn:
                 report["synonym applied (tree label -> candidate)"].append(f"{clean_label(n.label)} -> {syn[key]}")
                 n.label = syn[key]
-        elif re.fullmatch(r"'?(\d+|mrcaott\d+ott\d+)'?", n.label or ""):   # bare numbers and Open Tree node ids are not names
+        elif re.fullmatch(r"'?(\d+|\d+/\d+|mrcaott\d+ott\d+)'?", n.label or ""):   # bare numbers, support values and Open Tree node ids are not names
             n.label = ""
+        elif re.fullmatch(r"'?([A-Za-z]+)\.rn\.d8s\.tre'?", n.label or ""):   # Smith & Brown subtree file names carry the order name
+            n.label = re.sub(r"['.].*$", "", n.label.strip("'"))
 
     # index tree tips by normalised species and by genus
     tip_by_species = {}

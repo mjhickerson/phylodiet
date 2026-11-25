@@ -881,7 +881,7 @@ function parseNewick(s){
     let label = '';
     while (i < s.length && !':,()'.includes(s[i])) label += s[i++];
     label = label.trim().replace(/^'|'$/g,'');
-    if (n.children) n.name = /^mrcaott\d+/.test(label) ? '' : label.replace(/_/g,' '); else n.id = label;
+    if (n.children) n.name = (/^mrcaott\d+/.test(label) || /^\d+\/\d+$/.test(label)) ? '' : label.replace(/\.rn\.d8s\.tre$/, '').replace(/_/g,' '); else n.id = label;
     if (s[i] === ':'){ i++; let num=''; while (i < s.length && !',()'.includes(s[i])) num += s[i++]; n.bl = parseFloat(num) || 0; }
     return n;
   }
