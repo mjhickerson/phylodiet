@@ -89,6 +89,7 @@ h3{font-family:var(--serif);font-weight:500;font-size:19px;margin:22px 0 8px}
 .sugg div:hover,.sugg div.active{background:var(--panel)}
 .sugg i{color:var(--muted);font-size:13px}
 .sugg div.present{color:var(--muted);cursor:default}
+.sugg .dot.sq{width:10px;height:10px;border-radius:2px;background:var(--ink-2);display:inline-block}
 .sugg div.present:hover{background:transparent}
 .unmatched{color:var(--muted);font-size:15px;margin-top:6px}
 /* metrics */
@@ -169,7 +170,7 @@ footer{margin-top:64px;border-top:1px solid var(--line);padding-top:16px;color:v
   <h2>Ingredients found</h2>
   <p class="note">Dashed chips were inferred, from a dish name or from an "or" alternative in the recipe. Remove anything wrong, add anything missing. Click a name, here or on the tree, for Wikipedia, OneZoom and GBIF.</p>
   <div class="chips" id="chips"></div>
-  <div class="addbox"><input id="add" placeholder="Add an ingredient" autocomplete="off"><div class="sugg hidden" id="sugg"></div></div>
+  <div class="addbox"><input id="add" placeholder="Add an ingredient or a dish" autocomplete="off"><div class="sugg hidden" id="sugg"></div></div>
   <div class="unmatched" id="unmatched"></div>
   <div class="note" id="dishnote">Dish missing or mapped wrong? <a id="suggest" href="https://github.com/mjhickerson/phylodiet/issues/new" target="_blank" rel="noopener">Suggest a fix on GitHub</a>, or <a id="suggest-mail" href="#">email it</a>. Dish table <b>dishes-0.2.5 (2026-11-25)</b>, <b id="d-dishes">0</b> dishes.</div>
 
@@ -480,14 +481,40 @@ const esc = s => String(s).replace(/[&<>"']/g, ch => ({'&':'&amp;','<':'&lt;','>
 // add box
 const addIn = $('#add'), sugg = $('#sugg');
 let suggItems = [], suggActive = -1;
+function dishSearch(q){
+  q = fold(q).trim(); if (q.length < 2) return [];
+  const out = [];
+  for (const d of (DISHES && DISHES.dishes) || []){
+    let score = 0;
+    d.n.forEach((n, i) => { const f = fold(n);
+      if (f.startsWith(q)) score = Math.max(score, i ? 3 : 4);
+      else if (f.split(/[^a-z0-9]+/).some(w => w.startsWith(q))) score = Math.max(score, 2); });
+    if (score) out.push({d, score});
+  }
+  out.sort((a, b) => b.score - a.score || a.d.n[0].length - b.d.n[0].length);
+  return out.slice(0, 4).map(x => x.d);
+}
+function pickDish(d){
+  for (const sp of d.s){
+    const r = resolveItem({species: sp, common: '', as: d.n[0], inferred: true});
+    if (r && !meal.some(m => m.id === r.id)) meal.push({id: r.id, as: r.as, inferred: true});
+  }
+  addIn.value = ''; sugg.classList.add('hidden'); renderAll(); addIn.focus();
+}
 function showSugg(){
+  const dishes = dishSearch(addIn.value);
   const all = search(addIn.value);
   const items = all.filter(t => !meal.some(m => m.id === t.id));
-  suggItems = items; suggActive = -1;
-  sugg.innerHTML = all.map(t => { const on = meal.some(m => m.id === t.id);
+  const q = addIn.value.toLowerCase().trim();
+  const dishesFirst = !all.some(t => t.common.toLowerCase().startsWith(q));   // an organism that starts with the typed text wins the top; otherwise dishes lead
+  suggItems = dishesFirst ? dishes.map(d => ({dish: d})).concat(items) : items.concat(dishes.map(d => ({dish: d}))); suggActive = -1;
+  const dishHtml = dishes.map((d, i) => `<div data-dish="${i}" class="dish"><i class="dot sq"></i>${esc(d.n[0])} <i>dish, ${d.s.length} organisms</i></div>`).join('');
+  const tipHtml = all.map(t => { const on = meal.some(m => m.id === t.id);
     return `<div data-id="${t.id}" class="${on ? 'present' : ''}"><i class="dot" style="background:var(--${t.clade});width:10px;height:10px;border-radius:50%;display:inline-block"></i>${esc(t.common)} <i>${esc(t.species)}${on ? ' · already on the plate' : ''}</i></div>`; }).join('');
-  sugg.classList.toggle('hidden', !all.length);
-  sugg.querySelectorAll('div:not(.present)').forEach(d => d.onmousedown = e => { e.preventDefault(); pick(d.dataset.id); });
+  sugg.innerHTML = dishesFirst ? dishHtml + tipHtml : tipHtml + dishHtml;
+  sugg.classList.toggle('hidden', !all.length && !dishes.length);
+  sugg.querySelectorAll('div.dish').forEach(el => el.onmousedown = e => { e.preventDefault(); pickDish(dishes[+el.dataset.dish]); });
+  sugg.querySelectorAll('div:not(.present):not(.dish)').forEach(d => d.onmousedown = e => { e.preventDefault(); pick(d.dataset.id); });
   sugg.querySelectorAll('div.present').forEach(d => d.onmousedown = e => e.preventDefault());
 }
 function pick(id){ meal.push({id, as:'', inferred:false}); addIn.value=''; sugg.classList.add('hidden'); renderAll(); addIn.focus(); }
@@ -497,7 +524,7 @@ addIn.addEventListener('blur', () => setTimeout(() => sugg.classList.add('hidden
 addIn.addEventListener('keydown', e => {
   if (e.key === 'ArrowDown'){ suggActive = Math.min(suggActive+1, suggItems.length-1); }
   else if (e.key === 'ArrowUp'){ suggActive = Math.max(suggActive-1, 0); }
-  else if (e.key === 'Enter'){ e.preventDefault(); const t = suggItems[suggActive] || suggItems[0]; if (t) pick(t.id); return; }
+  else if (e.key === 'Enter'){ e.preventDefault(); const t = suggItems[suggActive] || suggItems[0]; if (t) (t.dish ? pickDish(t.dish) : pick(t.id)); return; }
   else if (e.key === 'Escape'){ sugg.classList.add('hidden'); return; }
   else return;
   e.preventDefault();
