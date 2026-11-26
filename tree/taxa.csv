@@ -3108,6 +3108,7 @@ new-zealand-scampi,New Zealand scampi,Metanephrops challengeri,Nephropidae,anima
 langoustine,langoustine,Nephrops norvegicus,Nephropidae,animal,cigala;langostino noruego;escampi;scampi
 european-lobster,European lobster,Homarus gammarus,Nephropidae,animal,bogavante europeo;langosta europea;bogavante azul
 american-lobster,American lobster,Homarus americanus,Nephropidae,animal,lobster;langosta;bogavante
+camaron-de-vega,camarón de vega (Chilean burrowing crayfish),Parastacus pugnax,Parastacidae,animal,Chilean burrowing crayfish;camarones de vega;camarón de tierra;Chilean mud crayfish;mud crayfish
 virile-crayfish,virile crayfish,Faxonius virilis,Cambaridae,animal,
 marron,marron,Cherax cainii,Parastacidae,animal,marrón;cangrejo marrón australiano
 yabby,yabby,Cherax destructor,Parastacidae,animal,yabby
@@ -3157,9 +3158,9 @@ indian-white-prawn,Indian white prawn,Penaeus indicus,Penaeidae,animal,langostin
 whiteleg-shrimp,whiteleg shrimp,Penaeus vannamei,Penaeidae,animal,shrimp;prawns;prawn;shrimps;camarón;gamba
 giant-tiger-prawn,giant tiger prawn,Penaeus monodon,Penaeidae,animal,langostino tigre;camarón tigre;langostino jumbo;gamba tigre;gambón tigre
 pelagic-goose-barnacle,pelagic goose barnacle,Lepas anatifera,Lepadidae,animal,percebe pelágico;percebe de barco;anatifa
-picoroco,picoroco,Austromegabalanus psittacus,Balanidae,animal,picoroco
+picoroco,picoroco,Austromegabalanus psittacus,Balanidae,animal,picoroco;giant barnacle;giant barnacles;picoroco chileno
 pacific-goose-barnacle,Pacific goose barnacle,Pollicipes polymerus,Pollicipedidae,animal,percebe del pacífico;percebe americano
-goose-barnacle,goose barnacle (percebes),Pollicipes pollicipes,Pollicipedidae,animal,percebes;percebe
+goose-barnacle,goose barnacle (percebes),Pollicipes pollicipes,Pollicipedidae,animal,percebes;percebe;barnacle;barnacles
 mangrove-horseshoe-crab,mangrove horseshoe crab (eggs),Carcinoscorpius rotundicauda,Limulidae,animal,
 horseshoe-crab,horseshoe crab (eggs),Tachypleus gigas,Limulidae,animal,
 asian-forest-scorpion,Asian forest scorpion,Heterometrus longimanus,Scorpionidae,animal,
