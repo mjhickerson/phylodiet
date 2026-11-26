@@ -543,20 +543,20 @@ vorí vorí,bori bori; vori vori,Paraguayan,Zea mays; Bos taurus; Gallus gallus;
 tereré,terere; tereré con yuyos,Paraguayan,Ilex paraguariensis; Mentha spicata; Citrus limon,
 completo,completo italiano; completo chileno; completo con palta,Chilean,Sus scrofa; Triticum aestivum; Persea americana; Solanum lycopersicum; Gallus gallus; Sinapis alba,mayonnaise is egg
 pastel de choclo,pastel de choclo chileno,Chilean,Zea mays; Bos taurus; Gallus gallus; Allium cepa; Olea europaea; Vitis vinifera; Ocimum basilicum; Saccharum officinarum; Cuminum cyminum,
-curanto,curanto en hoyo; curanto en olla; pulmay,Chilean,Mytilus chilensis; Choromytilus chorus; Ruditapes decussatus; Sus scrofa; Gallus gallus; Solanum tuberosum; Triticum aestivum; Vitis vinifera,milcao and chapalele are potato and wheat
+curanto,curanto en hoyo; curanto en olla; pulmay,Chilean,Mytilus chilensis; Choromytilus chorus; Aulacomya atra; Ameghinomya antiqua; Austromegabalanus psittacus; Sus scrofa; Gallus gallus; Solanum tuberosum; Triticum aestivum; Vitis vinifera,"choritos, cholgas, almejas and picorocos; milcao and chapalele are potato and wheat"
 caldillo de congrio,caldillo de congrio colorado,Chilean,Genypterus chilensis; Solanum tuberosum; Allium cepa; Solanum lycopersicum; Daucus carota; Coriandrum sativum; Vitis vinifera; Bos taurus,
 cazuela de vacuno,cazuela chilena; cazuela de carne; cazuela de ave; cazuela de pollo,Chilean,Bos taurus; Solanum tuberosum; Cucurbita maxima; Zea mays; Oryza sativa; Phaseolus vulgaris; Daucus carota; Allium cepa; Coriandrum sativum,
 porotos granados,porotos granados con mazamorra; porotos con mazamorra,Chilean,Phaseolus vulgaris; Zea mays; Cucurbita maxima; Ocimum basilicum; Allium cepa; Capsicum annuum,
 charquicán,charquican,Chilean,Bos taurus; Solanum tuberosum; Cucurbita maxima; Zea mays; Allium cepa; Gallus gallus; Pisum sativum; Daucus carota,
 sopaipillas,sopaipilla; sopaipillas pasadas; sopaipillas con pebre,Chilean,Cucurbita maxima; Triticum aestivum; Sus scrofa; Saccharum officinarum; Cinnamomum verum; Citrus sinensis,
 pebre,pebre chileno; pebre de cilantro,Chilean,Coriandrum sativum; Allium cepa; Solanum lycopersicum; Capsicum annuum; Allium sativum; Olea europaea; Citrus limon,
-machas a la parmesana,machas a la parmesana chilenas,Chilean,Ruditapes decussatus; Bos taurus; Citrus limon; Vitis vinifera,machas absent from the tree; carpet-shell clam stands in
+machas a la parmesana,machas a la parmesana chilenas; machas parmesanas,Chilean,Mesodesma donacium; Bos taurus; Citrus limon; Vitis vinifera,
 chorrillana,chorrillana chilena,Chilean,Solanum tuberosum; Bos taurus; Allium cepa; Gallus gallus; Sus scrofa,
 mote con huesillo,mote con huesillos,Chilean,Zea mays; Prunus persica; Saccharum officinarum; Cinnamomum verum,
 leche asada,,Chilean,Bos taurus; Gallus gallus; Saccharum officinarum; Vanilla planifolia,
 pie de limón,pie de limon; kuchen de limón,Chilean,Citrus aurantiifolia; Triticum aestivum; Bos taurus; Gallus gallus; Saccharum officinarum,condensed milk is Bos taurus
 kuchen,kuchen de manzana; kuchen de frambuesa; kuchen de murta,Chilean,Triticum aestivum; Bos taurus; Gallus gallus; Saccharum officinarum; Malus domestica; Rubus idaeus; Ugni molinae,
-paila marina,,Chilean,Mytilus chilensis; Ruditapes decussatus; Penaeus vannamei; Genypterus chilensis; Concholepas concholepas; Allium cepa; Solanum lycopersicum; Coriandrum sativum; Vitis vinifera,
+paila marina,,Chilean,Mytilus chilensis; Ameghinomya antiqua; Penaeus vannamei; Genypterus chilensis; Concholepas concholepas; Allium cepa; Solanum lycopersicum; Coriandrum sativum; Vitis vinifera,
 erizos al matico,erizos con salsa verde; lenguas de erizo,Chilean,Loxechinus albus; Allium cepa; Coriandrum sativum; Citrus limon; Olea europaea,
 piure al natural,piure con cebolla; ceviche de piure,Chilean,Pyura chilensis; Allium cepa; Coriandrum sativum; Citrus limon,
 ceviche de camarón,cebiche de camarón; ceviche ecuatoriano; ceviche de camarones,Ecuadorian,Penaeus vannamei; Solanum lycopersicum; Allium cepa; Citrus aurantiifolia; Coriandrum sativum; Citrus sinensis; Zea mays; Musa × paradisiaca,served with canguil and chifles
@@ -873,3 +873,9 @@ honey mustard dressing,honey mustard; honey mustard sauce; honey mustard dip,Ame
 pumpkin spice latte,psl; pumpkin latte,American,Coffea arabica; Bos taurus; Saccharum officinarum; Cucurbita moschata; Cinnamomum verum; Zingiber officinale; Myristica fragrans; Syzygium aromaticum,
 coquito,puerto rican eggnog,Puerto Rican,Cocos nucifera; Bos taurus; Saccharum officinarum; Saccharomyces cerevisiae; Cinnamomum verum; Myristica fragrans; Vanilla planifolia,coconut and rum
 stuffed peppers,stuffed bell peppers; stuffed capsicum,American,Capsicum annuum; Oryza sativa; Bos taurus; Solanum lycopersicum; Allium cepa; Allium sativum,
+mariscal,mariscal frío; mariscal frio; mariscal caliente; mariscal chileno,Chilean,Ameghinomya antiqua; Mytilus chilensis; Mesodesma donacium; Pyura chilensis; Loxechinus albus; Allium cepa; Coriandrum sativum; Citrus limon,"raw shellfish with onion, cilantro and lemon"
+chupe de locos,chupe de loco,Chilean,Concholepas concholepas; Triticum aestivum; Bos taurus; Allium cepa; Capsicum annuum; Vitis vinifera,
+pastel de jaiba,pastel de jaibas; chupe de jaiba; chupe de jaibas,Chilean,Metacarcinus edwardsii; Triticum aestivum; Bos taurus; Allium cepa; Allium sativum; Capsicum annuum; Vitis vinifera,
+ostiones a la parmesana,ostiones parmesana; ostiones a la parmesana chilenos,Chilean,Argopecten purpuratus; Bos taurus; Vitis vinifera; Citrus limon,in Chile the ostión is the scallop
+empanadas de mariscos,empanada de mariscos; empanadas de marisco; empanada de marisco,Chilean,Mytilus chilensis; Ameghinomya antiqua; Mesodesma donacium; Triticum aestivum; Allium cepa; Capsicum annuum; Sus scrofa,
+ceviche de reineta,cebiche de reineta,Chilean,Brama australis; Citrus limon; Allium cepa; Coriandrum sativum; Capsicum annuum,

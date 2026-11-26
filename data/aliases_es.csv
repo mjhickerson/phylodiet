@@ -113,7 +113,7 @@ Pogonias cromis,corvina negra;tambor negro;tambor
 Micropogonias undulatus,roncador;corvinilla
 Umbrina cirrosa,verrugato;corvallo
 Larimichthys crocea,corvina amarilla
-Brama brama,palometa negra;japuta;castañeta;reineta
+Brama brama,palometa negra;japuta;castañeta
 Trachurus murphyi,jurel
 Trachurus trachurus,jurel europeo;chicharro
 Trachurus symmetricus,charrito
@@ -390,7 +390,7 @@ Todarodes sagittatus,pota europea;calamar volador europeo;pota voladora
 Sepia officinalis,sepia;choco;jibia europea
 Sepiola atlantica,sepiola;choquito;chopito;puntillitas;puntillas
 Sepioteuthis sepioidea,calamar de arrecife;calamar de coral;calamar caribeño
-Mytilus chilensis,choro;choritos;chorito;mejillón chileno;cholga
+Mytilus chilensis,choro;choritos;chorito;mejillón chileno
 Mytilus edulis,mejillón
 Mytilus galloprovincialis,mejillón mediterráneo;mejillón gallego;chorro;mejillón de roca;mejillón de batea
 Perna viridis,mejillón verde;mejillón asiático
@@ -580,7 +580,7 @@ Apostichopus californicus,pepino de mar de california;pepino de mar gigante
 Cucumaria frondosa,pepino de mar naranja;pepino de mar del atlántico norte
 Thelenota ananas,pepino de mar piña;pepino de mar espinoso
 Stichopus horrens,pepino de mar dragón
-Pyura chilensis,piure;piure de chile
+Pyura chilensis,piure;piure de chile;pyure;piure chileno;piure rojo;Chilean sea squirt
 Microcosmus sabatieri,violeta;higo de mar;violet
 Halocynthia roretzi,piña de mar;hoya;meongge
 Styela clava,mideodeok;tunicado coreano
@@ -1059,7 +1059,7 @@ Cyttaria espinosae,digüeñe;dihueñe;diweñe;pinatra;quideñe;hongo del hualle;
 Saccharomyces cerevisiae,levadura;levadura de cerveza;levadura de pan;masa madre;pan con levadura;pan de levadura;pan de masa madre;fermento;fermento de pan;fermento de cerveza;fermento de trigo;fermento de centeno;fermento de cebada;fermento de avena;fermento de maíz;fermento de arroz;fermento de papa;fermento de yuca;fermento de plátano;fermento de banana;fermento de manzana;fermento de uva;fermento de pera;fermento de durazno;fermento de ciruela;fermento de cereza;fermento de higo;fermento de dátil;fermento de pasas;fermento de miel;fermento de azúcar;fermento de panela;fermento de piloncillo;fermento de chancaca;fermento de rapadura;fermento de papelón;fermento de melaza;fermento de caña;fermento de agave;fermento de maguey;fermento de aguamiel;fermento de nopal;fermento de tuna;fermento de xoconostle;fermento de garambullo;fermento de pitaya;fermento de pitahaya;fermento de saguaro;fermento de cardón
 Durvillaea antarctica,cochayuyo;ulte
 Pyropia yezoensis,nori;alga para sushi
-Porphyra umbilicalis,luche;laver
+Porphyra umbilicalis,laver
 Saccharina japonica,kombu;konbu;dashi kombu
 Undaria pinnatifida,wakame
 Gracilaria gracilis,pelillo;ogo;ogonori;agar de pelillo
@@ -1076,3 +1076,24 @@ Eisenia bicyclis,arame
 Himanthalia elongata,espagueti de mar;espaguetis de mar;spaghetti de mar;judía de mar;judías de mar
 Salicornia europaea,salicornia;espárrago de mar;espárragos de mar;hierba salada
 Crithmum maritimum,hinojo marino;hinojo de mar;perejil de mar;perejil marino;empetro;cresta marina
+Aulacomya atra,cholga chilena;Magellan mussel;cholga mussel
+Mesodesma donacium,macha chilena;almeja macha;macha clam
+Ameghinomya antiqua,taca;almeja taca;almejas chilenas;Chilean clam
+Tagelus dombeii,navajuela chilena
+Ensis macha,navaja de mar;navaja chilena;navajas de mar
+Gari solida,culengues
+Semele solida,almeja tumbao
+Mulinia edulis,almeja taquilla
+Ostrea chilensis,ostra chilena;ostras chilenas;ostra de Chiloé;dredge oyster;Bluff oysters
+Zygochlamys patagonica,ostión patagónico;ostión del sur;vieira patagónica
+Chorus giganteus,caracol trumulco
+Thaisella chocolata,caracol negro del norte
+Octopus mimus,pulpo de Changos;pulpo chileno
+Enteroctopus megalocyathus,pulpo rojo patagónico
+Pyura praeputialis,piure blanco de Antofagasta
+Metacarcinus edwardsii,marmola;jaiba chilena;Chilean crab
+Romaleon setosum,jaiba peluda chilena
+Jasus frontalis,langosta de Juan Fernández;Juan Fernandez lobster
+Merluccius gayi,merluza chilena;pescada;Chilean hake;Peruvian hake
+Brama australis,reineta chilena;southern pomfret
+Pyropia columbina,luche chileno;karengo

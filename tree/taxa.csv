@@ -1978,7 +1978,8 @@ landladys-wig,landlady's wig,Ahnfeltia plicata,Ahnfeltiaceae,red,
 bangia,bangia,Bangia fuscopurpurea,Bangiaceae,red,
 atlantic-laver,Atlantic laver,Porphyra dioica,Bangiaceae,red,
 purple-laver,purple laver,Porphyra purpurea,Bangiaceae,red,
-laver,laver,Porphyra umbilicalis,Bangiaceae,red,laver;laverbread;luche
+laver,laver,Porphyra umbilicalis,Bangiaceae,red,laver;laverbread
+luche,luche,Pyropia columbina,Bangiaceae,red,luche chileno;karengo
 asakusa-nori,asakusa nori,Pyropia tenera,Bangiaceae,red,
 tan-zicai,tan zicai,Pyropia haitanensis,Bangiaceae,red,
 nori,nori,Pyropia yezoensis,Bangiaceae,red,nori;seaweed;sushi seaweed;gim;kim;alga para sushi
@@ -2409,6 +2410,7 @@ inanga,inanga (whitebait),Galaxias maculatus,Galaxiidae,animal,whitebait;puye;in
 bombay-duck,Bombay duck,Harpadon nehereus,Synodontidae,animal,pato de bombay;bombil;bummalo
 brushtooth-lizardfish,brushtooth lizardfish,Saurida undosquamis,Synodontidae,animal,
 john-dory,John Dory,Zeus faber,Zeidae,animal,pez de san pedro;gallo pedro;san pedro;gallopedro
+south-pacific-hake,South Pacific hake (merluza común),Merluccius gayi,Merlucciidae,animal,merluza común;merluza chilena;pescada;Chilean hake;Peruvian hake
 deep-water-cape-hake,deep-water Cape hake,Merluccius paradoxus,Merlucciidae,animal,
 shallow-water-cape-hake,shallow-water Cape hake,Merluccius capensis,Merlucciidae,animal,merluza del cabo
 european-hake,European hake,Merluccius merluccius,Merlucciidae,animal,merluza europea;pescadilla;merluza de pincho
@@ -2441,6 +2443,7 @@ bigscale-soldierfish,bigscale soldierfish (menpachi),Myripristis berndti,Holocen
 orange-roughy,orange roughy,Hoplostethus atlanticus,Trachichthyidae,animal,reloj anaranjado;pez reloj;orange roughy
 alfonsino,alfonsino,Beryx decadactylus,Berycidae,animal,
 splendid-alfonsino,splendid alfonsino,Beryx splendens,Berycidae,animal,besugo americano de altura;palometa roja
+congrio-negro,congrio negro (black cusk-eel),Genypterus maculatus,Ophidiidae,animal,black cusk-eel
 congrio-colorado,congrio colorado,Genypterus chilensis,Ophidiidae,animal,congrio
 kingklip,kingklip,Genypterus capensis,Ophidiidae,animal,
 pink-ling,pink ling (kingklip),Genypterus blacodes,Ophidiidae,animal,kingklip;congrio dorado
@@ -2648,7 +2651,8 @@ snoek,snoek,Thyrsites atun,Gempylidae,animal,
 black-scabbardfish,black scabbardfish,Aphanopus carbo,Trichiuridae,animal,pez espada negro;sable negro;espada preta
 silver-scabbardfish,silver scabbardfish,Lepidopus caudatus,Trichiuridae,animal,pez cinto plateado;sable plateado
 largehead-hairtail,largehead hairtail,Trichiurus lepturus,Trichiuridae,animal,pez sable;pez cinto;sable;espada de mar
-atlantic-pomfret,Atlantic pomfret,Brama brama,Bramidae,animal,palometa negra;japuta;castañeta;reineta
+reineta,reineta,Brama australis,Bramidae,animal,reineta chilena;southern pomfret
+atlantic-pomfret,Atlantic pomfret,Brama brama,Bramidae,animal,palometa negra;japuta;castañeta
 butterfish,butterfish,Peprilus triacanthus,Stromateidae,animal,palometa americana;pámpano americano;butterfish
 silver-pomfret,silver pomfret,Pampus argenteus,Stromateidae,animal,pámpano plateado;palometa china;pomfret
 chinese-pomfret,Chinese pomfret,Pampus chinensis,Stromateidae,animal,
@@ -2832,9 +2836,10 @@ pacific-lamprey,Pacific lamprey,Entosphenus tridentatus,Petromyzontidae,animal,
 arctic-lamprey,Arctic lamprey,Lethenteron camtschaticum,Petromyzontidae,animal,
 river-lamprey,river lamprey,Lampetra fluviatilis,Petromyzontidae,animal,lamprea de río
 sea-lamprey,sea lamprey,Petromyzon marinus,Petromyzontidae,animal,lamprey;lamprea
+piure-de-antofagasta,piure de Antofagasta,Pyura praeputialis,Pyuridae,animal,piure blanco de Antofagasta
+piure,piure,Pyura chilensis,Pyuridae,animal,piure;piure de chile;pyure;piure chileno;piure rojo;Chilean sea squirt
 mideodeok,mideodeok,Styela clava,Styelidae,animal,mideodeok;tunicado coreano
 violet,violet (sea fig),Microcosmus sabatieri,Pyuridae,animal,sea fig;violeta;higo de mar;violet
-piure,piure,Pyura chilensis,Pyuridae,animal,piure;piure de chile
 sea-peach,sea peach,Halocynthia aurantium,Pyuridae,animal,melocotón de mar
 sea-pineapple,sea pineapple,Halocynthia roretzi,Pyuridae,animal,sea pineapple;sea squirt;meongge;piña de mar;hoya
 brown-sea-cucumber,brown sea cucumber,Isostichopus fuscus,Stichopodidae,animal,pepino de mar;pepinos de mar;pepino de mar café;pepino de mar marrón;holoturia
@@ -2880,10 +2885,12 @@ veined-squid,veined squid,Loligo forbesii,Loliginidae,animal,calamar veteado
 european-squid,European squid,Loligo vulgaris,Loliginidae,animal,calamar europeo;chipirón;calamar de potera
 california-market-squid,California market squid,Doryteuthis opalescens,Loliginidae,animal,calamar de california;calamar del pacífico
 longfin-inshore-squid,longfin inshore squid,Doryteuthis pealeii,Loliginidae,animal,squid;calamari;calamar;rabas
+patagonian-red-octopus,Patagonian red octopus (pulpo del sur),Enteroctopus megalocyathus,Enteroctopodidae,animal,pulpo del sur;pulpo rojo patagónico
+giant-pacific-octopus,giant Pacific octopus,Enteroctopus dofleini,Enteroctopodidae,animal,pulpo gigante
 iidako,iidako,Amphioctopus fangsiao,Octopodidae,animal,
 musky-octopus,musky octopus,Eledone moschata,Eledonidae,animal,pulpo almizclado;pulpito
 curled-octopus,curled octopus,Eledone cirrhosa,Eledonidae,animal,pulpo blanco;pulpo cabezón;pulpo de roca
-giant-pacific-octopus,giant Pacific octopus,Enteroctopus dofleini,Enteroctopodidae,animal,pulpo gigante
+changos-octopus,Changos octopus (pulpo del norte),Octopus mimus,Octopodidae,animal,pulpo del norte;pulpo de Changos;pulpo chileno
 long-arm-octopus,long-arm octopus (nakji),Octopus minor,Octopodidae,animal,nakji
 day-octopus,day octopus (he'e),Octopus cyanea,Octopodidae,animal,he'e;pulpo de día;pulpo hawaiano
 mexican-four-eyed-octopus,Mexican four-eyed octopus,Octopus maya,Octopodidae,animal,pulpo maya;pulpo rojo;pulpo de yucatán;pulpo yucateco
@@ -2909,6 +2916,8 @@ queen-conch,queen conch,Aliger gigas,Strombidae,animal,queen conch;caracol pala;
 horn-snail,horn snail (mud creeper),Telescopium telescopium,Potamididae,animal,mud creeper
 mangrove-periwinkle,mangrove periwinkle (West Africa),Tympanotonus fuscatus,Potamididae,animal,
 periwinkle,periwinkle,Littorina littorea,Littorinidae,animal,periwinkle;winkle;winkles;bígaro;caracolillo;mincha
+caracol-locate,caracol locate,Thaisella chocolata,Muricidae,animal,caracol negro del norte
+trumulco,trumulco,Chorus giganteus,Muricidae,animal,caracol trumulco
 dog-whelk,dog whelk,Nucella lapillus,Muricidae,animal,caracol perro;púrpura
 loco,loco,Concholepas concholepas,Muricidae,animal,loco;abalón chileno;chanque
 purple-dye-murex,purple dye murex,Bolinus brandaris,Muricidae,animal,cañaílla;cañadilla;busano
@@ -2933,6 +2942,9 @@ paua,paua,Haliotis iris,Haliotidae,animal,paua;abulón paua
 south-african-abalone,South African abalone (perlemoen),Haliotis midae,Haliotidae,animal,perlemoen;abulón sudafricano
 red-abalone,red abalone,Haliotis rufescens,Haliotidae,animal,abulón;abalón;oreja de mar
 japanese-abalone,Japanese abalone (ezo awabi),Haliotis discus,Haliotidae,animal,ezo awabi;awabi;abulón japonés;abalón japonés
+tumbao,tumbao,Semele solida,Semelidae,animal,almeja tumbao
+culengue,culengue,Gari solida,Psammobiidae,animal,culengues
+navajuela,navajuela,Tagelus dombeii,Solecurtidae,animal,navajuela chilena
 coquina-clam,coquina clam,Donax variabilis,Donacidae,animal,coquina americana;chipichipi;chipi chipi;guacuco
 wedge-clam,wedge clam (tellina),Donax trunculus,Donacidae,animal,tellina;coquina;tellerina
 small-giant-clam,small giant clam,Tridacna maxima,Cardiidae,animal,
@@ -2940,9 +2952,13 @@ giant-clam,giant clam,Tridacna gigas,Cardiidae,animal,almeja gigante;tridacna
 common-cockle,common cockle,Cerastoderma edule,Cardiidae,animal,cockle;berberecho;croque
 pacific-razor-clam,Pacific razor clam,Siliqua patula,Pharidae,animal,navaja del pacífico;navaja de california
 grooved-razor,grooved razor,Solen marginatus,Solenidae,animal,longueirón;navaja recta
+huepo,huepo (Chilean razor clam),Ensis macha,Pharidae,animal,Chilean razor clam;navaja de mar;navaja chilena;navajas de mar
 razor-clam,razor clam (Europe),Ensis magnus,Pharidae,animal,navaja
 atlantic-jackknife-clam,Atlantic jackknife clam,Ensis leei,Pharidae,animal,navaja americana;navaja del atlántico
 geoduck,geoduck,Panopea generosa,Hiatellidae,animal,geoduck;almeja panopea;almeja generosa;almeja geoduck;almeja elefante
+macha,macha,Mesodesma donacium,Mesodesmatidae,animal,macha chilena;almeja macha;macha clam
+taquilla,taquilla,Mulinia edulis,Mactridae,animal,almeja taquilla
+taca-clam,taca clam (almeja chilena),Ameghinomya antiqua,Veneridae,animal,almeja chilena;taca;almeja taca;almejas chilenas;Chilean clam
 tamilok,tamilok (shipworm),Bactronophorus thoracites,Teredinidae,animal,shipworm
 giant-shipworm,giant shipworm,Kuphus polythalamius,Teredinidae,animal,
 common-piddock,common piddock,Pholas dactylus,Pholadidae,animal,dátil de mar;dátiles de mar;barrena
@@ -2965,6 +2981,7 @@ arctic-surf-clam,Arctic surf clam (hokkigai),Mactromeris polynyma,Mactridae,anim
 atlantic-surf-clam,Atlantic surf clam,Spisula solidissima,Mactridae,animal,almeja de mar americana;almeja de surf;almeja surf
 soft-shell-clam,soft-shell clam,Mya arenaria,Myidae,animal,soft-shell clam;steamers;almeja de concha blanda;almeja blanda;almeja de arena
 hard-clam,hard clam (quahog),Mercenaria mercenaria,Veneridae,animal,quahog;hard clam;clam;clams;littleneck;cherrystone;almeja americana;almeja dura;almeja de cuello duro
+patagonian-scallop,Patagonian scallop,Zygochlamys patagonica,Pectinidae,animal,ostión patagónico;ostión del sur;vieira patagónica
 queen-scallop,queen scallop,Aequipecten opercularis,Pectinidae,animal,zamburiña;volandeira
 iceland-scallop,Iceland scallop,Chlamys islandica,Pectinidae,animal,vieira de islandia;vieira islandesa
 yesso-scallop,Yesso scallop (hotate),Mizuhopecten yessoensis,Pectinidae,animal,hotate;vieira japonesa;vieira yesso;callo de hacha japonés
@@ -2973,6 +2990,7 @@ bay-scallop,bay scallop,Argopecten irradians,Pectinidae,animal,vieira de bahía;
 mediterranean-scallop,Mediterranean scallop,Pecten jacobaeus,Pectinidae,animal,vieira mediterránea;concha de peregrino mediterránea
 king-scallop,king scallop,Pecten maximus,Pectinidae,animal,vieira;concha de peregrino;concha de santiago
 sea-scallop,sea scallop,Placopecten magellanicus,Pectinidae,animal,vieira americana;vieira del atlántico;vieira gigante;scallop;scallops;seared scallops
+cholga,cholga,Aulacomya atra,Mytilidae,animal,cholga chilena;Magellan mussel;cholga mussel
 dog-cockle,dog cockle,Glycymeris glycymeris,Glycymerididae,animal,almendra de mar;almendras de mar;almeja almendra
 black-lip-pearl-oyster,black-lip pearl oyster,Pinctada margaritifera,Margaritidae,animal,ostra perlera;ostra perlífera;madreperla
 pen-shell,pen shell (tairagi),Atrina pectinata,Pinnidae,animal,tairagi;callo de hacha;pinna
@@ -2983,10 +3001,11 @@ choro-zapato,choro zapato,Choromytilus chorus,Mytilidae,animal,choro zapato;chor
 brown-mussel,brown mussel,Perna perna,Mytilidae,animal,mejillón marrón;mejillón de brasil;mejillón pardo
 asian-green-mussel,Asian green mussel,Perna viridis,Mytilidae,animal,mejillón verde;mejillón asiático
 green-lipped-mussel,green-lipped mussel,Perna canaliculus,Mytilidae,animal,mejillón de nueva zelanda;mejillón de labios verdes
-chilean-mussel,Chilean mussel,Mytilus chilensis,Mytilidae,animal,choro;choritos;chorito;mejillón chileno;cholga
+chilean-mussel,Chilean mussel,Mytilus chilensis,Mytilidae,animal,choro;choritos;chorito;mejillón chileno
 mediterranean-mussel,Mediterranean mussel,Mytilus galloprovincialis,Mytilidae,animal,mejillón mediterráneo;mejillón gallego;chorro;mejillón de roca;mejillón de batea
 blue-mussel,blue mussel,Mytilus edulis,Mytilidae,animal,mussel;mussels;mejillón
 sydney-rock-oyster,Sydney rock oyster,Saccostrea glomerata,Ostreidae,animal,ostra de roca de sídney;ostra australiana
+chilean-oyster,Chilean oyster (Bluff oyster),Ostrea chilensis,Ostreidae,animal,Bluff oyster;ostra chilena;ostras chilenas;ostra de Chiloé;dredge oyster;Bluff oysters
 olympia-oyster,Olympia oyster,Ostrea lurida,Ostreidae,animal,ostra olympia;ostra olímpica
 european-flat-oyster,European flat oyster,Ostrea edulis,Ostreidae,animal,ostra plana;ostra europea;ostra gallega;ostra de arcade
 portuguese-oyster,Portuguese oyster,Magallana angulata,Ostreidae,animal,ostra portuguesa;ostión portugués
@@ -3049,6 +3068,10 @@ japanese-mysid,Japanese mysid (ami),Neomysis intermedia,Mysidae,animal,ami
 pacific-krill,Pacific krill (isada),Euphausia pacifica,Euphausiidae,animal,isada;krill del pacífico
 antarctic-krill,Antarctic krill,Euphausia superba,Euphausiidae,animal,krill;kril
 spanner-crab,spanner crab,Ranina ranina,Raninidae,animal,cangrejo rana;cangrejo llave;cangrejo de arena
+jaiba-mora,jaiba mora,Homalaspis plana,Platyxanthidae,animal,
+jaiba-peluda,jaiba peluda,Romaleon setosum,Cancridae,animal,jaiba peluda chilena
+jaiba-marmola,jaiba marmola,Metacarcinus edwardsii,Cancridae,animal,marmola;jaiba chilena;Chilean crab
+dungeness-crab,Dungeness crab,Metacarcinus magister,Cancridae,animal,Dungeness crab;cangrejo dungeness;cangrejo de dungeness;jaiba dungeness;cangrejo del pacífico norte
 paddle-crab,paddle crab,Ovalipes catharus,Ovalipidae,animal,
 red-deep-sea-crab,red deep-sea crab,Chaceon quinquedens,Geryonidae,animal,
 tasmanian-giant-crab,Tasmanian giant crab,Pseudocarcinus gigas,Menippidae,animal,
@@ -3072,7 +3095,6 @@ mud-crab,mud crab,Scylla serrata,Portunidae,animal,cangrejo de lodo;cangrejo de 
 blue-swimmer-crab,blue swimmer crab,Portunus pelagicus,Portunidae,animal,cangrejo nadador;jaiba nadadora;jaiba azul asiática;cangrejo azul asiático
 gazami-crab,gazami crab,Portunus trituberculatus,Portunidae,animal,cangrejo gazami;gazami;cangrejo nadador japonés;jaiba japonesa
 blue-crab,blue crab,Callinectes sapidus,Portunidae,animal,blue crab;crab;crabs;crab meat;jaiba;cangrejo azul;cangrejo de concha blanda;jaiba de concha blanda
-dungeness-crab,Dungeness crab,Metacarcinus magister,Cancridae,animal,Dungeness crab;cangrejo dungeness;cangrejo de dungeness;jaiba dungeness;cangrejo del pacífico norte
 atlantic-rock-crab,Atlantic rock crab,Cancer irroratus,Cancridae,animal,rock crab;Maine rock crab;peekytoe crab;peekytoe
 jonah-crab,Jonah crab,Cancer borealis,Cancridae,animal,
 brown-crab,brown crab,Cancer pagurus,Cancridae,animal,buey de mar;buey;cangrejo de mar;cangrejo europeo;cangrejo marrón;bou de mar;partan
@@ -3098,6 +3120,7 @@ balmain-bug,Balmain bug,Ibacus peronii,Scyllaridae,animal,cigarra de balmain;lan
 mediterranean-slipper-lobster,Mediterranean slipper lobster,Scyllarides latus,Scyllaridae,animal,cigarra de mar;santiaguiño;cigarra;langosta zapatilla
 moreton-bay-bug,Moreton Bay bug,Thenus orientalis,Scyllaridae,animal,cigarra de moreton;langosta zapatilla asiática;cigarra de mar asiática
 eastern-rock-lobster,eastern rock lobster,Sagmariasus verreauxi,Palinuridae,animal,langosta verde;langosta de roca oriental
+juan-fernandez-rock-lobster,Juan Fernández rock lobster,Jasus frontalis,Palinuridae,animal,langosta de Juan Fernández;Juan Fernandez lobster
 west-coast-rock-lobster,West Coast rock lobster,Jasus lalandii,Palinuridae,animal,langosta del cabo;langosta sudafricana;langosta de roca del cabo
 southern-rock-lobster,southern rock lobster,Jasus edwardsii,Palinuridae,animal,langosta de roca austral;langosta de nueva zelanda;langosta de tasmania
 european-spiny-lobster,European spiny lobster,Palinurus elephas,Palinuridae,animal,langosta común;langosta del mediterráneo;langosta mediterránea;langosta europea espinosa;langosta roja europea
