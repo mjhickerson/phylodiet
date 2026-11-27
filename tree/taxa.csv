@@ -153,7 +153,7 @@ garlic,garlic,Allium sativum,Amaryllidaceae,plant,garlic;akcha;cebolla jívara;a
 wild-onion,wild onion,Allium canadense,Amaryllidaceae,plant,
 french-grey-shallot,French grey shallot,Allium oschaninii,Amaryllidaceae,plant,
 onion,onion / shallot,Allium cepa,Amaryllidaceae,plant,shallot;onion;onions;shallots;scallion;scallions;green onion;spring onion;cebolla blanca;cebolla paiteña;puka cebolla;cebolla colorada;cebolla;cebollita;chalota;chalote;echalote;escalonia
-ramsons,ramsons,Allium ursinum,Amaryllidaceae,plant,ajo de oso;ajo silvestre
+ramsons,ramsons,Allium ursinum,Amaryllidaceae,plant,ajo de oso;ajo silvestre;bear's garlic;bear garlic;bear leek;wild garlic
 leek-garlic,leek / elephant garlic,Allium ampeloprasum,Amaryllidaceae,plant,elephant garlic;leek;leeks;puerro;poro;ajo porro;ajoporro;ajo puerro;ajopuerro;ajo elefante;ajo chilote;ajo de elefante
 hookers-chives,Hooker's chives,Allium hookeri,Amaryllidaceae,plant,
 victory-onion,victory onion,Allium victorialis,Amaryllidaceae,plant,
@@ -211,7 +211,7 @@ triticale,triticale,× Triticosecale,Poaceae,plant,triticale
 khorasan-wheat,khorasan wheat,Triticum turanicum,Poaceae,plant,
 einkorn,einkorn,Triticum monococcum,Poaceae,plant,
 durum,durum / emmer,Triticum turgidum,Poaceae,plant,emmer;trigo duro;trigo candeal;sémola de trigo duro;farro
-bread-wheat,bread wheat,Triticum aestivum,Poaceae,plant,wheat;flour;bread;pasta;noodles;bun;couscous;bulgur;semolina;durum;seitan;soy sauce;tortilla;crackers;breadcrumbs;panko;pastry;trigo;harina;con pan;y pan;pan y;de pan;el pan;un pan;pan de;pan con;pan casero;pan fresco;pan blanco;pan integral;pan tostado;pan dulce;pan francés;pan rallado;pan molido;pan pita;pan de yema;pan lactal;pan amasado;pan batido;bolillo;telera;marraqueta;hallulla;fideos;fideo;tallarines;tallarín;espaguetis;espagueti;macarrones;tortilla de harina;tortillas de harina;galleta;galletitas;bizcocho;bizcochuelo;pastel;tarta;hojaldre;concha;cuernito;factura;criollos;sémola;cuscús;seitán;salvado;tostada;rosca;roscón;buñuelo;torreja;alfajor;pastelito;panqueque;crepa;hotcake;gluten
+bread-wheat,bread wheat,Triticum aestivum,Poaceae,plant,wheat;flour;bread;pasta;noodles;bun;couscous;bulgur;semolina;durum;seitan;soy sauce;tortilla;crackers;breadcrumbs;panko;pastry;trigo;harina;y pan;pan y;de pan;el pan;un pan;pan de;pan casero;pan fresco;pan blanco;pan integral;pan tostado;pan dulce;pan francés;pan rallado;pan molido;pan pita;pan de yema;pan lactal;pan amasado;pan batido;bolillo;telera;marraqueta;hallulla;fideos;fideo;tallarines;tallarín;espaguetis;espagueti;macarrones;tortilla de harina;tortillas de harina;galleta;galletitas;bizcocho;bizcochuelo;pastel;tarta;hojaldre;concha;cuernito;factura;criollos;sémola;cuscús;seitán;salvado;tostada;rosca;roscón;buñuelo;torreja;alfajor;pastelito;panqueque;crepa;hotcake;gluten
 timopheevs-wheat,Timopheev's wheat,Triticum timopheevii,Poaceae,plant,
 spelt,spelt,Triticum spelta,Poaceae,plant,espelta;escanda
 rye,rye,Secale cereale,Poaceae,plant,rye;centeno;pan de centeno;harina de centeno
@@ -539,7 +539,7 @@ tree-rhododendron,tree rhododendron (flowers),Rhododendron arboreum,Ericaceae,pl
 heather,heather,Calluna vulgaris,Ericaceae,plant,
 ocotillo,ocotillo (flowers),Fouquieria splendens,Fouquieriaceae,plant,
 wild-tea,wild tea (Yunnan),Camellia taliensis,Theaceae,plant,
-tea,tea,Camellia sinensis,Theaceae,plant,tea;green tea;black tea;matcha;oolong;té negro;té verde;té rojo;té blanco;té oolong;té chai;té helado;té con leche;té de la tarde;hojas de té;té en bolsita;bolsita de té;té english breakfast;té de jazmín;té de burbujas;breakfast tea;english breakfast tea;builders tea;builder's tea;cuppa;earl grey
+tea,tea,Camellia sinensis,Theaceae,plant,tea;green tea;black tea;matcha;oolong;té negro;té verde;té rojo;té blanco;té oolong;té chai;té helado;té de la tarde;hojas de té;té en bolsita;bolsita de té;té english breakfast;té de jazmín;té de burbujas;breakfast tea;english breakfast tea;builders tea;builder's tea;cuppa;earl grey
 japanese-camellia,Japanese camellia (seed oil),Camellia japonica,Theaceae,plant,
 tea-seed-oil,tea seed oil,Camellia oleifera,Theaceae,plant,
 sasanqua,sasanqua (seed oil),Camellia sasanqua,Theaceae,plant,
@@ -576,7 +576,7 @@ paradise-nut,paradise nut,Lecythis zabucajo,Lecythidaceae,plant,turu muyu
 brazil-nut,Brazil nut,Bertholletia excelsa,Lecythidaceae,plant,Brazil nut;castaña de brasil;castañas de brasil;nuez de brasil;nueces de brasil;castaña de pará;castaña amazónica;castaña de monte
 blue-guarri,blue guarri (fruit),Euclea crispa,Ebenaceae,plant,
 mabolo,mabolo (velvet apple),Diospyros blancoi,Ebenaceae,plant,velvet apple
-thi,thị,Diospyros decandra,Ebenaceae,plant,
+qua-thi,quả thị (gold apple),Diospyros decandra,Ebenaceae,plant,gold apple
 american-persimmon,American persimmon,Diospyros virginiana,Ebenaceae,plant,
 persimmon,persimmon,Diospyros kaki,Ebenaceae,plant,persimmon;caqui;kaki;persimón;palosanto
 date-plum,date-plum,Diospyros lotus,Ebenaceae,plant,
@@ -954,7 +954,7 @@ spanish-tamarind,Spanish tamarind,Vangueria madagascariensis,Rubiaceae,plant,
 borojo,borojó,Borojoa patinoi,Rubiaceae,plant,borojó yuca;palo de trompo
 liberica-coffee,liberica coffee,Coffea liberica,Rubiaceae,plant,
 robusta-coffee,robusta coffee,Coffea canephora,Rubiaceae,plant,robusta coffee;café robusto;café robusta;robusta
-arabica-coffee,arabica coffee,Coffea arabica,Rubiaceae,plant,coffee;espresso;runa café;café delgado;café;café con leche;cortado;expreso;cafecito;capuchino;nescafé;cafeína
+arabica-coffee,arabica coffee,Coffea arabica,Rubiaceae,plant,coffee;espresso;runa café;café delgado;café;cortado;expreso;cafecito;capuchino;nescafé;cafeína
 highland-coffee,highland coffee,Coffea stenophylla,Rubiaceae,plant,
 marmelada,marmelada,Alibertia edulis,Rubiaceae,plant,
 jenipapo,jenipapo,Genipa americana,Rubiaceae,plant,wituk;jagua;jagua de comar;jagua dulce;teta de vieja;genipap
@@ -1319,7 +1319,7 @@ brazilian-pepper,Brazilian pepper,Schinus terebinthifolia,Anacardiaceae,plant,
 cuachalalate,cuachalalate,Amphipterygium adstringens,Anacardiaceae,plant,
 binjai,binjai,Mangifera caesia,Anacardiaceae,plant,
 bambangan,bambangan,Mangifera pajang,Anacardiaceae,plant,
-mango,mango,Mangifera indica,Anacardiaceae,plant,mango;mango con chile
+mango,mango,Mangifera indica,Anacardiaceae,plant,mango
 horse-mango,horse mango (bachang),Mangifera foetida,Anacardiaceae,plant,bachang
 kuwini,kuwini,Mangifera odorata,Anacardiaceae,plant,
 gandaria,gandaria,Bouea macrophylla,Anacardiaceae,plant,
@@ -1388,7 +1388,7 @@ monkey-cacao,monkey cacao,Herrania purpurea,Malvaceae,plant,
 cupuacu,cupuaçu,Theobroma grandiflorum,Malvaceae,plant,chulla hanpi
 mocambo,mocambo (pataxte),Theobroma bicolor,Malvaceae,plant,pataxte;killa;patas;cacao blanco;chimarron;pataste
 cupui,cupuí,Theobroma subincanum,Malvaceae,plant,hanpi;kila;kushillu hanpi;sacha hanpi;cacao rojo
-cacao,cacao,Theobroma cacao,Malvaceae,plant,cacao;chocolate;cocoa;puka cacao;runa cacao;manteca de cacao;chocolate con leche;pasta de cacao;bombón;trufa de chocolate;trufas de chocolate;ganache;chocolatina
+cacao,cacao,Theobroma cacao,Malvaceae,plant,cacao;chocolate;cocoa;puka cacao;runa cacao;manteca de cacao;pasta de cacao;bombón;trufa de chocolate;trufas de chocolate;ganache;chocolatina
 guest-tree,guest tree (leaves),Kleinhovia hospita,Malvaceae,plant,
 jamaican-cherry,Jamaican cherry (aratiles),Muntingia calabura,Muntingiaceae,plant,aratiles;frutillo;niguita;niguito
 mashua,mashua,Tropaeolum tuberosum,Tropaeolaceae,plant,mashua;mashwa;isaño;añu;cubio;majua
@@ -1479,7 +1479,7 @@ sweet-detar,sweet detar,Detarium microcarpum,Fabaceae,plant,
 ditax,ditax,Detarium senegalense,Fabaceae,plant,
 nam-nam,nam-nam,Cynometra cauliflora,Fabaceae,plant,
 african-mahogany,African mahogany (seeds),Afzelia africana,Fabaceae,plant,
-tamarind,tamarind,Tamarindus indica,Fabaceae,plant,tamarind;tamarindo;tamarindo en pasta;pasta de tamarindo;tamarindo con chile;tamarindo con sal;tamarindo en almíbar;helado de tamarindo;salsa de tamarindo;salsa agridulce de tamarindo;salsa de tamarindo con chile;salsa de tamarindo para pollo;salsa de tamarindo para carne;salsa de tamarindo para camarones
+tamarind,tamarind,Tamarindus indica,Fabaceae,plant,tamarind;tamarindo;tamarindo en pasta;pasta de tamarindo;tamarindo en almíbar;helado de tamarindo;salsa de tamarindo;salsa agridulce de tamarindo
 eastern-redbud,eastern redbud (flowers),Cercis canadensis,Fabaceae,plant,
 judas-tree,Judas tree (flowers),Cercis siliquastrum,Fabaceae,plant,
 kachnar,kachnar,Bauhinia variegata,Fabaceae,plant,
@@ -1548,7 +1548,7 @@ hyacinth-bean,hyacinth bean,Lablab purpureus,Fabaceae,plant,fréjol comestible;f
 bush-potato-2,bush potato (maloga bean),Vigna lanceolata,Fabaceae,plant,maloga bean
 rice-bean,rice bean,Vigna umbellata,Fabaceae,plant,
 bambara-groundnut,Bambara groundnut,Vigna subterranea,Fabaceae,plant,maní bambara;frijol bambara;voandzú
-cowpea-bean,cowpea / yardlong bean,Vigna unguiculata,Fabaceae,plant,yardlong bean;cowpea;black-eyed pea;black-eyed peas;kaspi purutu;caupí;frijol caupí;frijol de carita;frijol carita;frijoles de carita;frijol chino;frijol cabecita negra;poroto tape;frijol castilla;frijol de castilla;chícharo de vaca;frijol ojo negro;frijol ojito;frijol vaquita;frijol de vara;judía espárrago;frijol metro;bora;frijol de costa;frijol bayo de carita
+cowpea-bean,cowpea / yardlong bean,Vigna unguiculata,Fabaceae,plant,yardlong bean;cowpea;black-eyed pea;black-eyed peas;kaspi purutu;caupí;frijol caupí;frijol de carita;frijol carita;frijoles de carita;frijol chino;frijol cabecita negra;poroto tape;frijol castilla;frijol de castilla;chícharo de vaca;frijol ojo negro;frijol ojito;frijol vaquita;frijol de vara;judía espárrago;frijol metro;bora;frijol de costa;frijol bayo de carita;snake bean;snake beans;asparagus bean;asparagus beans;long beans;Chinese long beans
 zombi-pea,zombi pea (tuber),Vigna vexillata,Fabaceae,plant,
 adzuki-bean,adzuki bean,Vigna angularis,Fabaceae,plant,frijol adzuki;poroto adzuki;judía azuki;azuki;adzuki
 moth-bean,moth bean,Vigna aconitifolia,Fabaceae,plant,
@@ -1561,7 +1561,7 @@ year-bean,year bean,Phaseolus dumosus,Fabaceae,plant,chunta purutu;fréjol cholo
 lima-bean,lima bean,Phaseolus lunatus,Fabaceae,plant,pallar;frijol de lima;frijol lima;haba de lima;garrofón;frijol pallar
 ahipa,ahipa,Pachyrhizus ahipa,Fabaceae,plant,ajima;ahipa;ajipa;jícama andina;jícama boliviana
 amazonian-yam-bean,Amazonian yam bean,Pachyrhizus tuberosus,Fabaceae,plant,jíquima;chuin;jícama amazónica;ashipa;yam bean amazónico
-jicama,jicama,Pachyrhizus erosus,Fabaceae,plant,yam bean;catzotl;jícama;nabo mexicano;jícama con chile;jícama con limón;jícama con chile y limón;jícama de leche;jícama china
+jicama,jicama,Pachyrhizus erosus,Fabaceae,plant,yam bean;catzotl;jícama;nabo mexicano;jícama de leche;jícama china
 kudzu,kudzu (starch),Pueraria montana,Fabaceae,plant,kudzu;kuzu
 hog-peanut,hog peanut,Amphicarpaea bracteata,Fabaceae,plant,
 soybean,soybean,Glycine max,Fabaceae,plant,soybean;soy;tofu;soy sauce;miso;edamame;tempeh;soy milk;natto;tamari;soja;soya;frijol de soya;poroto de soja;porotos de soja;salsa de soja;salsa de soya;queso de soya;leche de soja;leche de soya;carne de soya;harina de soja;shoyu;proteína texturizada;yuba
@@ -1825,7 +1825,7 @@ pointed-gourd,pointed gourd (parwal),Trichosanthes dioica,Cucurbitaceae,plant,pa
 fig-leaf-gourd,fig-leaf gourd (chilacayote),Cucurbita ficifolia,Cucurbitaceae,plant,chilacayote;alcayata;zambumbia;cayote;lacayote;alcayota;cidra cayote;cabello de ángel;chiverre;zambo;sambo;calabaza confitera;gila;calabaza de siam;cabellos de ángel;calabaza de hoja de higuera
 cushaw,cushaw,Cucurbita argyrosperma,Cucurbitaceae,plant,calabaza pipiana;calabaza pipián;pipiana;calabaza mixta;cushaw;calabaza cushaw;calabaza de tamal;ayote pipián;pepita de pipián;pepitas de pipián;calabaza de pepita;calabaza pepitera;calabaza de semilla;calabaza de plata;calabaza jonah;salsa de pipián
 winter-squash,winter squash (maxima),Cucurbita maxima,Cucurbitaceae,plant,zapallo para chupo;zapallo;zapallo camote;kabutiá;kabocha;calabaza gigante;buttercup;zapallo mantequilla;calabaza turbante;calabaza kabocha;hubbard squash;hubbard;buttercup squash;red kuri squash;red kuri;kuri squash;turban squash
-zucchini,zucchini / pumpkin (pepo),Cucurbita pepo,Cucurbitaceae,plant,pumpkin;zucchini;summer squash;acorn squash;courgette;pepitas;sanpu;calabacín;calabacita;zapallito;zuchini;zuquini;calabaza de verano;calabaza de bellota;calabaza bellota;calabaza acorn;calabaza espagueti;calabaza spaghetti;calabaza pattypan;calabaza patisson;calabaza pastel;calabaza de pastel;calabaza de halloween;calabaza delicata;güicoy;güicoyitos;ayote tierno;ayotes tiernos;pipián tierno;zapallo italiano;aceite de semilla de calabaza;aceite de pepita de calabaza;calabaza estiria;calabaza crookneck;calabaza amarilla;zoodles;fideos de zucchini;noodles de zucchini;tallarines de zucchini;calabaza cocozelle;calabaza costata romanesco;calabaza sweet dumpling;calabaza carnaval;calabaza de cuello torcido;squash;delicata squash;delicata;spaghetti squash;pattypan squash;pattypan
+zucchini,zucchini / pumpkin (pepo),Cucurbita pepo,Cucurbitaceae,plant,pumpkin;zucchini;summer squash;acorn squash;courgette;pepitas;sanpu;calabacín;calabacita;zapallito;zuchini;zuquini;calabaza de verano;calabaza de bellota;calabaza bellota;calabaza acorn;calabaza espagueti;calabaza spaghetti;calabaza pattypan;calabaza patisson;calabaza pastel;calabaza de pastel;calabaza de halloween;calabaza delicata;güicoy;güicoyitos;ayote tierno;ayotes tiernos;pipián tierno;zapallo italiano;aceite de semilla de calabaza;aceite de pepita de calabaza;calabaza estiria;calabaza crookneck;calabaza amarilla;zoodles;fideos de zucchini;noodles de zucchini;tallarines de zucchini;calabaza cocozelle;calabaza costata romanesco;calabaza sweet dumpling;calabaza carnaval;calabaza de cuello torcido;squash;delicata squash;delicata;spaghetti squash;pattypan squash;pattypan;marrow;vegetable marrow
 butternut-squash,butternut squash,Cucurbita moschata,Cucurbitaceae,plant,chirija;calabaza;calabaza moscada;calabaza cacahuate;calabaza cacahuete;anco;zapallo anco;zapallo anquito;anquito;zapallo coreano;auyama;ayote;ahuyama;zapallo loche;loche;tamalayota;calabaza china;pepita;pipas de calabaza;zapallo de invierno;musquée de provence;calabaza cheese;canned pumpkin;pumpkin puree;pumpkin purée;libby's pumpkin
 cassabanana,cassabanana,Sicana odorifera,Cucurbitaceae,plant,uksha;girón;cassabanana;casabanana;calabaza melón;melocotón de olor;melón de olor;curuba de olor;pepino melocotón;calabaza de olor;sicana
 bottle-gourd,bottle gourd (calabash),Lagenaria siceraria,Cucurbitaceae,plant,calabash;mati;puru;calabazo;bule;guaje tierno;calabaza bule;tecomate;jícaro tierno;calabaza vinatera;porongo;calabaza botella;calabaza de botella;calabaza cuello de cisne;lagenaria;calabaza de agua;calabaza cantimplora;calabaza de mate;opo;upo;calabaza opo;calabaza larga china;cucuzza;calabaza siciliana;bottle gourd;calabaza de peregrino;calabaza peregrina
@@ -2051,7 +2051,7 @@ wood-duck,wood duck,Aix sponsa,Anatidae,animal,
 muscovy-duck,Muscovy duck,Cairina moschata,Anatidae,animal,pato criollo;pato real;pato mudo;pato mulard
 spur-winged-goose,spur-winged goose,Plectropterus gambensis,Anatidae,animal,
 helmeted-guineafowl,helmeted guineafowl,Numida meleagris,Numididae,animal,guinea fowl;gallina de guinea;pintada;gallineta;guinea
-chicken,chicken,Gallus gallus,Phasianidae,animal,chicken;egg;eggs;hen;poultry;pollo;gallina;pechuga;muslo;contramuslo;alitas;huevo;yema;tortilla francesa;tortilla de huevo;menudencias;suprema;nuggets;custard
+chicken,chicken,Gallus gallus,Phasianidae,animal,chicken;egg;eggs;hen;poultry;pollo;gallina;pechuga;muslo;contramuslo;alitas;huevo;yema;tortilla francesa;tortilla de huevo;menudencias;suprema;nuggets;custard;gizzards;chicken gizzards
 grey-francolin,grey francolin,Francolinus pondicerianus,Phasianidae,animal,
 indian-peafowl,Indian peafowl (farmed),Pavo cristatus,Phasianidae,animal,
 grey-partridge,grey partridge,Perdix perdix,Phasianidae,animal,perdiz pardilla;perdiz gris;partridge;partridges
@@ -2087,21 +2087,21 @@ red-winged-tinamou,red-winged tinamou,Rhynchotus rufescens,Tinamidae,animal,perd
 yacare-caiman,yacare caiman,Caiman yacare,Alligatoridae,animal,yacaré;caimán
 siamese-crocodile,Siamese crocodile (farmed),Crocodylus siamensis,Crocodylidae,animal,
 saltwater-crocodile,saltwater crocodile,Crocodylus porosus,Crocodylidae,animal,
-nile-crocodile,Nile crocodile,Crocodylus niloticus,Crocodylidae,animal,cocodrilo
-american-alligator,American alligator,Alligator mississippiensis,Alligatoridae,animal,alligator;crocodile;aligátor;lagarto americano
-diamondback-terrapin,diamondback terrapin,Malaclemys terrapin,Emydidae,animal,
+nile-crocodile,Nile crocodile,Crocodylus niloticus,Crocodylidae,animal,cocodrilo;crocodile;crocodile meat;croc
+american-alligator,American alligator,Alligator mississippiensis,Alligatoridae,animal,alligator;aligátor;lagarto americano;gator;gator tail;alligator tail;gator bites;fried gator
+diamondback-terrapin,diamondback terrapin,Malaclemys terrapin,Emydidae,animal,terrapin
 pond-slider,pond slider,Trachemys scripta,Emydidae,animal,jicotea;hicotea
 asiatic-softshell,Asiatic softshell,Amyda cartilaginea,Trionychidae,animal,
 florida-softshell,Florida softshell,Apalone ferox,Trionychidae,animal,
 spiny-softshell,spiny softshell,Apalone spinifera,Trionychidae,animal,
 chinese-softshell-turtle,Chinese softshell turtle,Pelodiscus sinensis,Trionychidae,animal,
-snapping-turtle,snapping turtle,Chelydra serpentina,Chelydridae,animal,snapping turtle;turtle
+snapping-turtle,snapping turtle,Chelydra serpentina,Chelydridae,animal,snapping turtle;turtle;snapper soup
 black-and-white-tegu,black-and-white tegu,Salvator merianae,Teiidae,animal,lagarto overo;tegu;iguana overa
 reticulated-python,reticulated python,Malayopython reticulatus,Pythonidae,animal,
-burmese-python,Burmese python,Python bivittatus,Pythonidae,animal,
-western-diamondback-rattlesnake,western diamondback rattlesnake,Crotalus atrox,Viperidae,animal,
+burmese-python,Burmese python,Python bivittatus,Pythonidae,animal,python;python meat
+western-diamondback-rattlesnake,western diamondback rattlesnake,Crotalus atrox,Viperidae,animal,snake;snakes;snake meat;rattlesnake;rattlesnake meat;rattler
 many-banded-krait,many-banded krait (snake soup),Bungarus multicinctus,Elapidae,animal,snake soup
-chinese-cobra,Chinese cobra (snake soup),Naja atra,Elapidae,animal,snake soup
+chinese-cobra,Chinese cobra (snake soup),Naja atra,Elapidae,animal,snake soup;cobra
 oriental-ratsnake,oriental ratsnake,Ptyas mucosa,Colubridae,animal,
 nile-monitor,Nile monitor,Varanus niloticus,Varanidae,animal,
 asian-water-monitor,Asian water monitor,Varanus salvator,Varanidae,animal,
@@ -2109,7 +2109,7 @@ black-spiny-tailed-iguana,black spiny-tailed iguana (garrobo),Ctenosaura similis
 mexican-spiny-tailed-iguana,Mexican spiny-tailed iguana,Ctenosaura pectinata,Iguanidae,animal,
 green-iguana,green iguana,Iguana iguana,Iguanidae,animal,iguana
 red-necked-wallaby,red-necked wallaby,Notamacropus rufogriseus,Macropodidae,animal,
-red-kangaroo,red kangaroo,Osphranter rufus,Macropodidae,animal,
+red-kangaroo,red kangaroo,Osphranter rufus,Macropodidae,animal,kangaroo;kangaroo meat
 swamp-wallaby,swamp wallaby,Wallabia bicolor,Macropodidae,animal,
 eastern-grey-kangaroo,eastern grey kangaroo,Macropus giganteus,Macropodidae,animal,
 western-grey-kangaroo,western grey kangaroo,Macropus fuliginosus,Macropodidae,animal,
@@ -2117,7 +2117,7 @@ common-brushtail-possum,common brushtail possum,Trichosurus vulpecula,Phalangeri
 common-wombat,common wombat,Vombatus ursinus,Vombatidae,animal,
 northern-brown-bandicoot,northern brown bandicoot,Isoodon macrourus,Peramelidae,animal,
 common-opossum,common opossum,Didelphis marsupialis,Didelphidae,animal,zarigüeya;chucha;rabipelado;tlacuache
-virginia-opossum,Virginia opossum,Didelphis virginiana,Didelphidae,animal,
+virginia-opossum,Virginia opossum,Didelphis virginiana,Didelphidae,animal,possum;opossum
 aardvark,aardvark,Orycteropus afer,Orycteropodidae,animal,
 rock-hyrax,rock hyrax,Procavia capensis,Procaviidae,animal,
 dugong,dugong,Dugong dugon,Dugongidae,animal,
@@ -2128,7 +2128,7 @@ snowshoe-hare,snowshoe hare,Lepus americanus,Leporidae,animal,
 mountain-hare,mountain hare,Lepus timidus,Leporidae,animal,
 european-hare,European hare,Lepus europaeus,Leporidae,animal,hare;liebre
 black-tailed-jackrabbit,black-tailed jackrabbit,Lepus californicus,Leporidae,animal,
-american-beaver,American beaver,Castor canadensis,Castoridae,animal,
+american-beaver,American beaver,Castor canadensis,Castoridae,animal,beaver;beaver meat;beaver tail
 eurasian-beaver,Eurasian beaver,Castor fiber,Castoridae,animal,
 gambian-pouched-rat,Gambian pouched rat,Cricetomys gambianus,Nesomyidae,animal,
 muskrat,muskrat,Ondatra zibethicus,Cricetidae,animal,
@@ -2146,7 +2146,7 @@ lowland-paca,lowland paca,Cuniculus paca,Cuniculidae,animal,paca;tepezcuintle;te
 greater-cane-rat,greater cane rat (grasscutter),Thryonomys swinderianus,Thryonomyidae,animal,grasscutter
 african-brush-tailed-porcupine,African brush-tailed porcupine,Atherurus africanus,Hystricidae,animal,
 crested-porcupine,crested porcupine,Hystrix cristata,Hystricidae,animal,
-eastern-grey-squirrel,eastern grey squirrel,Sciurus carolinensis,Sciuridae,animal,
+eastern-grey-squirrel,eastern grey squirrel,Sciurus carolinensis,Sciuridae,animal,squirrel;gray squirrel;grey squirrel
 fox-squirrel,fox squirrel,Sciurus niger,Sciuridae,animal,
 mongolian-marmot,Mongolian marmot (tarbagan),Marmota sibirica,Sciuridae,animal,tarbagan
 groundhog,groundhog,Marmota monax,Sciuridae,animal,
@@ -2156,7 +2156,7 @@ mariana-fruit-bat,Mariana fruit bat,Pteropus mariannus,Pteropodidae,animal,
 straw-coloured-fruit-bat,straw-coloured fruit bat,Eidolon helvum,Pteropodidae,animal,
 european-badger,European badger,Meles meles,Mustelidae,animal,
 raccoon,raccoon,Procyon lotor,Procyonidae,animal,
-harp-seal,harp seal,Pagophilus groenlandicus,Phocidae,animal,
+harp-seal,harp seal,Pagophilus groenlandicus,Phocidae,animal,seal;seal meat;seal flipper
 harbour-seal,harbour seal,Phoca vitulina,Phocidae,animal,
 ringed-seal,ringed seal,Pusa hispida,Phocidae,animal,
 bearded-seal,bearded seal,Erignathus barbatus,Phocidae,animal,
@@ -2164,7 +2164,7 @@ walrus,walrus,Odobenus rosmarus,Odobenidae,animal,
 northern-fur-seal,northern fur seal,Callorhinus ursinus,Otariidae,animal,
 brown-bear,brown bear,Ursus arctos,Ursidae,animal,
 polar-bear,polar bear,Ursus maritimus,Ursidae,animal,
-american-black-bear,American black bear,Ursus americanus,Ursidae,animal,
+american-black-bear,American black bear,Ursus americanus,Ursidae,animal,bear;bear meat;black bear
 dog,dog (familiaris),Canis lupus,Canidae,animal,familiaris
 raccoon-dog,raccoon dog,Nyctereutes procyonoides,Canidae,animal,
 common-eland,common eland,Taurotragus oryx,Bovidae,animal,
@@ -2191,12 +2191,12 @@ bushbuck,bushbuck,Tragelaphus scriptus,Bovidae,animal,
 water-buffalo,water buffalo,Bubalus bubalis,Bovidae,animal,water buffalo;buffalo mozzarella;búfalo;búfala
 african-buffalo,African buffalo,Syncerus caffer,Bovidae,animal,
 american-bison,American bison,Bison bison,Bovidae,animal,bison;buffalo;bisonte
-domestic-yak,domestic yak,Bos grunniens,Bovidae,animal,
+domestic-yak,domestic yak,Bos grunniens,Bovidae,animal,yak;yak meat
 european-bison,European bison (wisent),Bison bonasus,Bovidae,animal,wisent
 gayal,gayal (mithun),Bos frontalis,Bovidae,animal,mithun
 banteng-cattle,banteng / Bali cattle,Bos javanicus,Bovidae,animal,Bali cattle
 zebu,zebu,Bos indicus,Bovidae,animal,
-cattle,cattle,Bos taurus,Bovidae,animal,cattle;beef;milk;cheese;butter;cream;yogurt;ghee;steak;veal;whey;parmesan;cheddar;mozzarella;burger;hamburger;cheeseburger;ground beef;res;carne de vaca;vaca;vacuno;ternera;carne;bife;lomo;vacío;matambre;entraña;costilla;picaña;picanha;bistec;bisté;cecina;charqui;charque;tasajo;mondongo;chinchulines;molleja;riñón;osobuco;rabo de toro;arrachera;leche;queso;quesillo;requesón;ricota;ricotta;mantequilla;manteca;crema;nata;yogur;suero;helado;jocoque;cuajada;provolone;muzzarella;burrata;chantilly;kéfir;kumis;bienmesabe;cebú;suet;beef suet;dripping;beef dripping;custard;clotted cream;wensleydale;caerphilly;red leicester;double gloucester;cheshire cheese;lancashire cheese;sour cream;half and half;half-and-half;sweetened condensed milk;cream cheese frosting
+cattle,cattle,Bos taurus,Bovidae,animal,cattle;beef;milk;cheese;butter;cream;yogurt;ghee;steak;veal;whey;parmesan;cheddar;mozzarella;burger;hamburger;cheeseburger;ground beef;res;carne de vaca;vaca;vacuno;ternera;carne;bife;lomo;vacío;matambre;entraña;costilla;picaña;picanha;bistec;bisté;cecina;charqui;charque;tasajo;mondongo;chinchulines;molleja;riñón;osobuco;rabo de toro;arrachera;leche;queso;quesillo;requesón;ricota;ricotta;mantequilla;manteca;crema;nata;yogur;suero;helado;jocoque;cuajada;provolone;muzzarella;burrata;chantilly;kéfir;kumis;bienmesabe;cebú;suet;beef suet;dripping;beef dripping;custard;clotted cream;wensleydale;caerphilly;red leicester;double gloucester;cheshire cheese;lancashire cheese;sour cream;half and half;half-and-half;sweetened condensed milk;cream cheese frosting;tripe;sweetbreads;oxtail;oxtails;bone marrow;marrow bones;tongue;ox tongue;lengua;lengua de res;liver;calf liver;calves liver;calfs liver;jerky;beef jerky
 moose,moose,Alces alces,Cervidae,animal,alce
 roe-deer,roe deer,Capreolus capreolus,Cervidae,animal,corzo
 water-deer,water deer,Hydropotes inermis,Cervidae,animal,
@@ -2217,7 +2217,7 @@ long-finned-pilot-whale,long-finned pilot whale,Globicephala melas,Delphinidae,a
 dalls-porpoise,Dall's porpoise,Phocoenoides dalli,Phocoenidae,animal,
 beluga,beluga,Delphinapterus leucas,Monodontidae,animal,
 narwhal,narwhal,Monodon monoceros,Monodontidae,animal,
-common-minke-whale,common minke whale,Balaenoptera acutorostrata,Balaenopteridae,animal,
+common-minke-whale,common minke whale,Balaenoptera acutorostrata,Balaenopteridae,animal,whale;whale meat;minke whale;minke
 bowhead-whale,bowhead whale,Balaena mysticetus,Balaenidae,animal,
 fin-whale,fin whale,Balaenoptera physalus,Balaenopteridae,animal,
 antarctic-minke-whale,Antarctic minke whale,Balaenoptera bonaerensis,Balaenopteridae,animal,
@@ -2225,7 +2225,7 @@ hippopotamus,hippopotamus,Hippopotamus amphibius,Hippopotamidae,animal,
 babirusa,babirusa,Babyrousa celebensis,Suidae,animal,
 common-warthog,common warthog,Phacochoerus africanus,Suidae,animal,
 bearded-pig,bearded pig,Sus barbatus,Suidae,animal,
-pig-boar,pig / wild boar,Sus scrofa,Suidae,animal,wild boar;pig;pork;bacon;ham;lard;prosciutto;sausage;pancetta;gelatin;cerdo;chancho;puerco;cochino;marrano;cochinillo;chuleta;panceta;tocino;tocineta;longaniza;salchicha;salchichón;morcilla;moronga;rellena;butifarra;fuet;chicharrón;cochinita;lardo;bondiola;sobrasada;mortadela;jamonada;jabalí;cuerito;salame;bacón;beicon;codillo;lacón;pancho;frankfurt;embutido;costillar;paté;guanciale;pastor;gammon;gammon steak;pork scratchings;streaky bacon;back bacon
+pig-boar,pig / wild boar,Sus scrofa,Suidae,animal,wild boar;pig;pork;bacon;ham;lard;prosciutto;sausage;pancetta;gelatin;cerdo;chancho;puerco;cochino;marrano;cochinillo;chuleta;panceta;tocino;tocineta;longaniza;salchicha;salchichón;morcilla;moronga;rellena;butifarra;fuet;chicharrón;cochinita;lardo;bondiola;sobrasada;mortadela;jamonada;jabalí;cuerito;salame;bacón;beicon;codillo;lacón;pancho;frankfurt;embutido;costillar;paté;guanciale;pastor;gammon;gammon steak;pork scratchings;streaky bacon;back bacon;boar;chitterlings;chitlins;chitlings;chittlins;trotters;head cheese;headcheese;brawn
 celebes-warty-pig,Celebes warty pig,Sus celebensis,Suidae,animal,
 bushpig,bushpig,Potamochoerus larvatus,Suidae,animal,
 red-river-hog,red river hog,Potamochoerus porcus,Suidae,animal,
@@ -2244,7 +2244,7 @@ short-beaked-echidna,short-beaked echidna,Tachyglossus aculeatus,Tachyglossidae,
 smoky-jungle-frog,smoky jungle frog,Leptodactylus pentadactylus,Leptodactylidae,animal,
 african-bullfrog,African bullfrog,Pyxicephalus adspersus,Pyxicephalidae,animal,
 northern-leopard-frog,northern leopard frog,Lithobates pipiens,Ranidae,animal,
-american-bullfrog,American bullfrog,Lithobates catesbeianus,Ranidae,animal,rana;rana toro
+american-bullfrog,American bullfrog,Lithobates catesbeianus,Ranidae,animal,rana;rana toro;frog;frogs;frog legs;frog leg;frogs legs;bullfrog;cuisses de grenouille;ancas de rana
 edible-frog,edible frog,Pelophylax kl. esculentus,Ranidae,animal,
 marsh-frog,marsh frog,Pelophylax ridibundus,Ranidae,animal,
 indian-bullfrog,Indian bullfrog,Hoplobatrachus tigerinus,Dicroglossidae,animal,
@@ -2256,7 +2256,7 @@ west-african-lungfish,West African lungfish,Protopterus annectens,Protopteridae,
 bichir,bichir,Polypterus senegalus,Polypteridae,animal,
 paddlefish,paddlefish,Polyodon spathula,Polyodontidae,animal,pez espátula;pez cuchara;caviar de pez espátula
 atlantic-sturgeon,Atlantic sturgeon,Acipenser oxyrinchus,Acipenseridae,animal,
-white-sturgeon,white sturgeon,Acipenser transmontanus,Acipenseridae,animal,esturión blanco;caviar de esturión blanco
+white-sturgeon,white sturgeon,Acipenser transmontanus,Acipenseridae,animal,esturión blanco;caviar de esturión blanco;sturgeon;smoked sturgeon
 beluga-sturgeon,beluga sturgeon,Huso huso,Acipenseridae,animal,caviar beluga;esturión beluga
 stellate-sturgeon,stellate sturgeon (sevruga),Acipenser stellatus,Acipenseridae,animal,sevruga;caviar sevruga;esturión estrellado
 russian-sturgeon,Russian sturgeon (osetra),Acipenser gueldenstaedtii,Acipenseridae,animal,osetra;caviar;esturión
@@ -2270,9 +2270,9 @@ bonefish,bonefish,Albula vulpes,Albulidae,animal,macabí de hueso;ratón de mar
 shortfin-eel,shortfin eel,Anguilla australis,Anguillidae,animal,
 japanese-eel,Japanese eel (unagi),Anguilla japonica,Anguillidae,animal,unagi;anguila japonesa;kabayaki
 european-eel,European eel,Anguilla anguilla,Anguillidae,animal,anguila;angulas;angula
-american-eel,American eel,Anguilla rostrata,Anguillidae,animal,anguila americana
-giant-moray,giant moray,Gymnothorax javanicus,Muraenidae,animal,morena
-european-conger,European conger,Conger conger,Congridae,animal,congrio europeo;congrio común
+american-eel,American eel,Anguilla rostrata,Anguillidae,animal,anguila americana;eel;eels;smoked eel
+giant-moray,giant moray,Gymnothorax javanicus,Muraenidae,animal,morena;moray eel;moray
+european-conger,European conger,Conger conger,Congridae,animal,congrio europeo;congrio común;conger eel;conger
 whitespotted-conger,whitespotted conger (anago),Conger myriaster,Congridae,animal,anago;congrio japonés
 daggertooth-pike-conger,daggertooth pike conger (hamo),Muraenesox cinereus,Muraenesocidae,animal,hamo;congrio picudo
 goldeye,goldeye,Hiodon alosoides,Hiodontidae,animal,
@@ -2286,7 +2286,7 @@ indian-anchovy,Indian anchovy,Stolephorus indicus,Engraulidae,animal,anchoa indi
 japanese-grenadier-anchovy,Japanese grenadier anchovy,Coilia nasus,Engraulidae,animal,
 peruvian-anchoveta,Peruvian anchoveta,Engraulis ringens,Engraulidae,animal,anchoveta
 northern-anchovy,northern anchovy,Engraulis mordax,Engraulidae,animal,anchoveta norteña;anchoa del pacífico norte
-european-anchovy,European anchovy,Engraulis encrasicolus,Engraulidae,animal,anchoa;boquerón;bocarte
+european-anchovy,European anchovy,Engraulis encrasicolus,Engraulidae,animal,anchoa;boquerón;bocarte;anchovy;anchovies;anchovy fillets;anchovy paste
 japanese-anchovy,Japanese anchovy,Engraulis japonicus,Engraulidae,animal,anchoa japonesa;niboshi;iriko
 sprat,sprat,Sprattus sprattus,Clupeidae,animal,sprat
 atlantic-herring,Atlantic herring,Clupea harengus,Clupeidae,animal,herring;arenque;kipper;kippers
@@ -2295,7 +2295,7 @@ european-pilchard,European pilchard (sardine),Sardina pilchardus,Clupeidae,anima
 pacific-sardine,Pacific sardine,Sardinops sagax,Clupeidae,animal,sardina del pacífico;sardina peruana;sardina chilena;sardina monterrey;sardina crinuda
 atlantic-menhaden,Atlantic menhaden,Brevoortia tyrannus,Alosidae,animal,lacha;menhaden
 alewife,alewife,Alosa pseudoharengus,Alosidae,animal,
-american-shad,American shad,Alosa sapidissima,Alosidae,animal,sábalo americano;alosa americana
+american-shad,American shad,Alosa sapidissima,Alosidae,animal,sábalo americano;alosa americana;shad;shad roe
 allis-shad,allis shad,Alosa alosa,Alosidae,animal,sábalo europeo;alosa
 hilsa,hilsa,Tenualosa ilisha,Dorosomatidae,animal,hilsa;ilish
 dotted-gizzard-shad,dotted gizzard shad (kohada),Konosirus punctatus,Dorosomatidae,animal,kohada;konoshiro
@@ -2373,7 +2373,7 @@ chub,chub,Squalius cephalus,Leuciscidae,animal,
 common-bream,common bream,Abramis brama,Leuciscidae,animal,
 roach,roach,Rutilus rutilus,Leuciscidae,animal,rutilo;bermejuela
 muskellunge,muskellunge,Esox masquinongy,Esocidae,animal,
-northern-pike,northern pike,Esox lucius,Esocidae,animal,lucio
+northern-pike,northern pike,Esox lucius,Esocidae,animal,lucio;pike
 inconnu,inconnu (sheefish),Stenodus leucichthys,Salmonidae,animal,sheefish
 cisco,cisco,Coregonus artedi,Salmonidae,animal,
 vendace,vendace,Coregonus albula,Salmonidae,animal,
@@ -2392,7 +2392,7 @@ atlantic-salmon,Atlantic salmon,Salmo salar,Salmonidae,animal,Atlantic salmon;sa
 brown-trout,brown trout / sea trout,Salmo trutta,Salmonidae,animal,sea trout;trucha marrón;trucha común;trucha fario;reo
 masu-salmon,masu salmon,Oncorhynchus masou,Salmonidae,animal,
 sockeye-salmon,sockeye salmon,Oncorhynchus nerka,Salmonidae,animal,Pacific salmon;sockeye;coho;king salmon;chinook;salmón rojo;salmón sockeye
-chum-salmon,chum salmon,Oncorhynchus keta,Salmonidae,animal,salmón keta;salmón chum
+chum-salmon,chum salmon,Oncorhynchus keta,Salmonidae,animal,salmón keta;salmón chum;ikura
 pink-salmon,pink salmon,Oncorhynchus gorbuscha,Salmonidae,animal,salmón rosado
 chinook-salmon,chinook salmon,Oncorhynchus tshawytscha,Salmonidae,animal,salmón chinook;salmón rey
 coho-salmon,coho salmon,Oncorhynchus kisutch,Salmonidae,animal,salmón coho;salmón plateado
@@ -2432,8 +2432,8 @@ saithe,saithe (coley),Pollachius virens,Gadidae,animal,coley;carbonero;fogonero;
 haddock,haddock,Melanogrammus aeglefinus,Gadidae,animal,haddock;eglefino;finnan haddie;smoked haddock;arbroath smokie;arbroath smokies;smokies
 whiting,whiting,Merlangius merlangus,Gadidae,animal,merlán;plegonero
 polar-cod,polar cod,Boreogadus saida,Gadidae,animal,
-alaska-pollock,Alaska pollock,Gadus chalcogrammus,Gadidae,animal,pollock;surimi;fish sticks;abadejo de alaska;colín de alaska;polaca;kanikama;kani;palitos de cangrejo;palitos de mar
-atlantic-cod,Atlantic cod,Gadus morhua,Gadidae,animal,cod;bacalao;salt cod;kokotxas;cocochas;pil pil
+alaska-pollock,Alaska pollock,Gadus chalcogrammus,Gadidae,animal,pollock;surimi;fish sticks;abadejo de alaska;colín de alaska;polaca;kanikama;kani;palitos de cangrejo;palitos de mar;imitation crab;imitation crab meat;crab stick;crab sticks;krab
+atlantic-cod,Atlantic cod,Gadus morhua,Gadidae,animal,cod;bacalao;salt cod;kokotxas;cocochas;pil pil;lutefisk
 pacific-cod,Pacific cod,Gadus macrocephalus,Gadidae,animal,bacalao del pacífico
 hoki,hoki,Macruronus novaezelandiae,Merlucciidae,animal,hoki
 patagonian-grenadier,Patagonian grenadier,Macruronus magellanicus,Merlucciidae,animal,merluza de cola;hoki patagónico
@@ -2540,14 +2540,14 @@ deepwater-longtail-red-snapper,deepwater longtail red snapper (onaga),Etelis cor
 crimson-jobfish,crimson jobfish (opakapaka),Pristipomoides filamentosus,Lutjanidae,animal,opakapaka
 redbelly-yellowtail-fusilier,redbelly yellowtail fusilier,Caesio cuning,Caesionidae,animal,
 malabar-blood-snapper,Malabar blood snapper,Lutjanus malabaricus,Lutjanidae,animal,
-grey-snapper,grey snapper,Lutjanus griseus,Lutjanidae,animal,pargo gris;pargo prieto;pargo mangle;pargo dientón
+grey-snapper,grey snapper,Lutjanus griseus,Lutjanidae,animal,pargo gris;pargo prieto;pargo mangle;pargo dientón;mangrove snapper;gray snapper
 mangrove-red-snapper,mangrove red snapper,Lutjanus argentimaculatus,Lutjanidae,animal,pargo de manglar
 mutton-snapper,mutton snapper,Lutjanus analis,Lutjanidae,animal,pargo criollo;pargo mulato;pargo cebal
 lane-snapper,lane snapper,Lutjanus synagris,Lutjanidae,animal,pargo biajaiba;biajaiba;pargo rayado
 yellowtail-snapper,yellowtail snapper,Ocyurus chrysurus,Lutjanidae,animal,rabirrubia;pargo rabirrubia;rubia de mar
 vermilion-snapper,vermilion snapper,Rhomboplites aurorubens,Lutjanidae,animal,pargo cunaro;cunaro;rubia
 southern-red-snapper,southern red snapper,Lutjanus purpureus,Lutjanidae,animal,pargo del caribe;pargo colorado;pargo rojo del sur
-northern-red-snapper,northern red snapper,Lutjanus campechanus,Lutjanidae,animal,huachinango;pargo;chillo;guachinango
+northern-red-snapper,northern red snapper,Lutjanus campechanus,Lutjanidae,animal,huachinango;pargo;chillo;guachinango;snapper;red snapper
 johns-snapper,John's snapper,Lutjanus johnii,Lutjanidae,animal,
 bluestripe-snapper,bluestripe snapper (ta'ape),Lutjanus kasmira,Lutjanidae,animal,ta'ape
 two-spot-red-snapper,two-spot red snapper,Lutjanus bohar,Lutjanidae,animal,
@@ -2558,7 +2558,7 @@ porkfish,porkfish,Anisotremus virginicus,Haemulidae,animal,catalineta;burro cata
 white-grunt,white grunt,Haemulon plumierii,Haemulidae,animal,ronco
 european-sea-bass,European sea bass (branzino),Dicentrarchus labrax,Moronidae,animal,branzino;sea bass;lubina;seabass
 white-bass,white bass,Morone chrysops,Moronidae,animal,
-striped-bass,striped bass,Morone saxatilis,Moronidae,animal,lubina rayada;róbalo rayado;lobina rayada
+striped-bass,striped bass,Morone saxatilis,Moronidae,animal,lubina rayada;róbalo rayado;lobina rayada;bass;striper
 white-perch,white perch,Morone americana,Moronidae,animal,
 king-george-whiting,King George whiting,Sillaginodes punctatus,Sillaginidae,animal,
 silver-sillago,silver sillago,Sillago sihama,Sillaginidae,animal,
@@ -2588,13 +2588,13 @@ smallmouth-bass,smallmouth bass,Micropterus dolomieu,Centrarchidae,animal,lobina
 bluegill,bluegill,Lepomis macrochirus,Centrarchidae,animal,mojarra de agalla azul;pez sol;mojarra americana
 greater-weever,greater weever,Trachinus draco,Trachinidae,animal,araña;escorpión de mar
 european-perch,European perch,Perca fluviatilis,Percidae,animal,perca
-yellow-perch,yellow perch,Perca flavescens,Percidae,animal,perca amarilla
+yellow-perch,yellow perch,Perca flavescens,Percidae,animal,perca amarilla;perch
 sauger,sauger,Sander canadensis,Percidae,animal,
 walleye,walleye,Sander vitreus,Percidae,animal,lucioperca americana;walleye
-zander,zander,Sander lucioperca,Percidae,animal,lucioperca
+zander,zander,Sander lucioperca,Percidae,animal,lucioperca;pike perch;pikeperch
 patagonian-blenny,Patagonian blenny (róbalo),Eleginops maclovinus,Eleginopidae,animal,róbalo;róbalo chileno;robalo patagónico;róbalo de chile
 antarctic-toothfish,Antarctic toothfish,Dissostichus mawsoni,Nototheniidae,animal,
-patagonian-toothfish,Patagonian toothfish,Dissostichus eleginoides,Nototheniidae,animal,merluza negra;bacalao de profundidad;bacalao austral;bacalao chileno;mero chileno;bacalao patagónico
+patagonian-toothfish,Patagonian toothfish,Dissostichus eleginoides,Nototheniidae,animal,merluza negra;bacalao de profundidad;bacalao austral;bacalao chileno;mero chileno;bacalao patagónico;Chilean sea bass;Chilean seabass;toothfish
 marbled-rockcod,marbled rockcod,Notothenia rossii,Nototheniidae,animal,
 mackerel-icefish,mackerel icefish,Champsocephalus gunnari,Channichthyidae,animal,
 comber,comber,Serranus cabrilla,Serranidae,animal,cabrilla
@@ -2610,7 +2610,7 @@ orange-spotted-grouper,orange-spotted grouper,Epinephelus coioides,Serranidae,an
 malabar-grouper,Malabar grouper,Epinephelus malabaricus,Serranidae,animal,
 giant-grouper,giant grouper,Epinephelus lanceolatus,Serranidae,animal,
 nassau-grouper,Nassau grouper,Epinephelus striatus,Serranidae,animal,cherna criolla;mero de nassau
-red-grouper,red grouper,Epinephelus morio,Serranidae,animal,mero rojo;cherna americana;mero del golfo
+red-grouper,red grouper,Epinephelus morio,Serranidae,animal,mero rojo;cherna americana;mero del golfo;grouper
 bartail-flathead,bartail flathead,Platycephalus indicus,Platycephalidae,animal,
 black-scorpionfish,black scorpionfish,Scorpaena porcus,Scorpaenidae,animal,rascacio negro;escórpora negra
 red-scorpionfish,red scorpionfish (rascasse),Scorpaena scrofa,Scorpaenidae,animal,rascasse;cabracho;escorpora;rascacio;gallineta de roca
@@ -2621,7 +2621,7 @@ japanese-rockfish,Japanese rockfish (mebaru),Sebastes inermis,Sebastidae,animal,
 korean-rockfish,Korean rockfish (jopi-bolrak),Sebastes schlegelii,Sebastidae,animal,jopi-bolrak
 pacific-ocean-perch,Pacific ocean perch,Sebastes alutus,Sebastidae,animal,perca del pacífico;gallineta del pacífico
 beaked-redfish,beaked redfish,Sebastes mentella,Sebastidae,animal,gallineta de canadá;gallineta de profundidad
-golden-redfish,golden redfish,Sebastes norvegicus,Sebastidae,animal,gallineta nórdica;gallineta dorada
+golden-redfish,golden redfish,Sebastes norvegicus,Sebastidae,animal,gallineta nórdica;gallineta dorada;ocean perch
 yellowtail-rockfish,yellowtail rockfish,Sebastes flavidus,Sebastidae,animal,
 black-rockfish,black rockfish,Sebastes melanops,Sebastidae,animal,
 northern-searobin,northern searobin,Prionotus carolinus,Triglidae,animal,
@@ -2755,12 +2755,12 @@ sand-flounder,sand flounder (NZ),Rhombosolea plebeia,Rhombosoleidae,animal,
 arrowtooth-flounder,arrowtooth flounder,Atheresthes stomias,Pleuronectidae,animal,
 largetooth-flounder,largetooth flounder,Pseudorhombus arsius,Paralichthyidae,animal,
 southern-flounder,southern flounder,Paralichthys lethostigma,Paralichthyidae,animal,
-summer-flounder,summer flounder (fluke),Paralichthys dentatus,Paralichthyidae,animal,fluke;lenguado de verano
+summer-flounder,summer flounder (fluke),Paralichthys dentatus,Paralichthyidae,animal,fluke;lenguado de verano;flounder
 olive-flounder,olive flounder (hirame),Paralichthys olivaceus,Paralichthyidae,animal,hirame;lenguado japonés
 california-halibut,California halibut,Paralichthys californicus,Paralichthyidae,animal,lenguado de california;halibut de california
 spotted-halibut,spotted halibut (hoshigarei),Verasper variegatus,Pleuronectidae,animal,hoshigarei
 pacific-halibut,Pacific halibut,Hippoglossus stenolepis,Pleuronectidae,animal,fletán del pacífico;halibut del pacífico
-atlantic-halibut,Atlantic halibut,Hippoglossus hippoglossus,Pleuronectidae,animal,halibut;flounder;fletán;hipogloso
+atlantic-halibut,Atlantic halibut,Hippoglossus hippoglossus,Pleuronectidae,animal,halibut;fletán;hipogloso
 petrale-sole,petrale sole,Eopsetta jordani,Pleuronectidae,animal,
 greenland-halibut,Greenland halibut,Reinhardtius hippoglossoides,Pleuronectidae,animal,fletán negro;halibut de groenlandia;fletán de groenlandia
 rex-sole,rex sole,Glyptocephalus zachirus,Pleuronectidae,animal,
@@ -2897,7 +2897,7 @@ mexican-four-eyed-octopus,Mexican four-eyed octopus,Octopus maya,Octopodidae,ani
 east-asian-common-octopus,East Asian common octopus,Octopus sinensis,Octopodidae,animal,
 common-octopus,common octopus,Octopus vulgaris,Octopodidae,animal,octopus;pulpo;tako
 japanese-limpet,Japanese limpet,Cellana grata,Nacellidae,animal,lapa japonesa
-common-limpet,common limpet,Patella vulgata,Patellidae,animal,lapa europea;lapa común;lapas gallegas;lapa gallega
+common-limpet,common limpet,Patella vulgata,Patellidae,animal,lapa europea;lapa común;lapas gallegas;lapa gallega;limpet;limpets
 nerite,nerite,Nerita albicilla,Neritidae,animal,nerita;caracol nerita
 wedge-sea-hare,wedge sea hare,Dolabella auricularia,Aplysiidae,animal,liebre de mar;liebres de mar;babosa de mar
 giant-west-african-snail,giant West African snail,Archachatina marginata,Achatinidae,animal,caracol gigante de áfrica occidental
@@ -2912,7 +2912,7 @@ river-snail,river snail,Viviparus viviparus,Viviparidae,animal,caracol de río;c
 chinese-mystery-snail,Chinese mystery snail,Cipangopaludina chinensis,Viviparidae,animal,caracol chino de agua dulce;caracol misterioso
 golden-apple-snail,golden apple snail,Pomacea canaliculata,Ampullariidae,animal,churo;caracol manzana;caracol de agua dulce;caracol dorado
 apple-snail,apple snail,Pila globosa,Ampullariidae,animal,caracol manzana indio;caracol de arrozal
-queen-conch,queen conch,Aliger gigas,Strombidae,animal,queen conch;caracol pala;cobo;lambí;caracol rosado;caracol reina;caracol de concha;carrucho;botuto;guarura
+queen-conch,queen conch,Aliger gigas,Strombidae,animal,queen conch;caracol pala;cobo;lambí;caracol rosado;caracol reina;caracol de concha;carrucho;botuto;guarura;conch;conch fritters
 horn-snail,horn snail (mud creeper),Telescopium telescopium,Potamididae,animal,mud creeper
 mangrove-periwinkle,mangrove periwinkle (West Africa),Tympanotonus fuscatus,Potamididae,animal,
 periwinkle,periwinkle,Littorina littorea,Littorinidae,animal,periwinkle;winkle;winkles;bígaro;caracolillo;mincha
@@ -2940,7 +2940,7 @@ greenlip-abalone,greenlip abalone,Haliotis laevigata,Haliotidae,animal,abulón d
 ormer,ormer,Haliotis tuberculata,Haliotidae,animal,oreja de mar europea;ormer;abulón europeo
 paua,paua,Haliotis iris,Haliotidae,animal,paua;abulón paua
 south-african-abalone,South African abalone (perlemoen),Haliotis midae,Haliotidae,animal,perlemoen;abulón sudafricano
-red-abalone,red abalone,Haliotis rufescens,Haliotidae,animal,abulón;abalón;oreja de mar
+red-abalone,red abalone,Haliotis rufescens,Haliotidae,animal,abulón;abalón;oreja de mar;abalone
 japanese-abalone,Japanese abalone (ezo awabi),Haliotis discus,Haliotidae,animal,ezo awabi;awabi;abulón japonés;abalón japonés
 tumbao,tumbao,Semele solida,Semelidae,animal,almeja tumbao
 culengue,culengue,Gari solida,Psammobiidae,animal,culengues
@@ -3036,7 +3036,7 @@ superworm,superworm,Zophobas morio,Tenebrionidae,animal,
 mealworm,mealworm,Tenebrio molitor,Tenebrionidae,animal,mealworm
 escamoles,escamoles,Liometopum apiculatum,Formicidae,animal,
 weaver-ant-eggs,weaver ant eggs,Oecophylla smaragdina,Formicidae,animal,
-hormigas-culonas,hormigas culonas (leafcutter ant),Atta laevigata,Formicidae,animal,leafcutter ant;hormiga culona;hormigas culonas;hormiga santandereana;hormigas santandereanas;culona;hormiga culona tostada;hormiga culona con sal;hormigas culonas con sal;hormiga reina;hormigas reinas;hormiga arriera reina;hormigas arrieras reinas;hormiga arriera;hormigas arrieras;hormiga cortadora;hormigas cortadoras;hormiga bachaco;bachaco;hormiga chicatana grande;chicatana grande;chicatanas grandes;zompopo;zompopa;sompopo;tzompopo;nucú;chicatana;hormiga chicatana tostada;hormiga chicatana con sal;hormigas chicatanas con sal;hormiga chicatana con limón;hormigas chicatanas con limón;hormiga chicatana con chile;hormigas chicatanas con chile;hormiga chicatana con ajo;hormigas chicatanas con ajo;salsa de chicatana;salsa de hormigas chicatanas;salsa de hormigas;salsa de hormiga;sal de chicatana;sal de hormiga chicatana;sal de hormigas chicatanas;sal de hormiga;chicatana en salsa;chicatana en sal;chicatanas en sal;chicatana en tortilla;chicatanas en tortilla;tortilla de chicatana;tortillas de chicatana;chicatana en empanada;chicatanas en empanada;empanada de chicatana;empanadas de chicatana;chicatana en guacamole;chicatanas en guacamole;guacamole de chicatana;chicatana en tostada;chicatanas en tostada;tostada de chicatana
+hormigas-culonas,hormigas culonas (leafcutter ant),Atta laevigata,Formicidae,animal,leafcutter ant;hormiga culona;hormigas culonas;hormiga santandereana;hormigas santandereanas;culona;hormiga culona tostada;hormiga reina;hormigas reinas;hormiga arriera reina;hormigas arrieras reinas;hormiga arriera;hormigas arrieras;hormiga cortadora;hormigas cortadoras;hormiga bachaco;bachaco;hormiga chicatana grande;chicatana grande;chicatanas grandes;zompopo;zompopa;sompopo;tzompopo;nucú;chicatana;hormiga chicatana tostada;salsa de chicatana;salsa de hormigas chicatanas;salsa de hormigas;salsa de hormiga;sal de chicatana;sal de hormiga chicatana;sal de hormigas chicatanas;sal de hormiga;tortilla de chicatana;tortillas de chicatana;empanada de chicatana;empanadas de chicatana;guacamole de chicatana;tostada de chicatana
 sugarbag-bee,sugarbag bee (honey),Tetragonula carbonaria,Apidae,animal,miel de abeja sin aguijón australiana;sugarbag;miel sugarbag
 maya-stingless-bee,Maya stingless bee (honey),Melipona beecheii,Apidae,animal,miel de melipona;miel maya;abeja melipona;miel de abeja sin aguijón;miel de abeja melipona;abeja xunan kab;xunan kab;melipona;miel virgen;miel de abeja nativa;abeja nativa sin aguijón;abeja sin aguijón;abejas sin aguijón;miel de abejas sin aguijón;miel yucateca;miel de yucatán;miel de la península;miel de abeja maya;miel de abejas mayas;miel de meliponario;meliponario;miel de jobón;jobón
 giant-honey-bee,giant honey bee (honey),Apis dorsata,Apidae,animal,abeja gigante;miel de abeja gigante;miel silvestre asiática
@@ -3053,7 +3053,7 @@ periodical-cicada,periodical cicada,Magicicada septendecim,Cicadidae,animal,
 black-cicada,black cicada,Cryptotympana atrata,Cicadidae,animal,cicada;cicadas;cicada nymphs;cicada nymph;fried cicadas;zhi liao
 termite,termite (subhyalinus),Macrotermes subhyalinus,Termitidae,animal,
 termite-2,termite (alate),Macrotermes bellicosus,Termitidae,animal,
-chapulin,chapulín,Sphenarium purpurascens,Pyrgomorphidae,animal,
+chapulin,chapulín,Sphenarium purpurascens,Pyrgomorphidae,animal,grasshoppers;fried grasshoppers;chapulines
 desert-locust,desert locust,Schistocerca gregaria,Acrididae,animal,
 migratory-locust,migratory locust,Locusta migratoria,Acrididae,animal,
 nsenene,nsenene (bush cricket),Ruspolia differens,Tettigoniidae,animal,bush cricket
@@ -3169,12 +3169,12 @@ snakelocks-anemone,snakelocks anemone (ortiguillas),Anemonia viridis,Actiniidae,
 nomuras-jellyfish,Nomura's jellyfish,Nemopilema nomurai,Rhizostomatidae,animal,medusa nomura
 cannonball-jellyfish,cannonball jellyfish,Stomolophus meleagris,Stomolophidae,animal,medusa bala de cañón;medusa de bala de cañón;aguamala
 sand-jellyfish,sand jellyfish,Rhopilema hispidum,Rhizostomatidae,animal,
-edible-jellyfish,edible jellyfish,Rhopilema esculentum,Rhizostomatidae,animal,edible jellyfish;medusa
+edible-jellyfish,edible jellyfish,Rhopilema esculentum,Rhizostomatidae,animal,edible jellyfish;medusa;jellyfish
 mucor,mucor,Mucor racemosus,Mucoraceae,fungus,
 sufu-mould,sufu mould,Actinomucor elegans,Mucoraceae,fungus,
 tempeh-mould,tempeh / ragi mould,Rhizopus oryzae,Rhizopodaceae,fungus,ragi mould
 tempeh-mould-2,tempeh mould,Rhizopus oligosporus,Rhizopodaceae,fungus,tempeh mold;tempeh
-huitlacoche,huitlacoche,Ustilago maydis,Ustilaginaceae,fungus,huitlacoche;corn smut;cuitlacoche;hongo del maíz;hongos del maíz;hongo de maíz;hongos de maíz;carbón del maíz;carbón de maíz;trufa mexicana;trufas mexicanas;caviar mexicano;caviar azteca;hongo azteca;hongos aztecas;crema de huitlacoche;salsa de huitlacoche;huitlacoche con queso;huitlacoches con queso;huitlacoche con elote;huitlacoches con elote;huitlacoche con flor de calabaza;huitlacoches con flor de calabaza;huitlacoche con epazote;huitlacoches con epazote;huitlacoche con chile;huitlacoches con chile;huitlacoche con cebolla;huitlacoches con cebolla;huitlacoche con ajo;huitlacoches con ajo;huitlacoche con tomate;huitlacoches con tomate;huitlacoche con crema;huitlacoches con crema;huitlacoche con pollo;huitlacoches con pollo;huitlacoche con carne;huitlacoches con carne;huitlacoche con camarón;huitlacoches con camarón;huitlacoche con huevo;huitlacoches con huevo;huitlacoche con frijoles;huitlacoches con frijoles;huitlacoche con arroz;huitlacoches con arroz;huitlacoche con pasta;huitlacoches con pasta;huitlacoche con tortillas;huitlacoches con tortillas;huitlacoche con pan;huitlacoches con pan;huitlacoche con pipián;huitlacoches con pipián
+huitlacoche,huitlacoche,Ustilago maydis,Ustilaginaceae,fungus,huitlacoche;corn smut;cuitlacoche;hongo del maíz;hongos del maíz;hongo de maíz;hongos de maíz;carbón del maíz;carbón de maíz;trufa mexicana;trufas mexicanas;caviar mexicano;caviar azteca;hongo azteca;hongos aztecas;crema de huitlacoche;salsa de huitlacoche
 golden-ear,golden ear,Naematelia aurantialba,Naemateliaceae,fungus,
 snow-fungus,snow fungus,Tremella fuciformis,Tremellaceae,fungus,snow fungus;white fungus
 pacific-golden-chanterelle,Pacific golden chanterelle,Cantharellus formosus,Cantharellaceae,fungus,
@@ -3275,7 +3275,7 @@ cheese-rind-yeast,cheese-rind yeast,Debaryomyces hansenii,Debaryomycetaceae,fung
 brett,brett,Brettanomyces bruxellensis,Pichiaceae,fungus,
 wine-yeast,wine yeast,Saccharomyces bayanus,Saccharomycetaceae,fungus,
 lager-yeast,lager yeast,Saccharomyces pastorianus,Saccharomycetaceae,fungus,
-bakers-yeast,baker's / brewer's yeast,Saccharomyces cerevisiae,Saccharomycetaceae,fungus,brewer's yeast;baker's;yeast;bread;beer;wine;sourdough;leavened;levadura;levadura de cerveza;levadura de pan;masa madre;pan con levadura;pan de levadura;pan de masa madre;fermento;fermento de pan;fermento de cerveza;fermento de trigo;fermento de centeno;fermento de cebada;fermento de avena;fermento de maíz;fermento de arroz;fermento de papa;fermento de yuca;fermento de plátano;fermento de banana;fermento de manzana;fermento de uva;fermento de pera;fermento de durazno;fermento de ciruela;fermento de cereza;fermento de higo;fermento de dátil;fermento de pasas;fermento de miel;fermento de azúcar;fermento de panela;fermento de piloncillo;fermento de chancaca;fermento de rapadura;fermento de papelón;fermento de melaza;fermento de caña;fermento de agave;fermento de maguey;fermento de aguamiel;fermento de nopal;fermento de tuna;fermento de xoconostle;fermento de garambullo;fermento de pitaya;fermento de pitahaya;fermento de saguaro;fermento de cardón;marmite;vegemite;yeast extract
+bakers-yeast,baker's / brewer's yeast,Saccharomyces cerevisiae,Saccharomycetaceae,fungus,brewer's yeast;baker's;yeast;bread;beer;wine;sourdough;leavened;levadura;levadura de cerveza;levadura de pan;masa madre;pan de levadura;pan de masa madre;fermento;fermento de pan;fermento de cerveza;fermento de trigo;fermento de centeno;fermento de cebada;fermento de avena;fermento de maíz;fermento de arroz;fermento de papa;fermento de yuca;fermento de plátano;fermento de banana;fermento de manzana;fermento de uva;fermento de pera;fermento de durazno;fermento de ciruela;fermento de cereza;fermento de higo;fermento de dátil;fermento de pasas;fermento de miel;fermento de azúcar;fermento de panela;fermento de piloncillo;fermento de chancaca;fermento de rapadura;fermento de papelón;fermento de melaza;fermento de caña;fermento de agave;fermento de maguey;fermento de aguamiel;fermento de nopal;fermento de tuna;fermento de xoconostle;fermento de garambullo;fermento de pitaya;fermento de pitahaya;fermento de saguaro;fermento de cardón;marmite;vegemite;yeast extract
 torulaspora,torulaspora (wine),Torulaspora delbrueckii,Saccharomycetaceae,fungus,wine
 kefir-yeast,kefir yeast (marxianus),Kluyveromyces marxianus,Saccharomycetaceae,fungus,
 kefir-yeast-2,kefir yeast,Kluyveromyces lactis,Saccharomycetaceae,fungus,
@@ -3290,10 +3290,10 @@ morel,morel,Morchella esculenta,Morchellaceae,fungus,morel;morels;colmenilla;mor
 oregon-white-truffle,Oregon white truffle,Tuber oregonense,Tuberaceae,fungus,
 chinese-truffle,Chinese truffle,Tuber indicum,Tuberaceae,fungus,
 summer-truffle,summer truffle,Tuber aestivum,Tuberaceae,fungus,
-white-truffle,white truffle,Tuber magnatum,Tuberaceae,fungus,white truffle;trufa blanca;trufas blancas;trufa de alba;trufas de alba;trufa piamontesa;trufas piamontesas;trufa italiana;trufas italianas;sal de trufa blanca;mantequilla de trufa blanca;crema de trufa blanca;salsa de trufa blanca;miel de trufa blanca;queso con trufa blanca;paté de trufa blanca;pasta con trufa blanca;huevo con trufa blanca;tortilla con trufa blanca;tortillas con trufa blanca;papas con trufa blanca;patatas con trufa blanca;puré con trufa blanca;carne con trufa blanca;pollo con trufa blanca;crema con trufa blanca;salsa con trufa blanca;mantequilla con trufa blanca;queso con trufas blancas;miel con trufa blanca;sal con trufa blanca
-black-truffle,black truffle,Tuber melanosporum,Tuberaceae,fungus,black truffle;truffle;trufa;hongo trufa;hongos trufa;seta trufa;setas trufa;sal de trufa;mantequilla de trufa;manteca de trufa;crema de trufa;salsa de trufa;miel de trufa;queso con trufa;paté de trufa;pasta con trufa;huevo con trufa;tortilla con trufa;tortillas con trufa;papas con trufa;patatas con trufa;puré con trufa;carne con trufa;pollo con trufa;crema con trufa;salsa con trufa;mantequilla con trufa;miel con trufa;sal con trufa
+white-truffle,white truffle,Tuber magnatum,Tuberaceae,fungus,white truffle;trufa blanca;trufas blancas;trufa de alba;trufas de alba;trufa piamontesa;trufas piamontesas;trufa italiana;trufas italianas;sal de trufa blanca;mantequilla de trufa blanca;crema de trufa blanca;salsa de trufa blanca;miel de trufa blanca;paté de trufa blanca
+black-truffle,black truffle,Tuber melanosporum,Tuberaceae,fungus,black truffle;truffle;trufa;hongo trufa;hongos trufa;seta trufa;setas trufa;sal de trufa;mantequilla de trufa;manteca de trufa;crema de trufa;salsa de trufa;miel de trufa;paté de trufa
 bianchetto-truffle,bianchetto truffle,Tuber borchii,Tuberaceae,fungus,
-diguene,digüeñe,Cyttaria espinosae,Cyttariaceae,fungus,digüeñe;dihueñe;diweñe;pinatra;quideñe;hongo del hualle;hongos del hualle;hongo del roble chileno;hongos del roble chileno;digüeñes con cebolla;digüeñes con cilantro;digüeñes con limón;digüeñes con ají;digüeñes con tomate;digüeñes con huevo;digüeñes con queso;digüeñes con pan;digüeñes con papas;digüeñes con arroz;digüeñes con carne;digüeñes con pollo;digüeñes con crema;digüeñes con salsa;digüeñes con sal;digüeñes con pimienta;digüeñes con merkén;digüeñes con orégano;digüeñes con perejil;digüeñes con ajo;digüeñes con mantequilla;digüeñes con manteca;digüeñes con leche;digüeñes con yogur;digüeñes con miel;digüeñes con azúcar;digüeñes con canela;digüeñes con vainilla;digüeñes con chocolate;digüeñes con café;digüeñes con té;digüeñes con mate;digüeñes con vino;digüeñes con cerveza;digüeñes con pisco;digüeñes con chicha
+diguene,digüeñe,Cyttaria espinosae,Cyttariaceae,fungus,digüeñe;dihueñe;diweñe;pinatra;quideñe;hongo del hualle;hongos del hualle;hongo del roble chileno;hongos del roble chileno
 oncom-mould,oncom mould (intermedia),Neurospora intermedia,Sordariaceae,fungus,
 oncom-mould-2,oncom mould,Neurospora sitophila,Sordariaceae,fungus,
 lobster-mushroom,lobster mushroom,Hypomyces lactifluorum,Hypocreaceae,fungus,
@@ -3305,5 +3305,5 @@ awamori-koji,awamori koji,Aspergillus luchuensis,Aspergillaceae,fungus,
 koji,koji,Aspergillus oryzae,Aspergillaceae,fungus,koji mold;koji;miso;soy sauce;sake;mirin
 soy-sauce-koji,soy sauce koji,Aspergillus sojae,Aspergillaceae,fungus,
 salami-mould,salami mould,Penicillium nalgiovense,Aspergillaceae,fungus,
-blue-cheese-mould,blue cheese mould,Penicillium roqueforti,Aspergillaceae,fungus,blue cheese mold;blue cheese;roquefort;gorgonzola;stilton
-camembert-mould,camembert mould,Penicillium camemberti,Aspergillaceae,fungus,camembert mold;brie;camembert
+blue-cheese-mould,blue cheese mould,Penicillium roqueforti,Aspergillaceae,fungus,blue cheese mold;blue mould
+camembert-mould,camembert mould,Penicillium camemberti,Aspergillaceae,fungus,camembert mold;white mould

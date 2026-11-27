@@ -2,7 +2,7 @@
 
 # Bump TREE_VERSION whenever anything below (or the species list, or the TimeTree export) changes,
 # and add a CHANGELOG line: (date, who, what changed, source). Both are written into the report and shown in the app.
-TREE_VERSION = "open-0.19.9 (2026-11-26)"
+TREE_VERSION = "open-0.19.10 (2026-11-27)"
 CHANGELOG = [
     ("2026-09-19", "MH", "First TimeTree 5 build: 2,607 dated species; 49 synonyms; 63 families anchored by hand", "TimeTree 5 export of the 3,279-name list"),
     ("2026-09-19", "MH", "Red algae anchors revised: Gigartinales families to the Gigartinales crown; Gelidiales, Bonnemaisoniales, Ceramiales, Nemaliales to subclass stems", "Yang et al. 2016 Sci Rep 6:21361"),
@@ -22,6 +22,7 @@ CHANGELOG = [
     ("2026-09-27", "Rhema Uche-Dike, Kate Montana, Julia Amoroso (Ware lab, AMNH)", "Open tree v0.17: insect skeleton dated from their review sheet. Neoptera 383 and Eumetabola 373 (Wang et al. 2016 Sci Rep); Ensifera 268 and Acrididae+Pyrgomorphidae 140 (Song et al. 2015); Cicadidae 199 and Nepomorpha 243 (Wang et al. 2017/2019 Cladistics); Pentatomoidea 100.5 (Wang et al. 2016 Cladistics); Vespidae 110 (Blaimer et al. 2023); Coleoptera 300 now cited, Cucujiformia 200, Tenebrionidae 122, Scarabaeidae 120 (Zhang et al. 2018), Polyphaga 260 approx; Cossidae 120, Bombycoidea 88, Saturniidae 70 (Wahlberg et al. 2013); Insecta 441 upgraded to Misof 2014. Not adopted: Insecta 301 (Cen et al. 2025) and Collembola-Archaeognatha 344, which sit below Pterygota 406; Pterygota 385 (Thomas et al. 2013) kept at Misof's 406 for consistency; Apidae-Formicidae split 110, which is younger than the ant crown; single-species family crowns (Dytiscidae 170, Curculionidae 120, Stratiomyidae 129, Chaoboridae 118, Hesperiidae 85, Termitidae 54) recorded in backbone.py notes", "insect_review_Rhema_Kate.csv, 2026-09-25"),
     ("2026-09-27", "Jessica Ware", "Forthcoming 1KITE Nature ms moves the deep insect nodes older: Hexapoda ~523, Insecta ~523, Pterygota ~470s, Neoptera ~475, Polyneoptera 425+, Hymenoptera ~298. Recorded beside each node in backbone.py; to be adopted when the paper is out (Hexapoda 523 would also need the Pancrustacea node above it revisited)", "J. Ware, email 2026-09-27"),
     ("2026-09-28", "Hocheol Kim / MH", "Open tree v0.18: red algae now grafted from the Kim et al. 2026 posterior-mean MCMCtree (correlated clock, nuclear BUSCOs, 70 taxa, Fig. 2E), tree file provided by Hocheol Kim with permission to use it in the app and repository with citation. Replaces the Yang et al. 2016 subclass skeleton for reds. Direct matches: Porphyra umbilicalis, Pyropia yezoensis and haitanensis, Devaleraea mollis, Ahnfeltia plicata, Asparagopsis taxiformis, Chondrus crispus, Eucheuma denticulatum, Kappaphycus alvarezii, Catenella nipae, Gracilaria gracilis; congeners kept for Palmaria, Hypnea, Gracilariopsis, Vertebrata. Kim runs older than Yang below the subclass level (Rhodymeniophycidae 506 vs 412, Gigartinales 413 vs 250; Florideophyceae 869 vs 943); the Bangiales-Florideophyceae split at 996 hangs from Strassert's 1415. Gracilaria crown 230 (Maggs) retired for the file's own 175. Families absent from Kim anchor on families present", "Kim et al. 2026 preprint; H. Kim, email 2026-09-28"),
+    ("2026-11-27", "MH", "Open tree v0.19.10, ages and topology unchanged, names only: plain words that matched nothing although the animals were in the tree. Frog and frog legs, snake and rattlesnake, python, cobra, sturgeon, eel, whale, seal, kangaroo, bear, squirrel, possum, beaver, yak, jellyfish, grasshoppers, bass, perch, pike, anchovy and anchovies, snapper, grouper, shad, abalone, conch and limpet each now go to one default species (GENERIC_NAMES in curation.py; the American bullfrog, the western diamondback, the white sturgeon and so on), which the page shows and the eater can swap. Offal and cuts: chitterlings, trotters, head cheese, tripe, sweetbreads, oxtail, bone marrow, tongue, liver, gizzards, jerky. Chilean sea bass had been the European sea bass and is now the Patagonian toothfish it is. Moved: crocodile had been the American alligator (now the Nile crocodile), flounder the Atlantic halibut (now the summer flounder), imitation crab the blue crab (now the pollock it is made of). Blue cheese, gorgonzola, stilton, roquefort, brie and camembert had named the mould alone; they are now dishes that count the cow or sheep as well. Dish table 0.2.7 adds Spam (pork, potato starch, sugar), Spam musubi, raw fish, liver and onions, chopped liver, liverwurst, scrapple, bologna, pastrami, potted meat, gefilte fish, eel sauce (no eel in it), frog eye salad (no frog), hoppin' john, five-spice powder, gummy bears and bear claws (no bear), and root beer, ginger beer and ginger ale, which had been scored as barley beer. Page: names with a hyphen never matched, because typed hyphens are read as spaces and the names were not (black-eyed peas had been the garden pea, Jell-O nothing); both sides now agree. Dishes and organisms are now matched in one pass, longest name first, so birch beer is the birch and ice cream bean the Inga where a shorter dish name had claimed them. The Vietnamese persimmon whose name folds to 'thi' had matched the word 'this' in any pasted recipe; it is now listed as quả thị. About 150 Spanish names that were really dishes (huitlacoche con queso, pollo con trufa, café con leche) are removed from the species they hung on, where they had swallowed the cheese, the chicken and the milk. Tongue, jerky and gizzards join the head words, so lamb tongue is lamb and turkey jerky is turkey. Seal as a cooking verb (press to seal, seal the bag) and bear in mind are skipped by the page, so the bare words can name the animals; gummy bears and bear claws are dishes. Found by typing a list of twenty foods the average American is said not to have eaten", "user report"),
     ("2026-11-26", "MH", "Open tree v0.19.9: camaron de vega, the Chilean burrowing crayfish Parastacus pugnax, added at the suggestion of Pedro Victoriano. It is the first South American parastacid in the tree and the only other parastacids are three Cherax, so the family rule alone would have hung it inside the Cherax crown; it joins instead as its own branch at the crayfish crown (149 Ma, Wolfe et al. 2019), which sits inside the 109-178 Ma that Toon et al. 2010 (J Biogeogr 37(12)) estimate for the splits among the southern landmasses. Not dated by a source chronogram. Names: giant barnacle for the picoroco; the bare word barnacle, which had matched nothing, goes to the goose barnacle", "user report"),
     ("2026-11-25", "MH", "Open tree v0.19.8: the Chilean table, after Pedro Victoriano pointed out how thin it was. Twenty-three species added: the bivalves cholga (Aulacomya atra), macha (Mesodesma donacium), taca clam (Ameghinomya antiqua), navajuela (Tagelus dombeii), huepo (Ensis macha), culengue (Gari solida), tumbao (Semele solida), taquilla (Mulinia edulis), Chilean oyster (Ostrea chilensis) and Patagonian scallop; the snails trumulco and locate; two octopuses (Octopus mimus, Enteroctopus megalocyathus); a second piure (Pyura praeputialis); the jaibas marmola, peluda and mora; the Juan Fernandez lobster; merluza comun (Merluccius gayi), congrio negro, reineta (Brama australis) and luche (Pyropia columbina). Placed by the usual gap-fill rules (beside congeners, at the family node, or on the skeleton node of the superfamily: Mesodesmatidae with Myida + Venerida, the tellinoid families with Adapedonta + Cardiida, Platyxanthidae in Eubrachyura); none is dated by a source chronogram, and the tips were added to the built tree with scripts/reassemble_from_built.py because the source trees were not at hand, so a full regraft may move the two fishes. Names moved to the right species: cholga had been the Chilean mussel, reineta the Atlantic pomfret, luche the European laver; the spelling pyure now finds the piure. Dish table 0.2.6: curanto, paila marina and machas a la parmesana now use the Chilean species, and mariscal, chupe de locos, pastel de jaiba, ostiones a la parmesana, empanadas de mariscos and ceviche de reineta are added. Housekeeping: data/aliases_ec.csv in the repository was the 75-row first pass, now the full 245 rows the taxon table was built from; a duplicate Bos taurus key in ALIAS_ADD merged", "user report"),
     ("2026-11-25", "MH", "Open tree v0.19.7, ages unchanged: 22 angiosperm order nodes had carried the Smith and Brown subtree file names as labels (Asparagales.rn.d8s.tre and the like, visible on any meal tree with an onion in it); now the order name alone. Nine nodes labelled with support values (100/100) are unlabelled", "MH"),
@@ -422,6 +423,62 @@ ALIAS_REMOVE = {
 
 
 # Crown ages for genera whose species split far deeper than the default 5 Myr congener rule (Ma).
+# Generic words. The tree often holds several species of a kind (five frogs, six snakes, seven sturgeons) under their full names,
+# and the plain word matched none of them. Each plain word goes to the member most often on a plate in English-language use; the page
+# shows the species it chose, so the eater can swap it. Merged into ALIAS_ADD here so a species listed in both keeps both sets of names.
+GENERIC_NAMES = {
+    "Lithobates catesbeianus": ["frog", "frogs", "frog legs", "frog leg", "frogs legs", "bullfrog", "cuisses de grenouille", "ancas de rana"],
+    "Crotalus atrox": ["snake", "snakes", "snake meat", "rattlesnake", "rattlesnake meat", "rattler"],
+    "Python bivittatus": ["python", "python meat"],
+    "Naja atra": ["cobra"],
+    "Acipenser transmontanus": ["sturgeon", "smoked sturgeon"],
+    "Crocodylus niloticus": ["crocodile", "crocodile meat", "croc"],
+    "Alligator mississippiensis": ["gator", "gator tail", "alligator tail", "gator bites", "fried gator"],
+    "Malaclemys terrapin": ["terrapin"],
+    "Chelydra serpentina": ["snapper soup"],   # the Philadelphia soup is snapping turtle, not the fish
+    "Anguilla rostrata": ["eel", "eels", "smoked eel"],
+    "Balaenoptera acutorostrata": ["whale", "whale meat", "minke whale", "minke"],
+    "Pagophilus groenlandicus": ["seal", "seal meat", "seal flipper"],   # the page skips seal as a verb (press to seal, seal the bag)
+    "Osphranter rufus": ["kangaroo", "kangaroo meat"],
+    "Ursus americanus": ["bear", "bear meat", "black bear"],
+    "Sciurus carolinensis": ["squirrel", "gray squirrel", "grey squirrel"],
+    "Didelphis virginiana": ["possum", "opossum"],
+    "Castor canadensis": ["beaver", "beaver meat", "beaver tail"],
+    "Bos grunniens": ["yak", "yak meat"],
+    "Sus scrofa": ["boar", "chitterlings", "chitlins", "chitlings", "chittlins", "trotters", "head cheese", "headcheese", "brawn"],
+    "Bos taurus": ["tripe", "sweetbreads", "oxtail", "oxtails", "bone marrow", "marrow bones", "tongue", "ox tongue", "lengua", "lengua de res",
+                   "liver", "calf liver", "calves liver", "calfs liver", "jerky", "beef jerky"],
+    "Gallus gallus": ["gizzards", "chicken gizzards"],
+    "Rhopilema esculentum": ["jellyfish"],
+    "Sphenarium purpurascens": ["grasshoppers", "fried grasshoppers", "chapulines"],   # plural only: a grasshopper pie is mint and chocolate
+    "Morone saxatilis": ["bass", "striper"],
+    "Perca flavescens": ["perch"],
+    "Esox lucius": ["pike"],
+    "Engraulis encrasicolus": ["anchovy", "anchovies", "anchovy fillets", "anchovy paste"],
+    "Lutjanus campechanus": ["snapper", "red snapper"],
+    "Epinephelus morio": ["grouper"],
+    "Alosa sapidissima": ["shad", "shad roe"],
+    "Paralichthys dentatus": ["flounder"],
+    "Oncorhynchus keta": ["ikura"],
+    "Gadus morhua": ["lutefisk"],
+    "Gadus chalcogrammus": ["imitation crab", "imitation crab meat", "crab stick", "crab sticks", "krab"],   # surimi, no crab in it
+    "Haliotis rufescens": ["abalone"],
+    "Aliger gigas": ["conch", "conch fritters"],
+    "Patella vulgata": ["limpet", "limpets"],
+    # full names that the plain words above would otherwise swallow
+    "Vigna unguiculata": ["snake bean", "snake beans", "asparagus bean", "asparagus beans", "long beans", "Chinese long beans"],
+    "Conger conger": ["conger eel", "conger"],
+    "Gymnothorax javanicus": ["moray eel", "moray"],
+    "Dissostichus eleginoides": ["Chilean sea bass", "Chilean seabass", "toothfish"],
+    "Sebastes norvegicus": ["ocean perch"],
+    "Cucurbita pepo": ["marrow", "vegetable marrow"],
+    "Sander lucioperca": ["pike perch", "pikeperch"],
+    "Lutjanus griseus": ["mangrove snapper", "gray snapper"],
+    "Allium ursinum": ["bear's garlic", "bear garlic", "bear leek", "wild garlic"],
+}
+for _sp, _names in GENERIC_NAMES.items():
+    ALIAS_ADD[_sp] = list(ALIAS_ADD.get(_sp, [])) + [_n for _n in _names if _n not in ALIAS_ADD.get(_sp, [])]
+
 GENUS_CROWN = {}
 
 # Crown ages for families where the sources hold a single edible member, so later members are not hung 2-20 Myr from it.

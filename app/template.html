@@ -241,11 +241,15 @@ const fold = s => String(s).normalize('NFD').replace(/[\u0300-\u036f]/g,'').repl
 // Head words: a product or part named after its source ('oat milk', 'chickpea flour', 'tuna steak', 'lion's mane mushroom'). When one of
 // these directly follows a matched source phrase it belongs to that phrase and must not fire on its own (milk alone is the cow, flour
 // the wheat, steak the steak-frites dish). A head word after a comma, 'and', or another head word ('milk tea') still stands alone.
-const HEAD_WORDS = 'mushrooms?|milk|flour|sugar|wine|oil|butter|cream|yogh?urt|cheese|eggs?|juice|vinegar|syrup|sauce|paste|tea|nuts?|beans?|seeds?|sprouts?|leaves|leaf|roots?|peppers?|berries|berry|fish|crabs?|meat|steaks?|fillets?|roe|broth|stock|liver';
+const HEAD_WORDS = 'mushrooms?|milk|flour|sugar|wine|oil|butter|cream|yogh?urt|cheese|eggs?|juice|vinegar|syrup|sauce|paste|tea|nuts?|beans?|seeds?|sprouts?|leaves|leaf|roots?|peppers?|berries|berry|fish|crabs?|meat|steaks?|fillets?|roe|broth|stock|liver|tongues?|jerky|gizzards?';
 const HEAD_RE = new RegExp('^(?:' + HEAD_WORDS + ')$'), HEAD_NEXT = new RegExp('^\\s+(?:' + HEAD_WORDS + ')(?![a-z])');
 let LASTWORDS = new Set();   // last word of every alias or dish phrase that is not itself a head word
 const noteLast = p => { if (!HEAD_RE.test(p)) LASTWORDS.add(p.split(/\s+/).pop()); };
-const cleanText = t => ' ' + fold(t).replace(/-/g,' ').replace(/[^a-z0-9\s]/g,' | ') + ' ';   // punctuation becomes a | token so 'rice, milk' is not 'rice milk'
+// Animals that are also cooking words: seal as a verb (press to seal, seal the bag, seals in the juices) and 'bear in mind' are blanked, so a bare seal or bear in a list is the animal
+const verbSense = t => t.replace(/(?<![a-z])(?:to|then|press|pinch|crimp|firmly|tightly)\s+seal(?![a-z])/g, m => m.replace(/seal$/, '    '))
+  .replace(/(?<![a-z])seals?(?=\s+(?:the|it|them|edges?|tightly|well|completely|shut|closed|bags?|jars?|lids?|in)(?![a-z]))/g, m => ' '.repeat(m.length))
+  .replace(/(?<![a-z])bear(?=\s+in\s+mind(?![a-z]))/g, '    ');
+const cleanText = t => verbSense(' ' + fold(t).replace(/-/g,' ').replace(/[^a-z0-9\s]/g,' | ') + ' ');   // punctuation becomes a | token so 'rice, milk' is not 'rice milk'
 // With 'mushroom' somewhere in the text, a lone singular oyster or hedgehog is the mushroom, not the animal ('oyster and shiitake mushrooms'); oysters plural, oyster sauce and oyster stew stay the bivalve
 const mushroomSense = t => /(?<![a-z])(mushrooms?|fungi)(?![a-z])/.test(t) ? t.replace(/(?<![a-z])(oyster|hedgehog)(?![a-z])(?!\s+(?:mushroom|sauce|shell|bar|stew|pie|po))/g, '$1 mushroom') : t;
 function consume(work, phrase, re, found){
@@ -256,7 +260,7 @@ function consume(work, phrase, re, found){
   while ((m = g.exec(work))){
     if (isHead){ const before = work.slice(0, m.index).match(/([a-z0-9]+)\s+$/); if (before && LASTWORDS.has(before[1])) continue; }
     let end = m.index + m[0].length;
-    if (!isHead){ const h = work.slice(end).match(HEAD_NEXT); if (h) end += h[0].length; }
+    if (!isHead){ const tail = work.slice(end), h = tail.match(HEAD_NEXT); if (h && !DISH_HEADSTART.some(r => r.test(tail))) end += h[0].length; }   // 'oat milk' is the oat, but in 'anchovy cheese plate' the cheese plate is a dish of its own
     found.work = work.slice(0, m.index) + ' '.repeat(end - m.index) + work.slice(end);
     return m[0];
   }
@@ -267,6 +271,8 @@ const phraseRe = p => new RegExp('(?<![a-z])' + p.replace(/[.*+?^${}()|[\]\\]/g,
 // ---------- data model ----------
 let DATA = null, PHRASES = []; // {root, nodes[], tips[], byId, total, rootAge}
 let DISHES = {version:'none', dishes:[]}, DISH_PHRASES = [];
+let DISH_HEADSTART = [];   // dish names that begin with a head word (cheese plate, milk tea, egg salad): such a head word is not swallowed by the name before it
+let ALL_PHRASES = null;   // dishes and organisms in one list, longest first; rebuilt lazily when either table changes
 function buildIndex(root){
   const nodes = [], tips = [], byId = new Map();
   let total = 0;
@@ -358,7 +364,8 @@ function metrics(ids){
 // ---------- local matcher (fallback + add box) ----------
 function buildMatcher(){
   const map = new Map(), commonTaken = new Set();
-  const put = (q, id) => { if (q.length >= 3 && !(map.get(q) || []).includes(id)) map.set(q, (map.get(q) || []).concat(id)); };
+  const put = (q, id) => { q = q.replace(/-/g,' ').replace(/\s+/g,' ').trim();   // typed hyphens become spaces (cleanText), so names must too: black-eyed peas
+    if (q.length >= 3 && !(map.get(q) || []).includes(id)) map.set(q, (map.get(q) || []).concat(id)); };
   for (const t of DATA.tips){
     // common names: the first tip to claim a name keeps it ("laver" is Porphyra umbilicalis, not also "laver (Atlantic)")
     for (const s of t.common.split('/')){ const q = fold(s.replace(/\(.*?\)/g,'').trim()); if (q.length >= 3 && !commonTaken.has(q)){ commonTaken.add(q); put(q, t.id); } }
@@ -368,16 +375,17 @@ function buildMatcher(){
   }
   PHRASES = [...map].map(([p, ids]) => ({p, ids}));
   PHRASES.sort((a,b) => b.p.length - a.p.length);
-  LASTWORDS = new Set(); PHRASES.forEach(x => noteLast(x.p)); DISH_PHRASES.forEach(x => noteLast(x.p));
+  LASTWORDS = new Set(); PHRASES.forEach(x => noteLast(x.p)); DISH_PHRASES.forEach(x => noteLast(x.p)); ALL_PHRASES = null;
 }
 // ---------- dish lookup table ----------
 function loadDishes(obj){
   DISH_PDS = null;
   DISHES = obj && Array.isArray(obj.dishes) ? obj : {version:'none', dishes:[]};
   const map = new Map();
-  for (const d of DISHES.dishes) for (const n of d.n){ const q = fold(n).replace(/[^a-z0-9\s'-]/g,' ').replace(/\s+/g,' ').trim(); if (q.length >= 3 && !map.has(q)) map.set(q, d); }
+  for (const d of DISHES.dishes) for (const n of d.n){ const q = fold(n).replace(/[^a-z0-9\s]/g,' ').replace(/\s+/g,' ').trim(); if (q.length >= 3 && !map.has(q)) map.set(q, d); }
   DISH_PHRASES = [...map].map(([p, d]) => ({p, d})).sort((a,b) => b.p.length - a.p.length);
-  LASTWORDS = new Set(); PHRASES.forEach(x => noteLast(x.p)); DISH_PHRASES.forEach(x => noteLast(x.p));
+  DISH_HEADSTART = DISH_PHRASES.filter(x => x.p.includes(' ') && HEAD_RE.test(x.p.split(' ')[0])).map(x => new RegExp('^\\s+' + x.p.replace(/[.*+?^${}()|[\]\\]/g,'\\$&').replace(/\s+/g,'\\s+') + '(?:s|es)?(?![a-z])'));
+  LASTWORDS = new Set(); PHRASES.forEach(x => noteLast(x.p)); DISH_PHRASES.forEach(x => noteLast(x.p)); ALL_PHRASES = null;
   for (const id of ['d-dishes','d-dishes2']){ const el = document.getElementById(id); if (el) el.textContent = DISHES.dishes.length; }
 }
 // find dish names in the text; returns their organisms (inferred) and the text with those names removed
@@ -398,8 +406,23 @@ function dishMatch(text){
   return {items, names, rest: work};
 }
 function matchLocally(text){
-  const d = dishMatch(text);
-  return {list: localMatch(d.rest).concat(d.items), dishes: d.names};
+  // one pass, longest name first, dishes and organisms together: 'birch beer' is the birch and 'ice cream bean' the Inga, not a beer and an
+  // ice cream. A dish still wins a tie with an organism of the same name.
+  if (!ALL_PHRASES) ALL_PHRASES = DISH_PHRASES.map(x => ({p: x.p, d: x.d})).concat(PHRASES.map(x => ({p: x.p, ids: x.ids}))).sort((a,b) => b.p.length - a.p.length);
+  let work = cleanText(mushroomSense(cleanText(text)));
+  const found = [], items = [], names = [], box = {};
+  for (const x of ALL_PHRASES){
+    const re = x.re || (x.re = phraseRe(x.p));
+    if (!re.test(work)) continue;
+    const m = consume(work, x.p, re, box);
+    if (m === null) continue;
+    work = box.work;
+    if (x.d){
+      names.push(x.d.n[0]);
+      for (const sp of x.d.s){ const r = resolveItem({species: sp, common: '', as: x.d.n[0], inferred: true}); if (r && !items.some(y => y.id === r.id)) items.push(r); }
+    } else for (const id of x.ids) if (!found.some(f => f.id === id)) found.push({id, as: m.trim(), inferred:false});
+  }
+  return {list: found.concat(items), dishes: names};
 }
 function localMatch(text){
   let work = cleanText(text);
@@ -513,7 +536,7 @@ function showSugg(){
   const all = search(addIn.value);
   const items = all.filter(t => !meal.some(m => m.id === t.id));
   const q = addIn.value.toLowerCase().trim();
-  const dishesFirst = !all.some(t => t.common.toLowerCase().startsWith(q));   // an organism that starts with the typed text wins the top; otherwise dishes lead
+  const dishesFirst = !all.some(t => t.common.toLowerCase().startsWith(q) || (t.aliases||'').split(';').some(a => fold(a.trim()) === fold(q)));   // an organism whose name starts with the typed text, or is exactly it (frog), wins the top; otherwise dishes lead
   suggItems = dishesFirst ? dishes.map(d => ({dish: d})).concat(items) : items.concat(dishes.map(d => ({dish: d}))); suggActive = -1;
   const dishHtml = dishes.map((d, i) => `<div data-dish="${i}" class="dish"><i class="dot sq"></i>${esc(d.n[0])} <i>dish, ${d.s.length} organisms</i></div>`).join('');
   const tipHtml = all.map(t => { const on = meal.some(m => m.id === t.id);

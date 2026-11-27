@@ -475,7 +475,7 @@ Meleagris gallopavo,turkey
 Lagopus lagopus,red grouse
 Coturnix coturnix,quail;quail egg
 Struthio camelus,ostrich
-Alligator mississippiensis,alligator;crocodile
+Alligator mississippiensis,alligator
 Chelydra serpentina,snapping turtle;turtle
 Bungarus multicinctus,snake soup
 Naja atra,snake soup
@@ -583,7 +583,7 @@ Trachurus japonicus,aji
 Paralichthys dentatus,fluke
 Paralichthys olivaceus,hirame
 Verasper variegatus,hoshigarei
-Hippoglossus hippoglossus,halibut;flounder
+Hippoglossus hippoglossus,halibut
 Solea solea,Dover sole;sole
 Mugil cephalus,bottarga
 Oreochromis niloticus,tilapia
@@ -690,7 +690,7 @@ Tuber magnatum,white truffle
 Tuber melanosporum,black truffle;truffle
 Fusarium venenatum,Quorn;mycoprotein;quorn
 Aspergillus oryzae,koji mold;koji;miso;soy sauce;sake;mirin
-Penicillium roqueforti,blue cheese mold;blue cheese;roquefort;gorgonzola;stilton
-Penicillium camemberti,camembert mold;brie;camembert
+Penicillium roqueforti,blue cheese mold;blue mould
+Penicillium camemberti,camembert mold;white mould
 Musa acuminata,banana;bananas
 Cancer irroratus,rock crab;Maine rock crab;peekytoe crab;peekytoe
