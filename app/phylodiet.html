@@ -102,6 +102,8 @@ h3{font-family:var(--serif);font-weight:500;font-size:19px;margin:22px 0 8px}
 .note{color:var(--muted);font-size:15px;max-width:70ch}
 /* trees */
 .treewrap{margin-top:18px;overflow-x:auto}
+.savetree{margin-top:6px;font-size:14px}
+.savetree a{color:var(--ink-2)}
 svg text{font-family:var(--sans)}
 svg .tiplabel{font-size:14px;fill:var(--ink)}
 svg .tipsp{font-size:12px;fill:var(--muted);font-style:italic}
@@ -188,6 +190,7 @@ footer{margin-top:64px;border-top:1px solid var(--line);padding-top:16px;color:v
     <div class="legend" id="legend"></div>
   </div>
   <div class="treewrap"><svg id="mealtree"></svg></div>
+  <div class="savetree"><a href="#" id="savetree">Save tree as image</a></div>
 
   <h3>Who did the work</h3>
   <p class="note">Each organism's private share of the total: branches it alone reaches. What's left over is shared trunk.</p>
@@ -570,6 +573,7 @@ $('#scale').addEventListener('click', e => {
   scaleMode = b.dataset.s; $('#scale').querySelectorAll('button').forEach(x => x.classList.toggle('on', x === b));
   renderMealTree();
 });
+$('#savetree').addEventListener('click', e => { e.preventDefault(); saveTreeImage(); });
 function xOf(age, W){ const r = age / DATA.rootAge; return W * (1 - (scaleMode === 'sqrt' ? Math.sqrt(r) : r)); }
 
 // ---------- context for the PD number: the dish table as a reference set, and the browser's own log once it has five meals ----------
@@ -630,6 +634,7 @@ function edgeColor(node){ return node.cladeSet.size === 1 ? `var(--${[...node.cl
 function renderMealTree(M){
   M = M || metrics(meal.map(m => m.id));
   const svg = $('#mealtree'); svg.innerHTML = '';
+  $('#savetree').parentNode.style.display = M.richness ? '' : 'none';
   if (!M.richness){ svg.setAttribute('viewBox','0 0 900 60'); svg.innerHTML = '<text x="0" y="30" class="tipsp">Add an ingredient to draw the tree.</text>'; return; }
   const tree = induced(DATA.root, M.marked);
   const LAB = 310, W = 940, TW = W - LAB - 12, ROW = 26, TOP = 22, BOT = 40;
@@ -696,6 +701,62 @@ function renderMealTree(M){
       t.kids.forEach(labels);
     }
   })(tree);
+  // long names ran past the right edge and were cut off: widen the drawing to what it holds (estimate first, measured when the page can)
+  // Where the page can measure text, each scientific name goes just after its common name and the width is what was drawn; otherwise both are estimated.
+  let need = W, measured = false;
+  try {
+    svg.querySelectorAll('.tiplabel').forEach(lab => {
+      const sp = lab.nextElementSibling, w = lab.getComputedTextLength();
+      if (w > 0 && sp && sp.classList.contains('tipsp')) sp.setAttribute('x', (+lab.getAttribute('x') + w + 12).toFixed(1));
+    });
+    const bb = svg.getBBox(); if (bb.width > 0){ need = Math.max(W, bb.x + bb.width + 12); measured = true; }
+  } catch {}
+  if (!measured) svg.querySelectorAll('.tipsp').forEach(e => { need = Math.max(need, (+e.getAttribute('x') || 0) + e.textContent.length * 6.4 + 12); });
+  if (need > W) svg.setAttribute('viewBox', `0 0 ${Math.ceil(need)} ${H}`);
+}
+
+// ---------- save the meal tree as a picture ----------
+// The drawing is copied with its colours and sizes written into each element (a saved SVG cannot see the page's stylesheet), set in a
+// system font, given a heading with the meal's numbers, and painted to a PNG. On a phone it goes to the share sheet, elsewhere it downloads.
+function saveTreeImage(){
+  const svg = $('#mealtree'), M = metrics(meal.map(m => m.id));
+  if (!M.richness) return;
+  const FONT = "'Helvetica Neue', Helvetica, Arial, sans-serif", SERIF = "Georgia, 'Times New Roman', serif";
+  const clone = svg.cloneNode(true), src = svg.querySelectorAll('*'), dst = clone.querySelectorAll('*');
+  const PROPS = ['fill','stroke','stroke-width','stroke-dasharray','stroke-linecap','stroke-linejoin','opacity','font-size','font-style','font-weight','text-anchor','dominant-baseline'];
+  src.forEach((e, i) => { const cs = getComputedStyle(e); let st = ''; for (const k of PROPS) st += k + ':' + cs.getPropertyValue(k) + ';'; dst[i].setAttribute('style', st + 'font-family:' + FONT + ';text-decoration:none'); });
+  const root = getComputedStyle(document.documentElement), col = v => root.getPropertyValue(v).trim() || '#888';
+  const meas = document.createElement('canvas').getContext('2d');
+  const vb = svg.getAttribute('viewBox').split(/\s+/).map(Number); let W = vb[2]; const H = vb[3];
+  // in the export font the names have other widths: put each scientific name just after its common name, then size the picture to fit
+  clone.querySelectorAll('.tiplabel').forEach(lab => {
+    const sp = lab.nextElementSibling; if (!sp || !sp.classList.contains('tipsp')) return;
+    meas.font = '14px ' + FONT; const x = +lab.getAttribute('x') + meas.measureText(lab.textContent).width + 14;
+    sp.setAttribute('x', x.toFixed(1)); meas.font = 'italic 12px ' + FONT; W = Math.max(W, x + meas.measureText(sp.textContent).width + 14);
+  });
+  W = Math.ceil(W);
+  clone.setAttribute('xmlns', 'http://www.w3.org/2000/svg'); clone.setAttribute('viewBox', `0 0 ${W} ${H}`); clone.setAttribute('width', W); clone.setAttribute('height', H); clone.removeAttribute('style');
+  const img = new Image(), S = 2, PAD = 28, HEAD = 96, FOOT = 40;
+  img.onload = () => {
+    const c = document.createElement('canvas'); c.width = (W + 2*PAD) * S; c.height = (H + HEAD + FOOT) * S;
+    const g = c.getContext('2d'); g.scale(S, S);
+    g.fillStyle = col('--bg'); g.fillRect(0, 0, W + 2*PAD, H + HEAD + FOOT);
+    g.fillStyle = col('--ink'); g.textBaseline = 'alphabetic';
+    g.font = '600 26px ' + (root.getPropertyValue('--serif').trim() || SERIF); g.fillText('Phylodiet', PAD, 44);
+    g.font = '17px ' + FONT; g.fillStyle = col('--ink-2');
+    g.fillText(`${M.richness} organism${M.richness === 1 ? '' : 's'} on the plate  ·  ${fmt(M.pd)} million years of evolution  ·  ${(M.coverage*100).toFixed(1)}% of the edible tree`, PAD, 76);
+    g.drawImage(img, PAD, HEAD, W, H);
+    g.font = '13px ' + FONT; g.fillStyle = col('--muted');
+    g.fillText('mjhickerson.github.io/phylodiet', PAD, H + HEAD + 22);
+    const v = (DATA.root.version ? 'tree ' + DATA.root.version : ''); if (v){ g.textAlign = 'right'; g.fillText(v, W + PAD, H + HEAD + 22); }
+    c.toBlob(async blob => {
+      if (!blob) return;
+      const file = new File([blob], 'phylodiet-meal-tree.png', {type: 'image/png'});
+      try { if (matchMedia('(pointer: coarse)').matches && navigator.canShare && navigator.canShare({files: [file]})){ await navigator.share({files: [file], title: 'Phylodiet meal tree'}); return; } } catch (e) { if (e && e.name === 'AbortError') return; }
+      const a = document.createElement('a'); a.href = URL.createObjectURL(blob); a.download = file.name; document.body.appendChild(a); a.click(); a.remove(); setTimeout(() => URL.revokeObjectURL(a.href), 4000);
+    }, 'image/png');
+  };
+  img.src = 'data:image/svg+xml;charset=utf-8,' + encodeURIComponent(new XMLSerializer().serializeToString(clone));
 }
 
 function renderContrib(M){
